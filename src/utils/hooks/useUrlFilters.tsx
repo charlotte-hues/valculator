@@ -1,6 +1,6 @@
 import LZString from "lz-string";
-import { useSearchParams } from "react-router-dom";
 import { useCallback } from "react";
+import { useSearchParams } from "react-router-dom";
 
 import { TabsType } from "@/Valculator/ValculatorDataContext/layout/ValculatorLayout.types";
 
@@ -40,20 +40,23 @@ export function useUrlFilters() {
     layout = layoutDecompossed?.length ? layoutDecompossed : layout;
   }
 
-  const handleUpdateUrl = useCallback((newFilter: FilterType) => {
-    const sanitizedFilter = Object.keys(newFilter).reduce((acc, cur) => {
-      const filterString = JSON.stringify(newFilter[cur as keyof FilterType]);
-      return {
-        ...acc,
-        [cur]: LZString.compressToEncodedURIComponent(filterString),
-      };
-    }, {});
+  const handleUpdateUrl = useCallback(
+    (newFilter: FilterType) => {
+      const sanitizedFilter = Object.keys(newFilter).reduce((acc, cur) => {
+        const filterString = JSON.stringify(newFilter[cur as keyof FilterType]);
+        return {
+          ...acc,
+          [cur]: LZString.compressToEncodedURIComponent(filterString),
+        };
+      }, {});
 
-    setSearchParams((prev) => {
-      const prevFilter = Object.fromEntries([...prev]);
-      return { ...prevFilter, ...sanitizedFilter };
-    });
-  }, []);
+      setSearchParams((prev) => {
+        const prevFilter = Object.fromEntries([...prev]);
+        return { ...prevFilter, ...sanitizedFilter };
+      });
+    },
+    [setSearchParams]
+  );
 
   const itemsObject: { selected: string[]; owned: string[] } =
     JSON.parse(items);

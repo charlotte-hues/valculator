@@ -72,7 +72,8 @@ export const ValculatorDataContextProvider = ({
           : []),
       ],
     });
-  }, [items, checklist.collected, handleUpdateUrl]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [items, checklist.collected]);
 
   const value = useMemo(() => {
     return {

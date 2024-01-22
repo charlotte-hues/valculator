@@ -1,7 +1,6 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import './App.css'
-import { Valculator } from './Valculator/Valculator'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Valculator } from "./Valculator/Valculator";
 
 const router = createBrowserRouter([
   {
@@ -11,12 +10,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-
   return (
     <>
-    <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
