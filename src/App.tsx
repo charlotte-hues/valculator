@@ -9,7 +9,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-function App() {
+export function ValculatorApp() {
   return (
     <>
       <RouterProvider router={router} />
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default ValculatorApp;

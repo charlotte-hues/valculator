@@ -18,12 +18,12 @@ export default defineConfig({
     reportCompressedSize: true,
     lib: {
       name: "valculator",
-      formats: ["es", "umd"],
-      entry: path.resolve(__dirname, "src/main.tsx"),
-      fileName: "valculator",
+      formats: ["es"],
+      entry: path.resolve(__dirname, "src/App.tsx"),
+      fileName: "App",
     },
     rollupOptions: {
-      external: ["react", "react-dom", "styled-components"],
+      external: ["react", "react-dom", "@emotion/react"],
       plugins: [
         typescriptPaths({
           preserveExtensions: true,

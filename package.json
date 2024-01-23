@@ -4,14 +4,14 @@
   "version": "0.0.1",
   "exports": {
     ".": {
-      "import": "./dist/valculator.js",
-      "require": "./dist/valculator.umd.cjs"
+      "import": "./dist/App.js",
+      "require": "./dist/App.umd.cjs"
     }
   },
   "type": "module",
-  "main": "dist/valculator.umd.cjs",
-  "module": "dist/valculator.js",
-  "typings": "./dist/main.d.ts",
+  "main": "dist/App.umd.cjs",
+  "module": "dist/App.js",
+  "typings": "./dist/App.d.ts",
   "files": [
     "dist"
   ],
