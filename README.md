@@ -73,10 +73,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/charlotte-hues/valculator-io
+$ git clone https://github.com/charlotte-hues/valculator
 
 # Access
-$ cd valculator-io
+$ cd valculator
 
 # Install dependencies
 $ yarn
