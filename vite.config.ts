@@ -23,7 +23,14 @@ export default defineConfig({
       fileName: "App",
     },
     rollupOptions: {
-      external: ["react", "react-dom", "@emotion/react"],
+      external: [
+        "react",
+        "react-dom",
+        "@emotion/react",
+        "@emotion/styled",
+        "@mui/icons-material",
+        "@mui/material",
+      ],
       plugins: [
         typescriptPaths({
           preserveExtensions: true,
