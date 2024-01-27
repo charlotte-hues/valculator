@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-import { MuiProvider } from "@/theme";
+import { MuiProvider } from "@/Valculator/theme";
 
 import { ChecklistDataContextProvider } from "./ValculatorDataContext/checklist/checklistData.context";
 import { ItemsDataContextProvider } from "./ValculatorDataContext/items/itemsData.context";

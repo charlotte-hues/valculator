@@ -1,6 +1,6 @@
 import { SvgIcon, SvgIconProps, Tooltip } from "@mui/material";
 
-import { palette } from "@/theme/palette";
+import { palette } from "@/Valculator/theme/palette";
 
 import { maxItemLevels } from "../data/allItems.data";
 

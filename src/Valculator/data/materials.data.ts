@@ -1,4 +1,4 @@
-import { getItemId } from "../SharedValculator.components/getItemId";
+import { getItemId } from "../utils/getItemId";
 import {
   IMaterial,
   MaterialsEnum,

@@ -1,4 +1,4 @@
-import { getItemId } from "../SharedValculator.components/getItemId";
+import { getItemId } from "../utils/getItemId";
 import { allLegacyItemIds, allLegacyMaterialIds } from "./legacyId.data";
 
 const legacyIdMap = {

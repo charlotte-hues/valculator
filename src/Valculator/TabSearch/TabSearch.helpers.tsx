@@ -1,4 +1,4 @@
-import { getObjLocation } from "@/utils/getObjectLocation";
+import { getObjLocation } from "@/Valculator/utils/getObjectLocation";
 import { IItem } from "@/Valculator/data/@types/ValheimData.types";
 import { maxItemLevels } from "@/Valculator/data/allItems.data";
 
