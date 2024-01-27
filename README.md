@@ -78,13 +78,16 @@ $ git clone https://github.com/charlotte-hues/valculator
 # Access
 $ cd valculator
 
+# Use correct node version
+$ nvm use
+
 # Install dependencies
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:5173>
 ```
 
 ## :memo: License ##
