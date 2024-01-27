@@ -1,6 +1,6 @@
-import { removeSpaces } from "@/utils/stringFunctions";
 import { IItem } from "@/Valculator/data/@types/ValheimData.types";
 import { allItemsData } from "@/Valculator/data/allItems.data";
+import { removeSpaces } from "@/Valculator/utils/stringFunctions";
 
 import { materialsData } from "./data/materials.data";
 import { getLegacyId } from "./legacy/legacy.helpers";
@@ -8,9 +8,14 @@ import { ChecklistMaterialType } from "./ValculatorDataContext/checklist/checkli
 import { SelectedItem } from "./ValculatorDataContext/items/itemData.types";
 
 export const getItemImageSrc = (item: IItem) => {
-  return item.set === "mead" && item.type == "base"
-    ? `/images/item-images/recipes/MeadBase.png`
-    : `/images/item-images/${item.group}/${removeSpaces(item.name)}.png`;
+  const isMeadBase = item.set === "mead" && item.type == "base";
+
+  return new URL(
+    `./data/images/item-images/${isMeadBase ? "recipes" : item.group}/${
+      isMeadBase ? "MeadBase" : removeSpaces(item.name)
+    }.png`,
+    import.meta.url
+  ).href;
 };
 
 export const getItemName = (item: IItem) => {

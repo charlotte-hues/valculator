@@ -8,8 +8,8 @@ import {
   useState,
 } from "react";
 
-import { size } from "@/utils/device";
-import { useUrlFilters } from "@/utils/hooks/useUrlFilters";
+import { size } from "@/Valculator/utils/device";
+import { useUrlFilters } from "@/Valculator/utils/hooks/useUrlFilters";
 
 import { TabsType } from "./ValculatorLayout.types";
 
@@ -47,7 +47,7 @@ export const ValculatorLayoutContextProvider = ({
 
   const handleTabChange = useCallback(
     (newSection: TabsType) => {
-      handleUpdateUrl({ layout: {tab: newSection} });
+      handleUpdateUrl({ layout: { tab: newSection } });
     },
     [handleUpdateUrl]
   );

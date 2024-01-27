@@ -1,5 +1,5 @@
-import { getObjLocation } from "@/utils/getObjectLocation";
-import { getItemId } from "@/Valculator/SharedValculator.components/getItemId";
+import { getItemId } from "@/Valculator/utils/getItemId";
+import { getObjLocation } from "@/Valculator/utils/getObjectLocation";
 
 import {
   GroupType,

@@ -7,7 +7,7 @@ import {
   useReducer,
 } from "react";
 
-import { useUrlFilters } from "@/utils/hooks/useUrlFilters";
+import { useUrlFilters } from "@/Valculator/utils/hooks/useUrlFilters";
 import { getItemInfo } from "@/Valculator/Valculator.helpers";
 
 import { ItemsDataContextValues } from "./itemData.types";

@@ -1,6 +1,6 @@
+import { getItemId } from "@/Valculator/utils/getItemId";
 import { MaterialsType } from "@/Valculator/data/@types/Materials.types";
 import { StationType } from "@/Valculator/data/@types/ValheimData.types";
-import { getItemId } from "@/Valculator/SharedValculator.components/getItemId";
 
 import { SelectedItem } from "../items/itemData.types";
 import {

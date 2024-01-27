@@ -8,11 +8,13 @@ export const ItemImage = ({
   item: IItem;
   size?: number;
 }) => {
+  const imgSrc = getItemImageSrc(item);
+
   return (
     <img
       width={size}
       height={size}
-      src={getItemImageSrc(item)}
+      src={imgSrc}
       alt={`${item.set} ${item.type ? item.type : item.name}`}
     />
   );
