@@ -6,7 +6,7 @@ name: Continuous Integration
 jobs:
   build:
     name: Lint and Test [feature/fix]
-    runs-on: ubuntu-latest-l
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version:
