@@ -1,8 +1,8 @@
 {
-  "name": "@studio-helga/valculator",
+  "name": "@studio-helga/valculator-app",
   "author": "Charlotte Hughes <hues.charlotte@gmail.com>",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.0",
   "exports": {
     ".": {
       "import": "./dist/valculator.js",
@@ -28,8 +28,7 @@
     "@mui/icons-material",
     "@mui/material",
     "lz-string",
-    "react-render-if-visible",
-    "react-router-dom"
+    "react-render-if-visible"
   ],
   "peerDependencies": {
     "@emotion/react": "^11.11.3",
@@ -47,8 +46,7 @@
     "lz-string": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-render-if-visible": "^2.1.1",
-    "react-router-dom": "^6.21.3"
+    "react-render-if-visible": "^2.1.1"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",

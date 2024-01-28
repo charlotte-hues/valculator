@@ -1,8 +1,9 @@
 import LZString from "lz-string";
 import { useCallback } from "react";
-import { useSearchParams } from "react-router-dom";
 
 import { TabsType } from "@/Valculator/ValculatorDataContext/layout/ValculatorLayout.types";
+
+import { useSearchParams } from "./useSearchParams";
 
 type FilterType = {
   items?: { selected?: string[]; owned?: string[] };
@@ -12,8 +13,9 @@ type FilterType = {
 };
 
 export function useUrlFilters() {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const currentParams = Object.fromEntries([...searchParams]);
+
+  const [searchParams, handleSearchParams] = useSearchParams()
+  const currentParams = searchParams;
 
   let layout =
     currentParams?.layout ??
@@ -40,7 +42,7 @@ export function useUrlFilters() {
     layout = layoutDecompossed?.length ? layoutDecompossed : layout;
   }
 
-  const handleUpdateUrl = useCallback(
+  const handleUpdateSearchParams = useCallback(
     (newFilter: FilterType) => {
       const sanitizedFilter = Object.keys(newFilter).reduce((acc, cur) => {
         const filterString = JSON.stringify(newFilter[cur as keyof FilterType]);
@@ -49,13 +51,13 @@ export function useUrlFilters() {
           [cur]: LZString.compressToEncodedURIComponent(filterString),
         };
       }, {});
-
-      setSearchParams((prev) => {
-        const prevFilter = Object.fromEntries([...prev]);
-        return { ...prevFilter, ...sanitizedFilter };
-      });
-    },
-    [setSearchParams]
+      handleSearchParams(sanitizedFilter);
+      // setSearchSearchParams((prev) => {
+      //   console.log({newFilter, sanitizedFilter})
+      //   return { ...prev, ...sanitizedFilter };    
+      // })
+  },
+    [handleSearchParams]
   );
 
   const itemsObject: { selected: string[]; owned: string[] } =
@@ -66,7 +68,7 @@ export function useUrlFilters() {
     items: itemsObject,
     materials: JSON.parse(materials),
     version,
-    handleUpdateUrl,
+    handleUpdateSearchParams,
   };
 }
 
