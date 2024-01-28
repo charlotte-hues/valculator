@@ -45,8 +45,6 @@ export const ValculatorLayoutContextProvider = ({
 
   const { activeTab, handleUpdateSearchParams } = useUrlFilters();
 
-  console.log({ activeTab });
-
   const handleTabChange = useCallback(
     (newSection: TabsType) => {
       handleUpdateSearchParams({ layout: { tab: newSection } });

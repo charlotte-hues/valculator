@@ -52,10 +52,6 @@ export function useUrlFilters() {
         };
       }, {});
       handleSearchParams(sanitizedFilter);
-      // setSearchSearchParams((prev) => {
-      //   console.log({newFilter, sanitizedFilter})
-      //   return { ...prev, ...sanitizedFilter };    
-      // })
   },
     [handleSearchParams]
   );
