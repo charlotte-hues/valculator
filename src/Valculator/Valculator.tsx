@@ -22,3 +22,6 @@ export const Valculator = () => {
     </ValculatorContextProvider>
   );
 };
+
+
+export default Valculator;

@@ -1,17 +1,18 @@
 {
-  "name": "valculator",
-  "private": true,
-  "version": "0.0.1",
+  "name": "@studio-helga/valculator",
+  "author": "Charlotte Hughes <hues.charlotte@gmail.com>",
+  "private": false,
+  "version": "1.0.5",
   "exports": {
     ".": {
-      "import": "./dist/App.js",
-      "require": "./dist/App.umd.cjs"
+      "import": "./dist/valculator.js",
+      "require": "./dist/valculator.umd.cjs"
     }
   },
   "type": "module",
-  "main": "dist/App.umd.cjs",
-  "module": "dist/App.js",
-  "typings": "./dist/App.d.ts",
+  "main": "dist/valculator.umd.cjs",
+  "module": "dist/valculator.js",
+  "typings": "./dist/valculator.d.ts",
   "files": [
     "dist"
   ],
@@ -25,11 +26,18 @@
     "@emotion/react",
     "@emotion/styled",
     "@mui/icons-material",
-    "@mui/material"
+    "@mui/material",
+    "lz-string",
+    "react-render-if-visible",
+    "react-router-dom"
   ],
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/material": "^5.15.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -58,6 +66,7 @@
     "tslib": "^2.6.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2",
     "vite-plugin-eslint": "^1.8.1"
   }
 }
