@@ -30,10 +30,10 @@ jobs:
           path: node_modules
           key: ${{ runner.OS }}-build-${{ hashFiles('yarn.lock') }}
           restore-keys: ${{ runner.OS }}-build-${{ env.cache-name }}
-      - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
-        shell: bash
+      # - name: Install Dependencies
+      #   if: steps.cache.outputs.cache-hit != 'true'
+      #   run: yarn
+      #   shell: bash
       - name: Lint
         run: yarn lint
       - name: Circular Dependencies Check
