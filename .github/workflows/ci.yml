@@ -1,0 +1,46 @@
+name: Continuous Integration
+'on':
+  push:
+    branches-ignore:
+      - main
+jobs:
+  build:
+    name: Lint and Test [feature/fix]
+    runs-on: ubuntu-latest-l
+    strategy:
+      matrix:
+        node-version:
+          - 18.x
+    steps:
+      - name: Collect Workflow Telemetry
+        uses: runforesight/workflow-telemetry-action@v1
+      - name: Checkout source code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          registry-url: 'https://www.npmjs.com/',
+          scope: '@studio-helga',
+      - name: Cache Dependencies
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('yarn.lock') }}
+          restore-keys: ${{ runner.OS }}-build-${{ env.cache-name }}
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn
+        shell: bash
+      - name: Lint
+        run: yarn lint
+      - name: Circular Dependencies Check
+        run: yarn test:circular
+      - name: Build
+        env:
+          NODE_OPTIONS: '--max_old_space_size=4096'
+        run: yarn build

@@ -1,3 +1,5 @@
+import { SelectedItem } from "../ValculatorDataContext/items/itemData.types";
+
 export interface TabChecklistContextValues {
-  groups: Array<any>;
+  groups: Array<SelectedItem>;
 }

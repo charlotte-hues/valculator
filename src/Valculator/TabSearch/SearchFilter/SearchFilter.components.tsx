@@ -41,7 +41,7 @@ export const SelectField = ({
   const { filters, handleUpdateFilter } = useTabSearchContext();
 
   const handleChange = useCallback(
-    (_: any, value: string[]) => {
+    (_: React.SyntheticEvent<Element, Event>, value: string[]) => {
       handleUpdateFilter(field, value);
     },
     [field, handleUpdateFilter]
@@ -73,7 +73,7 @@ export const SearchSuggestionField = ({
   const { filters, handleUpdateFilter } = useTabSearchContext();
 
   const handleChange = useCallback(
-    (_: any, value: string[]) => {
+    (_: React.SyntheticEvent<Element, Event>, value: string[]) => {
       handleUpdateFilter(field, value);
     },
     [field, handleUpdateFilter]
