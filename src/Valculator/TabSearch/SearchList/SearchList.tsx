@@ -3,9 +3,9 @@ import RenderIfVisible from "react-render-if-visible";
 
 import { useValculatorLayoutContext } from "@/Valculator/ValculatorDataContext/layout/ValculatorLayout.context";
 
+import { useTabSearchContext } from "../TabSearch.context";
 import { GridItem } from "./SearchList.components/GridItem";
 import { RowItem } from "./SearchList.components/RowItem";
-import { useTabSearchContext } from "../TabSearch.context";
 
 const ESTIMATED_HEIGHT = 600;
 

@@ -7,13 +7,12 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "@mui/material";
+import { PropsWithChildren, useCallback } from "react";
 
 import { useValculatorLayoutContext } from "@/Valculator/ValculatorDataContext/layout/ValculatorLayout.context";
 
-import { SearchFiltersField } from "../TabSearch.types";
 import { useTabSearchContext } from "../TabSearch.context";
-
-import { PropsWithChildren, useCallback } from "react";
+import { SearchFiltersField } from "../TabSearch.types";
 
 export const FilterFieldGridItem = ({ children }: PropsWithChildren) => {
   const { isFullScreen } = useValculatorLayoutContext();

@@ -1,6 +1,6 @@
-import { getObjLocation } from "@/Valculator/utils/getObjectLocation";
 import { IItem } from "@/Valculator/data/@types/ValheimData.types";
 import { maxItemLevels } from "@/Valculator/data/allItems.data";
+import { getObjLocation } from "@/Valculator/utils/getObjectLocation";
 
 import { SearchFiltersConfig } from "./TabSearch.types";
 
