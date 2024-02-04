@@ -7,13 +7,12 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "@mui/material";
+import { PropsWithChildren, useCallback } from "react";
 
 import { useValculatorLayoutContext } from "@/Valculator/ValculatorDataContext/layout/ValculatorLayout.context";
 
-import { SearchFiltersField } from "../TabSearch.types";
 import { useTabSearchContext } from "../TabSearch.context";
-
-import { PropsWithChildren, useCallback } from "react";
+import { SearchFiltersField } from "../TabSearch.types";
 
 export const FilterFieldGridItem = ({ children }: PropsWithChildren) => {
   const { isFullScreen } = useValculatorLayoutContext();
@@ -42,7 +41,7 @@ export const SelectField = ({
   const { filters, handleUpdateFilter } = useTabSearchContext();
 
   const handleChange = useCallback(
-    (_: any, value: string[]) => {
+    (_: React.SyntheticEvent<Element, Event>, value: string[]) => {
       handleUpdateFilter(field, value);
     },
     [field, handleUpdateFilter]
@@ -74,7 +73,7 @@ export const SearchSuggestionField = ({
   const { filters, handleUpdateFilter } = useTabSearchContext();
 
   const handleChange = useCallback(
-    (_: any, value: string[]) => {
+    (_: React.SyntheticEvent<Element, Event>, value: string[]) => {
       handleUpdateFilter(field, value);
     },
     [field, handleUpdateFilter]

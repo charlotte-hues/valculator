@@ -11,13 +11,13 @@ import {
   allWorkbenchLevels,
 } from "@/Valculator/data/allItems.data";
 
+import { useTabSearchContext } from "../TabSearch.context";
 import {
   FilterFieldGridItem,
   SearchSuggestionField,
   SelectField,
   ToggleGridViewButton,
 } from "./SearchFilter.components";
-import { useTabSearchContext } from "../TabSearch.context";
 
 export const SearchFilter = () => {
   const {

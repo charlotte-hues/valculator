@@ -54,10 +54,10 @@ export const ValculatorDataContextProvider = ({
 }: PropsWithChildren) => {
   const { items, itemsDispatch } = useItemsDataContext();
   const { checklist, checklistDispatch } = useChecklistDataContext();
-  const { handleUpdateUrl } = useUrlFilters();
+  const { handleUpdateSearchParams } = useUrlFilters();
 
   useEffect(() => {
-    handleUpdateUrl({
+    handleUpdateSearchParams({
       items: {
         ...(items.selected?.length
           ? { selected: getItemUrlParamIds(items.selected) }

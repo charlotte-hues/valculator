@@ -43,13 +43,13 @@ export const ValculatorLayoutContextProvider = ({
     }
   }, []);
 
-  const { activeTab, handleUpdateUrl } = useUrlFilters();
+  const { activeTab, handleUpdateSearchParams } = useUrlFilters();
 
   const handleTabChange = useCallback(
     (newSection: TabsType) => {
-      handleUpdateUrl({ layout: { tab: newSection } });
+      handleUpdateSearchParams({ layout: { tab: newSection } });
     },
-    [handleUpdateUrl]
+    [handleUpdateSearchParams]
   );
 
   const handleToggleFullScreen = useCallback(

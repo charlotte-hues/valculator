@@ -1,7 +1,8 @@
 import { Box } from "@mui/material";
 
-import { TabsMenu, ValculatorSections } from "./Valculator.components";
+import { TabsMenu } from "./Valculator.components";
 import { ValculatorContextProvider } from "./Valculator.context";
+import { ValculatorSections } from "./ValculatorContainer/ValculatorContainer";
 
 export const Valculator = () => {
   return (
@@ -22,3 +23,6 @@ export const Valculator = () => {
     </ValculatorContextProvider>
   );
 };
+
+
+export default Valculator;
