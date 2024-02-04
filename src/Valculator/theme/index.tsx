@@ -18,8 +18,6 @@ export const theme = createTheme({
   components: components(themeWithColors.palette),
 });
 
-console.log(theme);
-
 export const MuiProvider = ({ children }: { children: React.ReactNode }) => {
   return (
     <StyledEngineProvider injectFirst>

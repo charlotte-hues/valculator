@@ -65,14 +65,62 @@ export const stationsReducer = (
   return requiredStations;
 };
 
+const getUpgradeItems = ({
+  owned,
+  selected,
+}: {
+  selected: Array<SelectedItem>;
+  owned: Array<SelectedItem>;
+}) => {
+  const allOwnedItems = [...owned];
+  const ownedItemsToBeUsedInUpgrades: Array<SelectedItem> = [];
+
+  selected
+    .sort(
+      (a, b) =>
+        a.name.localeCompare(b.name) ||
+        Number(a?.level ?? 0) - Number(b?.level ?? 0)
+    )
+    .forEach((selectedItem) => {
+      if (!selectedItem.level || selectedItem?.level <= 1) return;
+
+      const availableUpgrades = allOwnedItems.filter(
+        (upgrade) => upgrade.name === selectedItem.name
+      );
+      if (availableUpgrades.length === 0) return;
+
+      let requiredQuantity = selectedItem.quantity;
+
+      availableUpgrades.forEach((upgrade) => {
+        if (!requiredQuantity || !upgrade.quantity) return;
+        if (upgrade.quantity >= selectedItem.quantity) {
+          ownedItemsToBeUsedInUpgrades.push({
+            ...upgrade,
+            quantity: selectedItem.quantity,
+          });
+          requiredQuantity -= selectedItem.quantity;
+        } else {
+          ownedItemsToBeUsedInUpgrades.push({
+            ...upgrade,
+            quantity: upgrade.quantity,
+          });
+          requiredQuantity -= upgrade.quantity;
+        }
+      });
+    });
+
+  return ownedItemsToBeUsedInUpgrades;
+};
+
 export const convertSelectedItemsToRequired = (
   selected: Array<SelectedItem>,
   owned: Array<SelectedItem>
 ) => {
   const requiredStations = selected.reduce(stationsReducer, []);
 
+  const upgradeItems = getUpgradeItems({ selected, owned });
   const neededMaterials = selected.reduce(materialsReducer, []);
-  const ownedMaterials = owned.reduce(materialsReducer, []);
+  const ownedMaterials = upgradeItems.reduce(materialsReducer, []);
 
   const requiredMaterials = neededMaterials.map((needed) => {
     const ownedIndex = ownedMaterials.findIndex(
@@ -90,6 +138,7 @@ export const convertSelectedItemsToRequired = (
 
   return {
     requiredStations,
+    upgradeItems,
     requiredMaterials,
     totalRequiredMaterials,
   };

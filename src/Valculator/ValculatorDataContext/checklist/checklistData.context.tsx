@@ -19,6 +19,7 @@ const ChecklistDataContext = createContext<ChecklistDataContextValues>({
     uncollected: [],
     collected: [],
     requiredStations: [],
+    upgradeItems: [],
     totalRequiredMaterials: 0,
   },
   checklistDispatch: {
@@ -40,6 +41,7 @@ export const ChecklistDataContextProvider = ({
     uncollected: [],
     collected: getMaterialInfo(initialMaterials, version),
     requiredStations: [],
+    upgradeItems: [],
     totalRequiredMaterials: 0,
   });
 

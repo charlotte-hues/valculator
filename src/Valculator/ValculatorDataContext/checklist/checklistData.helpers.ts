@@ -10,8 +10,12 @@ const updateChecklist = (
   action: ChecklistDataAction
 ) => {
   const { selected = [], owned = [] } = action;
-  const { requiredStations, requiredMaterials, totalRequiredMaterials } =
-    convertSelectedItemsToRequired(selected, owned);
+  const {
+    requiredStations,
+    requiredMaterials,
+    upgradeItems,
+    totalRequiredMaterials,
+  } = convertSelectedItemsToRequired(selected, owned);
 
   const uncollectedMaterials: Array<ChecklistMaterialType> = [];
   const collectedMaterials: Array<ChecklistMaterialType> = [];
@@ -37,6 +41,7 @@ const updateChecklist = (
   return {
     ...state,
     requiredStations,
+    upgradeItems,
     uncollected: uncollectedMaterials,
     collected: collectedMaterials,
     totalRequiredMaterials,
