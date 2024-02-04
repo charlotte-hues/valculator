@@ -10,9 +10,14 @@ import {
 import { useUrlFilters } from "@/Valculator/utils/hooks/useUrlFilters";
 import { getMaterialInfo } from "@/Valculator/Valculator.helpers";
 
+import { SelectedItem } from "../items/itemData.types";
 import { useItemsDataContext } from "../items/itemsData.context";
 import { checklistReducer } from "./checklistData.helpers";
-import { ChecklistDataContextValues } from "./checklistData.types";
+import {
+  ChecklistDataContextValues,
+  ChecklistMaterialType,
+  ChecklistStationType,
+} from "./checklistData.types";
 
 const ChecklistDataContext = createContext<ChecklistDataContextValues>({
   checklist: {
@@ -37,13 +42,18 @@ export const ChecklistDataContextProvider = ({
   } = useItemsDataContext();
   const { materials: initialMaterials, version } = useUrlFilters();
 
-  const [checklist, checklistDispatch] = useReducer(checklistReducer, {
-    uncollected: [],
+  const initialState = {
+    uncollected: [] as ChecklistMaterialType[],
     collected: getMaterialInfo(initialMaterials, version),
-    requiredStations: [],
-    upgradeItems: [],
+    requiredStations: [] as Array<ChecklistStationType>,
+    upgradeItems: [] as SelectedItem[],
     totalRequiredMaterials: 0,
-  });
+  };
+
+  const [checklist, checklistDispatch] = useReducer(
+    checklistReducer,
+    initialState
+  );
 
   useEffect(() => {
     checklistDispatch({

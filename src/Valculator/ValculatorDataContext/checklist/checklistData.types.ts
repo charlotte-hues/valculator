@@ -1,9 +1,5 @@
 import { MaterialsType } from "@/Valculator/data/@types/Materials.types";
-import {
-  GroupType,
-  SetType,
-  StationType,
-} from "@/Valculator/data/@types/ValheimData.types";
+import { GroupType } from "@/Valculator/data/@types/ValheimData.types";
 
 import { SelectedItem } from "../items/itemData.types";
 
@@ -20,11 +16,11 @@ export interface ChecklistMaterialType {
 }
 
 export interface ChecklistStationType {
-  name: StationType;
-  level: number;
+  name: string;
   group?: GroupType;
   type?: string;
-  set?: SetType;
+  set?: string;
+  level: number;
 }
 export interface ChecklistDataType {
   uncollected: Array<ChecklistMaterialType>;
