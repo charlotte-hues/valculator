@@ -4,7 +4,7 @@ import RenderIfVisible from "react-render-if-visible";
 import { GroupType } from "@/Valculator/data/@types/ValheimData.types";
 
 import { useTabSelectionContext } from "../TabSelection.context";
-import { SelectionGroup } from "./SelectionList.components";
+import { EmptySelectionList, SelectionGroup } from "./SelectionList.components";
 
 const ESTIMATED_HEIGHT = 600;
 
@@ -25,6 +25,7 @@ export const SelectionList = () => {
           </RenderIfVisible>
         );
       })}
+      {groups.length === 0 && <EmptySelectionList />}
     </Stack>
   );
 };

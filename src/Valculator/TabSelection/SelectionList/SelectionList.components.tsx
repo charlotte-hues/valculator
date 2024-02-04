@@ -118,3 +118,13 @@ export const SelectionRowItem = ({ item }: { item: SelectedItem }) => {
     </Card>
   );
 };
+
+export const EmptySelectionList = () => {
+  return (
+    <Box display="flex" justifyContent="center" padding={2}>
+      <Typography variant="h6">
+        Select the items you want to craft to get started
+      </Typography>
+    </Box>
+  );
+};
