@@ -8,13 +8,12 @@ import { useSearchParams } from "./useSearchParams";
 type FilterType = {
   items?: { selected?: string[]; owned?: string[] };
   materials?: string[];
-  layout?: { tab: TabsType };
+  layout?: { tab: TabsType; fullScreen?: boolean };
   version?: number;
 };
 
 export function useUrlFilters() {
-
-  const [searchParams, handleSearchParams] = useSearchParams()
+  const [searchParams, handleSearchParams] = useSearchParams();
   const currentParams = searchParams;
 
   let layout =
@@ -52,7 +51,7 @@ export function useUrlFilters() {
         };
       }, {});
       handleSearchParams(sanitizedFilter);
-  },
+    },
     [handleSearchParams]
   );
 
@@ -61,6 +60,7 @@ export function useUrlFilters() {
 
   return {
     activeTab: JSON.parse(layout)?.tab,
+    fullScreen: JSON.parse(layout)?.fullScreen,
     items: itemsObject,
     materials: JSON.parse(materials),
     version,

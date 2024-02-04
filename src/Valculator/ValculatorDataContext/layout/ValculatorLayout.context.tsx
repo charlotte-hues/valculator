@@ -33,46 +33,43 @@ export const ValculatorLayoutContextProvider = ({
   children,
 }: PropsWithChildren) => {
   const [isMobile, setIsMobile] = useState<boolean>(false);
-  const [isFullScreen, setIsFullScreen] = useState<boolean>(false);
 
   useEffect(() => {
     const isMobile = window.innerWidth < size.laptop;
     if (isMobile) {
       setIsMobile(true);
-      setIsFullScreen(true);
     }
   }, []);
 
-  const { activeTab, handleUpdateSearchParams } = useUrlFilters();
+  const { activeTab, fullScreen, handleUpdateSearchParams } = useUrlFilters();
 
   const handleTabChange = useCallback(
     (newSection: TabsType) => {
-      handleUpdateSearchParams({ layout: { tab: newSection } });
+      handleUpdateSearchParams({ layout: { tab: newSection, fullScreen } });
     },
-    [handleUpdateSearchParams]
+    [fullScreen, handleUpdateSearchParams]
   );
 
   const handleToggleFullScreen = useCallback(
     (tab: TabsType) => {
-      setIsFullScreen((prev) => !prev);
-      handleTabChange(tab);
+      handleUpdateSearchParams({ layout: { tab, fullScreen: !fullScreen } });
     },
-    [handleTabChange]
+    [fullScreen, handleUpdateSearchParams]
   );
 
   const value = useMemo(() => {
     return {
       isMobile,
-      isFullScreen,
+      isFullScreen: fullScreen || isMobile,
       handleToggleFullScreen,
       activeTab,
       handleTabChange,
     };
   }, [
     activeTab,
+    fullScreen,
     handleTabChange,
     handleToggleFullScreen,
-    isFullScreen,
     isMobile,
   ]);
 
