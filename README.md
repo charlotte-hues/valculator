@@ -59,11 +59,10 @@ Valculator is a free resource calculator for the game Valheim.
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [MUI](https://mui.com/)
 
 ## :white_check_mark: Requirements ##
 
@@ -92,7 +91,7 @@ $ yarn dev
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from Apache 2.0. For more details, see the [LICENSE](LICENSE.md) file.
 
 
 Made with :heart: by <a href="https://github.com/charlotte-hues" target="_blank">Studio Helga</a>
