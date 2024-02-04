@@ -21,7 +21,7 @@ export interface IStation {
   forge?: number;
   cauldron?: number;
   fermenter?: number;
-  StoneOven?: number;
+  "Stone Oven"?: number;
   stonecutter?: number;
   "Artisan Table"?: number;
   hammer?: number;

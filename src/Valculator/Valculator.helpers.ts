@@ -1,6 +1,6 @@
 import { IItem } from "@/Valculator/data/@types/ValheimData.types";
 import { allItemsData } from "@/Valculator/data/allItems.data";
-import { removeSpaces } from "@/Valculator/utils/stringFunctions";
+import { capitalize, removeSpaces } from "@/Valculator/utils/stringFunctions";
 
 import { materialsData } from "./data/materials.data";
 import { getLegacyId } from "./legacy/legacy.helpers";
@@ -12,7 +12,7 @@ export const getItemImageSrc = (item: IItem) => {
 
   return new URL(
     `./data/images/item-images/${isMeadBase ? "recipes" : item.group}/${
-      isMeadBase ? "MeadBase" : removeSpaces(item.name)
+      isMeadBase ? "MeadBase" : removeSpaces(capitalize(item.name))
     }.png`,
     import.meta.url
   ).href;

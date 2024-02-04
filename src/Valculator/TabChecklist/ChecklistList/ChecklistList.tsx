@@ -2,15 +2,20 @@ import { Stack } from "@mui/material";
 
 import { useValculatorDataContext } from "@/Valculator/ValculatorDataContext/ValculatorData.context";
 
-import { ChecklistGroup, UpgradeItemsGroup } from "./Checklist.components";
+import {
+  ChecklistGroup,
+  CraftingStructures,
+  UpgradeItemsGroup,
+} from "./Checklist.components";
 
 export const ChecklistList = () => {
   const {
-    checklist: { uncollected, collected, upgradeItems },
+    checklist: { uncollected, collected, upgradeItems, requiredStations },
   } = useValculatorDataContext();
 
   return (
     <Stack spacing={1}>
+      <CraftingStructures groupItems={requiredStations} />
       <ChecklistGroup
         groupItems={uncollected}
         groupName={"uncollected"}

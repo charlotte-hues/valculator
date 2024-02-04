@@ -10,15 +10,6 @@ const cookingList: Array<Omit<WorkStation, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Cauldron",
-    set: "structures",
-    level: 1,
-    nearby: "workbench",
-    materials: {
-      tin: 10,
-    },
-  },
-  {
     name: "Stone Oven",
     set: "structures",
     materials: {
@@ -27,6 +18,16 @@ const cookingList: Array<Omit<WorkStation, "group" | "id" | "type">> = [
       "surtling core": 4,
     },
   },
+  {
+    name: "Cauldron",
+    set: "structures",
+    level: 1,
+    nearby: "workbench",
+    materials: {
+      tin: 10,
+    },
+  },
+
   {
     name: "Cauldron",
     set: "structures",

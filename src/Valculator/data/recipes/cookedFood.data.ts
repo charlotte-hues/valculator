@@ -13,7 +13,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       bloodbag: 1,
@@ -35,7 +35,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       "boar meat": 1,
@@ -55,7 +55,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       mushroom: 1,
@@ -74,7 +74,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       blueberries: 1,
@@ -94,7 +94,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       "boar meat": 1,
@@ -134,7 +134,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       onion: 3,
@@ -154,7 +154,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       raspberries: 8,
@@ -175,7 +175,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 0.5,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       entrails: 4,
@@ -195,7 +195,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      cauldron: 0,
+      cauldron: 1,
     },
     materials: {
       mushroom: 1,
@@ -234,7 +234,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      StoneOven: 1,
+      "Stone Oven": 1,
     },
     materials: {
       "unbaked lox meat pie": 1,

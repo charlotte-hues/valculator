@@ -1,5 +1,6 @@
 import { MaterialsType } from "@/Valculator/data/@types/Materials.types";
 import { StationType } from "@/Valculator/data/@types/ValheimData.types";
+import { allItemsData } from "@/Valculator/data/allItems.data";
 import { getItemId } from "@/Valculator/utils/getItemId";
 
 import { SelectedItem } from "../items/itemData.types";
@@ -47,12 +48,12 @@ export const stationsReducer = (
   const curStationLevel = cur.station[curStation] ?? 0;
 
   const existingIndex = requiredStations.findIndex(
-    (item) => item.station === curStation
+    (item) => item.name === curStation
   );
 
   if (existingIndex === -1) {
     requiredStations.push({
-      station: curStation,
+      name: curStation,
       level: cur.station[curStation] ?? 0,
     });
   } else {
@@ -63,6 +64,22 @@ export const stationsReducer = (
   }
 
   return requiredStations;
+};
+
+const getStationData = (station: ChecklistStationType) => {
+  const stationData = allItemsData.find(
+    (itemData) => itemData.name.toLowerCase() === station.name.toLowerCase()
+  );
+
+  return stationData
+    ? {
+        ...station,
+        name: stationData.name,
+        group: stationData.group,
+        type: stationData.type,
+        set: stationData.set,
+      }
+    : station;
 };
 
 const getUpgradeItems = ({
@@ -117,6 +134,7 @@ export const convertSelectedItemsToRequired = (
   owned: Array<SelectedItem>
 ) => {
   const requiredStations = selected.reduce(stationsReducer, []);
+  const convertedRequiredStations = requiredStations.map(getStationData);
 
   const upgradeItems = getUpgradeItems({ selected, owned });
   const neededMaterials = selected.reduce(materialsReducer, []);
@@ -137,7 +155,7 @@ export const convertSelectedItemsToRequired = (
   }, 0);
 
   return {
-    requiredStations,
+    requiredStations: convertedRequiredStations,
     upgradeItems,
     requiredMaterials,
     totalRequiredMaterials,

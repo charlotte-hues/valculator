@@ -12,7 +12,7 @@ const resistanceList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       weight: 1,
     },
     station: {
-      fermenter: 0,
+      fermenter: 1,
     },
     materials: {
       "barley wine base": 1,
