@@ -41,7 +41,9 @@ export const SectionContainer = ({
         alignItems={"center"}
         sx={{ backgroundColor: "secondary.main" }}
       >
-        <Typography>{tab}</Typography>
+        <Typography variant="h5" fontWeight={900}>
+          {tab}
+        </Typography>
         {!isMobile && (
           <IconButton onClick={() => handleToggleFullScreen(tab)}>
             {isFullScreen ? <FullscreenExitIcon /> : <FullscreenIcon />}

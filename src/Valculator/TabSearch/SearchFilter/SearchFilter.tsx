@@ -31,15 +31,15 @@ export const SearchFilter = () => {
 
   return (
     <>
+      <Box paddingBottom={2}>
+        <SearchSuggestionField
+          field={"name"}
+          label={"Search Names"}
+          options={allItems}
+        />
+      </Box>
       <Collapse in={showAdditonalFilters}>
         <Grid container spacing={2} paddingBottom={2}>
-          <FilterFieldGridItem>
-            <SearchSuggestionField
-              field={"name"}
-              label={"Search Names"}
-              options={allItems}
-            />
-          </FilterFieldGridItem>
           <FilterFieldGridItem>
             <SelectField field={"group"} options={allGroups} label={"Group"} />
           </FilterFieldGridItem>
