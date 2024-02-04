@@ -74,6 +74,7 @@ const getStationData = (station: ChecklistStationType) => {
   return stationData
     ? {
         ...station,
+        name: stationData.name,
         group: stationData.group,
         type: stationData.type,
         set: stationData.set,

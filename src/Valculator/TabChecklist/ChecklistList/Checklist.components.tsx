@@ -39,7 +39,7 @@ export const CraftingStructures = ({
         <Collapse in={expanded}>
           <Stack
             padding={1}
-            justifyContent={"center"}
+            justifyContent={"flex-start"}
             direction={"row"}
             flexWrap={"wrap"}
             columnGap={2}
