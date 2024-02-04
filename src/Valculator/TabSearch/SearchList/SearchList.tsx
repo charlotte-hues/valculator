@@ -1,17 +1,22 @@
 import { Grid } from "@mui/material";
 import RenderIfVisible from "react-render-if-visible";
 
+import { EmptyListText } from "@/Valculator/SharedValculator.components/EmptyListText";
 import { useValculatorLayoutContext } from "@/Valculator/ValculatorDataContext/layout/ValculatorLayout.context";
 
+import { useTabSearchContext } from "../TabSearch.context";
 import { GridItem } from "./SearchList.components/GridItem";
 import { RowItem } from "./SearchList.components/RowItem";
-import { useTabSearchContext } from "../TabSearch.context";
 
 const ESTIMATED_HEIGHT = 600;
 
 export const SearchList = () => {
   const { filteredList, grid } = useTabSearchContext();
   const { isFullScreen } = useValculatorLayoutContext();
+
+  if (filteredList.length === 0) {
+    return <EmptyListText>No results, try removing some filters</EmptyListText>;
+  }
 
   return grid ? (
     <Grid container spacing={1}>

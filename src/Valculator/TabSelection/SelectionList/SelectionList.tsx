@@ -2,9 +2,10 @@ import { Stack } from "@mui/material";
 import RenderIfVisible from "react-render-if-visible";
 
 import { GroupType } from "@/Valculator/data/@types/ValheimData.types";
+import { EmptyListText } from "@/Valculator/SharedValculator.components/EmptyListText";
 
 import { useTabSelectionContext } from "../TabSelection.context";
-import { EmptySelectionList, SelectionGroup } from "./SelectionList.components";
+import { SelectionGroup } from "./SelectionList.components";
 
 const ESTIMATED_HEIGHT = 600;
 
@@ -25,7 +26,11 @@ export const SelectionList = () => {
           </RenderIfVisible>
         );
       })}
-      {groups.length === 0 && <EmptySelectionList />}
+      {groups.length === 0 && (
+        <EmptyListText>
+          Select the items you want to craft to get started
+        </EmptyListText>
+      )}
     </Stack>
   );
 };
