@@ -20,33 +20,6 @@ const baseList: Array<Omit<WorkStation, "group" | "id" | "type">> = [
       stone: 4,
     },
   },
-  {
-    name: "Hammer",
-    set: "wood",
-    level: 1,
-    materials: {
-      wood: 3,
-      stone: 2,
-    },
-  },
-  {
-    name: "Hammer",
-    set: "wood",
-    level: 2,
-    materials: {
-      wood: 4,
-      stone: 3,
-    },
-  },
-  {
-    name: "Hammer",
-    set: "wood",
-    level: 3,
-    materials: {
-      wood: 6,
-      stone: 5,
-    },
-  },
 ];
 
 export const base: Array<Omit<WorkStation, "id">> = baseList.map(

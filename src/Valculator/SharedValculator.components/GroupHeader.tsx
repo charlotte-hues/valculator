@@ -22,7 +22,7 @@ export const GroupHeader = ({
       justifyContent={"space-between"}
       alignItems={"center"}
     >
-      <Typography>{`${groupName} (${count})`}</Typography>
+      <Typography variant="overline">{`${groupName} (${count})`}</Typography>
       {count > 0 && (
         <ExpandButton expanded={expanded} setExpanded={setExpanded} />
       )}

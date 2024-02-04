@@ -5,15 +5,98 @@ import {
   Checkbox,
   Collapse,
   Stack,
+  styled,
   Typography,
 } from "@mui/material";
 import { useState } from "react";
 
+import { IItem } from "@/Valculator/data/@types/ValheimData.types";
 import { GroupHeader } from "@/Valculator/SharedValculator.components/GroupHeader";
 import { LevelIconIndicator } from "@/Valculator/SharedValculator.components/IconIndicators";
-import { ChecklistMaterialType } from "@/Valculator/ValculatorDataContext/checklist/checklistData.types";
+import { ItemImage } from "@/Valculator/SharedValculator.components/ItemImage";
+import {
+  ChecklistMaterialType,
+  ChecklistStationType,
+} from "@/Valculator/ValculatorDataContext/checklist/checklistData.types";
 import { SelectedItem } from "@/Valculator/ValculatorDataContext/items/itemData.types";
 import { useValculatorDataContext } from "@/Valculator/ValculatorDataContext/ValculatorData.context";
+
+export const CraftingStructures = ({
+  groupItems,
+}: {
+  groupItems: Array<ChecklistStationType>;
+}) => {
+  const [expanded, setExpanded] = useState<boolean>(true);
+  return (
+    <Box>
+      <GroupHeader
+        groupName={"Crafting Structures"}
+        expanded={expanded}
+        setExpanded={setExpanded}
+        count={groupItems.length}
+      />
+      {groupItems.length > 0 && (
+        <Collapse in={expanded}>
+          <Stack
+            padding={1}
+            justifyContent={"center"}
+            direction={"row"}
+            flexWrap={"wrap"}
+            columnGap={2}
+            rowGap={1}
+          >
+            {groupItems.map((item) => {
+              return (
+                <CraftingStructure key={item.name} craftingStructure={item} />
+              );
+            })}
+          </Stack>
+        </Collapse>
+      )}
+    </Box>
+  );
+};
+
+const LevelContainer = styled("div")(() => ({
+  position: "relative",
+  bottom: "0",
+  right: "0",
+}));
+
+const CraftingStructure = ({
+  craftingStructure,
+}: {
+  craftingStructure: ChecklistStationType;
+}) => {
+  return (
+    <Box position={"relative"}>
+      <Card>
+        <CardActionArea disableRipple>
+          <Box padding={0.5} position={"relative"}>
+            <Typography variant="overline">{craftingStructure.name}</Typography>
+            <Stack
+              direction="row"
+              gap={1}
+              alignItems={"flex-end"}
+              padding={0.5}
+            >
+              <ItemImage
+                item={craftingStructure as unknown as IItem}
+                size={48}
+              />
+              <LevelContainer>
+                <LevelIconIndicator
+                  level={craftingStructure.level}
+                  name={craftingStructure.name}
+                />
+              </LevelContainer>
+            </Stack>
+          </Box>
+        </CardActionArea>
+      </Card>
+    </Box>
+  );
+};
 
 export const ChecklistGroup = ({
   groupItems,
@@ -49,7 +132,7 @@ export const ChecklistGroup = ({
   );
 };
 
-export const ChecklistRowItem = ({
+const ChecklistRowItem = ({
   item,
   variant,
 }: {

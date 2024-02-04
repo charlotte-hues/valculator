@@ -39,6 +39,7 @@ const ValculatorDataContext = createContext<ValculatorDataContextValues>({
   checklist: {
     uncollected: [],
     collected: [],
+    upgradeItems: [],
     requiredStations: [],
     totalRequiredMaterials: 0,
   },

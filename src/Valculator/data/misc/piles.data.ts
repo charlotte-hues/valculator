@@ -5,7 +5,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Coal Pile",
     set: "coal",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       coal: 50,
@@ -15,7 +15,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Coin Pile",
     set: "treasure",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       coins: 999,
@@ -25,7 +25,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Coin Stack",
     set: "treasure",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       coins: 99,
@@ -35,7 +35,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Core Wood Stack",
     set: "core wood",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       "core wood": 50,
@@ -45,7 +45,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Fine Wood Stack",
     set: "core wood",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       "fine wood": 50,
@@ -55,7 +55,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Wood Stack",
     set: "wood",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       wood: 50,
@@ -65,7 +65,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
     name: "Stone Pile",
     set: "stone",
     station: {
-      hammer: 0,
+      hammer: 1,
     },
     materials: {
       stone: 50,
