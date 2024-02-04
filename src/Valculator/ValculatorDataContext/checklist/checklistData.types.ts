@@ -23,6 +23,7 @@ export interface ChecklistDataType {
   uncollected: Array<ChecklistMaterialType>;
   collected: Array<ChecklistMaterialType>;
   requiredStations: Array<ChecklistStationType>;
+  upgradeItems: Array<SelectedItem>;
   totalRequiredMaterials: number;
 }
 
