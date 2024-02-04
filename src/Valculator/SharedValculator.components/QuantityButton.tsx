@@ -24,7 +24,7 @@ export const QuantityButton = ({
   const quantity = selectedIndex !== -1 ? items[selectedIndex].quantity : 0;
 
   return (
-    <Stack direction={"row"}>
+    <Stack direction={"row"} alignItems={"center"}>
       <ButtonGroup size="small">
         <Button
           variant="text"
@@ -36,7 +36,12 @@ export const QuantityButton = ({
         >
           <KeyboardArrowDownOutlinedIcon fontSize="small" />
         </Button>
-        <Typography>{quantity}</Typography>
+        <Typography
+          fontWeight={quantity > 0 ? "bold" : "inherit"}
+          color={quantity > 0 ? "textPrimary" : "textSecondary"}
+        >
+          {quantity}
+        </Typography>
         <Button
           variant="text"
           onClick={(e) => {
