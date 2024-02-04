@@ -70,7 +70,7 @@ export const OwnedLevelSelector = ({ item }: { item: SelectedItem }) => {
       justifyContent={"space-between"}
       padding={1}
     >
-      <Typography>Add owndfjvbsjk</Typography>
+      <Typography>{`If you already have a lower level ${item.name}, add it here:`}</Typography>
       <Stack direction={"column-reverse"} paddingRight={5}>
         {ownedOptions.map((ownedOption) => (
           <Stack key={ownedOption.id} direction={"row"}>
