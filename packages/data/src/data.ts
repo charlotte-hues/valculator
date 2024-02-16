@@ -9,3 +9,4 @@ export {
   maxItemLevels,
 } from "./data/allItems.data";
 export { materialsData } from "./data/materials.data";
+export { getLegacyId } from "./legacy/legacy.helpers";

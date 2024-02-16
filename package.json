@@ -8,6 +8,6 @@
     ]
   },
   "scripts": {
-    "main": "yarn workspace data dev"
+    "main": "yarn workspace main dev"
   }
 }

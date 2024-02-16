@@ -1,10 +1,14 @@
+import "./App.css";
+import { allItems } from "data";
 
-import { Valculator } from "./Valculator/Valculator";
+function App() {
+  console.log(allItems);
 
-export function ValculatorApp() {
   return (
-      <Valculator />
+    <div>
+      <h1>Main Application</h1>
+    </div>
   );
 }
 
-export default ValculatorApp;
+export default App;
