@@ -44,20 +44,20 @@ function getAllOptions(path: string[]) {
   return allOptions;
 }
 
-// export const allItems: Array<string> = getAllOptions(["name"]);
-// export const allGroups: Array<GroupType> = getAllOptions(["group"]);
-// export const allTypes: Array<TypeType> = getAllOptions(["type"]);
-// export const allSets: Array<SetType> = getAllOptions(["set"]);
-// export const allLevels = getAllOptions(["level"]);
-// export const allWorkbenchLevels = getAllOptions(["station", "workbench"]);
-// export const allForgeLevels = getAllOptions(["station", "forge"]);
+export const allItems: Array<string> = getAllOptions(["name"]);
+export const allGroups: Array<GroupType> = getAllOptions(["group"]);
+export const allTypes: Array<TypeType> = getAllOptions(["type"]);
+export const allSets: Array<SetType> = getAllOptions(["set"]);
+export const allLevels = getAllOptions(["level"]);
+export const allWorkbenchLevels = getAllOptions(["station", "workbench"]);
+export const allForgeLevels = getAllOptions(["station", "forge"]);
 
-// export const maxItemLevels: { [key: string]: number } = allItems.reduce(
-//   (acc, cur) => {
-//     const itemMaxLevel = allItemsData
-//       .filter((item) => item.name === cur)
-//       .reduce((acc, cur) => Math.max(acc, Number(cur?.level ?? 0)), 0);
-//     return { ...acc, [cur]: itemMaxLevel };
-//   },
-//   {}
-// );
+export const maxItemLevels: { [key: string]: number } = allItems.reduce(
+  (acc, cur) => {
+    const itemMaxLevel = allItemsData
+      .filter((item) => item.name === cur)
+      .reduce((acc, cur) => Math.max(acc, Number(cur?.level ?? 0)), 0);
+    return { ...acc, [cur]: itemMaxLevel };
+  },
+  {}
+);
