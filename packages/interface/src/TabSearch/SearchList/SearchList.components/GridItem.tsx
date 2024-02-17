@@ -7,16 +7,16 @@ import {
   Typography,
 } from "@mui/material";
 
-import { IItem, IStats } from "data/types";
+import { IItem, IStats } from "@valculator/data/types";
 import {
   LevelIconIndicator,
   WeightIconIndicator,
 } from "../../../components/shared/IconIndicators";
 import { ItemImage } from "../../../components/shared/ItemImage";
 import { QuantityButton } from "../../../components/shared/QuantityButton";
-import { getItemName } from "@/Valculator/Valculator.helpers";
 
 import { ItemCard } from "./SearchList.components";
+import { getItemName } from "../../../helpers/getItemName";
 
 const Stat = ({ name, value }: { name: string; value: string }) => {
   return (

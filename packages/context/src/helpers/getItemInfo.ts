@@ -1,4 +1,4 @@
-import { allItemsData, getLegacyId } from "data";
+import { allItemsData, getLegacyId } from "@valculator/data";
 import { SelectedItem } from "../ValculatorDataContext/items/itemData.types";
 
 export const getItemInfo: (

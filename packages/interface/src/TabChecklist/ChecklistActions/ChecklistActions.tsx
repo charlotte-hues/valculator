@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 
-import { useValculatorDataContext } from "@/Valculator/ValculatorDataContext/ValculatorData.context";
+import { useValculatorDataContext } from "@valculator/context";
 
 import { getPercentageComplete } from "../TabChecklist.helpers";
 

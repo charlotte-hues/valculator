@@ -1,6 +1,6 @@
-import { allItemsData, getItemId } from "data";
+import { allItemsData, getItemId } from "@valculator/data";
 
-import { MaterialsType, StationType } from "data/types";
+import { MaterialsType, StationType } from "@valculator/data/types";
 
 import { SelectedItem } from "../items/itemData.types";
 import {

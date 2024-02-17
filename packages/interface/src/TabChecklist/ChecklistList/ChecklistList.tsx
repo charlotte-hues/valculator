@@ -1,6 +1,6 @@
 import { Stack } from "@mui/material";
 
-import { useValculatorDataContext } from "@/Valculator/ValculatorDataContext/ValculatorData.context";
+import { useValculatorDataContext } from "@valculator/context";
 
 import {
   ChecklistGroup,

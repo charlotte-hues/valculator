@@ -1,7 +1,7 @@
 import { Grid, Stack, Typography } from "@mui/material";
 import { memo } from "react";
 
-import { IItem } from "data/types";
+import { IItem } from "@valculator/data/types";
 import {
   LevelIconIndicator,
   WeightIconIndicator,

@@ -1,19 +1,19 @@
+import { ValculatorContextProvider } from "@valculator/context";
 import "./App.css";
-import { allItems } from "data";
-import { MaterialsType } from "data/types";
+// import { allItems } from "@valculator/data";
+// import { MaterialsType } from "@valculator/data/types";
+import { Test } from "./Test";
 
 function App() {
-  console.log(allItems);
-
-  const hh: MaterialsType = "ancient bark";
-
-  console.log(hh);
-  // console.log(yabadabadooo);
+  // console.log(allItems);
 
   return (
-    <div>
-      <h1>Main Application</h1>
-    </div>
+    <ValculatorContextProvider>
+      <div>
+        <h1>Main Application</h1>
+        <Test />
+      </div>
+    </ValculatorContextProvider>
   );
 }
 

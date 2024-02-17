@@ -1,6 +1,6 @@
-import { IItem } from "data/types";
-import { maxItemLevels } from "data";
-import { getObjLocation } from "@/Valculator/utils/getObjectLocation";
+import { IItem } from "@valculator/data/types";
+import { maxItemLevels } from "@valculator/data";
+import { getObjLocation } from "@valculator/data";
 
 import { SearchFiltersConfig } from "./TabSearch.types";
 

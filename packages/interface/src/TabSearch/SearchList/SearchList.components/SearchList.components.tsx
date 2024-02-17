@@ -1,7 +1,7 @@
 import { Card, CardActionArea, SxProps } from "@mui/material";
 import { PropsWithChildren, useCallback } from "react";
 
-import { useValculatorDataContext } from "@/Valculator/ValculatorDataContext/ValculatorData.context";
+import { useValculatorDataContext } from "@valculator/context";
 
 export const ItemCard = ({
   id,

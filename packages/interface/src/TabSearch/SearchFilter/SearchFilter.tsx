@@ -9,7 +9,7 @@ import {
   allSets,
   allTypes,
   allWorkbenchLevels,
-} from "data";
+} from "@valculator/data";
 
 import { useTabSearchContext } from "../TabSearch.context";
 import {

@@ -3,4 +3,5 @@ export type {
   GroupType,
   StationType,
   IItem,
+  IStats,
 } from "./data/@types/ValheimData.types";

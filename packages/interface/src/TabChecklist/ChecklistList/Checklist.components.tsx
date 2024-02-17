@@ -10,16 +10,16 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 
-import { IItem } from "data/types";
+import { IItem } from "@valculator/data/types";
 import { GroupHeader } from "../../components/shared/GroupHeader";
 import { LevelIconIndicator } from "../../components/shared/IconIndicators";
 import { ItemImage } from "../../components/shared/ItemImage";
 import {
   ChecklistMaterialType,
   ChecklistStationType,
-} from "@/Valculator/ValculatorDataContext/checklist/checklistData.types";
-import { SelectedItem } from "@/Valculator/ValculatorDataContext/items/itemData.types";
-import { useValculatorDataContext } from "@/Valculator/ValculatorDataContext/ValculatorData.context";
+  SelectedItem,
+} from "@valculator/context/types";
+import { useValculatorDataContext } from "@valculator/context";
 
 export const CraftingStructures = ({
   groupItems,

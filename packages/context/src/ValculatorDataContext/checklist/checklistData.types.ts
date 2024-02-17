@@ -1,4 +1,4 @@
-import { MaterialsType, GroupType } from "data/types";
+import { MaterialsType, GroupType } from "@valculator/data/types";
 
 import { SelectedItem } from "../items/itemData.types";
 

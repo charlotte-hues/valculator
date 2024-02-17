@@ -1,4 +1,4 @@
-import { IItem } from "data/types";
+import { IItem } from "@valculator/data/types";
 
 export type SelectedItem = IItem & { quantity: number };
 

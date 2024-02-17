@@ -1,4 +1,4 @@
-import { ChecklistMaterialType } from "../ValculatorDataContext/checklist/checklistData.types";
+import { ChecklistMaterialType } from "@valculator/context/types";
 
 export const getPercentageComplete = (
   collected: Array<ChecklistMaterialType>,
