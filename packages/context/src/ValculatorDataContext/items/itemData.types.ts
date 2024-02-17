@@ -1,4 +1,4 @@
-import { IItem } from "@/Valculator/data/@types/ValheimData.types";
+import { IItem } from "data/types";
 
 export type SelectedItem = IItem & { quantity: number };
 

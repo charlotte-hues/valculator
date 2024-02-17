@@ -8,7 +8,6 @@ import {
 } from "react";
 
 import { useUrlFilters } from "../../helpers/useUrlFilters";
-import { getMaterialInfo } from "@/Valculator/Valculator.helpers";
 
 import { SelectedItem } from "../items/itemData.types";
 import { useItemsDataContext } from "../items/itemsData.context";
@@ -18,6 +17,7 @@ import {
   ChecklistMaterialType,
   ChecklistStationType,
 } from "./checklistData.types";
+import { getMaterialInfo } from "../../helpers/getMaterialInfo";
 
 const ChecklistDataContext = createContext<ChecklistDataContextValues>({
   checklist: {

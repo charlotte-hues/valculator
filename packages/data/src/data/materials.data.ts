@@ -1,4 +1,4 @@
-import { getItemId } from "../utils/getItemId";
+import { getItemId } from "../helpers/getItemId";
 import {
   IMaterial,
   MaterialsEnum,

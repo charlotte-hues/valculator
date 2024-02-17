@@ -3,11 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./src/main.ts",
+  "exports": {
+    ".": {
+      "import": "./src/main.ts"
+    },
+    "./types": {
+      "import": "./src/types.ts"
+    }
+  },
   "scripts": {
     "build": "tsc && vite build"
   },
   "devDependencies": {
+    "@types/node": "^20.11.5",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   }

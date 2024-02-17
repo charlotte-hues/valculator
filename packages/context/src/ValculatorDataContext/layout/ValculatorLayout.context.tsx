@@ -8,10 +8,9 @@ import {
   useState,
 } from "react";
 
-import { size } from "@/Valculator/utils/device";
-import { useUrlFilters } from "@/Valculator/utils/hooks/useUrlFilters";
-
 import { TabsType } from "./ValculatorLayout.types";
+import { useUrlFilters } from "../../helpers/useUrlFilters";
+import { size } from "../../helpers/device";
 
 export type ValculatorLayoutContextValues = {
   isMobile: boolean;

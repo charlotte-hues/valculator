@@ -1,5 +1,4 @@
-import { MaterialsType } from "@/Valculator/data/@types/Materials.types";
-import { GroupType } from "@/Valculator/data/@types/ValheimData.types";
+import { MaterialsType, GroupType } from "data/types";
 
 import { SelectedItem } from "../items/itemData.types";
 

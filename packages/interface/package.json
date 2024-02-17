@@ -1,18 +1,19 @@
 {
-  "name": "context",
+  "name": "interface",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./src/main.tsx",
+  "main": "src/main.tsx",
   "scripts": {
+    "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "lz-string": "^1.5.0",
-    "data": "*"
+    "context": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
