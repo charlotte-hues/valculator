@@ -4,7 +4,7 @@
     "packages": [
       "./packages/main",
       "./packages/data",
-      "./packages/common"
+      "./packages/context"
     ]
   },
   "scripts": {
