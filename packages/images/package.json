@@ -1,0 +1,17 @@
+{
+  "name": "@valculator/images",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@valculator/data/types": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0"
+  }
+}
