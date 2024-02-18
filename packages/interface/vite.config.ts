@@ -7,6 +7,14 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
+      external: [
+        "react",
+        "react-dom",
+        // "@emotion/react",
+        // "@emotion/styled",
+        // "@mui/icons-material",
+        // "@mui/material",
+      ],
       input: {
         interface: path.join(__dirname, "src/main.ts"),
       },

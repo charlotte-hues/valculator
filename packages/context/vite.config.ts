@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
+      external: ["react", "react-dom"],
       input: {
         context: path.join(__dirname, "src/main.ts"),
         layout: path.join(__dirname, "src/layout.ts"),

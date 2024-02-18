@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
+      external: ["react", "react-dom"],
       input: {
         images: path.join(__dirname, "src/main.ts"),
       },
