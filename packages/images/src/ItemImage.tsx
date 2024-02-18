@@ -9,8 +9,6 @@ export const ItemImage = ({
   size?: number;
 }) => {
   const imgSrc = getItemImageSrc(item);
-  // "https://www.shutterstock.com/image-photo/duck-on-white-background-260nw-1037486431.jpg";
-  // getItemImageSrc(item);
 
   return (
     <img
