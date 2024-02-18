@@ -9,12 +9,15 @@ import {
 import { BucketDeployment, Source } from "aws-cdk-lib/aws-s3-deployment";
 import * as path from "path";
 import * as fs from "fs";
+import { ValculatorStackProps } from "./valculator-stack-props";
 
 export default class ValculatorStack extends Stack {
-  constructor(scope: Construct, id: string, props?: StackProps) {
+  constructor(scope: Construct, id: string, props?: ValculatorStackProps) {
     super(scope, id, props);
 
-    const siteHostingBucket = this.configureHostingBucket();
+    const siteHostingBucket = this.configureImageHostBucket(
+      props?.bucketName ?? "image-hosting-bucket"
+    );
 
     this.configureDeployment(siteHostingBucket);
   }
@@ -37,14 +40,13 @@ export default class ValculatorStack extends Stack {
     new BucketDeployment(this, `DeployValculatorImages`, {
       sources: [appCode],
       destinationBucket: hostingBucket,
-      distributionPaths: ["/*"],
       memoryLimit: 512,
     });
   }
 
-  private configureHostingBucket() {
+  private configureImageHostBucket(bucketName: string) {
     const hostingBucket = new Bucket(this, `ValculatorImageHostingBucket`, {
-      bucketName: `valculator-image-hosting-bucket`,
+      bucketName: bucketName,
       publicReadAccess: true,
       removalPolicy: RemovalPolicy.DESTROY,
       encryption: BucketEncryption.S3_MANAGED,
