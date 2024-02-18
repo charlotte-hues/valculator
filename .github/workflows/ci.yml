@@ -3,30 +3,29 @@ name: Continuous Integration
   push:
     branches-ignore:
       - main
+
 jobs:
   build:
     name: Lint and Test [feature/fix]
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-      contents: read
+    # permissions:
+    #   id-token: write
+    #   contents: read
     strategy:
       matrix:
         node-version:
           - 18.x
-    steps:
-      - name: Collect Workflow Telemetry
-        uses: runforesight/workflow-telemetry-action@v1
-      
+    
+    steps:      
       - name: Checkout source code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: ${{ github.ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Use Node.js 18.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 18.x
 
