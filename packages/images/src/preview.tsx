@@ -3,13 +3,16 @@ import ReactDOM from "react-dom/client";
 import { allItemsData, maxItemLevels } from "@valculator/data";
 import { ItemImage } from "./ItemImage.tsx";
 import { IItem } from "@valculator/data/types";
-import { getItemImageSrc } from "./helpers/getItemImageSrc.ts";
+
+function checkImageExists(item: IItem) {
+  console.log(item);
+  return true;
+}
 
 function getMissingItems() {
   const missingItems = allItemsData
     .filter((item: IItem) => {
-      const imgSrc = getItemImageSrc(item);
-      return imgSrc.includes("undefined");
+      return checkImageExists(item);
     })
     .reduce((acc, cur) => {
       const duplicateIndex = acc.findIndex(
@@ -54,6 +57,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           .map((item: IItem) => {
             return (
               <div
+                key={item.id}
                 style={{
                   padding: "8px",
                   border: "1px solid lightgray",
@@ -65,7 +69,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                   gap: "8px",
                 }}
               >
-                <ItemImage key={item.id} item={item} />
+                <ItemImage item={item} />
                 <div>
                   <p>{item.group}</p>
                   <p>{item.name}</p>

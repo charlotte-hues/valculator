@@ -13,10 +13,13 @@ const removeSpaces = (s: string) => {
 export const getItemImageSrc = (item: IItem) => {
   const isMeadBase = item.set === "mead" && item.type == "base";
 
-  return new URL(
-    `../assets/item-images/${isMeadBase ? "recipes" : item.group}/${
+  if (import.meta.env.VITE_PREVIEW) {
+    return `./src/assets/item-images/${isMeadBase ? "recipes" : item.group}/${
       isMeadBase ? "MeadBase" : removeSpaces(capitalize(item.name))
-    }.png`,
-    import.meta.url
-  ).href;
+    }.png`;
+  }
+
+  return `https://valculator-image-hosting-bucket.s3.eu-west-1.amazonaws.com/${
+    isMeadBase ? "recipes" : item.group
+  }/${isMeadBase ? "MeadBase" : removeSpaces(capitalize(item.name))}.png`;
 };
