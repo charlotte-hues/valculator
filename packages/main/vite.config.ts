@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        interface: path.join(__dirname, "src/main.tsx"),
+        main: path.join(__dirname, "src/main.tsx"),
       },
       output: {
         entryFileNames: "entry-[name].js",
