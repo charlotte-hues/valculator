@@ -14,7 +14,7 @@ export const getItemImageSrc = (item: IItem) => {
   const isMeadBase = item.set === "mead" && item.type == "base";
 
   return new URL(
-    `../assets/images/item-images/${isMeadBase ? "recipes" : item.group}/${
+    `../assets/item-images/${isMeadBase ? "recipes" : item.group}/${
       isMeadBase ? "MeadBase" : removeSpaces(capitalize(item.name))
     }.png`,
     import.meta.url

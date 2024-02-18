@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 
 import { IItem } from "@valculator/data/types";
+import { ItemImage } from "@valculator/images";
 import {
   ChecklistMaterialType,
   ChecklistStationType,
@@ -19,7 +20,6 @@ import {
 import { useValculatorDataContext } from "@valculator/context";
 import { GroupHeader } from "../../../components/shared/GroupHeader";
 import { LevelIconIndicator } from "../../../components/shared/IconIndicators";
-import { ItemImage } from "../../../components/shared/ItemImage";
 
 export const CraftingStructures = ({
   groupItems,

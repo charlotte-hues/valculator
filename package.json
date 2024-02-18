@@ -6,7 +6,8 @@
       "./packages/interface",
       "./packages/context",
       "./packages/data",
-      "./packages/theme"
+      "./packages/theme",
+      "./packages/images"
     ]
   },
   "scripts": {

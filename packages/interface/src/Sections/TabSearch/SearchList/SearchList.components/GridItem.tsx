@@ -15,8 +15,8 @@ import {
   LevelIconIndicator,
   WeightIconIndicator,
 } from "../../../../components/shared/IconIndicators";
-import { ItemImage } from "../../../../components/shared/ItemImage";
 import { getItemName } from "../../../../helpers/getItemName";
+import { ItemImage } from "@valculator/images";
 
 const Stat = ({ name, value }: { name: string; value: string }) => {
   return (

@@ -17,6 +17,7 @@
     "@mui/material": "^5.15.4",
     "@valculator/context": "*",
     "@valculator/data": "*",
+    "@valculator/images": "*",
     "@valculator/theme": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,6 +30,7 @@
     "@mui/material",
     "@valculator/context",
     "@valculator/data",
+    "@valculator/images",
     "react-render-if-visible"
   ],
   "peerDependencies": {

@@ -4,12 +4,12 @@ import { memo } from "react";
 import { IItem } from "@valculator/data/types";
 
 import { ItemCard } from "./SearchList.components";
-import { ItemImage } from "../../../../components/shared/ItemImage";
 import { QuantityButton } from "../../../../components/shared/QuantityButton";
 import {
   LevelIconIndicator,
   WeightIconIndicator,
 } from "../../../../components/shared/IconIndicators";
+import { ItemImage } from "@valculator/images";
 
 const RowItemBase = ({ item }: { item: IItem }) => {
   return (
