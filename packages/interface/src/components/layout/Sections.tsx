@@ -1,9 +1,9 @@
 import { Box, Grid } from "@mui/material";
 
-import { TabChecklist } from "../../TabChecklist/TabChecklist";
-import { TabSearch } from "../../TabSearch/TabSearch";
-import { TabSelection } from "../../TabSelection/TabSelection";
-import { useValculatorLayoutContext } from "context/layout";
+import { TabChecklist } from "../../Sections/TabChecklist/TabChecklist";
+import { TabSearch } from "../../Sections/TabSearch/TabSearch";
+import { TabSelection } from "../../Sections/TabSelection/TabSelection";
+import { useValculatorLayoutContext } from "@valculator/context/layout";
 import { SectionContainer } from "./SectionContainer";
 
 export const ValculatorSections = () => {

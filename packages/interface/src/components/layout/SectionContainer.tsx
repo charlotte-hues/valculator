@@ -4,7 +4,10 @@ import { Box } from "@mui/material";
 import { Card, Divider, IconButton, Typography } from "@mui/material";
 import { PropsWithChildren } from "react";
 
-import { useValculatorLayoutContext, TabsType } from "context/layout";
+import {
+  useValculatorLayoutContext,
+  TabsType,
+} from "@valculator/context/layout";
 
 export const SectionContainer = ({
   children,

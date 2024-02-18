@@ -8,12 +8,6 @@ const getItemById = (id: string) => {
   return allItemsData[itemIndex];
 };
 
-export const getSelectedCount = (selected: Array<SelectedItem>) => {
-  return selected.reduce((count, item) => {
-    return count + item.quantity;
-  }, 0);
-};
-
 const addItem = (state: ItemsDataType, action: ItemsDataAction) => {
   const { id } = action;
   const updatedSelection = [...state.selected];

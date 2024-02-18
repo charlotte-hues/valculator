@@ -1,9 +1,9 @@
 {
-  "name": "@valculator/interface",
+  "name": "@valculator/theme",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "src/main.tsx",
+  "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,25 +11,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
-    "@valculator/context": "*",
-    "@valculator/data": "*",
-    "@valculator/theme": "*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-render-if-visible": "^2.1.1"
+    "react-dom": "^18.2.0"
   },
   "bundledDependencies": [
-    "@emotion/react",
-    "@emotion/styled",
-    "@mui/icons-material",
-    "@mui/material",
-    "@valculator/context",
-    "@valculator/data",
-    "react-render-if-visible"
+    "@mui/material"
   ],
   "peerDependencies": {
     "react": "^18.2.0",

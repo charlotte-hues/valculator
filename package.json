@@ -3,8 +3,10 @@
   "workspaces": {
     "packages": [
       "./packages/main",
+      "./packages/interface",
+      "./packages/context",
       "./packages/data",
-      "./packages/context"
+      "./packages/theme"
     ]
   },
   "scripts": {

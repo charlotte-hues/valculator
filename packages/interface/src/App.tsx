@@ -17,7 +17,6 @@ export const Valculator = () => {
         >
           <TabsMenu />
         </Box>
-
         <ValculatorSections />
       </>
     </ValculatorContextProvider>

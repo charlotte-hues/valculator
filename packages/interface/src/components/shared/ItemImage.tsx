@@ -1,5 +1,5 @@
-import { IItem } from "../data/@types/ValheimData.types";
-import { getItemImageSrc } from "../Valculator.helpers";
+import { IItem } from "@valculator/data/types";
+import { getItemImageSrc } from "../../helpers/getItemImageSrc";
 
 export const ItemImage = ({
   item,
