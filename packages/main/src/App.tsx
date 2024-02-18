@@ -1,4 +1,3 @@
-import "./App.css";
 import { Valculator } from "@valculator/interface";
 import { ValculatorStyleProvider } from "@valculator/theme";
 
