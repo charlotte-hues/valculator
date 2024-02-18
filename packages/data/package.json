@@ -12,10 +12,12 @@
     }
   },
   "scripts": {
+    "test:circular": "madge --extensions ts,tsx ./src/ -c",
     "build": "tsc && vite build"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
+    "madge": "6.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   }
