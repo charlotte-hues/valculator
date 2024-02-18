@@ -1,0 +1,1 @@
+export { Valculator } from "./App";
