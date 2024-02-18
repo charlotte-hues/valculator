@@ -13,6 +13,8 @@
   },
   "scripts": {
     "dev": "yarn workspace main dev",
+    "lint": "yarn workspaces foreach --all run lint",
     "build": "yarn workspace main build"
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }

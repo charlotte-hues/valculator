@@ -7,14 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: [
-        "react",
-        "react-dom",
-        // "@emotion/react",
-        // "@emotion/styled",
-        // "@mui/icons-material",
-        // "@mui/material",
-      ],
+      external: ["react", "react-dom"],
       input: {
         interface: path.join(__dirname, "src/main.ts"),
       },
@@ -28,11 +21,8 @@ export default defineConfig({
             if (id.includes("@material-ui")) {
               return "vendor_mui";
             }
-
-            return "vendor"; // all other package goes here
+            return "vendor";
           }
-
-          return undefined;
         },
       },
     },
