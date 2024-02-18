@@ -1,1 +1,1 @@
-export { getItemImageSrc } from "./helpers/getItem";
+export { ItemImage } from "./ItemImage";
