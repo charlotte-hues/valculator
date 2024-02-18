@@ -11,6 +11,7 @@
     ]
   },
   "scripts": {
-    "main": "yarn workspace main dev"
+    "dev": "yarn workspace main dev",
+    "build": "yarn workspace main build"
   }
 }

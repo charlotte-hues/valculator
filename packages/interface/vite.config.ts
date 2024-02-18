@@ -13,13 +13,8 @@ export default defineConfig({
       output: {
         entryFileNames: "entry-[name].js",
         manualChunks: (id) => {
-          console.log(id);
-
           if (id.includes(".data.ts")) {
             return "valculator_data";
-          }
-          if (id.includes(".png")) {
-            return "valculator_images";
           }
           if (id.includes("node_modules")) {
             if (id.includes("@material-ui")) {
@@ -28,6 +23,8 @@ export default defineConfig({
 
             return "vendor"; // all other package goes here
           }
+
+          return undefined;
         },
       },
     },

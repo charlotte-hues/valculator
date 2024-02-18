@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "src/main.tsx",
+  "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0",
     "react-render-if-visible": "^2.1.1"
   },
-  "bundledDependencies": [
+  "bundleDependencies": [
     "@emotion/react",
     "@emotion/styled",
     "@mui/icons-material",
