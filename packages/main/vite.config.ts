@@ -12,9 +12,6 @@ export default defineConfig({
             return "valculator_data";
           }
           if (id.includes("node_modules")) {
-            if (id.includes("@mui/material")) {
-              return "vendor_muimaterial";
-            }
             if (id.includes("@mui")) {
               return "vendor_mui";
             }
