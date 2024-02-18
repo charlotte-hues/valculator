@@ -29,7 +29,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 18.x
-          registry-url: https://npm.pkg.github.com/
 
       - name: Install Dependencies
         run: yarn install
@@ -37,7 +36,7 @@ jobs:
       - name: Lint
         run: yarn lint
       
-      # - name: Circular Dependencies Check
-      #   run: yarn test:circular
+      - name: Circular Dependencies Check
+        run: yarn test:circular
       
     
