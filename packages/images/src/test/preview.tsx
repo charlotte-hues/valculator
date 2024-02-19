@@ -1,32 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { allItemsData, maxItemLevels } from "@valculator/data";
-import { ItemImage } from "./ItemImage.tsx";
+import { ItemImage } from "../ItemImage.tsx";
 import { IItem } from "@valculator/data/types";
-
-function checkImageExists(item: IItem) {
-  console.log(item);
-  return true;
-}
-
-function getMissingItems() {
-  const missingItems = allItemsData
-    .filter((item: IItem) => {
-      return checkImageExists(item);
-    })
-    .reduce((acc, cur) => {
-      const duplicateIndex = acc.findIndex(
-        (item: IItem) => item.name === cur.name
-      );
-
-      if (duplicateIndex === -1) {
-        acc.push(cur);
-      }
-
-      return [...acc];
-    }, [] as IItem[]);
-  return missingItems;
-}
+import { getMissingItems } from "./helpers/getMissingItems.ts";
 
 const missingItems = getMissingItems();
 

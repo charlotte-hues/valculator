@@ -1,5 +1,5 @@
+import { getAllOptions } from "../helpers/getAllOptions";
 import { getItemId } from "../helpers/getItemId";
-import { getObjLocation } from "../helpers/getObjectLocation";
 import {
   GroupType,
   IItem,
@@ -27,22 +27,6 @@ export const allItemsData: Array<IItem> = [
   ...(furnitureData as Array<IItem>),
   ...(miscData as Array<IItem>),
 ].map((item) => ({ ...item, id: getItemId(item.name, "item", item?.level) }));
-
-function getAllOptions(path: string[]) {
-  const allOptions = allItemsData
-    .map((item) => {
-      const option = getObjLocation(item, path);
-      if (typeof option === "object" && option !== null) {
-        return Object.keys(option);
-      }
-      return option?.toString();
-    })
-    .flat()
-    .filter((value, index, array) => value && array.indexOf(value) === index)
-    .sort();
-
-  return allOptions;
-}
 
 export const allItems: Array<string> = getAllOptions(["name"]);
 export const allGroups: Array<GroupType> = getAllOptions(["group"]);
