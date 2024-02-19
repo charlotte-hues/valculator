@@ -22,7 +22,7 @@ jobs:
           node-version: "18"
 
       - name: Setup OIDC Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-region: eu-west-1
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
