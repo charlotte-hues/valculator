@@ -2,15 +2,14 @@
 import "source-map-support/register";
 import * as cdk from "aws-cdk-lib";
 import ValculatorStack from "./valculator-stack";
-import { AWS_REGION, AWS_BUCKET } from "../env";
 
 const app = new cdk.App();
 
 const env = {
-  region: AWS_REGION,
+  region: "eu-west-1",
 };
 
 new ValculatorStack(app, "ValculatorStack", {
   env,
-  bucketName: AWS_BUCKET,
+  bucketName: "valculator-image-hosting-bucket",
 });
