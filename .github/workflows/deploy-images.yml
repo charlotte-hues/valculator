@@ -34,5 +34,5 @@ jobs:
         run: yarn install
       
       - name: Deploy to AWS
-        run: yarn cdk deploy
+        run: yarn deploy:images
       
