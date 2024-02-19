@@ -2,7 +2,7 @@ name: Deploy Images
 'on':
   push:
     branches:
-      - config/deploy-images
+      - main
 
 concurrency: main
 
