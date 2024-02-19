@@ -1,5 +1,5 @@
 import { getItemId } from "../helpers/getItemId";
-import { getObjLocation } from "../main";
+import { getObjLocation } from "../helpers/getObjectLocation";
 import {
   GroupType,
   IItem,
