@@ -27,13 +27,10 @@ export default class ValculatorStack extends Stack {
     const pathToAppCode = path.join(
       __dirname,
       "../../images/src/assets/item-images"
-      // `../deployment_assets/${resourceName.toLocaleLowerCase()}`
     );
     if (!fs.existsSync(pathToAppCode)) {
       // published path...
-      throw new Error(
-        `No image assets found under '${pathToAppCode}' - did you build the monorepo prior to deploying?`
-      );
+      throw new Error(`No image assets found under '${pathToAppCode}'`);
     }
     const appCode = Source.asset(pathToAppCode);
 
