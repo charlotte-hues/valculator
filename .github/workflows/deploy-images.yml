@@ -23,13 +23,19 @@ jobs:
       
       - name: Install dependencies and CDK
         run: yarn install
-      
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@master
+
+      - name: Setup OIDC Credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
-          aws-region: "eu-west-1"
+          aws-region: eu-west-1
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+      
+      # - name: Configure AWS credentials
+      #   uses: aws-actions/configure-aws-credentials@master
+      #   with:
+      #     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+      #     aws-region: "eu-west-1"
       
       - name: Deploy to AWS
         run: yarn cdk deploy
