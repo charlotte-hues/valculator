@@ -26,7 +26,7 @@ export default class ValculatorStack extends Stack {
     // local path...
     const pathToAppCode = path.join(
       __dirname,
-      "../../images/src/assets/item-images"
+      "../../images/src/assets/item-images/armor"
       // `../deployment_assets/${resourceName.toLocaleLowerCase()}`
     );
     if (!fs.existsSync(pathToAppCode)) {
