@@ -6,7 +6,6 @@
   "command": {
     "version": {
       "allowBranch": ["config/lerna"],
-      "message": "chore(release): publish",
       "conventionalCommits": true
     }
   }
