@@ -15,18 +15,15 @@
   },
   "scripts": {
     "dev": "yarn workspace main dev",
-    "lint": "yarn workspaces foreach --all -p run lint",
+    "lint": "lerna run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
-    "build": "yarn workspace main build",
+    "build": "lerna run build",
     "deploy:images": "yarn workspace cdk run cdk deploy"
   },
   "packageManager": "yarn@4.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/charlotte-hues/valculator.git"
-  },
-  "publishConfig": {
-    "access": "restricted"
   },
   "devDependencies": {
     "lerna": "^8.1.2"
