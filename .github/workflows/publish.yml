@@ -1,5 +1,6 @@
 name: Publish
 concurrency: master
+permissions: write-all
 
 on:
   push:
