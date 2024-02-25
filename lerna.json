@@ -8,11 +8,6 @@
       "allowBranch": ["config/lerna"],
       "message": "chore(release): publish",
       "conventionalCommits": true
-    },
-    "publish": {
-      "registry": "https://npm.pkg.github.com/valculator",
-      "conventionalCommits": true,
-      "yes": true
     }
   }
 }
