@@ -5,7 +5,7 @@
   "npmClient": "yarn",
   "command": {
     "version": {
-      "allowBranch": ["config/lerna"],
+      "allowBranch": ["main"],
       "conventionalCommits": true
     }
   }
