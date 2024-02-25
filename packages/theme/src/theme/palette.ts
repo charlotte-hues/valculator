@@ -2,7 +2,7 @@ const white = "#FFFFFF";
 
 export const palette = {
   primary: {
-    main: "red",
+    main: "#495E72",
     light: "rgb(148, 180, 209)",
     dark: "#3B4E58",
     contrastText: "#ECEFF1",
