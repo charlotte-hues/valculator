@@ -7,13 +7,6 @@
     "version": {
       "allowBranch": ["config/lerna"],
       "conventionalCommits": true
-    },
-    "publish": {
-      "registry": "https://npm.pkg.github.com",
-      "scope": "@valculator",
-      "conventionalCommits": true,
-      "yes": true,
-      "verifyAccess": false
     }
   }
 }
