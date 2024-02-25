@@ -1,5 +1,5 @@
 name: Publish
-concurrency: master
+concurrency: main
 permissions: write-all
 
 on:
