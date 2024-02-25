@@ -57,6 +57,6 @@ jobs:
         node-version: 20.8.1
     - run: yarn install
     - run: yarn semantic-release
-    #   env: 
-    #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      env: 
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
