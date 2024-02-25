@@ -1,7 +1,7 @@
 {
   "name": "@valculator/context",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": {
@@ -20,7 +20,7 @@
     "test:circular": "madge --extensions ts,tsx ./src/ -c"
   },
   "dependencies": {
-    "@valculator/data": "*",
+    "@valculator/data": "^0.0.1",
     "lz-string": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
