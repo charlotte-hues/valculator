@@ -42,6 +42,9 @@ jobs:
     # needs: [quality]
     steps: 
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: "0"
+    - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
     - name: Use Node.js 18.x
       uses: actions/setup-node@v2
       with:
@@ -54,7 +57,7 @@ jobs:
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
         npx lerna version --conventional-commits --yes
-      # npx lerna publish from-git --yes
+        npx lerna publish from-git --yes
       
 
     # - run: yarn install
