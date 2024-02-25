@@ -53,6 +53,8 @@ jobs:
       with:
         node-version: 18.x
         registry-url: 'https://registry.npmjs.org'
+        scope: "@stage-tech"
+        always-auth: true
 
     - name: Version and Publish
       env:
