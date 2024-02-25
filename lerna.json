@@ -10,7 +10,7 @@
       "conventionalCommits": true
     },
     "publish": {
-      "registry": "https://npm.pkg.github.com/charlottehues",
+      "registry": "https://npm.pkg.github.com/valculator",
       "conventionalCommits": true,
       "yes": true
     }
