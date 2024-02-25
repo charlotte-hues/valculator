@@ -8,6 +8,11 @@
       "allowBranch": ["config/lerna"],
       "message": "chore(release): publish",
       "conventionalCommits": true
+    },
+    "publish": {
+      "registry": "https://npm.pkg.github.com/charlottehues",
+      "conventionalCommits": true,
+      "yes": true
     }
   }
 }

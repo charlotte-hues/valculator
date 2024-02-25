@@ -59,7 +59,7 @@ jobs:
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
         npx lerna version --conventional-commits --yes
-      # npx lerna publish from-git --yes
+        npx lerna publish from-git --yes
       
 
     # - run: yarn install
