@@ -67,6 +67,8 @@ jobs:
         git config user.email "${{ github.actor}}@users.noreply.github.com"
         npx lerna version --conventional-commits --yes
         
+    - name: Install Dependencies
+      run: yarn install
     
     - name: Build
       run: yarn build
