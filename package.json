@@ -18,8 +18,7 @@
     "lint": "yarn workspaces foreach --all -p run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
     "build": "yarn workspace main build",
-    "deploy:images": "yarn workspace cdk run cdk deploy",
-    "semantic-release": "yarn workspace @valculator/theme semantic-release -e semantic-release-monorepo"
+    "deploy:images": "yarn workspace cdk run cdk deploy"
   },
   "packageManager": "yarn@4.1.0",
   "repository": {
@@ -30,7 +29,6 @@
     "access": "restricted"
   },
   "devDependencies": {
-    "semantic-release": "^23.0.2",
-    "semantic-release-monorepo": "^8.0.2"
+    "lerna": "^8.1.2"
   }
 }
