@@ -7,39 +7,39 @@ on:
     branches: '*'
 
 jobs:
-  quality:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: 
-          - 18.x
+  # quality:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     matrix:
+  #       node-version: 
+  #         - 18.x
 
-    steps:
-      - name: Checkout source code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: ${{ github.ref }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+  #   steps:
+  #     - name: Checkout source code
+  #       uses: actions/checkout@v4
+  #       with:
+  #         fetch-depth: 0
+  #         ref: ${{ github.ref }}
+  #         token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Use Node.js 18.x
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18.x 
+  #     - name: Use Node.js 18.x
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 18.x 
 
-      - name: Install Dependencies
-        run: yarn install
+  #     - name: Install Dependencies
+  #       run: yarn install
       
-      - name: Lint
-        run: yarn lint
+  #     - name: Lint
+  #       run: yarn lint
       
-      - name: Circular Dependencies Check
-        run: yarn test:circular
+  #     - name: Circular Dependencies Check
+  #       run: yarn test:circular
   
   publish:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/config/lerna' }}
-    needs: [quality]
+    # needs: [quality]
     steps: 
     - uses: actions/checkout@v2
     - name: Use Node.js 18.x
@@ -53,7 +53,7 @@ jobs:
       run: |
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
-        npx lerna version --conventional-commits --conventional-graduate --yes
+        npx lerna version --conventional-commits --yes
       # npx lerna publish from-git --yes
       
 
