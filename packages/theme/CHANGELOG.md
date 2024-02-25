@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.1.6...@valculator/theme@0.1.7) (2024-02-25)
+
+
+### Bug Fixes
+
+* npm auth token ([3136097](https://github.com/charlotte-hues/valculator/commit/3136097839fcd48f3d8f1166af170dd000b4d1c5))
+
+
+
+
+
 ## [0.1.6](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.1.5...@valculator/theme@0.1.6) (2024-02-25)
 
 **Note:** Version bump only for package @valculator/theme
