@@ -2271,6 +2271,7 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     semantic-release: "npm:^23.0.2"
+    semantic-release-monorepo: "npm:^8.0.2"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.1.0"
   peerDependencies:
