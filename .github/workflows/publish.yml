@@ -1,10 +1,10 @@
 name: Publish
+permissions: write-all
 on:
   push:
     branches: [ config/lerna ]
   pull_request:
     branches: '*'
-
 jobs:
   quality:
     runs-on: ubuntu-latest
@@ -46,10 +46,15 @@ jobs:
       with:
         node-version: 18.x
 
+    - run: git config user.email "${{ github.actor}}@users.noreply.github.com"
+    - run: git config user.name "${{ github.actor }}"
+
     - name: Version and Publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
+        
+        
         npx lerna version --conventional-commits --conventional-graduate --yes
       # npx lerna publish from-git --yes
       
