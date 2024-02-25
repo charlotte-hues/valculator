@@ -1,6 +1,6 @@
 {
   "name": "@valculator/interface",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "type": "module",
   "main": "src/main.ts",
   "publishConfig": {
@@ -17,10 +17,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
-    "@valculator/context": "^0.0.1",
-    "@valculator/data": "^0.0.1",
-    "@valculator/images": "^0.1.0",
-    "@valculator/theme": "^0.1.22",
+    "@valculator/context": "^0.0.2",
+    "@valculator/data": "^0.0.2",
+    "@valculator/images": "^0.2.0",
+    "@valculator/theme": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-render-if-visible": "^2.1.1"
