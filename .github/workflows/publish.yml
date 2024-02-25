@@ -52,8 +52,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
-        registry-url: 'https://registry.npmjs.org/valculator'
-        # scope: "@valculator"
+        registry-url: 'https://registry.npmjs.org'
+        scope: "@valculator"
         always-auth: true
 
     - name: Version
