@@ -26,7 +26,17 @@ jobs:
         with:
           node-version: 18.x
 
+      - name: Cache
+        uses: actions/cache@v4.0.0
+        id: cache
+        with:
+            path: |-
+                node_modules
+                packages/*/node_modules
+                
+
       - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
       
       - name: Lint
@@ -47,6 +57,6 @@ jobs:
         node-version: 18.x
     - run: yarn install
     - run: yarn semantic-release
-      env: 
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   env: 
+    #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
