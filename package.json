@@ -1,5 +1,7 @@
 {
+  "name": "valculator",
   "private": true,
+  "version": "0.0.0-development",
   "workspaces": {
     "packages": [
       "./packages/main",
@@ -16,7 +18,19 @@
     "lint": "yarn workspaces foreach --all -p run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
     "build": "yarn workspace main build",
-    "deploy:images": "yarn workspace cdk run cdk deploy"
+    "deploy:images": "yarn workspace cdk run cdk deploy",
+    "semantic-release": "yarn workspace @valculator/theme semantic-release"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlotte-hues/valculator.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "semantic-release": "^23.0.2",
+    "semantic-release-monorepo": "^8.0.2"
+  }
 }
