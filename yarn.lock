@@ -2554,7 +2554,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@valculator/context@npm:*, @valculator/context@workspace:packages/context":
+"@valculator/context@npm:^0.0.1, @valculator/context@workspace:packages/context":
   version: 0.0.0-use.local
   resolution: "@valculator/context@workspace:packages/context"
   dependencies:
@@ -2562,7 +2562,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/data": "npm:*"
+    "@valculator/data": "npm:^0.0.1"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -2579,7 +2579,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/data@npm:*, @valculator/data@workspace:packages/data":
+"@valculator/data@npm:^0.0.1, @valculator/data@workspace:packages/data":
   version: 0.0.0-use.local
   resolution: "@valculator/data@workspace:packages/data"
   dependencies:
@@ -2590,7 +2590,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/images@npm:*, @valculator/images@workspace:packages/images":
+"@valculator/images@npm:^0.0.1, @valculator/images@workspace:packages/images":
   version: 0.0.0-use.local
   resolution: "@valculator/images@workspace:packages/images"
   dependencies:
@@ -2598,7 +2598,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/data": "npm:*"
+    "@valculator/data": "npm:^0.0.1"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -2613,7 +2613,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/interface@npm:*, @valculator/interface@workspace:packages/interface":
+"@valculator/interface@npm:^0.0.1, @valculator/interface@workspace:packages/interface":
   version: 0.0.0-use.local
   resolution: "@valculator/interface@workspace:packages/interface"
   dependencies:
@@ -2625,10 +2625,10 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/context": "npm:*"
-    "@valculator/data": "npm:*"
-    "@valculator/images": "npm:*"
-    "@valculator/theme": "npm:*"
+    "@valculator/context": "npm:^0.0.1"
+    "@valculator/data": "npm:^0.0.1"
+    "@valculator/images": "npm:^0.0.1"
+    "@valculator/theme": "npm:^0.0.1"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -2645,7 +2645,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/theme@npm:*, @valculator/theme@workspace:packages/theme":
+"@valculator/theme@npm:^0.0.1, @valculator/theme@workspace:packages/theme":
   version: 0.0.0-use.local
   resolution: "@valculator/theme@workspace:packages/theme"
   dependencies:
@@ -7010,8 +7010,8 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/interface": "npm:*"
-    "@valculator/theme": "npm:*"
+    "@valculator/interface": "npm:^0.0.1"
+    "@valculator/theme": "npm:^0.0.1"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"

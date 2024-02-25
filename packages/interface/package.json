@@ -1,7 +1,7 @@
 {
   "name": "@valculator/interface",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "src/main.ts",
   "scripts": {
@@ -14,10 +14,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
-    "@valculator/context": "*",
-    "@valculator/data": "*",
-    "@valculator/images": "*",
-    "@valculator/theme": "*",
+    "@valculator/context": "^0.0.1",
+    "@valculator/data": "^0.0.1",
+    "@valculator/images": "^0.0.1",
+    "@valculator/theme": "^0.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-render-if-visible": "^2.1.1"
