@@ -4,7 +4,8 @@
   "type": "module",
   "main": "src/main.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/valculator"
+    "registry": "https://npm.pkg.github.com/valculator",
+    "access": "public"
   },
   "scripts": {
     "build": "tsc && vite build",

@@ -12,7 +12,8 @@
       "registry": "https://npm.pkg.github.com",
       "scope": "@valculator",
       "conventionalCommits": true,
-      "yes": true
+      "yes": true,
+      "verifyAccess": false
     }
   }
 }
