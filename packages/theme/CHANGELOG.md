@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.20](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.1.19...@valculator/theme@0.1.20) (2024-02-25)
+
+
+### Bug Fixes
+
+* palette change ([0d4e681](https://github.com/charlotte-hues/valculator/commit/0d4e681f3966301c3dd482c1a87980f29d89faf7))
+
+
+
+
+
 ## [0.1.19](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.1.18...@valculator/theme@0.1.19) (2024-02-25)
 
 **Note:** Version bump only for package @valculator/theme
