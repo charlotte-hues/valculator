@@ -1,6 +1,5 @@
 {
   "name": "@valculator/theme",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "src/main.ts",
