@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "semantic-release": "semantic-release -e semantic-release-monorepo"
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@mui/material": "^5.15.4",
