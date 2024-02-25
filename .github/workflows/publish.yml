@@ -5,6 +5,7 @@ on:
     branches: [ config/lerna ]
   pull_request:
     branches: '*'
+
 jobs:
   quality:
     runs-on: ubuntu-latest
@@ -44,17 +45,14 @@ jobs:
     - name: Use Node.js 18.x
       uses: actions/setup-node@v2
       with:
-        node-version: 18.x
-
-    - run: git config user.email "${{ github.actor}}@users.noreply.github.com"
-    - run: git config user.name "${{ github.actor }}"
+        node-version: 20.8.1
 
     - name: Version and Publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        
-        
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor}}@users.noreply.github.com"
         npx lerna version --conventional-commits --conventional-graduate --yes
       # npx lerna publish from-git --yes
       
