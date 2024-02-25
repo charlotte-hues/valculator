@@ -19,7 +19,7 @@
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
     "build": "yarn workspace main build",
     "deploy:images": "yarn workspace cdk run cdk deploy",
-    "semantic-release": "yarn workspace theme semantic-release"
+    "semantic-release": "yarn workspace @valculator/theme semantic-release"
   },
   "packageManager": "yarn@4.1.0",
   "repository": {
