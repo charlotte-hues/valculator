@@ -5,6 +5,9 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    include: ['@valculator/context', '@valculator/data', '@valculator/images'],
+  },
   build: {
     rollupOptions: {
       external: ["react", "react-dom"],
