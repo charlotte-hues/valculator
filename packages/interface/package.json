@@ -30,9 +30,6 @@
     "@emotion/styled",
     "@mui/icons-material",
     "@mui/material",
-    "@valculator/context",
-    "@valculator/data",
-    "@valculator/images",
     "react-render-if-visible"
   ],
   "peerDependencies": {
