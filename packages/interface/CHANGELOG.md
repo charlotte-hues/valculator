@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.0.25...@valculator/interface@0.1.0) (2024-02-27)
+
+
+### Features
+
+* placeholder copy button ([#18](https://github.com/charlotte-hues/valculator/issues/18)) ([90f0ea9](https://github.com/charlotte-hues/valculator/commit/90f0ea9e842ac165a521c72445adaf802b3d8650))
+
+
+
+
+
 ## 0.0.25 (2024-02-25)
 
 **Note:** Version bump only for package @valculator/interface
