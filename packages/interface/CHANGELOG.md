@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.1...@valculator/interface@0.1.2) (2024-02-28)
+
+
+### Bug Fixes
+
+* remove linked dependencies from interface ([e4aa5c5](https://github.com/charlotte-hues/valculator/commit/e4aa5c5a5b98d42a532cb44444bea2dcbd1e8fa8))
+
+
+
+
+
 ## [0.1.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.0...@valculator/interface@0.1.1) (2024-02-27)
 
 
