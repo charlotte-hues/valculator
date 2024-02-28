@@ -2180,7 +2180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@valculator/context@npm:^0.0.2, @valculator/context@workspace:packages/context":
+"@valculator/context@workspace:packages/context":
   version: 0.0.0-use.local
   resolution: "@valculator/context@workspace:packages/context"
   dependencies:
@@ -2216,7 +2216,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/images@npm:^0.2.0, @valculator/images@workspace:packages/images":
+"@valculator/images@workspace:packages/images":
   version: 0.0.0-use.local
   resolution: "@valculator/images@workspace:packages/images"
   dependencies:
@@ -2251,10 +2251,6 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/context": "npm:^0.0.2"
-    "@valculator/data": "npm:^0.0.2"
-    "@valculator/images": "npm:^0.2.0"
-    "@valculator/theme": "npm:^0.2.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
