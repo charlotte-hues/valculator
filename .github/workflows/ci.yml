@@ -1,8 +1,14 @@
 name: Continuous Integration
+
 'on':
-  push:
-    branches-ignore:
-      - main
+#   push:
+#     branches-ignore:
+#       - main
+
+    
+    pull_request:
+      branches: 
+        - main
 
 jobs:
   quality:
