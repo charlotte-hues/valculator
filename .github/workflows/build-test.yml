@@ -27,6 +27,6 @@ jobs:
     
     - name: Build
       run: |
-        lerna bootstrap --include-dependencies
+        lerna bootstrap
         yarn build
         
