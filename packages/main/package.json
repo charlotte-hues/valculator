@@ -1,7 +1,7 @@
 {
   "name": "main",
   "private": true,
-  "version": "0.0.31",
+  "version": "0.0.32",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@valculator/interface": "^0.1.4",
-    "@valculator/theme": "^0.2.1",
+    "@valculator/interface": "^0.2.0",
+    "@valculator/theme": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

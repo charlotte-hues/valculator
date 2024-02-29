@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.2.1...@valculator/theme@0.3.0) (2024-02-29)
+
+
+### Features
+
+* export typography from theme ([#23](https://github.com/charlotte-hues/valculator/issues/23)) ([7d06482](https://github.com/charlotte-hues/valculator/commit/7d06482b49bfba53e0aaec7b04000879e56cd64f))
+
+
+
+
+
 ## [0.2.1](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.2.0...@valculator/theme@0.2.1) (2024-02-29)
 
 **Note:** Version bump only for package @valculator/theme

@@ -1,6 +1,6 @@
 {
   "name": "@valculator/interface",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "type": "module",
   "main": "src/main.ts",
   "publishConfig": {
@@ -42,7 +42,7 @@
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
-    "@valculator/theme": "*",
+    "@valculator/theme": "^0.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
