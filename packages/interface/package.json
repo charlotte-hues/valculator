@@ -13,6 +13,7 @@
     "dist"
   ],
   "scripts": {
+    "dev": "vite",
     "build": "tsc && vite build",
     "test:circular": "madge --extensions ts,tsx ./src/ -c",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"

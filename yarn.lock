@@ -2356,7 +2356,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/interface@npm:^0.2.0, @valculator/interface@workspace:packages/interface":
+"@valculator/interface@workspace:packages/interface":
   version: 0.0.0-use.local
   resolution: "@valculator/interface@workspace:packages/interface"
   dependencies:
@@ -6179,8 +6179,6 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/interface": "npm:^0.2.0"
-    "@valculator/theme": "npm:^0.3.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
