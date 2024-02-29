@@ -9,8 +9,7 @@
       "./packages/images",
       "./packages/theme",
       "./packages/interface",
-      "./packages/cdk",
-      "./packages/main"
+      "./packages/cdk"
     ]
   },
   "scripts": {
