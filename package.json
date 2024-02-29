@@ -4,13 +4,13 @@
   "version": "0.0.0-development",
   "workspaces": {
     "packages": [
-      "./packages/main",
-      "./packages/interface",
-      "./packages/context",
       "./packages/data",
-      "./packages/theme",
+      "./packages/context",
       "./packages/images",
-      "./packages/cdk"
+      "./packages/theme",
+      "./packages/interface",
+      "./packages/cdk",
+      "./packages/main"
     ]
   },
   "scripts": {
