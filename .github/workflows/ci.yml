@@ -34,4 +34,7 @@ jobs:
       
       - name: Circular Dependencies Check
         run: yarn test:circular
+
+      - name: Build
+        run: yarn build
   
