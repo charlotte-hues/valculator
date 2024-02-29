@@ -1,12 +1,7 @@
 import { Valculator } from "@valculator/interface";
-import { ValculatorStyleProvider } from "@valculator/theme";
 
 function App() {
-  return (
-    <ValculatorStyleProvider>
-      <Valculator />
-    </ValculatorStyleProvider>
-  );
+  return <Valculator />;
 }
 
 export default App;
