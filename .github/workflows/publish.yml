@@ -37,9 +37,8 @@ jobs:
       run: yarn install
     
     - name: Build
-      run: |
-        yarn build
-        lerna bootstrap
+      run: yarn build
+
     - name: Publish
       run: npx lerna publish from-git --yes
       env: 
