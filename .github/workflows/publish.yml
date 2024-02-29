@@ -4,9 +4,10 @@ permissions: write-all
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
     branches: '*'
+  pull_request:
+    branches: 
+      - main
 
 jobs:
   quality:
