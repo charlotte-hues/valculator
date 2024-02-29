@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.2.0...@valculator/interface@0.2.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* selection groups sometimes not visible [HEL-124] ([#24](https://github.com/charlotte-hues/valculator/issues/24)) ([5d22517](https://github.com/charlotte-hues/valculator/commit/5d22517cbdbccdf10782c39145576a2512f6aaa9))
+
+
+
+
+
 # [0.2.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.4...@valculator/interface@0.2.0) (2024-02-29)
 
 
