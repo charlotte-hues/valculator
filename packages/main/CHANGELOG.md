@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.30](https://github.com/charlotte-hues/valculator/compare/main@0.0.29...main@0.0.30) (2024-02-29)
+
+**Note:** Version bump only for package main
+
+
+
+
+
 ## [0.0.29](https://github.com/charlotte-hues/valculator/compare/main@0.0.28...main@0.0.29) (2024-02-29)
 
 **Note:** Version bump only for package main
