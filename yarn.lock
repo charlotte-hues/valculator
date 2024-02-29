@@ -2356,7 +2356,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/interface@npm:^0.2.0, @valculator/interface@workspace:packages/interface":
+"@valculator/interface@workspace:packages/interface":
   version: 0.0.0-use.local
   resolution: "@valculator/interface@workspace:packages/interface"
   dependencies:
@@ -6170,27 +6170,6 @@ __metadata:
   checksum: 10c0/5d5c868cdb325e7e070e74c514ba65f785ffada1e4519df9712e352445ee44abb6731d6a8325679183933c14c19c62f71226cbed56540a26db85d9b7a7c57a51
   languageName: node
   linkType: hard
-
-"main@workspace:packages/main":
-  version: 0.0.0-use.local
-  resolution: "main@workspace:packages/main"
-  dependencies:
-    "@types/react": "npm:^18.2.55"
-    "@types/react-dom": "npm:^18.2.19"
-    "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
-    "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/interface": "npm:^0.2.0"
-    "@valculator/theme": "npm:^0.3.0"
-    "@vitejs/plugin-react": "npm:^4.2.1"
-    eslint: "npm:^8.56.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.5"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.2.2"
-    vite: "npm:^5.1.0"
-  languageName: unknown
-  linkType: soft
 
 "make-dir@npm:4.0.0":
   version: 4.0.0

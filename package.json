@@ -9,12 +9,11 @@
       "./packages/images",
       "./packages/theme",
       "./packages/interface",
-      "./packages/cdk",
-      "./packages/main"
+      "./packages/cdk"
     ]
   },
   "scripts": {
-    "dev": "yarn workspace main dev",
+    "dev": "yarn workspace @valculator/interface dev",
     "lint": "lerna run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
     "build": "lerna run build",
