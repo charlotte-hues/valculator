@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/charlotte-hues/valculator/compare/@valculator/theme@0.2.0...@valculator/theme@0.2.1) (2024-02-29)
+
+**Note:** Version bump only for package @valculator/theme
+
+
+
+
+
 # 0.2.0 (2024-02-25)
 
 
