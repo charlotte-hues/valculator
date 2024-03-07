@@ -15,7 +15,9 @@ export const SearchList = () => {
   const { isFullScreen } = useValculatorLayoutContext();
 
   if (filteredList.length === 0) {
-    return <EmptyListText>No results, try removing some filters</EmptyListText>;
+    return (
+      <EmptyListText>{"No results, try removing some filters"}</EmptyListText>
+    );
   }
 
   return grid ? (
