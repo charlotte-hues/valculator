@@ -11,28 +11,13 @@ export default defineConfig({
       insertTypesEntry: true,
     }),
   ],
-  // resolve: {
-  //   alias: [
-  //     {
-  //       find: /^@mui\/material\/styles\/(.*)/,
-  //       replacement: "@material-ui/icons/esm/$1",
-  //     },
-  //     {
-  //       find: /^@material-ui\/core\/(.+)/,
-  //       replacement: "@material-ui/core/es/$1",
-  //     },
-  //     {
-  //       find: /^@material-ui\/core$/,
-  //       replacement: "@material-ui/core/es",
-  //     },
-  //   ],
-  // },
   optimizeDeps: {
     include: ["@valculator/context", "@valculator/data", "@valculator/images"],
   },
   build: {
     target: "modules",
     minify: "esbuild",
+    sourcemap: true,
     lib: {
       name: "interface",
       formats: ["es"],
@@ -47,6 +32,7 @@ export default defineConfig({
         "@emotion/react",
         "@emotion/styled",
         "@mui/material",
+        "react-render-if-visible",
       ],
       input: {
         interface: path.join(__dirname, "src/main.ts"),

@@ -5,9 +5,9 @@ import {
   Checkbox,
   Collapse,
   Stack,
-  styled,
   Typography,
 } from "@mui/material";
+import { styled } from "@mui/material/styles";
 import { useState } from "react";
 
 import { IItem } from "@valculator/data/types";
