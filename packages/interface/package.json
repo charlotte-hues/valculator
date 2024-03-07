@@ -1,6 +1,6 @@
 {
   "name": "@valculator/interface",
-  "version": "0.3.9094",
+  "version": "0.3.9095",
   "type": "module",
   "main": "src/main.ts",
   "publishConfig": {
