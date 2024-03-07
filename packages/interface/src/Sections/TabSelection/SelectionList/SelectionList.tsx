@@ -20,7 +20,7 @@ export const SelectionList = () => {
       })}
       {groups.length === 0 && (
         <EmptyListText>
-          Select the items you want to craft to get started
+          {"Select the items you want to craft to get started"}
         </EmptyListText>
       )}
     </Stack>

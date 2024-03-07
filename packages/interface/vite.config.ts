@@ -12,7 +12,13 @@ export default defineConfig({
     }),
   ],
   optimizeDeps: {
-    include: ["@valculator/context", "@valculator/data", "@valculator/images"],
+    include: [
+      "@valculator/context",
+      "@valculator/data",
+      "@valculator/images",
+      "@emotion/styled",
+      "@mui/material",
+    ],
   },
   build: {
     target: "modules",
@@ -32,7 +38,6 @@ export default defineConfig({
         "@emotion/react",
         "@emotion/styled",
         "@mui/material",
-        "react-render-if-visible",
       ],
       input: {
         interface: path.join(__dirname, "src/main.ts"),
