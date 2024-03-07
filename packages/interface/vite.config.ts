@@ -17,6 +17,7 @@ export default defineConfig({
   build: {
     target: "modules",
     minify: "esbuild",
+    sourcemap: true,
     lib: {
       name: "interface",
       formats: ["es"],
@@ -24,7 +25,15 @@ export default defineConfig({
       fileName: "interface",
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: [
+        "react",
+        "react-dom",
+        "@mui/icons-material",
+        "@emotion/react",
+        "@emotion/styled",
+        "@mui/material",
+        "react-render-if-visible",
+      ],
       input: {
         interface: path.join(__dirname, "src/main.ts"),
       },
