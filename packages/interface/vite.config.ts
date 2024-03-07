@@ -11,6 +11,22 @@ export default defineConfig({
       insertTypesEntry: true,
     }),
   ],
+  // resolve: {
+  //   alias: [
+  //     {
+  //       find: /^@mui\/material\/styles\/(.*)/,
+  //       replacement: "@material-ui/icons/esm/$1",
+  //     },
+  //     {
+  //       find: /^@material-ui\/core\/(.+)/,
+  //       replacement: "@material-ui/core/es/$1",
+  //     },
+  //     {
+  //       find: /^@material-ui\/core$/,
+  //       replacement: "@material-ui/core/es",
+  //     },
+  //   ],
+  // },
   optimizeDeps: {
     include: ["@valculator/context", "@valculator/data", "@valculator/images"],
   },
@@ -24,7 +40,14 @@ export default defineConfig({
       fileName: "interface",
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: [
+        "react",
+        "react-dom",
+        "@mui/icons-material",
+        "@emotion/react",
+        "@emotion/styled",
+        "@mui/material",
+      ],
       input: {
         interface: path.join(__dirname, "src/main.ts"),
       },

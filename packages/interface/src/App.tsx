@@ -1,4 +1,6 @@
-import { Box, Theme, ThemeProvider } from "@mui/material";
+import { Box } from "@mui/material";
+import { Theme, ThemeProvider } from "@mui/material/styles";
+
 import { TabsMenu } from "./components/layout/TabsMenu";
 import { ValculatorSections } from "./components/layout/Sections";
 
