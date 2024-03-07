@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.2.1...@valculator/interface@0.3.0) (2024-03-07)
+
+
+### Features
+
+* share list button [HEL-123] ([#25](https://github.com/charlotte-hues/valculator/issues/25)) ([322cfa9](https://github.com/charlotte-hues/valculator/commit/322cfa92bec355d5fd75a66b669794b52185a191))
+
+
+
+
+
 ## [0.2.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.2.0...@valculator/interface@0.2.1) (2024-02-29)
 
 
