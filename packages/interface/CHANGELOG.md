@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.3.9095...@valculator/interface@0.4.0) (2024-03-12)
+
+
+### Features
+
+* shared styling of list card ([#27](https://github.com/charlotte-hues/valculator/issues/27)) ([be099ca](https://github.com/charlotte-hues/valculator/commit/be099caa13be0bdc35144e1a1862474f00f976a0))
+
+
+
+
+
 ## [0.3.9095](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.3.0...@valculator/interface@0.3.9095) (2024-03-07)
 
 **Note:** Version bump only for package @valculator/interface
