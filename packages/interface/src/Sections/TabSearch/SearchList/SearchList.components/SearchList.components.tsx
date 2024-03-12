@@ -1,24 +1,11 @@
-import { Card, CardActionArea, SxProps } from "@mui/material";
-import { PropsWithChildren, useCallback } from "react";
+import { SxProps } from "@mui/material";
+import { PropsWithChildren } from "react";
 
-import { useValculatorDataContext } from "@valculator/context";
+import { ListCard } from "../../../../components/shared/ListCard";
 
 export const ItemCard = ({
-  id,
   sx,
   children,
-}: PropsWithChildren & { id: string; sx?: SxProps }) => {
-  const {
-    itemsDispatch: { addItem },
-  } = useValculatorDataContext();
-
-  const handleAddItem = useCallback(() => {
-    addItem(id);
-  }, [addItem, id]);
-
-  return (
-    <Card onClick={handleAddItem}>
-      <CardActionArea sx={sx}>{children}</CardActionArea>
-    </Card>
-  );
+}: PropsWithChildren & { sx?: SxProps }) => {
+  return <ListCard sx={sx}>{children}</ListCard>;
 };

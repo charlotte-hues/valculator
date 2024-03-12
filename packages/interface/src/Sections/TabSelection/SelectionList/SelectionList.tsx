@@ -15,7 +15,11 @@ export const SelectionList = () => {
         const groupName = Object.keys(group)[0] as GroupType;
 
         return (
-          <SelectionGroup groupItems={group[groupName]} groupName={groupName} />
+          <SelectionGroup
+            key={`${group[groupName]}`}
+            groupItems={group[groupName]}
+            groupName={groupName}
+          />
         );
       })}
       {groups.length === 0 && (
