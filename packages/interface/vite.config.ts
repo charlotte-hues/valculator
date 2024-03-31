@@ -44,17 +44,6 @@ export default defineConfig({
       },
       output: {
         entryFileNames: "entry-[name].js",
-        manualChunks: (id) => {
-          if (id.includes(".data.ts")) {
-            return "valculator_data";
-          }
-          if (id.includes("node_modules")) {
-            if (id.includes("@material-ui")) {
-              return "vendor_mui";
-            }
-            return "vendor";
-          }
-        },
       },
     },
   },
