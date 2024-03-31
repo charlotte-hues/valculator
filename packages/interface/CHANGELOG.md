@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.4.0...@valculator/interface@0.5.0) (2024-03-31)
+
+
+### Features
+
+* bundler chunking ([#28](https://github.com/charlotte-hues/valculator/issues/28)) ([35c419f](https://github.com/charlotte-hues/valculator/commit/35c419f0e8a15c5c2deae5e95665ee1371056be2))
+
+
+
+
+
 # [0.4.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.3.9095...@valculator/interface@0.4.0) (2024-03-12)
 
 
