@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.0...@valculator/interface@0.5.1) (2024-03-31)
+
+
+### Bug Fixes
+
+* remove key from Autocomplete ([#29](https://github.com/charlotte-hues/valculator/issues/29)) ([fcc67a3](https://github.com/charlotte-hues/valculator/commit/fcc67a313417d9bf0a61a8231f43dcb21c320467))
+
+
+
+
+
 # [0.5.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.4.0...@valculator/interface@0.5.0) (2024-03-31)
 
 
