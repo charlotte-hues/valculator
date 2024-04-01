@@ -267,7 +267,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type" | "set">> = [
     },
   },
   {
-    name: "Honey Glazed Chicked",
+    name: "Honey Glazed Chicken",
     stacks: 10,
     stats: {
       "max health": 80,
@@ -480,7 +480,7 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type" | "set">> = [
     },
   },
   {
-    name: "Wolf Scewer",
+    name: "Wolf Skewer",
     stacks: 20,
     stats: {
       "max health": 65,

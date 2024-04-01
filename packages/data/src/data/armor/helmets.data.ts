@@ -538,6 +538,272 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "leather scraps": 2,
     },
   },
+  {
+    name: "Eitr-Weave Hood",
+    level: 1,
+    set: "eitr-weave",
+    stats: {
+      protection: 16,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+      additional: "Eitr regen",
+    },
+    station: {
+      "Galdr Table": 1,
+    },
+    materials: {
+      "linen thread": 16,
+      "refined eitr": 15,
+      iron: 2,
+    },
+  },
+  {
+    name: "Eitr-Weave Hood",
+    level: 2,
+    set: "eitr-weave",
+    stats: {
+      protection: 18,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+      additional: "Eitr regen",
+    },
+    station: {
+      "Galdr Table": 2,
+    },
+    materials: {
+      "linen thread": 24,
+      "refined eitr": 20,
+      iron: 3,
+    },
+  },
+  {
+    name: "Eitr-Weave Hood",
+    level: 3,
+    set: "eitr-weave",
+    stats: {
+      protection: 20,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+      additional: "Eitr regen",
+    },
+    station: {
+      "Galdr Table": 3,
+    },
+    materials: {
+      "linen thread": 40,
+      "refined eitr": 30,
+      iron: 2,
+    },
+  },
+  {
+    name: "Eitr-Weave Hood",
+    level: 4,
+    set: "eitr-weave",
+    stats: {
+      protection: 22,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {
+      additional: "Eitr regen",
+    },
+    station: {
+      "Galdr Table": 4,
+    },
+    materials: {
+      "linen thread": 64,
+      "refined eitr": 45,
+      iron: 2,
+    },
+  },
+  {
+    name: "Midsummer Crown",
+    level: 1,
+    set: "sesonal",
+    stats: {
+      protection: 1,
+      durability: 0,
+      weight: 1,
+    },
+    effects: {},
+
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      dandelion: 10,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 1,
+    set: "fenris",
+    stats: {
+      protection: 10,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "+3%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fenris hair": 20,
+      "wolf pelt": 2,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 2,
+    set: "fenris",
+    stats: {
+      protection: 12,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "+3%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fenris hair": 25,
+      "wolf pelt": 6,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 3,
+    set: "fenris",
+    stats: {
+      protection: 14,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "+3%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "fenris hair": 35,
+      "wolf pelt": 14,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 4,
+    set: "fenris",
+    stats: {
+      protection: 16,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "+3%",
+    },
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "fenris hair": 50,
+      "wolf pelt": 26,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 1,
+    set: "carapace",
+    stats: {
+      protection: 32,
+      durability: 1200,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      carapace: 16,
+      "scale hide": 3,
+      mandible: 2,
+      "refined eitr": 4,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 2,
+    set: "carapace",
+    stats: {
+      protection: 34,
+      durability: 1400,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      carapace: 24,
+      "scale hide": 4,
+      mandible: 2,
+      "refined eitr": 6,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 3,
+    set: "carapace",
+    stats: {
+      protection: 36,
+      durability: 1600,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      carapace: 40,
+      "scale hide": 6,
+      mandible: 2,
+      "refined eitr": 10,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 4,
+    set: "carapace",
+    stats: {
+      protection: 38,
+      durability: 1800,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      carapace: 64,
+      "scale hide": 9,
+      mandible: 2,
+      "refined eitr": 16,
+    },
+  },
 ];
 
 export const helmets: Array<Omit<Armor, "id">> = helmetsList.map((armor) => ({

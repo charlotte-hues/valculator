@@ -26,6 +26,7 @@ export interface IStation {
   "Artisan Table"?: number;
   hammer?: number;
   "black forge"?: number;
+  "Galdr Table"?: number;
 }
 export interface IStats {
   protection?: number;
@@ -101,7 +102,9 @@ export type SetType =
   | "crystal"
   | "dark wood"
   | "deer"
+  | "eitr-weave"
   | "elemental"
+  | "fenris"
   | "fine wood"
   | "flint"
   | "food"

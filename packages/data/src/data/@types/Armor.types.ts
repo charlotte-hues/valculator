@@ -3,12 +3,16 @@ import { IStation, IStats } from "./ValheimData.types";
 
 type ArmorSets =
   | "bronze"
+  | "carapace"
   | "iron"
+  | "eitr-weave"
+  | "fenris"
   | "leather"
   | "lox"
   | "padded"
   | "rag"
   | "root"
+  | "sesonal"
   | "troll"
   | "wolf";
 
@@ -23,7 +27,9 @@ interface ArmorStats
 
 type AdditionalEffects =
   | "Resistant vs. Frost (negated when Wet)"
-  | "Resistant vs. Pierce";
+  | "Resistant vs. Pierce"
+  | "Feather fall"
+  | "Eitr regen";
 
 interface ArmorEffects {
   sneak?: string;
