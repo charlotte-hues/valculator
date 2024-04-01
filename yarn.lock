@@ -2305,7 +2305,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/data": "npm:*"
+    "@valculator/data": "npm:^0.1.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -2322,7 +2322,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/data@npm:*, @valculator/data@npm:^0.0.2, @valculator/data@workspace:packages/data":
+"@valculator/data@npm:^0.1.0, @valculator/data@workspace:packages/data":
   version: 0.0.0-use.local
   resolution: "@valculator/data@workspace:packages/data"
   dependencies:
@@ -2341,7 +2341,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/data": "npm:^0.0.2"
+    "@valculator/data": "npm:^0.1.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
