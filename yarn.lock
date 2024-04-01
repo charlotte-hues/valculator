@@ -2297,7 +2297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@valculator/context@workspace:packages/context":
+"@valculator/context@npm:^0.1.0, @valculator/context@workspace:packages/context":
   version: 0.0.0-use.local
   resolution: "@valculator/context@workspace:packages/context"
   dependencies:
@@ -2368,6 +2368,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
+    "@valculator/context": "npm:^0.1.0"
     "@valculator/theme": "npm:^0.3.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
