@@ -40,6 +40,19 @@ const rugsList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "lox pelt": 4,
     },
   },
+  {
+    name: "Hare Rug",
+    set: "hare",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "scale hide": 4,
+    },
+  },
 ];
 
 export const rugs: Array<Omit<Furniture, "id">> = rugsList.map((building) => ({

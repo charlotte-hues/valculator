@@ -44,6 +44,20 @@ const tablesList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "iron nails": 20,
     },
   },
+  {
+    name: "Black Marble Table",
+    set: "black marble",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "black marble": 6,
+      copper: 3,
+    },
+  },
 ];
 
 export const tables: Array<Omit<Furniture, "id">> = tablesList.map(

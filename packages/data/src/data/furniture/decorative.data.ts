@@ -125,6 +125,59 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       silver: 2,
     },
   },
+  {
+    name: "Blue Jute Carpet",
+    set: "jute",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "blue jute": 4,
+    },
+  },
+  {
+    name: "Blue Jute Curtain",
+    set: "jute",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "blue jute": 4,
+      "fine wood": 1,
+    },
+  },
+  {
+    name: "Blue Jute Drapes",
+    set: "jute",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "blue jute": 4,
+      "fine wood": 1,
+    },
+  },
+  {
+    name: "Red Jute Carpet",
+    set: "jute",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "red jute": 4,
+    },
+  },
+  {
+    name: "Red Jute Curtain",
+    set: "jute",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "red jute": 4,
+      "fine wood": 1,
+    },
+  },
 ];
 
 export const decorative: Array<Omit<Furniture, "id">> = decorativeList.map(
