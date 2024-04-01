@@ -8,13 +8,16 @@ interface FurnitureStats {
 
 type FurnitureSets =
   | "black metal"
+  | "black marble"
   | "bronze"
   | "banners"
   | "core wood"
   | "copper"
   | "deer"
   | "fine wood"
+  | "hare"
   | "iron"
+  | "jute"
   | "lox"
   | "seasonal"
   | "stone"

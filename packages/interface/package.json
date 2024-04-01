@@ -23,7 +23,6 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
-    "@valculator/context": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-render-if-visible": "^2.1.1"
@@ -44,6 +43,7 @@
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
+    "@valculator/context": "*",
     "@valculator/theme": "^0.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",
