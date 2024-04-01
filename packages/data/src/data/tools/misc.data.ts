@@ -142,6 +142,69 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
       stone: 5,
     },
   },
+  {
+    name: "Dvergr Lantern",
+    level: 1,
+    set: "bronze",
+    stats: {
+      durability: 0,
+      weight: 2,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bronze: 5,
+      "surtling core": 1,
+      crystal: 1,
+    },
+  },
+  {
+    name: "Tankard",
+    set: "wood",
+    stats: {
+      durability: 0,
+      weight: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 5,
+      resin: 2,
+    },
+  },
+  {
+    name: "Horn of Celebration",
+    set: "iron",
+    stats: {
+      durability: 0,
+      weight: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      bronze: 2,
+      "troll hide": 2,
+      iron: 2,
+    },
+  },
+  {
+    name: "Butcher Knife",
+    set: "wood",
+    stats: {
+      durability: 200,
+      weight: 0.3,
+    },
+    station: {
+      forge: 1,
+    },
+    materials: {
+      wood: 3,
+      tin: 4,
+    },
+  },
 ];
 
 export const misc: Array<Omit<Tool, "id">> = miscList.map((building) => ({

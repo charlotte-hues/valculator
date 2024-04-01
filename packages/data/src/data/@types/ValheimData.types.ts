@@ -102,7 +102,7 @@ export type SetType =
   | "crystal"
   | "dark wood"
   | "deer"
-  | "eitr-weave"
+  | "eitr"
   | "elemental"
   | "fenris"
   | "fine wood"

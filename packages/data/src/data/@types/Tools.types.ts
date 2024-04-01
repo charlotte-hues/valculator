@@ -1,3 +1,4 @@
+import { MaterialsType } from "./Materials.types";
 import { IStation, IStats } from "./ValheimData.types";
 
 type ToolType = "axe" | "club" | "misc" | "pickaxe";
@@ -43,5 +44,5 @@ export interface Tool {
   stats: ToolStats;
   effects?: ToolEffects;
   station?: IStation;
-  materials: { [key: string]: number };
+  materials: { [key in MaterialsType]?: number };
 }

@@ -161,6 +161,41 @@ const benchList: Array<Omit<WorkStation, "group" | "id" | "type">> = [
       "sharpening stone": 1,
     },
   },
+  {
+    name: "Black Forge",
+    set: "structures",
+    level: 1,
+    materials: {
+      "black marble": 10,
+      "yggdrasil wood": 10,
+      "black core": 5,
+    },
+  },
+  {
+    name: "Black Forge",
+    set: "structures",
+    level: 2,
+    materials: {
+      "black marble": 14,
+      "yggdrasil wood": 10,
+      "black core": 5,
+      iron: 5,
+      copper: 5,
+    },
+  },
+  {
+    name: "Black Forge",
+    set: "structures",
+    level: 3,
+    materials: {
+      "black marble": 14,
+      "yggdrasil wood": 10,
+      "black core": 5,
+      iron: 10,
+      copper: 13,
+      "mechanical spring": 2,
+    },
+  },
 ];
 
 export const bench: Array<Omit<WorkStation, "id">> = benchList.map(

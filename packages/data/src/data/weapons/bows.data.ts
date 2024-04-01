@@ -376,6 +376,198 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       guck: 20,
     },
   },
+  {
+    name: "Arbalest",
+    level: 1,
+    set: "iron",
+    stats: {
+      pierce: 200,
+      knockback: 210,
+      stagger: 200,
+      durability: 50,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      wood: 10,
+      iron: 8,
+      root: 4,
+    },
+  },
+  {
+    name: "Arbalest",
+    level: 2,
+    set: "iron",
+    stats: {
+      pierce: 203,
+      knockback: 210,
+      stagger: 203,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      wood: 15,
+      iron: 12,
+      root: 5,
+    },
+  },
+  {
+    name: "Arbalest",
+    level: 3,
+    set: "iron",
+    stats: {
+      pierce: 206,
+      knockback: 210,
+      stagger: 206,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      wood: 25,
+      iron: 20,
+      root: 7,
+    },
+  },
+  // {
+  //   name: "Arbalest",
+  //   level: 4,
+  //   set: "iron",
+  //   stats: {
+  //     pierce: 209,
+  //     knockback: 210,
+  //     stagger: 209,
+  //     durability: 200,
+  //     weight: 1.5,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     wood: 40,
+  //     iron: 32,
+  //     root: 10,
+  //   },
+  // },
+  {
+    name: "Spinesnap",
+    level: 1,
+    set: "eitr",
+    stats: {
+      pierce: 72,
+      spirit: 5,
+      knockback: 25,
+      stagger: 72,
+      backstab: "3x",
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "fine wood": 10,
+      "bone fragments": 40,
+      "refined eitr": 10,
+    },
+  },
+  {
+    name: "Spinesnap",
+    level: 2,
+    set: "eitr",
+    stats: {
+      pierce: 76,
+      spirit: 10,
+      knockback: 25,
+      stagger: 76,
+      backstab: "3x",
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "fine wood": 15,
+      "bone fragments": 60,
+      "refined eitr": 10,
+    },
+  },
+  {
+    name: "Spinesnap",
+    level: 3,
+    set: "eitr",
+    stats: {
+      pierce: 80,
+      spirit: 15,
+      knockback: 25,
+      stagger: 80,
+      backstab: "3x",
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "fine wood": 25,
+      "bone fragments": 100,
+      "refined eitr": 10,
+    },
+  },
+  // {
+  //   name: "Spinesnap",
+  //   level: 4,
+  //   set: "eitr",
+  //   stats: {
+  //     pierce: 84,
+  //     spirit: 20,
+  //     knockback: 25,
+  //     stagger: 84,
+  //     backstab: "3x",
+  //     durability: 250,
+  //     weight: 1.5,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     "fine wood": 40,
+  //     "bone fragments": 160,
+  //     "refined eitr": 10
+  //   }
+  // }
 ];
 
 export const bows: Array<Omit<Weapon, "id">> = bowsList.map((weapon) => ({

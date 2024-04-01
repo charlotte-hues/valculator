@@ -541,7 +541,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-Weave Hood",
     level: 1,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 16,
       durability: 1000,
@@ -562,7 +562,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-Weave Hood",
     level: 2,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 18,
       durability: 1200,
@@ -583,7 +583,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-Weave Hood",
     level: 3,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 20,
       durability: 1400,
@@ -604,7 +604,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-Weave Hood",
     level: 4,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 22,
       durability: 1600,
@@ -784,26 +784,26 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "refined eitr": 10,
     },
   },
-  {
-    name: "Carapace Helmet",
-    level: 4,
-    set: "carapace",
-    stats: {
-      protection: 38,
-      durability: 1800,
-      weight: 3,
-    },
-    effects: {},
-    station: {
-      "black forge": 4,
-    },
-    materials: {
-      carapace: 64,
-      "scale hide": 9,
-      mandible: 2,
-      "refined eitr": 16,
-    },
-  },
+  // {
+  //   name: "Carapace Helmet",
+  //   level: 4,
+  //   set: "carapace",
+  //   stats: {
+  //     protection: 38,
+  //     durability: 1800,
+  //     weight: 3,
+  //   },
+  //   effects: {},
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     carapace: 64,
+  //     "scale hide": 9,
+  //     mandible: 2,
+  //     "refined eitr": 16,
+  //   },
+  // },
 ];
 
 export const helmets: Array<Omit<Armor, "id">> = helmetsList.map((armor) => ({

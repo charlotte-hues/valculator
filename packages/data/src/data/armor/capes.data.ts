@@ -394,7 +394,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 1,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 1,
       durability: 1200,
@@ -415,7 +415,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 2,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 2,
       durability: 1250,
@@ -436,7 +436,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 3,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 3,
       durability: 1300,
@@ -457,7 +457,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 4,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 4,
       durability: 1350,

@@ -5,7 +5,7 @@ type ArmorSets =
   | "bronze"
   | "carapace"
   | "iron"
-  | "eitr-weave"
+  | "eitr"
   | "fenris"
   | "leather"
   | "lox"

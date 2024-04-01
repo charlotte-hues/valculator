@@ -593,7 +593,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 1,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 16,
       durability: 1000,
@@ -615,7 +615,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 2,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 18,
       durability: 1200,
@@ -637,7 +637,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 3,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 20,
       durability: 1400,
@@ -659,7 +659,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 4,
-    set: "eitr-weave",
+    set: "eitr",
     stats: {
       protection: 22,
       durability: 1600,
@@ -828,28 +828,28 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "refined eitr": 10,
     },
   },
-  {
-    name: "Carapace Greaves",
-    level: 4,
-    set: "carapace",
-    stats: {
-      protection: 38,
-      durability: 1800,
-      weight: 10,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 4,
-    },
-    materials: {
-      carapace: 80,
-      "scale hide": 9,
-      iron: 5,
-      "refined eitr": 16,
-    },
-  },
+  // {
+  //   name: "Carapace Greaves",
+  //   level: 4,
+  //   set: "carapace",
+  //   stats: {
+  //     protection: 38,
+  //     durability: 1800,
+  //     weight: 10,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     carapace: 80,
+  //     "scale hide": 9,
+  //     iron: 5,
+  //     "refined eitr": 16,
+  //   },
+  // },
 ];
 
 export const legs: Array<Omit<Armor, "id">> = legsList.map((armor) => ({
