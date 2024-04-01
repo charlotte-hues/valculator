@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.2](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.1...@valculator/interface@0.5.2) (2024-04-01)
+
+
+### Bug Fixes
+
+* interface package to use latest context package ([#31](https://github.com/charlotte-hues/valculator/issues/31)) ([99f6845](https://github.com/charlotte-hues/valculator/commit/99f684547e250f099c3dc1f9f680bf572e0f02fb))
+
+
+
+
+
 ## [0.5.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.0...@valculator/interface@0.5.1) (2024-03-31)
 
 
