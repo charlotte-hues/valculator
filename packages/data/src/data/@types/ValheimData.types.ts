@@ -50,6 +50,7 @@ export interface IStats {
   duration?: string;
   "max health"?: number;
   "max stamina"?: number;
+  "max eitr"?: number;
   healing?: number;
   health?: number;
   stamina?: number;
