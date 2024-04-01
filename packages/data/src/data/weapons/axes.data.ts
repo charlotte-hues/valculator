@@ -201,6 +201,114 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       crystal: 10,
     },
   },
+  {
+    name: "Jotun Bane",
+    level: 1,
+    set: "elemental",
+    stats: {
+      slash: 80,
+      poison: 40,
+      chop: 70,
+      backstab: "3x",
+      stagger: 80,
+      knockback: 50,
+      durability: 175,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "yggdrasil wood": 5,
+      iron: 15,
+      bilebag: 3,
+      "refined eitr": 10,
+    },
+  },
+  {
+    name: "Jotun Bane",
+    level: 2,
+    set: "elemental",
+    stats: {
+      slash: 85,
+      poison: 40,
+      chop: 73,
+      backstab: "3x",
+      stagger: 80,
+      knockback: 50,
+      durability: 225,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "yggdrasil wood": 5,
+      iron: 25,
+      bilebag: 4,
+      "refined eitr": 11,
+    },
+  },
+  {
+    name: "Jotun Bane",
+    level: 3,
+    set: "elemental",
+    stats: {
+      slash: 90,
+      poison: 40,
+      chop: 76,
+      backstab: "3x",
+      stagger: 80,
+      knockback: 50,
+      durability: 275,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "yggdrasil wood": 5,
+      iron: 45,
+      bilebag: 6,
+      "refined eitr": 13,
+    },
+  },
+  // {
+  //   name: "Jotun Bane",
+  //   level: 4,
+  //   set: "elemental",
+  //   stats: {
+  //     slash: 95,
+  //     poison: 40,
+  //     chop: 79,
+  //     backstab: "3x",
+  //     stagger: 80,
+  //     knockback: 50,
+  //     durability: 325,
+  //     weight: 2,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     "yggdrasil wood": 5,
+  //     iron: 75,
+  //     bilebag: 9,
+  //     "refined eitr": 16,
+  //   },
+  // },
 ];
 
 export const axes: Array<Omit<Weapon, "id">> = axesList.map((weapon) => ({

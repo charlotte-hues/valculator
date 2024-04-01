@@ -464,6 +464,98 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "linen thread": 35,
     },
   },
+  {
+    name: "Skoll and Hati",
+    level: 1,
+    set: "black metal",
+    stats: {
+      pierce: 45,
+      slash: 45,
+      stagger: 90,
+      knockback: 10,
+      backstab: "6x",
+      durability: 200,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "fine wood": 4,
+      iron: 10,
+      "black metal": 10,
+    },
+  },
+  {
+    name: "Skoll and Hati",
+    level: 2,
+    set: "black metal",
+    stats: {
+      pierce: 46,
+      slash: 46,
+      stagger: 92,
+      knockback: 10,
+      backstab: "6x",
+      durability: 250,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "fine wood": 4,
+      iron: 14,
+      "black metal": 14,
+    },
+  },
+  {
+    name: "Skoll and Hati",
+    level: 3,
+    set: "black metal",
+    stats: {
+      pierce: 47,
+      slash: 47,
+      stagger: 94,
+      knockback: 10,
+      backstab: "6x",
+      durability: 300,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "fine wood": 4,
+      iron: 22,
+      "black metal": 22,
+    },
+  },
+  // {
+  //   name: "Skoll and Hati",
+  //   level: 4,
+  //   set: "black metal",
+  //   stats: {
+  //     pierce: 48,
+  //     slash: 48,
+  //     stagger: 96,
+  //     knockback: 10,
+  //     backstab: "6x",
+  //     durability: 350,
+  //     weight: 0.3,
+  //   },
+  //   effects: {},
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     "fine wood": 4,
+  //     iron: 34,
+  //     "black metal": 34,
+  //   },
+  // },
 ];
 
 export const knives: Array<Omit<Weapon, "id">> = knivesList.map((weapon) => ({

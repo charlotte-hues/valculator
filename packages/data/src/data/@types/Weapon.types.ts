@@ -7,6 +7,7 @@ type WeaponType =
   | "bolts"
   | "bows"
   | "club"
+  | "fists"
   | "knives"
   | "magic"
   | "missiles"
@@ -16,11 +17,15 @@ type WeaponType =
 
 type WeaponSets =
   | "flint"
+  | "bone"
+  | "carapace"
   | "copper"
+  | "eitr"
   | "abyssal"
   | "black metal"
   | "wood"
   | "bronze"
+  | "fenris"
   | "iron"
   | "needle"
   | "silver"

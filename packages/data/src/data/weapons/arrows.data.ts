@@ -208,6 +208,86 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "freeze gland": 1,
     },
   },
+  {
+    name: "Carapace Arrow",
+    set: "carapace",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 72,
+      knockback: 15,
+      stagger: 72,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      wood: 4,
+      feathers: 2,
+      carapace: 4,
+    },
+  },
+  {
+    name: "Bone Bolt",
+    set: "bone",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 32,
+      stagger: 32,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "bone fragments": 8,
+      feathers: 2,
+    },
+  },
+  {
+    name: "Blackmetal Bolt",
+    set: "black metal",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 62,
+      stagger: 62,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      wood: 8,
+      feathers: 2,
+      "black metal": 2,
+    },
+  },
+  {
+    name: "Iron Bolt",
+    set: "iron",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 42,
+      stagger: 42,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      wood: 8,
+      feathers: 2,
+      iron: 1,
+    },
+  },
 ];
 
 export const arrows: Array<Omit<Weapon, "id">> = arrowsList.map((weapon) => ({

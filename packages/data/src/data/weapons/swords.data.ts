@@ -393,6 +393,202 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "linen thread": 35,
     },
   },
+  {
+    name: "Mistwalker",
+    level: 1,
+    set: "eitr",
+    stats: {
+      slash: 75,
+      frost: 40,
+      spirit: 0,
+      knockback: 40,
+      backstab: "3x",
+      durability: 200,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "fine wood": 3,
+      iron: 15,
+      "refined eitr": 10,
+      wisp: 3,
+    },
+  },
+  {
+    name: "Mistwalker",
+    level: 2,
+    set: "eitr",
+    stats: {
+      slash: 75,
+      frost: 46,
+      spirit: 5,
+      knockback: 40,
+      backstab: "3x",
+      durability: 250,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "fine wood": 3,
+      iron: 25,
+      "refined eitr": 15,
+      wisp: 4,
+    },
+  },
+  {
+    name: "Mistwalker",
+    level: 3,
+    set: "eitr",
+    stats: {
+      slash: 75,
+      frost: 52,
+      spirit: 10,
+      knockback: 40,
+      backstab: "3x",
+      durability: 300,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "fine wood": 3,
+      iron: 45,
+      "refined eitr": 25,
+      wisp: 6,
+    },
+  },
+  // {
+  //   name: "Mistwalker",
+  //   level: 4,
+  //   set: "eitr",
+  //   stats: {
+  //     slash: 75,
+  //     frost: 58,
+  //     spirit: 15,
+  //     knockback: 40,
+  //     backstab: "3x",
+  //     durability: 350,
+  //     weight: 0.8,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     "fine wood": 3,
+  //     iron: 75,
+  //     "refined eitr": 40,
+  //     wisp: 9,
+  //   },
+  // },
+  {
+    name: "Krom",
+    level: 1,
+    set: "iron",
+    stats: {
+      slash: 150,
+      knockback: 55,
+      backstab: "3x",
+      durability: 200,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      iron: 30,
+      bronze: 20,
+      "scale hide": 5,
+    },
+  },
+  {
+    name: "Krom",
+    level: 2,
+    set: "iron",
+    stats: {
+      slash: 156,
+      knockback: 55,
+      backstab: "3x",
+      durability: 250,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      iron: 45,
+      bronze: 30,
+      "scale hide": 10,
+    },
+  },
+  {
+    name: "Krom",
+    level: 3,
+    set: "iron",
+    stats: {
+      slash: 162,
+      knockback: 55,
+      backstab: "3x",
+      durability: 300,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      iron: 75,
+      bronze: 50,
+      "scale hide": 20,
+    },
+  },
+  // {
+  //   name: "Krom",
+  //   level: 4,
+  //   set: "iron",
+  //   stats: {
+  //     slash: 168,
+  //     knockback: 55,
+  //     backstab: "3x",
+  //     durability: 350,
+  //     weight: 4,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     iron: 120,
+  //     bronze: 80,
+  //     "scale hide": 35,
+  //   },
+  // },
 ];
 
 export const swords: Array<Omit<Weapon, "id">> = swordsList.map((weapon) => ({

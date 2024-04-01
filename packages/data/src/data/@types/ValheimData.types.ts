@@ -26,6 +26,7 @@ export interface IStation {
   "Artisan Table"?: number;
   hammer?: number;
   "black forge"?: number;
+  "Galdr Table"?: number;
 }
 export interface IStats {
   protection?: number;
@@ -50,6 +51,7 @@ export interface IStats {
   duration?: string;
   "max health"?: number;
   "max stamina"?: number;
+  "max eitr"?: number;
   healing?: number;
   health?: number;
   stamina?: number;
@@ -100,7 +102,9 @@ export type SetType =
   | "crystal"
   | "dark wood"
   | "deer"
+  | "eitr"
   | "elemental"
+  | "fenris"
   | "fine wood"
   | "flint"
   | "food"

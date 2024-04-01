@@ -7,12 +7,14 @@ import { knives } from "./knives.data";
 import { polearms } from "./polearms.data";
 import { spears } from "./spears.data";
 import { swords } from "./swords.data";
+import { fists } from "./fists.data";
 
 const weaponsList: Array<Omit<Weapon, "group" | "id">> = [
   ...arrows,
   ...axes,
   ...bows,
   ...clubs,
+  ...fists,
   ...knives,
   ...polearms,
   ...spears,

@@ -767,30 +767,30 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "refined eitr": 16,
     },
   },
-  {
-    name: "Demolisher",
-    level: 4,
-    set: "iron",
-    stats: {
-      blunt: 163,
-      durability: 250,
-      knockback: 210,
-      backstab: "2x",
-      stagger: 326,
-      weight: 4,
-    },
-    effects: {
-      movementSpeed: "-20%",
-    },
-    station: {
-      "black forge": 4,
-    },
-    materials: {
-      "yggdrasil wood": 20,
-      iron: 110,
-      "refined eitr": 22,
-    },
-  },
+  // {
+  //   name: "Demolisher",
+  //   level: 4,
+  //   set: "iron",
+  //   stats: {
+  //     blunt: 163,
+  //     durability: 250,
+  //     knockback: 210,
+  //     backstab: "2x",
+  //     stagger: 326,
+  //     weight: 4,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-20%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     "yggdrasil wood": 20,
+  //     iron: 110,
+  //     "refined eitr": 22,
+  //   },
+  // },
 ];
 
 export const clubs: Array<Omit<Weapon, "id">> = clubsList.map((weapon) => ({

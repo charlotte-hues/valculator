@@ -391,6 +391,90 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "lox pelt": 18,
     },
   },
+  {
+    name: "Feather Cape",
+    level: 1,
+    set: "eitr",
+    stats: {
+      protection: 1,
+      durability: 1200,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "Galdr Table": 1,
+    },
+    materials: {
+      feathers: 10,
+      "scale hide": 5,
+      "refined eitr": 20,
+    },
+  },
+  {
+    name: "Feather Cape",
+    level: 2,
+    set: "eitr",
+    stats: {
+      protection: 2,
+      durability: 1250,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "Galdr Table": 2,
+    },
+    materials: {
+      feathers: 12,
+      "scale hide": 10,
+      "refined eitr": 23,
+    },
+  },
+  {
+    name: "Feather Cape",
+    level: 3,
+    set: "eitr",
+    stats: {
+      protection: 3,
+      durability: 1300,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "Galdr Table": 3,
+    },
+    materials: {
+      feathers: 16,
+      "scale hide": 20,
+      "refined eitr": 29,
+    },
+  },
+  {
+    name: "Feather Cape",
+    level: 4,
+    set: "eitr",
+    stats: {
+      protection: 4,
+      durability: 1350,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "Galdr Table": 4,
+    },
+    materials: {
+      feathers: 22,
+      "scale hide": 35,
+      "refined eitr": 38,
+    },
+  },
 ];
 
 export const cape: Array<Omit<Armor, "id">> = capeList.map((armor) => ({

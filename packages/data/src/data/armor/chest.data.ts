@@ -596,6 +596,273 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "deer hide": 2,
     },
   },
+  {
+    name: "Eitr-weave Robe",
+    level: 1,
+    set: "eitr",
+    stats: {
+      protection: 16,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {
+      additional: "Eitr regen",
+      movementSpeed: "-2%",
+    },
+    station: {
+      "Galdr Table": 1,
+    },
+    materials: {
+      "linen thread": 20,
+      "refined eitr": 20,
+      feathers: 10,
+      "scale hide": 5,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 2,
+    set: "eitr",
+    stats: {
+      protection: 18,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {
+      additional: "Eitr regen",
+      movementSpeed: "-2%",
+    },
+    station: {
+      "Galdr Table": 2,
+    },
+    materials: {
+      "linen thread": 30,
+      "refined eitr": 25,
+      feathers: 10,
+      "scale hide": 5,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 3,
+    set: "eitr",
+    stats: {
+      protection: 20,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {
+      additional: "Eitr regen",
+      movementSpeed: "-2%",
+    },
+    station: {
+      "Galdr Table": 3,
+    },
+    materials: {
+      "linen thread": 50,
+      "refined eitr": 35,
+      feathers: 10,
+      "scale hide": 5,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 4,
+    set: "eitr",
+    stats: {
+      protection: 22,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {
+      additional: "Eitr regen",
+      movementSpeed: "-2%",
+    },
+    station: {
+      "Galdr Table": 4,
+    },
+    materials: {
+      "linen thread": 80,
+      "refined eitr": 50,
+      feathers: 10,
+      "scale hide": 5,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 1,
+    set: "fenris",
+    stats: {
+      protection: 10,
+      durability: 1000,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "+3%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fenris hair": 20,
+      "wolf pelt": 5,
+      "leather scraps": 10,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 2,
+    set: "fenris",
+    stats: {
+      protection: 12,
+      durability: 1200,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "+3%",
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fenris hair": 25,
+      "wolf pelt": 8,
+      "leather scraps": 14,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 3,
+    set: "fenris",
+    stats: {
+      protection: 14,
+      durability: 1400,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "+3%",
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "fenris hair": 35,
+      "wolf pelt": 14,
+      "leather scraps": 22,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 4,
+    set: "fenris",
+    stats: {
+      protection: 16,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "+3%",
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "fenris hair": 50,
+      "wolf pelt": 23,
+      "leather scraps": 34,
+    },
+  },
+  {
+    name: "Carapace Breastplate",
+    level: 1,
+    set: "carapace",
+    stats: {
+      protection: 32,
+      durability: 1200,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      carapace: 20,
+      "scale hide": 3,
+      iron: 5,
+      "refined eitr": 4,
+    },
+  },
+  {
+    name: "Carapace Breastplate",
+    level: 2,
+    set: "carapace",
+    stats: {
+      protection: 34,
+      durability: 1400,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      carapace: 30,
+      "scale hide": 4,
+      iron: 5,
+      "refined eitr": 6,
+    },
+  },
+  {
+    name: "Carapace Breastplate",
+    level: 3,
+    set: "carapace",
+    stats: {
+      protection: 36,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      carapace: 50,
+      "scale hide": 6,
+      iron: 5,
+      "refined eitr": 10,
+    },
+  },
+  // {
+  //   name: "Carapace Breastplate",
+  //   level: 4,
+  //   set: "carapace",
+  //   stats: {
+  //     protection: 38,
+  //     durability: 1800,
+  //     weight: 10,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     carapace: 80,
+  //     "scale hide": 9,
+  //     iron: 5,
+  //     "refined eitr": 16,
+  //   },
+  // },
 ];
 
 export const chest: Array<Omit<Armor, "id">> = chestList.map((armor) => ({

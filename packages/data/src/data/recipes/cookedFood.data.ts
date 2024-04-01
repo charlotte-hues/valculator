@@ -1,9 +1,8 @@
 import { Recipe } from "../@types/Recipes.types";
 
-const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
+const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type" | "set">> = [
   {
     name: "Black Soup",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 50,
@@ -23,7 +22,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Boar Jerky",
-    set: "food",
     stacks: 20,
     crafts: 2,
     stats: {
@@ -45,7 +43,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Carrot Soup",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 15,
@@ -64,7 +61,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Deer Stew",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 45,
@@ -84,7 +80,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Minced Meat Sauce",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 40,
@@ -104,7 +99,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Muckshake",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 16,
@@ -124,7 +118,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Onion Soup",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 20,
@@ -142,7 +135,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Queens Jam",
-    set: "food",
     stacks: 10,
     crafts: 4,
     stats: {
@@ -163,7 +155,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Sausages",
-    set: "food",
     stacks: 20,
     crafts: 4,
     stats: {
@@ -185,7 +176,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Serpent Stew",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 80,
@@ -205,7 +195,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Turnip Stew",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 18,
@@ -224,7 +213,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   },
   {
     name: "Lox Meat Pie",
-    set: "food",
     stacks: 10,
     stats: {
       "max health": 75,
@@ -240,6 +228,296 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       "unbaked lox meat pie": 1,
     },
   },
+  {
+    name: "Meat Platter",
+    stacks: 10,
+    stats: {
+      "max health": 80,
+      "max stamina": 26,
+      healing: 5,
+      duration: "30m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+      "Stone Oven": 1,
+    },
+    materials: {
+      "hare meat": 1,
+      "seeker meat": 1,
+      "lox meat": 1,
+    },
+  },
+  {
+    name: "Bread",
+    stacks: 20,
+    stats: {
+      "max health": 23,
+      "max stamina": 70,
+      healing: 2,
+      duration: "25m",
+      weight: 0.5,
+    },
+    station: {
+      cauldron: 4,
+      "Stone Oven": 1,
+    },
+    materials: {
+      "barley flour": 10,
+    },
+  },
+  {
+    name: "Honey Glazed Chicken",
+    stacks: 10,
+    stats: {
+      "max health": 80,
+      "max stamina": 26,
+      healing: 5,
+      duration: "30m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+      "Stone Oven": 1,
+    },
+    materials: {
+      "chicken meat": 1,
+      honey: 3,
+      "jotun puffs": 2,
+    },
+  },
+  {
+    name: "Misthare Supreme",
+    stacks: 10,
+    stats: {
+      "max health": 85,
+      "max stamina": 28,
+      healing: 5,
+      duration: "25m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+      "Stone Oven": 1,
+    },
+    materials: {
+      "hare meat": 1,
+      "jotun puffs": 3,
+      carrot: 2,
+    },
+  },
+  {
+    name: "Salad",
+    stacks: 10,
+    crafts: 3,
+    stats: {
+      "max health": 26,
+      "max stamina": 80,
+      healing: 3,
+      crafts: 3,
+      duration: "25m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+    },
+    materials: {
+      "jotun puffs": 3,
+      onion: 3,
+      cloudberries: 3,
+    },
+  },
+  {
+    name: "Mushroom Omelette",
+    stacks: 10,
+    stats: {
+      "max health": 28,
+      "max stamina": 85,
+      healing: 3,
+      duration: "25m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+    },
+    materials: {
+      egg: 3,
+      "jotun puffs": 3,
+    },
+  },
+  {
+    name: "Fish n' Bread",
+    stacks: 10,
+    stats: {
+      "max health": 30,
+      "max stamina": 90,
+      healing: 3,
+      duration: "30m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+      "Stone Oven": 1,
+    },
+    materials: {
+      anglerfish: 1,
+      "barley flour": 20,
+    },
+  },
+  {
+    name: "Stuffed Mushroom",
+    stacks: 10,
+    stats: {
+      "max health": 25,
+      "max stamina": 12,
+      healing: 3,
+      duration: "25m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+      "Stone Oven": 1,
+    },
+    materials: {
+      magecap: 3,
+      "blood clot": 1,
+      turnip: 2,
+    },
+  },
+  {
+    name: "Blood Pudding",
+    stacks: 10,
+    stats: {
+      "max health": 25,
+      "max stamina": 75,
+      healing: 2,
+      duration: "30m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 4,
+    },
+    materials: {
+      thistle: 2,
+      bloodbag: 2,
+      "barley flour": 4,
+    },
+  },
+  {
+    name: "Yggdrasil Porridge",
+    stacks: 10,
+    stats: {
+      "max health": 27,
+      "max stamina": 13,
+      "max eitr": 80,
+      healing: 3,
+      duration: "25m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+    },
+    materials: {
+      sap: 4,
+      barley: 3,
+      "royal jelly": 2,
+    },
+  },
+  {
+    name: "Seeker Aspic",
+    stacks: 10,
+    stats: {
+      "max health": 28,
+      "max stamina": 14,
+      "max eitr": 85,
+      healing: 3,
+      duration: "30m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 5,
+    },
+    materials: {
+      "seeker meat": 2,
+      magecap: 2,
+      "royal jelly": 2,
+    },
+  },
+  {
+    name: "Fish Wraps",
+    stacks: 10,
+    stats: {
+      "max health": 70,
+      "max stamina": 23,
+      healing: 4,
+      duration: "25m",
+      weight: 1,
+    },
+    station: {
+      cauldron: 4,
+    },
+    materials: {
+      "cooked fish": 2,
+      "barley flour": 4,
+    },
+  },
+  {
+    name: "Eyescream",
+    stacks: 10,
+    stats: {
+      "max health": 21,
+      "max stamina": 65,
+      healing: 1,
+      duration: "25m",
+      weight: 0.5,
+    },
+    station: {
+      cauldron: 3,
+    },
+    materials: {
+      "greydwarf eye": 3,
+      "freeze gland": 1,
+    },
+  },
+  {
+    name: "Wolf Skewer",
+    stacks: 20,
+    stats: {
+      "max health": 65,
+      "max stamina": 21,
+      healing: 3,
+      duration: "25m",
+      weight: 0.5,
+    },
+    station: {
+      cauldron: 3,
+    },
+    materials: {
+      "wolf meat": 1,
+      mushroom: 2,
+      onion: 1,
+    },
+  },
+  {
+    name: "Wolf Jerky",
+    stacks: 20,
+    crafts: 2,
+    stats: {
+      "max health": 33,
+      "max stamina": 33,
+      healing: 3,
+      duration: "30m",
+      crafts: 2,
+      weight: 0.5,
+    },
+    station: {
+      cauldron: 3,
+    },
+    materials: {
+      "wolf meat": 1,
+      honey: 1,
+    },
+  },
 ];
 
 export const cookedFood: Array<Omit<Recipe, "id">> = cookedFoodList.map(
@@ -247,5 +525,6 @@ export const cookedFood: Array<Omit<Recipe, "id">> = cookedFoodList.map(
     ...building,
     group: "recipes",
     type: "cooked food",
+    set: "food",
   })
 );
