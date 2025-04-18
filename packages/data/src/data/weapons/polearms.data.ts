@@ -310,7 +310,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 10,
-      "refined eitr": 1,
+      "refined eitr": 15,
       silver: 5,
       mandible: 2,
     },

@@ -154,7 +154,7 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      bronze: 5,
+      bronze: 2,
       "surtling core": 1,
       crystal: 1,
     },
@@ -201,7 +201,7 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
       forge: 1,
     },
     materials: {
-      wood: 3,
+      wood: 2,
       tin: 4,
     },
   },
