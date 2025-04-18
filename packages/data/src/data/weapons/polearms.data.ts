@@ -194,7 +194,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 1,
     set: "black metal",
     stats: {
@@ -218,7 +218,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 2,
     set: "black metal",
     stats: {
@@ -242,7 +242,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 3,
     set: "black metal",
     stats: {
@@ -266,7 +266,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 4,
     set: "black metal",
     stats: {

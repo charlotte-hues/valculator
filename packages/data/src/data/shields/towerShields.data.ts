@@ -122,7 +122,7 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Tower Shield",
+    name: "Black Metal Tower Shield",
     level: 1,
     set: "other",
     stats: {
@@ -143,7 +143,7 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Tower Shield",
+    name: "Black Metal Tower Shield",
     level: 2,
     set: "black metal",
     stats: {
@@ -164,7 +164,7 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Tower Shield",
+    name: "Black Metal Tower Shield",
     level: 3,
     set: "black metal",
     stats: {
@@ -185,7 +185,7 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Serpentscale Shield",
+    name: "Serpent Scale Shield",
     level: 1,
     set: "other",
     stats: {
@@ -206,7 +206,7 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Serpentscale Shield",
+    name: "Serpent Scale Shield",
     level: 2,
     set: "other",
     stats: {
@@ -227,7 +227,7 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Serpentscale Shield",
+    name: "Serpent Scale Shield",
     level: 3,
     set: "other",
     stats: {
