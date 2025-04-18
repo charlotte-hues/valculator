@@ -315,6 +315,81 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       mandible: 2,
     },
   },
+  {
+    name: "Himminafl",
+    level: 2,
+    set: "silver",
+    stats: {
+      pierce: 85,
+      lightning: 46,
+      knockback: 30,
+      backstab: "3x",
+      stagger: 131,
+      durability: 225,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "refined eitr": 15,
+      silver: 5,
+      mandible: 2,
+    },
+  },
+  {
+    name: "Himminafl",
+    level: 3,
+    set: "silver",
+    stats: {
+      pierce: 85,
+      lightning: 52,
+      knockback: 30,
+      backstab: "3x",
+      stagger: 137,
+      durability: 275,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "refined eitr": 30,
+      silver: 10,
+      mandible: 4,
+    },
+  },
+  // {
+  //   name: "Himminafl",
+  //   level: 4,
+  //   set: "silver",
+  //   stats: {
+  //     pierce: 85,
+  //     lightning: 58,
+  //     knockback: 30,
+  //     backstab: "3x",
+  //     stagger: 143,
+  //     durability: 325,
+  //     weight: 2.5,
+  //   },
+  //   effects: {
+  //     movementSpeed: "-5%",
+  //   },
+  //   station: {
+  //     "black forge": 4,
+  //   },
+  //   materials: {
+  //     "refined eitr": 45,
+  //     silver: 15,
+  //     mandible: 6,
+  //   },
+  // },
 ];
 
 export const polearms: Array<Omit<Weapon, "id">> = polearmsList.map(
