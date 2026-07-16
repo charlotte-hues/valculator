@@ -67,8 +67,8 @@ const baseList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
     materials: {
       honey: 10,
-      bloodbag: 2,
-      raspberries: 1,
+      bloodbag: 4,
+      raspberries: 10,
       dandelion: 1,
     },
   },

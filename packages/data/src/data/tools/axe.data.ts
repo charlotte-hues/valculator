@@ -381,7 +381,7 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 1,
     set: "black metal",
     stats: {
@@ -404,7 +404,7 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 2,
     set: "black metal",
     stats: {
@@ -427,7 +427,7 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 3,
     set: "black metal",
     stats: {
@@ -450,7 +450,7 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 4,
     set: "black metal",
     stats: {

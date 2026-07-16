@@ -249,7 +249,7 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Bolt",
+    name: "Black Metal Bolt",
     set: "black metal",
     crafts: 20,
     stacks: 100,

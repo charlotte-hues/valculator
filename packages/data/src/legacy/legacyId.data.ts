@@ -761,19 +761,19 @@ export const allLegacyItemIds: {
     level: 4,
   },
   w13: {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 1,
   },
   w14: {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 2,
   },
   w15: {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 3,
   },
   w16: {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 4,
   },
   w17: {
@@ -953,19 +953,19 @@ export const allLegacyItemIds: {
     level: 4,
   },
   w61: {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 1,
   },
   w62: {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 2,
   },
   w63: {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 3,
   },
   w64: {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 4,
   },
   w65: {
@@ -1001,19 +1001,19 @@ export const allLegacyItemIds: {
     level: 4,
   },
   w73: {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 1,
   },
   w74: {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 2,
   },
   w75: {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 3,
   },
   w76: {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 4,
   },
   w77: {
@@ -1346,15 +1346,15 @@ export const allLegacyItemIds: {
     level: 3,
   },
   s12: {
-    name: "Blackmetal Shield",
+    name: "Black Metal Shield",
     level: 1,
   },
   s13: {
-    name: "Blackmetal Shield",
+    name: "Black Metal Shield",
     level: 2,
   },
   s14: {
-    name: "Blackmetal Shield",
+    name: "Black Metal Shield",
     level: 3,
   },
   s15: {
@@ -1382,27 +1382,27 @@ export const allLegacyItemIds: {
     level: 3,
   },
   s21: {
-    name: "Blackmetal Tower Shield",
+    name: "Black Metal Tower Shield",
     level: 1,
   },
   s22: {
-    name: "Blackmetal Tower Shield",
+    name: "Black Metal Tower Shield",
     level: 2,
   },
   s23: {
-    name: "Blackmetal Tower Shield",
+    name: "Black Metal Tower Shield",
     level: 3,
   },
   s24: {
-    name: "Serpentscale Shield",
+    name: "Serpent Scale Shield",
     level: 1,
   },
   s25: {
-    name: "Serpentscale Shield",
+    name: "Serpent Scale Shield",
     level: 2,
   },
   s26: {
-    name: "Serpentscale Shield",
+    name: "Serpent Scale Shield",
     level: 3,
   },
   t0: {
@@ -1470,19 +1470,19 @@ export const allLegacyItemIds: {
     level: 4,
   },
   t16: {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 1,
   },
   t17: {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 2,
   },
   t18: {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 3,
   },
   t19: {
-    name: "Blackmetal Axe",
+    name: "Black Metal Axe",
     level: 4,
   },
   t20: {
@@ -1690,7 +1690,7 @@ export const allLegacyItemIds: {
     name: "Personal Chest",
   },
   f6: {
-    name: "Blackmetal Chest",
+    name: "Black Metal Chest",
   },
   f7: {
     name: "Standing Wood Torch",
