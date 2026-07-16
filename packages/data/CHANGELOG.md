@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/charlotte-hues/valculator/compare/@valculator/data@0.1.1...@valculator/data@0.1.2) (2026-07-16)
+
+**Note:** Version bump only for package @valculator/data
+
+
+
+
+
 ## [0.1.1](https://github.com/charlotte-hues/valculator/compare/@valculator/data@0.1.0...@valculator/data@0.1.1) (2024-04-01)
 
 
