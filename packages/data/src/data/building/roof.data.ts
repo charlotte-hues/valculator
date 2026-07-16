@@ -243,6 +243,110 @@ const roofList: Array<Omit<Building, "group" | "id" | "type">> = [
       wood: 2,
     },
   },
+  {
+    name: "Ashwood Wall Roof 26°",
+    set: "ash",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 1,
+    },
+  },
+  {
+    name: "Ashwood Wall Roof 45°",
+    set: "ash",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 1,
+    },
+  },
+  {
+    name: "Grausten Roof",
+    set: "grausten",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      grausten: 5,
+    },
+  },
+  {
+    name: "Grausten Arched Roof",
+    set: "grausten",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      grausten: 5,
+    },
+  },
+  {
+    name: "Ashwood Roof Cross 26°",
+    set: "ash",
+    stats: {
+      size: "2x1",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 1,
+    },
+  },
+  {
+    name: "Ashwood Roof Cross 45°",
+    set: "ash",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 1,
+    },
+  },
+  {
+    name: "Ashwood Wall Roof 26° (Inverted)",
+    set: "ash",
+    stats: {
+      size: "2x1",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 1,
+    },
+  },
+  {
+    name: "Ashwood Wall Roof 45° (Inverted)",
+    set: "ash",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 1,
+    },
+  },
 ];
 
 export const roof: Array<Omit<Building, "id">> = roofList.map((building) => ({

@@ -48,7 +48,7 @@ const tablesList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     name: "Black Marble Table",
     set: "black marble",
     stats: {
-      comfort: 1,
+      comfort: 2,
     },
     station: {
       stonecutter: 1,

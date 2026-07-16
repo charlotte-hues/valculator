@@ -767,30 +767,645 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "refined eitr": 16,
     },
   },
-  // {
-  //   name: "Demolisher",
-  //   level: 4,
-  //   set: "iron",
-  //   stats: {
-  //     blunt: 163,
-  //     durability: 250,
-  //     knockback: 210,
-  //     backstab: "2x",
-  //     stagger: 326,
-  //     weight: 4,
-  //   },
-  //   effects: {
-  //     movementSpeed: "-20%",
-  //   },
-  //   station: {
-  //     "black forge": 4,
-  //   },
-  //   materials: {
-  //     "yggdrasil wood": 20,
-  //     iron: 110,
-  //     "refined eitr": 22,
-  //   },
-  // },
+  {
+    name: "Demolisher",
+    level: 4,
+    set: "iron",
+    stats: {
+      blunt: 163,
+      durability: 250,
+      knockback: 210,
+      backstab: "2x",
+      stagger: 326,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "yggdrasil wood": 20,
+      iron: 110,
+      "refined eitr": 22,
+    },
+  },
+  {
+    name: "Flametal Mace",
+    level: 1,
+    set: "flametal",
+    stats: {
+      blunt: 135,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 150,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 15,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Flametal Mace",
+    level: 2,
+    set: "flametal",
+    stats: {
+      blunt: 141,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 200,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      sulfur: 8,
+      "asksvin hide": 5,
+      flametal: 23,
+      "charred bone": 15,
+    },
+  },
+  {
+    name: "Flametal Mace",
+    level: 3,
+    set: "flametal",
+    stats: {
+      blunt: 147,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 250,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      sulfur: 11,
+      "asksvin hide": 7,
+      flametal: 31,
+      "charred bone": 20,
+    },
+  },
+  {
+    name: "Flametal Mace",
+    level: 4,
+    set: "flametal",
+    stats: {
+      blunt: 153,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      sulfur: 14,
+      "asksvin hide": 9,
+      flametal: 39,
+      "charred bone": 25,
+    },
+  },
+  {
+    name: "Bloodgeon",
+    level: 1,
+    set: "flametal",
+    stats: {
+      blunt: 135,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 150,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodstone: 1,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 23,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Bloodgeon",
+    level: 2,
+    set: "flametal",
+    stats: {
+      blunt: 141,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 200,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 2,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 31,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Bloodgeon",
+    level: 3,
+    set: "flametal",
+    stats: {
+      blunt: 147,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 250,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 3,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 39,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Bloodgeon",
+    level: 4,
+    set: "flametal",
+    stats: {
+      blunt: 153,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 4,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 47,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Storm Star",
+    level: 1,
+    set: "flametal",
+    stats: {
+      blunt: 135,
+      lightning: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 150,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 23,
+      "charred bone": 10,
+      iolite: 1,
+    },
+  },
+  {
+    name: "Storm Star",
+    level: 2,
+    set: "flametal",
+    stats: {
+      blunt: 140,
+      lightning: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 200,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 31,
+      "charred bone": 10,
+      iolite: 2,
+    },
+  },
+  {
+    name: "Storm Star",
+    level: 3,
+    set: "flametal",
+    stats: {
+      blunt: 145,
+      lightning: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 250,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 39,
+      "charred bone": 10,
+      iolite: 3,
+    },
+  },
+  {
+    name: "Storm Star",
+    level: 4,
+    set: "flametal",
+    stats: {
+      blunt: 150,
+      lightning: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 47,
+      "charred bone": 10,
+      iolite: 4,
+    },
+  },
+  {
+    name: "Klossen",
+    level: 1,
+    set: "flametal",
+    stats: {
+      blunt: 135,
+      poison: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 150,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      jade: 1,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 23,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Klossen",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 5,
+      blunt: 135,
+      poison: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 200,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 2,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 31,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Klossen",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 10,
+      blunt: 135,
+      poison: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 250,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 3,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 39,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Klossen",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 15,
+      blunt: 135,
+      poison: 10,
+      knockback: 100,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 4,
+      sulfur: 5,
+      "asksvin hide": 3,
+      flametal: 47,
+      "charred bone": 10,
+    },
+  },
+  {
+    name: "Wooden Mace",
+    level: 1,
+    set: "wood",
+    stats: {
+      blunt: 1,
+      knockback: 80,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 3,
+      "core wood": 2,
+      wood: 5,
+    },
+  },
+  {
+    name: "Wooden Mace",
+    level: 2,
+    set: "wood",
+    stats: {
+      blunt: 2,
+      knockback: 80,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fine wood": 13,
+      "core wood": 4,
+      wood: 6,
+    },
+  },
+  {
+    name: "Wooden Mace",
+    level: 3,
+    set: "wood",
+    stats: {
+      blunt: 3,
+      knockback: 80,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fine wood": 23,
+      "core wood": 6,
+      wood: 7,
+    },
+  },
+  {
+    name: "Wooden Mace",
+    level: 4,
+    set: "wood",
+    stats: {
+      blunt: 4,
+      knockback: 80,
+      backstab: "3x",
+      "parry force": 45,
+      durability: 350,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
+    },
+  },
+  {
+    name: "Wooden Sledge",
+    level: 1,
+    set: "wood",
+    stats: {
+      blunt: 1,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 100,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-15%",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 3,
+      "core wood": 2,
+      wood: 5,
+    },
+  },
+  {
+    name: "Wooden Sledge",
+    level: 2,
+    set: "wood",
+    stats: {
+      blunt: 2,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 60,
+      durability: 150,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-15%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fine wood": 13,
+      "core wood": 4,
+      wood: 6,
+    },
+  },
+  {
+    name: "Wooden Sledge",
+    level: 3,
+    set: "wood",
+    stats: {
+      blunt: 3,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 70,
+      durability: 200,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-15%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fine wood": 23,
+      "core wood": 6,
+      wood: 7,
+    },
+  },
+  {
+    name: "Wooden Sledge",
+    level: 4,
+    set: "wood",
+    stats: {
+      blunt: 4,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 80,
+      durability: 250,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-15%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
+    },
+  },
 ];
 
 export const clubs: Array<Omit<Weapon, "id">> = clubsList.map((weapon) => ({

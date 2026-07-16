@@ -365,31 +365,102 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       mandible: 4,
     },
   },
-  // {
-  //   name: "Himminafl",
-  //   level: 4,
-  //   set: "silver",
-  //   stats: {
-  //     pierce: 85,
-  //     lightning: 58,
-  //     knockback: 30,
-  //     backstab: "3x",
-  //     stagger: 143,
-  //     durability: 325,
-  //     weight: 2.5,
-  //   },
-  //   effects: {
-  //     movementSpeed: "-5%",
-  //   },
-  //   station: {
-  //     "black forge": 4,
-  //   },
-  //   materials: {
-  //     "refined eitr": 45,
-  //     silver: 15,
-  //     mandible: 6,
-  //   },
-  // },
+  {
+    name: "Wooden Atgeir",
+    level: 1,
+    set: "wood",
+    stats: {
+      pierce: 1,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 175,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 3,
+      "core wood": 2,
+      wood: 5,
+    },
+  },
+  {
+    name: "Wooden Atgeir",
+    level: 2,
+    set: "wood",
+    stats: {
+      pierce: 2,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 45,
+      durability: 225,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fine wood": 13,
+      "core wood": 4,
+      wood: 6,
+    },
+  },
+  {
+    name: "Wooden Atgeir",
+    level: 3,
+    set: "wood",
+    stats: {
+      pierce: 3,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 275,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fine wood": 23,
+      "core wood": 6,
+      wood: 7,
+    },
+  },
+  {
+    name: "Wooden Atgeir",
+    level: 4,
+    set: "wood",
+    stats: {
+      pierce: 4,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 55,
+      durability: 325,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
+    },
+  },
 ];
 
 export const polearms: Array<Omit<Weapon, "id">> = polearmsList.map(

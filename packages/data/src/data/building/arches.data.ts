@@ -28,6 +28,97 @@ const archesList: Array<Omit<Building, "group" | "id" | "type">> = [
       tar: 1,
     },
   },
+  {
+    name: "Black Marble Arch",
+    set: "black marble",
+    stats: {
+      size: "2x1",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "black marble": 5,
+    },
+  },
+  {
+    name: "Ashwood Top Arch",
+    set: "ash",
+    stats: {
+      size: "1x1",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 2,
+    },
+  },
+  {
+    name: "Ashwood Arch",
+    set: "ash",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 2,
+    },
+  },
+  {
+    name: "Grausten Small Arch",
+    set: "grausten",
+    stats: {
+      size: "1x1",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      grausten: 2,
+    },
+  },
+  {
+    name: "Grausten Medium Arch",
+    set: "grausten",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      grausten: 4,
+    },
+  },
+  {
+    name: "Grausten Wall Arch",
+    set: "grausten",
+    stats: {
+      size: "2x0",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      grausten: 2,
+    },
+  },
+  {
+    name: "Grausten Inverted Wall Arch",
+    set: "grausten",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      grausten: 2,
+    },
+  },
 ];
 
 export const arches: Array<Omit<Building, "id">> = archesList.map(

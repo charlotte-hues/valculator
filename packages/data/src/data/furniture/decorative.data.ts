@@ -126,18 +126,8 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blue Jute Carpet",
-    set: "jute",
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      "blue jute": 4,
-    },
-  },
-  {
     name: "Blue Jute Curtain",
-    set: "jute",
+    set: "other",
     station: {
       workbench: 1,
     },
@@ -148,7 +138,7 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
   },
   {
     name: "Blue Jute Drapes",
-    set: "jute",
+    set: "other",
     station: {
       workbench: 1,
     },
@@ -158,24 +148,129 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Red Jute Carpet",
-    set: "jute",
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      "red jute": 4,
-    },
-  },
-  {
     name: "Red Jute Curtain",
-    set: "jute",
+    set: "other",
     station: {
       workbench: 1,
     },
     materials: {
       "red jute": 4,
       "fine wood": 1,
+    },
+  },
+  {
+    name: "Yule Tree (Craftable)",
+    set: "seasonal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 10,
+      "fir cone": 1,
+    },
+  },
+  {
+    name: "Yule Wreath",
+    set: "seasonal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "pine cone": 4,
+      "red jute": 1,
+      "fine wood": 1,
+    },
+  },
+  {
+    name: "Yule Garland",
+    set: "seasonal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 2,
+      "pine cone": 1,
+    },
+  },
+  {
+    name: "Flower Garland",
+    set: "seasonal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 2,
+      dandelion: 1,
+    },
+  },
+  {
+    name: "Fey Lights",
+    set: "seasonal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 2,
+      thistle: 1,
+    },
+  },
+  {
+    name: "Mistletoe",
+    set: "seasonal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 1,
+      "red jute": 1,
+    },
+  },
+  {
+    name: "Barber Station",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 10,
+      "barber kit": 1,
+      "bronze nails": 5,
+      "troll hide": 5,
+    },
+  },
+  {
+    name: "Tankard",
+    set: "fine wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 5,
+      resin: 2,
+    },
+  },
+  {
+    name: "Horn of Odin",
+    set: "fine wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 4,
+      "deer trophy": 1,
+      resin: 2,
+    },
+  },
+  {
+    name: "Horn of Celebration",
+    set: "bronze",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      bronze: 2,
+      "troll hide": 2,
+      iron: 2,
     },
   },
 ];

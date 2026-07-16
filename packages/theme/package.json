@@ -9,8 +9,7 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/theme.js",
-      "require": "./theme.umd.cjs"
+      "import": "./src/main.ts"
     }
   },
   "module": "dist/theme.js",

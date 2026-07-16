@@ -207,6 +207,98 @@ const pickaxeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       iron: 80,
     },
   },
+  {
+    name: "Blackmetal Pickaxe",
+    level: 1,
+    set: "black metal",
+    stats: {
+      pickaxe: 49,
+      pierce: 49,
+      knockback: 50,
+      "parry force": 20,
+      durability: 210,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      forge: 2,
+    },
+    materials: {
+      "black metal": 25,
+      "yggdrasil wood": 3,
+    },
+  },
+  {
+    name: "Blackmetal Pickaxe",
+    level: 2,
+    set: "black metal",
+    stats: {
+      pickaxe: 54,
+      pierce: 54,
+      knockback: 50,
+      "parry force": 25,
+      durability: 260,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      forge: 3,
+    },
+    materials: {
+      "black metal": 40,
+      "yggdrasil wood": 4,
+    },
+  },
+  {
+    name: "Blackmetal Pickaxe",
+    level: 3,
+    set: "black metal",
+    stats: {
+      pickaxe: 59,
+      pierce: 59,
+      knockback: 50,
+      "parry force": 30,
+      durability: 310,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      forge: 4,
+    },
+    materials: {
+      "black metal": 55,
+      "yggdrasil wood": 5,
+    },
+  },
+  {
+    name: "Blackmetal Pickaxe",
+    level: 4,
+    set: "black metal",
+    stats: {
+      pickaxe: 64,
+      pierce: 64,
+      knockback: 50,
+      "parry force": 35,
+      durability: 360,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      forge: 5,
+    },
+    materials: {
+      "black metal": 70,
+      "yggdrasil wood": 6,
+    },
+  },
 ];
 
 export const pickaxe: Array<Omit<Tool, "id">> = pickaxeList.map((building) => ({

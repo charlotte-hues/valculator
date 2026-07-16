@@ -85,8 +85,10 @@ const lightingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
   },
   {
     name: "Wisp Torch",
-    set: "wood",
-    station: {},
+    set: "other",
+    station: {
+      workbench: 1,
+    },
     materials: {
       "yggdrasil wood": 1,
       wisp: 1,
@@ -94,30 +96,73 @@ const lightingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
   },
   {
     name: "Dvergr Wall Lantern",
-    set: "bronze",
+    set: "dvergr",
     station: {
       "black forge": 1,
     },
     materials: {
-      copper: 3,
-      bronze: 2,
-      "surtling core": 1,
-      crystal: 1,
+      copper: 2,
+      "dvergr lantern": 1,
       chain: 1,
     },
   },
   {
     name: "Dvergr Lantern Pole",
-    set: "bronze",
+    set: "dvergr",
     station: {
       "black forge": 1,
     },
     materials: {
-      copper: 3,
-      bronze: 2,
-      "surtling core": 1,
-      crystal: 1,
+      copper: 2,
+      "dvergr lantern": 1,
       chain: 1,
+    },
+  },
+  {
+    name: "Lava Lantern",
+    set: "other",
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      flametal: 1,
+      "proustite powder": 1,
+      sulfur: 1,
+    },
+  },
+  {
+    name: "Resin Candle",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      resin: 1,
+      "candle wick": 1,
+    },
+  },
+  {
+    name: "Standing Brazier",
+    set: "bronze",
+    station: {
+      forge: 1,
+    },
+    materials: {
+      bronze: 5,
+      coal: 2,
+      "fenris claw": 3,
+    },
+  },
+  {
+    name: "Blue Standing Brazier",
+    set: "bronze",
+    station: {
+      forge: 1,
+    },
+    materials: {
+      bronze: 5,
+      "greydwarf eye": 2,
+      "fenris claw": 3,
     },
   },
 ];

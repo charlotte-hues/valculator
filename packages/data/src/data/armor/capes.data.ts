@@ -404,12 +404,12 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
-      "Galdr Table": 1,
+      "galdr table": 1,
     },
     materials: {
-      feathers: 10,
-      "scale hide": 5,
       "refined eitr": 20,
+      "scale hide": 5,
+      feathers: 10,
     },
   },
   {
@@ -425,12 +425,12 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
-      "Galdr Table": 2,
+      "galdr table": 2,
     },
     materials: {
-      feathers: 12,
-      "scale hide": 10,
       "refined eitr": 23,
+      "scale hide": 10,
+      feathers: 12,
     },
   },
   {
@@ -446,12 +446,12 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
-      "Galdr Table": 3,
+      "galdr table": 3,
     },
     materials: {
-      feathers: 16,
-      "scale hide": 20,
-      "refined eitr": 29,
+      "refined eitr": 26,
+      "scale hide": 15,
+      feathers: 14,
     },
   },
   {
@@ -467,12 +467,176 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
-      "Galdr Table": 4,
+      "galdr table": 4,
     },
     materials: {
-      feathers: 22,
-      "scale hide": 35,
-      "refined eitr": 38,
+      "refined eitr": 29,
+      "scale hide": 20,
+      feathers: 16,
+    },
+  },
+  {
+    name: "Asksvin Cloak",
+    level: 1,
+    set: "ash",
+    stats: {
+      protection: 1,
+      durability: 1500,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "galdr table": 2,
+    },
+    materials: {
+      "morgen sinew": 2,
+      "asksvin hide": 6,
+    },
+  },
+  {
+    name: "Asksvin Cloak",
+    level: 2,
+    set: "ash",
+    stats: {
+      protection: 2,
+      durability: 1550,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "morgen sinew": 2,
+      "asksvin hide": 8,
+    },
+  },
+  {
+    name: "Asksvin Cloak",
+    level: 3,
+    set: "ash",
+    stats: {
+      protection: 3,
+      durability: 1600,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "morgen sinew": 2,
+      "asksvin hide": 10,
+    },
+  },
+  {
+    name: "Asksvin Cloak",
+    level: 4,
+    set: "ash",
+    stats: {
+      protection: 4,
+      durability: 1650,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "morgen sinew": 2,
+      "asksvin hide": 12,
+    },
+  },
+  {
+    name: "Ashen Cape",
+    level: 1,
+    set: "ash",
+    stats: {
+      protection: 12,
+      durability: 1200,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "asksvin hide": 6,
+      "morgen sinew": 2,
+      flametal: 5,
+    },
+  },
+  {
+    name: "Ashen Cape",
+    level: 2,
+    set: "ash",
+    stats: {
+      protection: 14,
+      durability: 1250,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "asksvin hide": 8,
+      "morgen sinew": 2,
+      flametal: 5,
+    },
+  },
+  {
+    name: "Ashen Cape",
+    level: 3,
+    set: "ash",
+    stats: {
+      protection: 16,
+      durability: 1300,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 10,
+      "morgen sinew": 2,
+      flametal: 5,
+    },
+  },
+  {
+    name: "Ashen Cape",
+    level: 4,
+    set: "ash",
+    stats: {
+      protection: 18,
+      durability: 1350,
+      weight: 4,
+    },
+    effects: {
+      additional: "Resistant vs. Frost (negated when Wet)",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 12,
+      "morgen sinew": 2,
+      flametal: 5,
     },
   },
 ];

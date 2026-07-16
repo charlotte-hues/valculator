@@ -13,6 +13,7 @@
   },
   "scripts": {
     "test:circular": "madge --extensions ts,tsx ./src/ -c",
+    "validate": "node ../../node_modules/esbuild/bin/esbuild ./src/validate.ts --bundle --platform=node --format=esm --outfile=./dist-validate.mjs && node ./dist-validate.mjs && rm -f ./dist-validate.mjs",
     "build": "tsc && vite build"
   },
   "devDependencies": {

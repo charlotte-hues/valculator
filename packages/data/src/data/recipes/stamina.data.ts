@@ -53,6 +53,38 @@ const staminaList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       "mead base: tasty": 1,
     },
   },
+  {
+    name: "Lingering Stamina Mead",
+    set: "mead",
+    stacks: 10,
+    crafts: 6,
+    stats: {
+      crafts: 6,
+      weight: 1,
+    },
+    station: {
+      fermenter: 1,
+    },
+    materials: {
+      "mead base: lingering stamina": 1,
+    },
+  },
+  {
+    name: "Tonic of Ratatosk",
+    set: "mead",
+    stacks: 10,
+    crafts: 6,
+    stats: {
+      crafts: 6,
+      weight: 1,
+    },
+    station: {
+      fermenter: 1,
+    },
+    materials: {
+      "mead base: ratatosk": 1,
+    },
+  },
 ];
 
 export const stamina: Array<Omit<Recipe, "id">> = staminaList.map(

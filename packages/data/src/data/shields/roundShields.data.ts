@@ -325,6 +325,72 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "refined eitr": 19,
     },
   },
+  {
+    name: "Flametal Shield",
+    level: 1,
+    set: "flametal",
+    stats: {
+      "block power": 114,
+      "parry force": 50,
+      durability: 200,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      ashwood: 10,
+      "asksvin hide": 2,
+      flametal: 8,
+    },
+  },
+  {
+    name: "Flametal Shield",
+    level: 2,
+    set: "flametal",
+    stats: {
+      "block power": 120,
+      "parry force": 55,
+      durability: 250,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      ashwood: 20,
+      "asksvin hide": 4,
+      flametal: 12,
+    },
+  },
+  {
+    name: "Flametal Shield",
+    level: 3,
+    set: "flametal",
+    stats: {
+      "block power": 126,
+      "parry force": 60,
+      durability: 300,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      ashwood: 30,
+      "asksvin hide": 6,
+      flametal: 16,
+    },
+  },
 ];
 
 export const roundShield: Array<Omit<Shield, "id">> = roundShieldList.map(

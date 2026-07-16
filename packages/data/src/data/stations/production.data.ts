@@ -79,6 +79,37 @@ const productionList: Array<Omit<WorkStation, "group" | "id" | "type">> = [
       "thunder stone": 1,
     },
   },
+  {
+    name: "Eitr Refinery",
+    set: "structures",
+    nearby: "Artisan Table",
+    materials: {
+      "black marble": 20,
+      "black metal": 5,
+      "yggdrasil wood": 10,
+      "black core": 5,
+      sap: 3,
+    },
+  },
+  {
+    name: "Sap Extractor",
+    set: "structures",
+    nearby: "workbench",
+    materials: {
+      "yggdrasil wood": 10,
+      "black metal": 5,
+      "dvergr extractor": 1,
+    },
+  },
+  {
+    name: "Wisp Fountain",
+    set: "structures",
+    nearby: "workbench",
+    materials: {
+      stone: 10,
+      "torn spirit": 1,
+    },
+  },
 ];
 
 export const production: Array<Omit<WorkStation, "id">> = productionList.map(

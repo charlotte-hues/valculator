@@ -41,16 +41,66 @@ const rugsList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Hare Rug",
-    set: "hare",
-    stats: {
-      comfort: 1,
+    name: "Red Jute Carpet",
+    set: "other",
+    station: {
+      workbench: 1,
     },
+    materials: {
+      "red jute": 4,
+    },
+  },
+  {
+    name: "Blue Jute Carpet",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "blue jute": 4,
+    },
+  },
+  {
+    name: "Straw Rug",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      barley: 1,
+      flax: 1,
+    },
+  },
+  {
+    name: "Hare Rug",
+    set: "other",
     station: {
       workbench: 1,
     },
     materials: {
       "scale hide": 4,
+    },
+  },
+  {
+    name: "Asksvin Rug",
+    set: "ash",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "asksvin hide": 4,
+    },
+  },
+  {
+    name: "Bearskin Rug",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "bear hide": 1,
+      "bear paw": 2,
+      "bear trophy": 1,
     },
   },
 ];

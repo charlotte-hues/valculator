@@ -99,6 +99,33 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
+    name: "Black Marble Bench",
+    set: "black marble",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "black marble": 6,
+      copper: 3,
+    },
+  },
+  {
+    name: "Ashwood Bench",
+    set: "ash",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 6,
+    },
+  },
+  {
     name: "Black Marble Throne",
     set: "black marble",
     stats: {
@@ -115,8 +142,8 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Black Marble Bench",
-    set: "black marble",
+    name: "Bone Throne",
+    set: "other",
     stats: {
       comfort: 3,
     },
@@ -124,8 +151,10 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       stonecutter: 1,
     },
     materials: {
-      "black marble": 6,
-      copper: 3,
+      "charred bone": 15,
+      flametal: 4,
+      grausten: 20,
+      "charred skull": 3,
     },
   },
 ];

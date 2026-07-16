@@ -591,91 +591,79 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Eitr-weave Trousers",
+    name: "Loincloth of the Bear",
     level: 1,
-    set: "eitr",
+    set: "bear",
     stats: {
-      protection: 16,
+      protection: 7,
       durability: 1000,
       weight: 5,
     },
     effects: {
-      additional: "Eitr regen",
-      movementSpeed: "-2%",
     },
     station: {
-      "Galdr Table": 1,
+      workbench: 2,
     },
     materials: {
-      "linen thread": 20,
-      "refined eitr": 20,
-      "scale hide": 10,
+      "bear hide": 5,
+      blueberries: 4,
     },
   },
   {
-    name: "Eitr-weave Trousers",
+    name: "Loincloth of the Bear",
     level: 2,
-    set: "eitr",
+    set: "bear",
     stats: {
-      protection: 18,
+      protection: 9,
       durability: 1200,
       weight: 5,
     },
     effects: {
-      additional: "Eitr regen",
-      movementSpeed: "-2%",
     },
     station: {
-      "Galdr Table": 2,
+      workbench: 3,
     },
     materials: {
-      "linen thread": 30,
-      "refined eitr": 25,
-      "scale hide": 10,
+      "bear hide": 7,
+      blueberries: 5,
     },
   },
   {
-    name: "Eitr-weave Trousers",
+    name: "Loincloth of the Bear",
     level: 3,
-    set: "eitr",
+    set: "bear",
     stats: {
-      protection: 20,
+      protection: 11,
       durability: 1400,
       weight: 5,
     },
     effects: {
-      additional: "Eitr regen",
-      movementSpeed: "-2%",
     },
     station: {
-      "Galdr Table": 3,
+      workbench: 4,
     },
     materials: {
-      "linen thread": 50,
-      "refined eitr": 35,
-      "scale hide": 10,
+      "bear hide": 9,
+      blueberries: 6,
     },
   },
   {
-    name: "Eitr-weave Trousers",
+    name: "Loincloth of the Bear",
     level: 4,
-    set: "eitr",
+    set: "bear",
     stats: {
-      protection: 22,
+      protection: 13,
       durability: 1600,
       weight: 5,
     },
     effects: {
-      additional: "Eitr regen",
-      movementSpeed: "-2%",
     },
     station: {
-      "Galdr Table": 4,
+      workbench: 5,
     },
     materials: {
-      "linen thread": 80,
-      "refined eitr": 50,
-      "scale hide": 10,
+      "bear hide": 11,
+      blueberries: 7,
     },
   },
   {
@@ -688,15 +676,15 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 10,
     },
     effects: {
-      movementSpeed: "+3%",
+      movementSpeed: "3%",
     },
     station: {
       workbench: 2,
     },
     materials: {
-      "fenris hair": 20,
-      "wolf pelt": 5,
       "leather scraps": 10,
+      "wolf pelt": 5,
+      "fenris hair": 20,
     },
   },
   {
@@ -709,15 +697,15 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 10,
     },
     effects: {
-      movementSpeed: "+3%",
+      movementSpeed: "3%",
     },
     station: {
       workbench: 3,
     },
     materials: {
-      "fenris hair": 25,
-      "wolf pelt": 8,
       "leather scraps": 14,
+      "wolf pelt": 8,
+      "fenris hair": 25,
     },
   },
   {
@@ -730,15 +718,15 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 10,
     },
     effects: {
-      movementSpeed: "+3%",
+      movementSpeed: "3%",
     },
     station: {
       workbench: 4,
     },
     materials: {
-      "fenris hair": 35,
-      "wolf pelt": 14,
-      "leather scraps": 22,
+      "leather scraps": 18,
+      "wolf pelt": 11,
+      "fenris hair": 30,
     },
   },
   {
@@ -751,15 +739,15 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 10,
     },
     effects: {
-      movementSpeed: "+3%",
+      movementSpeed: "3%",
     },
     station: {
       workbench: 5,
     },
     materials: {
-      "fenris hair": 50,
-      "wolf pelt": 23,
-      "leather scraps": 34,
+      "leather scraps": 22,
+      "wolf pelt": 14,
+      "fenris hair": 35,
     },
   },
   {
@@ -768,7 +756,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     set: "carapace",
     stats: {
       protection: 32,
-      durability: 1200,
+      durability: 1000,
       weight: 10,
     },
     effects: {
@@ -778,10 +766,10 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
+      "refined eitr": 4,
+      iron: 5,
       carapace: 20,
       "scale hide": 3,
-      iron: 5,
-      "refined eitr": 4,
     },
   },
   {
@@ -790,7 +778,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     set: "carapace",
     stats: {
       protection: 34,
-      durability: 1400,
+      durability: 1200,
       weight: 10,
     },
     effects: {
@@ -800,10 +788,10 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 2,
     },
     materials: {
+      "refined eitr": 6,
+      iron: 5,
       carapace: 30,
       "scale hide": 4,
-      iron: 5,
-      "refined eitr": 6,
     },
   },
   {
@@ -812,7 +800,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     set: "carapace",
     stats: {
       protection: 36,
-      durability: 1600,
+      durability: 1400,
       weight: 10,
     },
     effects: {
@@ -822,34 +810,454 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      carapace: 50,
-      "scale hide": 6,
+      "refined eitr": 8,
       iron: 5,
-      "refined eitr": 10,
+      carapace: 40,
+      "scale hide": 5,
     },
   },
-  // {
-  //   name: "Carapace Greaves",
-  //   level: 4,
-  //   set: "carapace",
-  //   stats: {
-  //     protection: 38,
-  //     durability: 1800,
-  //     weight: 10,
-  //   },
-  //   effects: {
-  //     movementSpeed: "-5%",
-  //   },
-  //   station: {
-  //     "black forge": 4,
-  //   },
-  //   materials: {
-  //     carapace: 80,
-  //     "scale hide": 9,
-  //     iron: 5,
-  //     "refined eitr": 16,
-  //   },
-  // },
+  {
+    name: "Carapace Greaves",
+    level: 4,
+    set: "carapace",
+    stats: {
+      protection: 38,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "refined eitr": 10,
+      iron: 5,
+      carapace: 50,
+      "scale hide": 6,
+    },
+  },
+  {
+    name: "Eitr-weave Trousers",
+    level: 1,
+    set: "eitr",
+    stats: {
+      protection: 16,
+      durability: 500,
+      weight: 5,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 1,
+    },
+    materials: {
+      "refined eitr": 20,
+      "scale hide": 5,
+      "linen thread": 20,
+    },
+  },
+  {
+    name: "Eitr-weave Trousers",
+    level: 2,
+    set: "eitr",
+    stats: {
+      protection: 18,
+      durability: 700,
+      weight: 5,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 2,
+    },
+    materials: {
+      "refined eitr": 22,
+      "scale hide": 7,
+      "linen thread": 22,
+    },
+  },
+  {
+    name: "Eitr-weave Trousers",
+    level: 3,
+    set: "eitr",
+    stats: {
+      protection: 20,
+      durability: 900,
+      weight: 5,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "refined eitr": 24,
+      "scale hide": 9,
+      "linen thread": 24,
+    },
+  },
+  {
+    name: "Eitr-weave Trousers",
+    level: 4,
+    set: "eitr",
+    stats: {
+      protection: 22,
+      durability: 1100,
+      weight: 5,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 26,
+      "scale hide": 11,
+      "linen thread": 26,
+    },
+  },
+  {
+    name: "Flametal Greaves",
+    level: 1,
+    set: "flametal",
+    stats: {
+      protection: 38,
+      durability: 1000,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 3,
+      flametal: 20,
+    },
+  },
+  {
+    name: "Flametal Greaves",
+    level: 2,
+    set: "flametal",
+    stats: {
+      protection: 40,
+      durability: 1200,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 4,
+      flametal: 30,
+    },
+  },
+  {
+    name: "Flametal Greaves",
+    level: 3,
+    set: "flametal",
+    stats: {
+      protection: 42,
+      durability: 1400,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 5,
+      flametal: 40,
+    },
+  },
+  {
+    name: "Flametal Greaves",
+    level: 4,
+    set: "flametal",
+    stats: {
+      protection: 44,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 6,
+      flametal: 50,
+    },
+  },
+  {
+    name: "Trousers of Ask",
+    level: 1,
+    set: "ash",
+    stats: {
+      protection: 28,
+      durability: 1000,
+      weight: 10,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "asksvin hide": 10,
+      "lox pelt": 4,
+      "linen thread": 15,
+    },
+  },
+  {
+    name: "Trousers of Ask",
+    level: 2,
+    set: "ash",
+    stats: {
+      protection: 30,
+      durability: 1200,
+      weight: 10,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "asksvin hide": 15,
+      "lox pelt": 6,
+      "linen thread": 25,
+    },
+  },
+  {
+    name: "Trousers of Ask",
+    level: 3,
+    set: "ash",
+    stats: {
+      protection: 32,
+      durability: 1400,
+      weight: 10,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 20,
+      "lox pelt": 8,
+      "linen thread": 35,
+    },
+  },
+  {
+    name: "Trousers of Ask",
+    level: 4,
+    set: "ash",
+    stats: {
+      protection: 34,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 25,
+      "lox pelt": 10,
+      "linen thread": 45,
+    },
+  },
+  {
+    name: "Trousers of Embla",
+    level: 1,
+    set: "mage",
+    stats: {
+      protection: 19,
+      durability: 1000,
+      weight: 5,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 2,
+    },
+    materials: {
+      "refined eitr": 20,
+      "asksvin hide": 10,
+      "linen thread": 20,
+    },
+  },
+  {
+    name: "Trousers of Embla",
+    level: 2,
+    set: "mage",
+    stats: {
+      protection: 21,
+      durability: 1200,
+      weight: 5,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "refined eitr": 25,
+      "asksvin hide": 10,
+      "linen thread": 30,
+    },
+  },
+  {
+    name: "Trousers of Embla",
+    level: 3,
+    set: "mage",
+    stats: {
+      protection: 23,
+      durability: 1400,
+      weight: 5,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 30,
+      "asksvin hide": 10,
+      "linen thread": 40,
+    },
+  },
+  {
+    name: "Trousers of Embla",
+    level: 4,
+    set: "mage",
+    stats: {
+      protection: 25,
+      durability: 1600,
+      weight: 5,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 35,
+      "asksvin hide": 10,
+      "linen thread": 50,
+    },
+  },
+  {
+    name: "Vilebone Drapes",
+    level: 1,
+    set: "bear",
+    stats: {
+      protection: 18,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 2,
+    },
+    materials: {
+      "vile ribcage": 1,
+      "bear hide": 10,
+      "linen thread": 4,
+    },
+  },
+  {
+    name: "Vilebone Drapes",
+    level: 2,
+    set: "bear",
+    stats: {
+      protection: 20,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 3,
+    },
+    materials: {
+      "vile ribcage": 2,
+      "bear hide": 15,
+      "linen thread": 5,
+    },
+  },
+  {
+    name: "Vilebone Drapes",
+    level: 3,
+    set: "bear",
+    stats: {
+      protection: 22,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 4,
+    },
+    materials: {
+      "vile ribcage": 3,
+      "bear hide": 20,
+      "linen thread": 6,
+    },
+  },
+  {
+    name: "Vilebone Drapes",
+    level: 4,
+    set: "bear",
+    stats: {
+      protection: 24,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 5,
+    },
+    materials: {
+      "vile ribcage": 4,
+      "bear hide": 25,
+      "linen thread": 7,
+    },
+  },
 ];
 
 export const legs: Array<Omit<Armor, "id">> = legsList.map((armor) => ({

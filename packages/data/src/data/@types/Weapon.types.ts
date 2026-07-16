@@ -7,24 +7,24 @@ type WeaponType =
   | "bolts"
   | "bows"
   | "club"
+  | "crossbows"
   | "fists"
   | "knives"
   | "magic"
   | "missiles"
   | "polearms"
   | "spear"
-  | "sword";
+  | "sword"
+  | "throwables";
 
 type WeaponSets =
   | "flint"
-  | "bone"
-  | "carapace"
   | "copper"
-  | "eitr"
   | "abyssal"
   | "black metal"
   | "wood"
   | "bronze"
+  | "eitr"
   | "fenris"
   | "iron"
   | "needle"
@@ -35,6 +35,9 @@ type WeaponSets =
   | "elemental"
   | "crystal"
   | "wolf"
+  | "bone"
+  | "carapace"
+  | "flametal"
   | "other";
 
 interface WeaponStats

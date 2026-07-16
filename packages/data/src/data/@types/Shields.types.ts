@@ -8,6 +8,7 @@ type ShieldSets =
   | "bronze"
   | "bone"
   | "carapace"
+  | "flametal"
   | "iron"
   | "other"
   | "silver"

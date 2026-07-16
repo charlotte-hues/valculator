@@ -57,6 +57,17 @@ const storageList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "black metal": 6,
     },
   },
+  {
+    name: "Barrel",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 10,
+      "barrel hoops": 1,
+    },
+  },
 ];
 
 export const storage: Array<Omit<Furniture, "id">> = storageList.map(

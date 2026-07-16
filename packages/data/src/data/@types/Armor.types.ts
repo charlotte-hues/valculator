@@ -14,12 +14,21 @@ type ArmorSets =
   | "root"
   | "sesonal"
   | "troll"
-  | "wolf";
+  | "wolf"
+  | "bear"
+  | "carapace"
+  | "mage"
+  | "flametal"
+  | "ash"
+  | "other";
 
 type ArmorTypes = "cape" | "chest" | "helmet" | "legs";
 
 interface ArmorStats
-  extends Pick<IStats, "protection" | "durability" | "weight"> {
+  extends Pick<
+    IStats,
+    "protection" | "durability" | "weight" | "eitr regen"
+  > {
   protection: NonNullable<IStats["protection"]>;
   durability: NonNullable<IStats["durability"]>;
   weight: NonNullable<IStats["weight"]>;

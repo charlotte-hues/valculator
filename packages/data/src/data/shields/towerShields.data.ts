@@ -310,6 +310,72 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "skeleton trophy": 3,
     },
   },
+  {
+    name: "Flametal Tower Shield",
+    level: 1,
+    set: "flametal",
+    stats: {
+      "block power": 140,
+      "parry force": 150,
+      durability: 200,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      ashwood: 15,
+      "asksvin hide": 5,
+      flametal: 10,
+    },
+  },
+  {
+    name: "Flametal Tower Shield",
+    level: 2,
+    set: "flametal",
+    stats: {
+      "block power": 146,
+      "parry force": 155,
+      durability: 250,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      ashwood: 25,
+      "asksvin hide": 7,
+      flametal: 14,
+    },
+  },
+  {
+    name: "Flametal Tower Shield",
+    level: 3,
+    set: "flametal",
+    stats: {
+      "block power": 152,
+      "parry force": 160,
+      durability: 300,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      ashwood: 35,
+      "asksvin hide": 9,
+      flametal: 18,
+    },
+  },
 ];
 
 export const towerShield: Array<Omit<Shield, "id">> = towerShieldList.map(

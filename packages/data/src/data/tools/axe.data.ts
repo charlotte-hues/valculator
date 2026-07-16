@@ -472,6 +472,201 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       "linen thread": 35,
     },
   },
+  {
+    name: "Wooden Axe",
+    level: 1,
+    set: "wood",
+    stats: {
+      chop: 1,
+      slash: 1,
+      knockback: 50,
+      "parry force": 20,
+      durability: 125,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 5,
+      "core wood": 2,
+      "fine wood": 3,
+    },
+  },
+  {
+    name: "Wooden Axe",
+    level: 2,
+    set: "wood",
+    stats: {
+      chop: 2,
+      slash: 2,
+      knockback: 50,
+      "parry force": 25,
+      durability: 175,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      wood: 6,
+      "core wood": 4,
+      "fine wood": 13,
+    },
+  },
+  {
+    name: "Wooden Axe",
+    level: 3,
+    set: "wood",
+    stats: {
+      chop: 3,
+      slash: 3,
+      knockback: 50,
+      "parry force": 30,
+      durability: 225,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      wood: 7,
+      "core wood": 6,
+      "fine wood": 23,
+    },
+  },
+  {
+    name: "Wooden Axe",
+    level: 4,
+    set: "wood",
+    stats: {
+      chop: 4,
+      slash: 4,
+      knockback: 50,
+      "parry force": 35,
+      durability: 275,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      wood: 8,
+      "core wood": 8,
+      "fine wood": 33,
+    },
+  },
+  {
+    name: "Early Axes",
+    level: 1,
+    set: "other",
+    stats: {
+      chop: 35,
+      slash: 30,
+      knockback: 20,
+      "parry force": 20,
+      durability: 175,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 4,
+      "curious axe head": 1,
+      "mysterious axe head": 1,
+    },
+  },
+  {
+    name: "Early Axes",
+    level: 2,
+    set: "other",
+    stats: {
+      chop: 38,
+      slash: 35,
+      knockback: 20,
+      "parry force": 25,
+      durability: 225,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      wood: 6,
+      "curious axe head": 1,
+      "mysterious axe head": 1,
+      "leather scraps": 2,
+    },
+  },
+  {
+    name: "Early Axes",
+    level: 3,
+    set: "other",
+    stats: {
+      chop: 41,
+      slash: 40,
+      knockback: 20,
+      "parry force": 30,
+      durability: 275,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      wood: 10,
+      "curious axe head": 1,
+      "mysterious axe head": 1,
+      "leather scraps": 6,
+    },
+  },
+  {
+    name: "Early Axes",
+    level: 4,
+    set: "other",
+    stats: {
+      chop: 44,
+      slash: 45,
+      knockback: 20,
+      "parry force": 35,
+      durability: 325,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      wood: 16,
+      "curious axe head": 1,
+      "mysterious axe head": 1,
+      "leather scraps": 12,
+    },
+  },
 ];
 
 export const axe: Array<Omit<Tool, "id">> = axeList.map((building) => ({

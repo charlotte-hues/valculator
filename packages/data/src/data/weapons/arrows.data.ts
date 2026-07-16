@@ -216,7 +216,6 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     stats: {
       pierce: 72,
       knockback: 15,
-      stagger: 72,
       weight: 0.1,
     },
     effects: {},
@@ -224,19 +223,19 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      wood: 4,
       feathers: 2,
       carapace: 4,
+      wood: 8,
     },
   },
   {
-    name: "Bone Bolt",
-    set: "bone",
+    name: "Charred Arrow",
+    set: "flametal",
     crafts: 20,
     stacks: 100,
     stats: {
-      pierce: 32,
-      stagger: 32,
+      pierce: 82,
+      knockback: 15,
       weight: 0.1,
     },
     effects: {},
@@ -244,48 +243,9 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      "bone fragments": 8,
+      "charred bone": 4,
       feathers: 2,
-    },
-  },
-  {
-    name: "Black Metal Bolt",
-    set: "black metal",
-    crafts: 20,
-    stacks: 100,
-    stats: {
-      pierce: 62,
-      stagger: 62,
-      weight: 0.1,
-    },
-    effects: {},
-    station: {
-      "black forge": 2,
-    },
-    materials: {
-      wood: 8,
-      feathers: 2,
-      "black metal": 2,
-    },
-  },
-  {
-    name: "Iron Bolt",
-    set: "iron",
-    crafts: 20,
-    stacks: 100,
-    stats: {
-      pierce: 42,
-      stagger: 42,
-      weight: 0.1,
-    },
-    effects: {},
-    station: {
-      "black forge": 1,
-    },
-    materials: {
-      wood: 8,
-      feathers: 2,
-      iron: 1,
+      ashwood: 8,
     },
   },
 ];

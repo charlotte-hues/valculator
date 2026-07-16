@@ -143,8 +143,22 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
+    name: "Butcher Knife",
+    set: "other",
+    stats: {
+      durability: 200,
+      weight: 0.3,
+    },
+    station: {
+      forge: 1,
+    },
+    materials: {
+      tin: 4,
+      wood: 2,
+    },
+  },
+  {
     name: "Dvergr Lantern",
-    level: 1,
     set: "bronze",
     stats: {
       durability: 0,
@@ -160,49 +174,66 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Tankard",
-    set: "wood",
-    stats: {
-      durability: 0,
-      weight: 1,
-    },
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      "fine wood": 5,
-      resin: 2,
-    },
-  },
-  {
-    name: "Horn of Celebration",
-    set: "iron",
-    stats: {
-      durability: 0,
-      weight: 1,
-    },
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      bronze: 2,
-      "troll hide": 2,
-      iron: 2,
-    },
-  },
-  {
-    name: "Butcher Knife",
-    set: "wood",
+    name: "Scythe",
+    level: 1,
+    set: "other",
     stats: {
       durability: 200,
-      weight: 0.3,
+      weight: 2,
     },
     station: {
-      forge: 1,
+      forge: 2,
     },
     materials: {
-      wood: 2,
-      tin: 4,
+      silver: 6,
+      "scythe handle": 1,
+    },
+  },
+  {
+    name: "Scythe",
+    level: 2,
+    set: "other",
+    stats: {
+      durability: 400,
+      weight: 2,
+    },
+    station: {
+      forge: 3,
+    },
+    materials: {
+      silver: 11,
+      "scythe handle": 1,
+    },
+  },
+  {
+    name: "Scythe",
+    level: 3,
+    set: "other",
+    stats: {
+      durability: 600,
+      weight: 2,
+    },
+    station: {
+      forge: 4,
+    },
+    materials: {
+      silver: 16,
+      "scythe handle": 1,
+    },
+  },
+  {
+    name: "Wisplight",
+    set: "other",
+    stats: {
+      durability: 100,
+      weight: 0.1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wisp: 1,
+      silver: 1,
     },
   },
 ];

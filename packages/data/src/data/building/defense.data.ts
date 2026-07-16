@@ -41,6 +41,33 @@ const defenseList: Array<Omit<Building, "group" | "id" | "type">> = [
       wood: 1,
     },
   },
+  {
+    name: "Dvergr Sharp Stakes",
+    set: "dvergr",
+    stats: {
+      size: "4x2",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "yggdrasil wood": 5,
+      copper: 5,
+    },
+  },
+  {
+    name: "Ashwood Stakewall",
+    set: "ash",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 6,
+    },
+  },
 ];
 
 export const defense: Array<Omit<Building, "id">> = defenseList.map(

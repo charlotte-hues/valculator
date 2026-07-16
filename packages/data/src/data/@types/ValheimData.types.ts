@@ -26,7 +26,12 @@ export interface IStation {
   "Artisan Table"?: number;
   hammer?: number;
   "black forge"?: number;
-  "Galdr Table"?: number;
+  "galdr table"?: number;
+  "mead ketill"?: number;
+  "food preparation table"?: number;
+  "iron cooking station"?: number;
+  "cooking station"?: number;
+  "eitr refinery"?: number;
 }
 export interface IStats {
   protection?: number;
@@ -51,7 +56,6 @@ export interface IStats {
   duration?: string;
   "max health"?: number;
   "max stamina"?: number;
-  "max eitr"?: number;
   healing?: number;
   health?: number;
   stamina?: number;
@@ -63,6 +67,9 @@ export interface IStats {
   storage?: number;
   stagger?: number;
   lightning?: number;
+  "max eitr"?: number;
+  "eitr regen"?: number;
+  eitr?: number;
 }
 
 interface IEffects {
@@ -81,7 +88,8 @@ export type GroupType =
   | "tools"
   | "crafting"
   | "furniture"
-  | "misc";
+  | "misc"
+  | "trinkets";
 
 export type StationType = keyof IStation;
 
@@ -91,9 +99,11 @@ export type EffectsType = keyof IEffects;
 
 export type SetType =
   | "abyssal"
+  | "ash"
   | "banners"
-  | "black metal"
+  | "bear"
   | "black marble"
+  | "black metal"
   | "bone"
   | "bronze"
   | "carapace"
@@ -103,17 +113,19 @@ export type SetType =
   | "crystal"
   | "dark wood"
   | "deer"
+  | "dvergr"
   | "eitr"
   | "elemental"
   | "fenris"
   | "fine wood"
+  | "flametal"
   | "flint"
   | "food"
-  | "hare"
+  | "grausten"
   | "iron"
-  | "jute"
   | "leather"
   | "lox"
+  | "mage"
   | "mead"
   | "needle"
   | "obsidian"
@@ -152,11 +164,15 @@ export type TypeType =
   | "cooked food"
   | "cooking"
   | "crafting"
+  | "crossbows"
   | "decoration"
   | "decorative"
   | "defense"
   | "doors"
+  | "eitr"
+  | "feasts"
   | "fire"
+  | "fists"
   | "floor"
   | "healing"
   | "helmet"
@@ -171,6 +187,8 @@ export type TypeType =
   | "pillars"
   | "polearms"
   | "poles"
+  | "potions"
+  | "prepared food"
   | "production"
   | "resistance"
   | "road"
@@ -178,6 +196,7 @@ export type TypeType =
   | "round shields"
   | "rugs"
   | "seating"
+  | "siege"
   | "spear"
   | "stairs"
   | "stamina"
@@ -185,8 +204,10 @@ export type TypeType =
   | "sword"
   | "tables"
   | "teleport"
+  | "throwables"
   | "tower shields"
   | "transport"
+  | "trinket"
   | "walls";
 
 type NearbyType = "artisan Table" | "forge" | "workbench";

@@ -539,24 +539,268 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
+    name: "Headdress of the Bear",
+    level: 1,
+    set: "bear",
+    stats: {
+      protection: 7,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "bear trophy": 1,
+      "bear hide": 5,
+    },
+  },
+  {
+    name: "Headdress of the Bear",
+    level: 2,
+    set: "bear",
+    stats: {
+      protection: 9,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "bear trophy": 1,
+      "bear hide": 7,
+    },
+  },
+  {
+    name: "Headdress of the Bear",
+    level: 3,
+    set: "bear",
+    stats: {
+      protection: 11,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "bear trophy": 1,
+      "bear hide": 9,
+    },
+  },
+  {
+    name: "Headdress of the Bear",
+    level: 4,
+    set: "bear",
+    stats: {
+      protection: 13,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "bear trophy": 1,
+      "bear hide": 11,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 1,
+    set: "fenris",
+    stats: {
+      protection: 10,
+      durability: 1000,
+      weight: 3,
+    },
+    effects: {
+      movementSpeed: "3%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "wolf pelt": 2,
+      "fenris hair": 20,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 2,
+    set: "fenris",
+    stats: {
+      protection: 12,
+      durability: 1200,
+      weight: 3,
+    },
+    effects: {
+      movementSpeed: "3%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "wolf pelt": 6,
+      "fenris hair": 25,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 3,
+    set: "fenris",
+    stats: {
+      protection: 14,
+      durability: 1400,
+      weight: 3,
+    },
+    effects: {
+      movementSpeed: "3%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "wolf pelt": 10,
+      "fenris hair": 30,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Fenris Hood",
+    level: 4,
+    set: "fenris",
+    stats: {
+      protection: 16,
+      durability: 1600,
+      weight: 3,
+    },
+    effects: {
+      movementSpeed: "3%",
+    },
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "wolf pelt": 14,
+      "fenris hair": 35,
+      "cultist trophy": 1,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 1,
+    set: "carapace",
+    stats: {
+      protection: 32,
+      durability: 1000,
+      weight: 3,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "refined eitr": 4,
+      carapace: 16,
+      "scale hide": 3,
+      mandible: 2,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 2,
+    set: "carapace",
+    stats: {
+      protection: 34,
+      durability: 1200,
+      weight: 3,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "refined eitr": 6,
+      carapace: 24,
+      "scale hide": 4,
+      mandible: 2,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 3,
+    set: "carapace",
+    stats: {
+      protection: 36,
+      durability: 1400,
+      weight: 3,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "refined eitr": 8,
+      carapace: 32,
+      "scale hide": 5,
+      mandible: 2,
+    },
+  },
+  {
+    name: "Carapace Helmet",
+    level: 4,
+    set: "carapace",
+    stats: {
+      protection: 38,
+      durability: 1600,
+      weight: 3,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "refined eitr": 10,
+      carapace: 40,
+      "scale hide": 6,
+      mandible: 2,
+    },
+  },
+  {
     name: "Eitr-Weave Hood",
     level: 1,
     set: "eitr",
     stats: {
       protection: 16,
-      durability: 1000,
+      durability: 500,
       weight: 1,
+      "eitr regen": 0.2,
     },
     effects: {
-      additional: "Eitr regen",
     },
     station: {
-      "Galdr Table": 1,
+      "galdr table": 1,
     },
     materials: {
-      "linen thread": 16,
       "refined eitr": 15,
       iron: 2,
+      "linen thread": 15,
     },
   },
   {
@@ -565,19 +809,19 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     set: "eitr",
     stats: {
       protection: 18,
-      durability: 1200,
+      durability: 700,
       weight: 1,
+      "eitr regen": 0.2,
     },
     effects: {
-      additional: "Eitr regen",
     },
     station: {
-      "Galdr Table": 2,
+      "galdr table": 2,
     },
     materials: {
-      "linen thread": 24,
-      "refined eitr": 20,
+      "refined eitr": 16,
       iron: 3,
+      "linen thread": 17,
     },
   },
   {
@@ -586,19 +830,19 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     set: "eitr",
     stats: {
       protection: 20,
-      durability: 1400,
+      durability: 900,
       weight: 1,
+      "eitr regen": 0.2,
     },
     effects: {
-      additional: "Eitr regen",
     },
     station: {
-      "Galdr Table": 3,
+      "galdr table": 3,
     },
     materials: {
-      "linen thread": 40,
-      "refined eitr": 30,
-      iron: 2,
+      "refined eitr": 17,
+      iron: 4,
+      "linen thread": 19,
     },
   },
   {
@@ -607,19 +851,343 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     set: "eitr",
     stats: {
       protection: 22,
+      durability: 1100,
+      weight: 1,
+      "eitr regen": 0.2,
+    },
+    effects: {
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 18,
+      iron: 5,
+      "linen thread": 21,
+    },
+  },
+  {
+    name: "Flametal Helmet",
+    level: 1,
+    set: "flametal",
+    stats: {
+      protection: 38,
+      durability: 800,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "refined eitr": 4,
+      "charred bone": 2,
+      "asksvin hide": 3,
+      flametal: 16,
+    },
+  },
+  {
+    name: "Flametal Helmet",
+    level: 2,
+    set: "flametal",
+    stats: {
+      protection: 40,
+      durability: 900,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "refined eitr": 6,
+      "charred bone": 2,
+      "asksvin hide": 4,
+      flametal: 24,
+    },
+  },
+  {
+    name: "Flametal Helmet",
+    level: 3,
+    set: "flametal",
+    stats: {
+      protection: 42,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "refined eitr": 8,
+      "charred bone": 2,
+      "asksvin hide": 5,
+      flametal: 32,
+    },
+  },
+  {
+    name: "Flametal Helmet",
+    level: 4,
+    set: "flametal",
+    stats: {
+      protection: 44,
+      durability: 1100,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "refined eitr": 10,
+      "charred bone": 2,
+      "asksvin hide": 6,
+      flametal: 40,
+    },
+  },
+  {
+    name: "Hood of Ask",
+    level: 1,
+    set: "ash",
+    stats: {
+      protection: 28,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "asksvin hide": 10,
+      "lox pelt": 4,
+      "linen thread": 15,
+    },
+  },
+  {
+    name: "Hood of Ask",
+    level: 2,
+    set: "ash",
+    stats: {
+      protection: 30,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "asksvin hide": 15,
+      "lox pelt": 6,
+      "linen thread": 25,
+    },
+  },
+  {
+    name: "Hood of Ask",
+    level: 3,
+    set: "ash",
+    stats: {
+      protection: 32,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 20,
+      "lox pelt": 8,
+      "linen thread": 35,
+    },
+  },
+  {
+    name: "Hood of Ask",
+    level: 4,
+    set: "ash",
+    stats: {
+      protection: 34,
       durability: 1600,
       weight: 1,
     },
     effects: {
-      additional: "Eitr regen",
     },
     station: {
-      "Galdr Table": 4,
+      "black forge": 5,
     },
     materials: {
-      "linen thread": 64,
-      "refined eitr": 45,
-      iron: 2,
+      "asksvin hide": 25,
+      "lox pelt": 10,
+      "linen thread": 45,
+    },
+  },
+  {
+    name: "Hood of Embla",
+    level: 1,
+    set: "mage",
+    stats: {
+      protection: 19,
+      durability: 1000,
+      weight: 1,
+      "eitr regen": 0.3,
+    },
+    effects: {
+    },
+    station: {
+      "galdr table": 2,
+    },
+    materials: {
+      "refined eitr": 15,
+      "asksvin hide": 2,
+      "linen thread": 16,
+    },
+  },
+  {
+    name: "Hood of Embla",
+    level: 2,
+    set: "mage",
+    stats: {
+      protection: 21,
+      durability: 1200,
+      weight: 1,
+      "eitr regen": 0.3,
+    },
+    effects: {
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "refined eitr": 20,
+      "asksvin hide": 2,
+      "linen thread": 24,
+    },
+  },
+  {
+    name: "Hood of Embla",
+    level: 3,
+    set: "mage",
+    stats: {
+      protection: 23,
+      durability: 1400,
+      weight: 1,
+      "eitr regen": 0.3,
+    },
+    effects: {
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 25,
+      "asksvin hide": 2,
+      "linen thread": 32,
+    },
+  },
+  {
+    name: "Hood of Embla",
+    level: 4,
+    set: "mage",
+    stats: {
+      protection: 25,
+      durability: 1600,
+      weight: 1,
+      "eitr regen": 0.3,
+    },
+    effects: {
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 30,
+      "asksvin hide": 2,
+      "linen thread": 40,
+    },
+  },
+  {
+    name: "Vilebone Visage",
+    level: 1,
+    set: "bear",
+    stats: {
+      protection: 12,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      forge: 2,
+    },
+    materials: {
+      "bear hide": 5,
+      "vile trophy": 1,
+    },
+  },
+  {
+    name: "Vilebone Visage",
+    level: 2,
+    set: "bear",
+    stats: {
+      protection: 14,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      forge: 3,
+    },
+    materials: {
+      "bear hide": 7,
+      "vile trophy": 1,
+    },
+  },
+  {
+    name: "Vilebone Visage",
+    level: 3,
+    set: "bear",
+    stats: {
+      protection: 16,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      forge: 4,
+    },
+    materials: {
+      "bear hide": 9,
+      "vile trophy": 1,
+    },
+  },
+  {
+    name: "Vilebone Visage",
+    level: 4,
+    set: "bear",
+    stats: {
+      protection: 18,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      forge: 5,
+    },
+    materials: {
+      "bear hide": 11,
+      "vile trophy": 1,
     },
   },
   {
@@ -631,8 +1199,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       durability: 0,
       weight: 1,
     },
-    effects: {},
-
+    effects: {
+    },
     station: {
       workbench: 1,
     },
@@ -641,169 +1209,89 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Fenris Hood",
+    name: "Celebratory Cap",
     level: 1,
-    set: "fenris",
+    set: "other",
     stats: {
-      protection: 10,
-      durability: 1000,
-      weight: 1,
+      protection: 1,
+      durability: 800,
+      weight: 3,
     },
     effects: {
-      movementSpeed: "+3%",
     },
     station: {
       workbench: 2,
     },
     materials: {
-      "fenris hair": 20,
-      "wolf pelt": 2,
-      "cultist trophy": 1,
+      "deer hide": 2,
+      "bear hide": 1,
+      bronze: 1,
+      "amber pearl": 1,
     },
   },
   {
-    name: "Fenris Hood",
+    name: "Celebratory Cap",
     level: 2,
-    set: "fenris",
+    set: "other",
     stats: {
-      protection: 12,
-      durability: 1200,
-      weight: 1,
+      protection: 3,
+      durability: 900,
+      weight: 3,
     },
     effects: {
-      movementSpeed: "+3%",
     },
     station: {
       workbench: 3,
     },
     materials: {
-      "fenris hair": 25,
-      "wolf pelt": 6,
-      "cultist trophy": 1,
+      "deer hide": 3,
+      "bear hide": 1,
+      bronze: 2,
+      "amber pearl": 1,
     },
   },
   {
-    name: "Fenris Hood",
+    name: "Celebratory Cap",
     level: 3,
-    set: "fenris",
+    set: "other",
     stats: {
-      protection: 14,
-      durability: 1400,
-      weight: 1,
+      protection: 5,
+      durability: 1000,
+      weight: 3,
     },
     effects: {
-      movementSpeed: "+3%",
     },
     station: {
       workbench: 4,
     },
     materials: {
-      "fenris hair": 35,
-      "wolf pelt": 14,
-      "cultist trophy": 1,
+      "deer hide": 4,
+      "bear hide": 1,
+      bronze: 3,
+      "amber pearl": 1,
     },
   },
   {
-    name: "Fenris Hood",
+    name: "Celebratory Cap",
     level: 4,
-    set: "fenris",
+    set: "other",
     stats: {
-      protection: 16,
-      durability: 1600,
-      weight: 1,
+      protection: 7,
+      durability: 1100,
+      weight: 3,
     },
     effects: {
-      movementSpeed: "+3%",
     },
     station: {
       workbench: 5,
     },
     materials: {
-      "fenris hair": 50,
-      "wolf pelt": 26,
-      "cultist trophy": 1,
+      "deer hide": 5,
+      "bear hide": 1,
+      bronze: 4,
+      "amber pearl": 1,
     },
   },
-  {
-    name: "Carapace Helmet",
-    level: 1,
-    set: "carapace",
-    stats: {
-      protection: 32,
-      durability: 1200,
-      weight: 3,
-    },
-    effects: {},
-    station: {
-      "black forge": 1,
-    },
-    materials: {
-      carapace: 16,
-      "scale hide": 3,
-      mandible: 2,
-      "refined eitr": 4,
-    },
-  },
-  {
-    name: "Carapace Helmet",
-    level: 2,
-    set: "carapace",
-    stats: {
-      protection: 34,
-      durability: 1400,
-      weight: 3,
-    },
-    effects: {},
-    station: {
-      "black forge": 2,
-    },
-    materials: {
-      carapace: 24,
-      "scale hide": 4,
-      mandible: 2,
-      "refined eitr": 6,
-    },
-  },
-  {
-    name: "Carapace Helmet",
-    level: 3,
-    set: "carapace",
-    stats: {
-      protection: 36,
-      durability: 1600,
-      weight: 3,
-    },
-    effects: {},
-    station: {
-      "black forge": 3,
-    },
-    materials: {
-      carapace: 40,
-      "scale hide": 6,
-      mandible: 2,
-      "refined eitr": 10,
-    },
-  },
-  // {
-  //   name: "Carapace Helmet",
-  //   level: 4,
-  //   set: "carapace",
-  //   stats: {
-  //     protection: 38,
-  //     durability: 1800,
-  //     weight: 3,
-  //   },
-  //   effects: {},
-  //   station: {
-  //     "black forge": 4,
-  //   },
-  //   materials: {
-  //     carapace: 64,
-  //     "scale hide": 9,
-  //     mandible: 2,
-  //     "refined eitr": 16,
-  //   },
-  // },
 ];
 
 export const helmets: Array<Omit<Armor, "id">> = helmetsList.map((armor) => ({

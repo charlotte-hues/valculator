@@ -377,98 +377,6 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Arbalest",
-    level: 1,
-    set: "iron",
-    stats: {
-      pierce: 200,
-      knockback: 210,
-      stagger: 200,
-      durability: 50,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 1,
-    },
-    materials: {
-      wood: 10,
-      iron: 8,
-      root: 4,
-    },
-  },
-  {
-    name: "Arbalest",
-    level: 2,
-    set: "iron",
-    stats: {
-      pierce: 203,
-      knockback: 210,
-      stagger: 203,
-      durability: 100,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 2,
-    },
-    materials: {
-      wood: 15,
-      iron: 12,
-      root: 5,
-    },
-  },
-  {
-    name: "Arbalest",
-    level: 3,
-    set: "iron",
-    stats: {
-      pierce: 206,
-      knockback: 210,
-      stagger: 206,
-      durability: 150,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 3,
-    },
-    materials: {
-      wood: 25,
-      iron: 20,
-      root: 7,
-    },
-  },
-  // {
-  //   name: "Arbalest",
-  //   level: 4,
-  //   set: "iron",
-  //   stats: {
-  //     pierce: 209,
-  //     knockback: 210,
-  //     stagger: 209,
-  //     durability: 200,
-  //     weight: 1.5,
-  //   },
-  //   effects: {
-  //     movementSpeed: "-5%",
-  //   },
-  //   station: {
-  //     "black forge": 4,
-  //   },
-  //   materials: {
-  //     wood: 40,
-  //     iron: 32,
-  //     root: 10,
-  //   },
-  // },
-  {
     name: "Spinesnap",
     level: 1,
     set: "eitr",
@@ -476,7 +384,6 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       pierce: 72,
       spirit: 5,
       knockback: 25,
-      stagger: 72,
       backstab: "3x",
       durability: 100,
       weight: 1.5,
@@ -488,8 +395,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      "fine wood": 10,
       "bone fragments": 40,
+      "fine wood": 10,
       "refined eitr": 10,
     },
   },
@@ -501,7 +408,6 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       pierce: 76,
       spirit: 10,
       knockback: 25,
-      stagger: 76,
       backstab: "3x",
       durability: 150,
       weight: 1.5,
@@ -513,8 +419,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 2,
     },
     materials: {
-      "fine wood": 15,
       "bone fragments": 60,
+      "fine wood": 15,
       "refined eitr": 10,
     },
   },
@@ -526,7 +432,6 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       pierce: 80,
       spirit: 15,
       knockback: 25,
-      stagger: 80,
       backstab: "3x",
       durability: 200,
       weight: 1.5,
@@ -538,36 +443,451 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "fine wood": 25,
-      "bone fragments": 100,
+      "bone fragments": 80,
+      "fine wood": 20,
       "refined eitr": 10,
     },
   },
-  // {
-  //   name: "Spinesnap",
-  //   level: 4,
-  //   set: "eitr",
-  //   stats: {
-  //     pierce: 84,
-  //     spirit: 20,
-  //     knockback: 25,
-  //     stagger: 84,
-  //     backstab: "3x",
-  //     durability: 250,
-  //     weight: 1.5,
-  //   },
-  //   effects: {
-  //     movementSpeed: "-5%",
-  //   },
-  //   station: {
-  //     "black forge": 4,
-  //   },
-  //   materials: {
-  //     "fine wood": 40,
-  //     "bone fragments": 160,
-  //     "refined eitr": 10
-  //   }
-  // }
+  {
+    name: "Spinesnap",
+    level: 4,
+    set: "eitr",
+    stats: {
+      pierce: 84,
+      spirit: 20,
+      knockback: 25,
+      backstab: "3x",
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "bone fragments": 100,
+      "fine wood": 25,
+      "refined eitr": 10,
+    },
+  },
+  {
+    name: "Ash Fang",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 82,
+      knockback: 25,
+      backstab: "3x",
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      flametal: 5,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Ash Fang",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 86,
+      spirit: 5,
+      knockback: 25,
+      backstab: "3x",
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      flametal: 10,
+      "charred bone": 26,
+      "bonemaw tooth": 10,
+      ashwood: 15,
+    },
+  },
+  {
+    name: "Ash Fang",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 90,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 15,
+      "charred bone": 36,
+      "bonemaw tooth": 15,
+      ashwood: 20,
+    },
+  },
+  {
+    name: "Ash Fang",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 94,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 20,
+      "charred bone": 46,
+      "bonemaw tooth": 20,
+      ashwood: 25,
+    },
+  },
+  {
+    name: "Blood Fang",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 82,
+      knockback: 25,
+      backstab: "3x",
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodstone: 1,
+      flametal: 10,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Blood Fang",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 86,
+      spirit: 5,
+      knockback: 25,
+      backstab: "3x",
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 2,
+      flametal: 15,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Blood Fang",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 90,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 3,
+      flametal: 20,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Blood Fang",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 94,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 4,
+      flametal: 25,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Root Fang",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 82,
+      lightning: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      flametal: 10,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      iolite: 1,
+    },
+  },
+  {
+    name: "Root Fang",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 86,
+      lightning: 10,
+      spirit: 5,
+      knockback: 25,
+      backstab: "3x",
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 15,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      iolite: 2,
+    },
+  },
+  {
+    name: "Root Fang",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 90,
+      lightning: 10,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 20,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      iolite: 3,
+    },
+  },
+  {
+    name: "Root Fang",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 94,
+      lightning: 10,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 25,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      iolite: 4,
+    },
+  },
+  {
+    name: "Storm Fang",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 82,
+      poison: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      jade: 1,
+      flametal: 10,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Storm Fang",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 86,
+      poison: 10,
+      spirit: 5,
+      knockback: 25,
+      backstab: "3x",
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 2,
+      flametal: 15,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Storm Fang",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 90,
+      poison: 10,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 3,
+      flametal: 20,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Storm Fang",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 94,
+      poison: 10,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 4,
+      flametal: 25,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+    },
+  },
 ];
 
 export const bows: Array<Omit<Weapon, "id">> = bowsList.map((weapon) => ({

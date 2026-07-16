@@ -21,6 +21,7 @@ type MiscTypes =
   | "fire"
   | "piles"
   | "road"
+  | "siege"
   | "teleport"
   | "transport";
 
@@ -35,4 +36,5 @@ export interface Misc {
     [key in MaterialsType]?: number;
   };
   stats?: MiscStats;
+  crafts?: number;
 }
