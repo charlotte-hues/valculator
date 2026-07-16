@@ -24,6 +24,8 @@ type WeaponSets =
   | "black metal"
   | "wood"
   | "bronze"
+  | "eitr"
+  | "fenris"
   | "iron"
   | "needle"
   | "silver"

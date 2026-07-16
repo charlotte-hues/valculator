@@ -394,14 +394,14 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 1,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 1,
       durability: 1200,
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 1,
@@ -415,14 +415,14 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 2,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 2,
       durability: 1250,
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 2,
@@ -436,14 +436,14 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 3,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 3,
       durability: 1300,
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 3,
@@ -457,14 +457,14 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Feather Cape",
     level: 4,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 4,
       durability: 1350,
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 4,
@@ -485,7 +485,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 2,
@@ -505,7 +505,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 3,
@@ -525,7 +525,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 4,
@@ -545,7 +545,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "galdr table": 4,
@@ -565,7 +565,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "black forge": 3,
@@ -586,7 +586,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "black forge": 4,
@@ -607,7 +607,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "black forge": 5,
@@ -628,7 +628,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       weight: 4,
     },
     effects: {
-      "frost resistance": true,
+      additional: "Resistant vs. Frost (negated when Wet)",
     },
     station: {
       "black forge": 5,

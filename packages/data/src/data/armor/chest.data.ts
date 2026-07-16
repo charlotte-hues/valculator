@@ -678,7 +678,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Coat",
     level: 1,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 10,
       durability: 1000,
@@ -700,7 +700,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Coat",
     level: 2,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 12,
       durability: 1200,
@@ -722,7 +722,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Coat",
     level: 3,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 14,
       durability: 1400,
@@ -744,7 +744,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Coat",
     level: 4,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 16,
       durability: 1600,
@@ -764,7 +764,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Chestpiece",
+    name: "Carapace Breastplate",
     level: 1,
     set: "carapace",
     stats: {
@@ -786,7 +786,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Chestpiece",
+    name: "Carapace Breastplate",
     level: 2,
     set: "carapace",
     stats: {
@@ -808,7 +808,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Chestpiece",
+    name: "Carapace Breastplate",
     level: 3,
     set: "carapace",
     stats: {
@@ -830,7 +830,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Chestpiece",
+    name: "Carapace Breastplate",
     level: 4,
     set: "carapace",
     stats: {
@@ -854,7 +854,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Robe",
     level: 1,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 16,
       durability: 500,
@@ -877,7 +877,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Robe",
     level: 2,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 18,
       durability: 700,
@@ -900,7 +900,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Robe",
     level: 3,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 20,
       durability: 900,
@@ -923,7 +923,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Robe",
     level: 4,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 22,
       durability: 1100,

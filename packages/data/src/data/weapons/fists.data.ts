@@ -92,7 +92,7 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Flesh Rippers",
     level: 1,
-    set: "wolf",
+    set: "fenris",
     stats: {
       slash: 60,
       knockback: 20,
@@ -114,7 +114,7 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Flesh Rippers",
     level: 2,
-    set: "wolf",
+    set: "fenris",
     stats: {
       slash: 64,
       knockback: 20,
@@ -136,7 +136,7 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Flesh Rippers",
     level: 3,
-    set: "wolf",
+    set: "fenris",
     stats: {
       slash: 68,
       knockback: 20,
@@ -158,7 +158,7 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Flesh Rippers",
     level: 4,
-    set: "wolf",
+    set: "fenris",
     stats: {
       slash: 72,
       knockback: 20,

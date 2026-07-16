@@ -98,7 +98,7 @@ const preparedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Uncooked Magically Stuffed Shroom",
+    name: "Uncooked Stuffed Mushroom",
     set: "food",
     stacks: 10,
     stats: {

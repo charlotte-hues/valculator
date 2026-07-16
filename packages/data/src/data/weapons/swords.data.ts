@@ -396,7 +396,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Mistwalker",
     level: 1,
-    set: "other",
+    set: "eitr",
     stats: {
       slash: 75,
       frost: 40,
@@ -422,7 +422,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Mistwalker",
     level: 2,
-    set: "other",
+    set: "eitr",
     stats: {
       slash: 75,
       frost: 46,
@@ -449,7 +449,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Mistwalker",
     level: 3,
-    set: "other",
+    set: "eitr",
     stats: {
       slash: 75,
       frost: 52,
@@ -476,7 +476,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Mistwalker",
     level: 4,
-    set: "other",
+    set: "eitr",
     stats: {
       slash: 75,
       frost: 58,
@@ -503,7 +503,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Krom",
     level: 1,
-    set: "other",
+    set: "iron",
     stats: {
       slash: 150,
       knockback: 55,
@@ -527,7 +527,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Krom",
     level: 2,
-    set: "other",
+    set: "iron",
     stats: {
       slash: 156,
       knockback: 55,
@@ -551,7 +551,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Krom",
     level: 3,
-    set: "other",
+    set: "iron",
     stats: {
       slash: 162,
       knockback: 55,
@@ -575,7 +575,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   {
     name: "Krom",
     level: 4,
-    set: "other",
+    set: "iron",
     stats: {
       slash: 168,
       knockback: 55,

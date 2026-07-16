@@ -377,9 +377,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Spine Snap",
+    name: "Spinesnap",
     level: 1,
-    set: "bone",
+    set: "eitr",
     stats: {
       pierce: 72,
       spirit: 5,
@@ -401,9 +401,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Spine Snap",
+    name: "Spinesnap",
     level: 2,
-    set: "bone",
+    set: "eitr",
     stats: {
       pierce: 76,
       spirit: 10,
@@ -425,9 +425,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Spine Snap",
+    name: "Spinesnap",
     level: 3,
-    set: "bone",
+    set: "eitr",
     stats: {
       pierce: 80,
       spirit: 15,
@@ -449,9 +449,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Spine Snap",
+    name: "Spinesnap",
     level: 4,
-    set: "bone",
+    set: "eitr",
     stats: {
       pierce: 84,
       spirit: 20,

@@ -2,7 +2,7 @@ import { Recipe } from "../@types/Recipes.types";
 
 const eitrList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   {
-    name: "Magically Stuffed Shroom",
+    name: "Stuffed Mushroom",
     set: "food",
     stacks: 10,
     stats: {
@@ -17,7 +17,7 @@ const eitrList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       "Stone Oven": 1,
     },
     materials: {
-      "uncooked magically stuffed shroom": 1,
+      "uncooked stuffed mushroom": 1,
     },
   },
   {

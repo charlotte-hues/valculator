@@ -221,7 +221,7 @@ export enum MaterialsEnum {
   "unbaked sweetbread",
   "uncooked fish n' bread",
   "uncooked honey glazed chicken",
-  "uncooked magically stuffed shroom",
+  "uncooked stuffed mushroom",
   "uncooked meat platter",
   "uncooked misthare supreme",
   "uncooked piquant pie",

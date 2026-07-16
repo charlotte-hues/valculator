@@ -669,7 +669,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Leggings",
     level: 1,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 10,
       durability: 1000,
@@ -690,7 +690,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Leggings",
     level: 2,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 12,
       durability: 1200,
@@ -711,7 +711,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Leggings",
     level: 3,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 14,
       durability: 1400,
@@ -732,7 +732,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Leggings",
     level: 4,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 16,
       durability: 1600,
@@ -751,7 +751,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Trousers",
+    name: "Carapace Greaves",
     level: 1,
     set: "carapace",
     stats: {
@@ -773,7 +773,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Trousers",
+    name: "Carapace Greaves",
     level: 2,
     set: "carapace",
     stats: {
@@ -795,7 +795,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Trousers",
+    name: "Carapace Greaves",
     level: 3,
     set: "carapace",
     stats: {
@@ -817,7 +817,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Carapace Trousers",
+    name: "Carapace Greaves",
     level: 4,
     set: "carapace",
     stats: {
@@ -841,7 +841,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 1,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 16,
       durability: 500,
@@ -863,7 +863,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 2,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 18,
       durability: 700,
@@ -885,7 +885,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 3,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 20,
       durability: 900,
@@ -907,7 +907,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Eitr-weave Trousers",
     level: 4,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 22,
       durability: 1100,

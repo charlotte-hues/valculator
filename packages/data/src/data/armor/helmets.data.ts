@@ -617,7 +617,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Hood",
     level: 1,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 10,
       durability: 1000,
@@ -638,7 +638,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Hood",
     level: 2,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 12,
       durability: 1200,
@@ -659,7 +659,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Hood",
     level: 3,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 14,
       durability: 1400,
@@ -680,7 +680,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Fenris Hood",
     level: 4,
-    set: "wolf",
+    set: "fenris",
     stats: {
       protection: 16,
       durability: 1600,
@@ -783,9 +783,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Eitr-weave Hood",
+    name: "Eitr-Weave Hood",
     level: 1,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 16,
       durability: 500,
@@ -804,9 +804,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Eitr-weave Hood",
+    name: "Eitr-Weave Hood",
     level: 2,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 18,
       durability: 700,
@@ -825,9 +825,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Eitr-weave Hood",
+    name: "Eitr-Weave Hood",
     level: 3,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 20,
       durability: 900,
@@ -846,9 +846,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Eitr-weave Hood",
+    name: "Eitr-Weave Hood",
     level: 4,
-    set: "mage",
+    set: "eitr",
     stats: {
       protection: 22,
       durability: 1100,
@@ -1193,7 +1193,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
   {
     name: "Midsummer Crown",
     level: 1,
-    set: "other",
+    set: "sesonal",
     stats: {
       protection: 1,
       durability: 0,
