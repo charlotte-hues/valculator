@@ -48,6 +48,7 @@ export enum MaterialsEnum {
   "deer hide",
   "deer trophy",
   "dragon tear",
+  "draugr elite trophy",
   "draugr trophy",
   "drake trophy",
   "egg",
