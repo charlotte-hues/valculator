@@ -26,6 +26,8 @@ jobs:
         always-auth: true
 
     - name: Version
+      # Skipped for republish of already-bumped versions; re-enable after this run.
+      if: false
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -40,6 +42,8 @@ jobs:
       run: yarn build
 
     - name: Publish
-      run: npx lerna publish from-git --yes
+      # from-package publishes versions already in package.json (needed when
+      # HEAD moved past the tagged Publish commit, e.g. after a retrigger).
+      run: npx lerna publish from-package --yes
       env: 
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
