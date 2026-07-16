@@ -1,10 +1,17 @@
 {
-  "name": "@valculator/interface",
-  "version": "0.5.4",
+  "name": "@studio-helga/valculator-app",
+  "author": "Charlotte Hughes <hues.charlotte@gmail.com>",
+  "version": "1.0.0",
   "type": "module",
-  "main": "src/main.ts",
+  "main": "dist/entry-interface.js",
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/entry-interface.js",
+      "types": "./dist/interface.d.ts"
+    }
   },
   "module": "dist/entry-interface.js",
   "typings": "./dist/interface.d.ts",
