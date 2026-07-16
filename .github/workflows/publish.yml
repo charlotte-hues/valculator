@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: 18.x
         registry-url: 'https://registry.npmjs.org'
-        scope: "@valculator"
+        scope: "@studio-helga"
         always-auth: true
 
     - name: Version

@@ -1805,6 +1805,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@studio-helga/valculator-app@workspace:packages/interface":
+  version: 0.0.0-use.local
+  resolution: "@studio-helga/valculator-app@workspace:packages/interface"
+  dependencies:
+    "@emotion/react": "npm:^11.11.3"
+    "@emotion/styled": "npm:^11.11.0"
+    "@mui/icons-material": "npm:^5.15.4"
+    "@mui/material": "npm:^5.15.4"
+    "@types/react": "npm:^18.2.55"
+    "@types/react-dom": "npm:^18.2.19"
+    "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
+    "@typescript-eslint/parser": "npm:^6.21.0"
+    "@valculator/context": "npm:^0.1.2"
+    "@valculator/theme": "npm:^0.3.1"
+    "@vitejs/plugin-react": "npm:^4.2.1"
+    eslint: "npm:^8.56.0"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.5"
+    madge: "npm:6.0.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-render-if-visible: "npm:^2.1.1"
+    typescript: "npm:^5.2.2"
+    vite: "npm:^5.1.0"
+    vite-plugin-dts: "npm:^3.7.3"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -2350,37 +2381,6 @@ __metadata:
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.1.0"
-  peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
-"@valculator/interface@workspace:packages/interface":
-  version: 0.0.0-use.local
-  resolution: "@valculator/interface@workspace:packages/interface"
-  dependencies:
-    "@emotion/react": "npm:^11.11.3"
-    "@emotion/styled": "npm:^11.11.0"
-    "@mui/icons-material": "npm:^5.15.4"
-    "@mui/material": "npm:^5.15.4"
-    "@types/react": "npm:^18.2.55"
-    "@types/react-dom": "npm:^18.2.19"
-    "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
-    "@typescript-eslint/parser": "npm:^6.21.0"
-    "@valculator/context": "npm:^0.1.2"
-    "@valculator/theme": "npm:^0.3.1"
-    "@vitejs/plugin-react": "npm:^4.2.1"
-    eslint: "npm:^8.56.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.5"
-    madge: "npm:6.0.0"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    react-render-if-visible: "npm:^2.1.1"
-    typescript: "npm:^5.2.2"
-    vite: "npm:^5.1.0"
-    vite-plugin-dts: "npm:^3.7.3"
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
