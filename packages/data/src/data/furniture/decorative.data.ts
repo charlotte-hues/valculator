@@ -206,29 +206,6 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Archery Target",
-    set: "wood",
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      "fine wood": 4,
-      "leather scraps": 10,
-    },
-  },
-  {
-    name: "T.W.I.G.",
-    set: "wood",
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      ectoplasm: 5,
-      wood: 5,
-      "bronze nails": 10,
-    },
-  },
-  {
     name: "Tankard",
     set: "fine wood",
     station: {

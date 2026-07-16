@@ -36,6 +36,29 @@ const defenseList: Array<Omit<Misc, "group" | "id" | "type">> = [
       "mechanical spring": 1,
     },
   },
+  {
+    name: "Archery Target",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 4,
+      "leather scraps": 10,
+    },
+  },
+  {
+    name: "T.W.I.G.",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ectoplasm: 5,
+      wood: 5,
+      "bronze nails": 10,
+    },
+  },
 ];
 
 export const defense: Array<Omit<Misc, "id">> = defenseList.map((building) => ({
