@@ -239,7 +239,6 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 3,
     },
     materials: {
-      forge: 3,
       bronze: 14,
       "deer hide": 2,
     },
@@ -594,6 +593,694 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       root: 22,
       "ancient bark": 40,
       "deer hide": 2,
+    },
+  },
+  {
+    name: "Patterns of the Bear",
+    level: 1,
+    set: "bear",
+    stats: {
+      protection: 7,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "bear paw": 2,
+      "bear hide": 5,
+      blueberries: 4,
+    },
+  },
+  {
+    name: "Patterns of the Bear",
+    level: 2,
+    set: "bear",
+    stats: {
+      protection: 9,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "bear paw": 2,
+      "bear hide": 7,
+      blueberries: 5,
+    },
+  },
+  {
+    name: "Patterns of the Bear",
+    level: 3,
+    set: "bear",
+    stats: {
+      protection: 11,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "bear paw": 2,
+      "bear hide": 9,
+      blueberries: 6,
+    },
+  },
+  {
+    name: "Patterns of the Bear",
+    level: 4,
+    set: "bear",
+    stats: {
+      protection: 13,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "bear paw": 2,
+      "bear hide": 11,
+      blueberries: 7,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 1,
+    set: "wolf",
+    stats: {
+      protection: 10,
+      durability: 1000,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "3%",
+      "frost resistance": true,
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "leather scraps": 10,
+      "wolf pelt": 5,
+      "fenris hair": 20,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 2,
+    set: "wolf",
+    stats: {
+      protection: 12,
+      durability: 1200,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "3%",
+      "frost resistance": true,
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "leather scraps": 14,
+      "wolf pelt": 8,
+      "fenris hair": 25,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 3,
+    set: "wolf",
+    stats: {
+      protection: 14,
+      durability: 1400,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "3%",
+      "frost resistance": true,
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "leather scraps": 18,
+      "wolf pelt": 11,
+      "fenris hair": 30,
+    },
+  },
+  {
+    name: "Fenris Coat",
+    level: 4,
+    set: "wolf",
+    stats: {
+      protection: 16,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "3%",
+      "frost resistance": true,
+    },
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "leather scraps": 22,
+      "wolf pelt": 14,
+      "fenris hair": 35,
+    },
+  },
+  {
+    name: "Carapace Chestpiece",
+    level: 1,
+    set: "carapace",
+    stats: {
+      protection: 32,
+      durability: 1000,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "refined eitr": 4,
+      iron: 5,
+      carapace: 20,
+      "scale hide": 3,
+    },
+  },
+  {
+    name: "Carapace Chestpiece",
+    level: 2,
+    set: "carapace",
+    stats: {
+      protection: 34,
+      durability: 1200,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "refined eitr": 6,
+      iron: 5,
+      carapace: 30,
+      "scale hide": 4,
+    },
+  },
+  {
+    name: "Carapace Chestpiece",
+    level: 3,
+    set: "carapace",
+    stats: {
+      protection: 36,
+      durability: 1400,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "refined eitr": 8,
+      iron: 5,
+      carapace: 40,
+      "scale hide": 5,
+    },
+  },
+  {
+    name: "Carapace Chestpiece",
+    level: 4,
+    set: "carapace",
+    stats: {
+      protection: 38,
+      durability: 1600,
+      weight: 10,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "refined eitr": 10,
+      iron: 5,
+      carapace: 50,
+      "scale hide": 6,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 1,
+    set: "mage",
+    stats: {
+      protection: 16,
+      durability: 500,
+      weight: 10,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 1,
+    },
+    materials: {
+      "scale hide": 5,
+      feathers: 10,
+      "linen thread": 20,
+      "refined eitr": 20,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 2,
+    set: "mage",
+    stats: {
+      protection: 18,
+      durability: 700,
+      weight: 10,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 2,
+    },
+    materials: {
+      "scale hide": 7,
+      feathers: 12,
+      "linen thread": 22,
+      "refined eitr": 22,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 3,
+    set: "mage",
+    stats: {
+      protection: 20,
+      durability: 900,
+      weight: 10,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "scale hide": 9,
+      feathers: 14,
+      "linen thread": 24,
+      "refined eitr": 24,
+    },
+  },
+  {
+    name: "Eitr-weave Robe",
+    level: 4,
+    set: "mage",
+    stats: {
+      protection: 22,
+      durability: 1100,
+      weight: 10,
+      "eitr regen": 0.4,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "scale hide": 11,
+      feathers: 16,
+      "linen thread": 26,
+      "refined eitr": 26,
+    },
+  },
+  {
+    name: "Flametal Breastplate",
+    level: 1,
+    set: "flametal",
+    stats: {
+      protection: 38,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 3,
+      "morgen heart": 1,
+      flametal: 20,
+    },
+  },
+  {
+    name: "Flametal Breastplate",
+    level: 2,
+    set: "flametal",
+    stats: {
+      protection: 40,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 4,
+      "morgen heart": 1,
+      flametal: 30,
+    },
+  },
+  {
+    name: "Flametal Breastplate",
+    level: 3,
+    set: "flametal",
+    stats: {
+      protection: 42,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 5,
+      "morgen heart": 1,
+      flametal: 40,
+    },
+  },
+  {
+    name: "Flametal Breastplate",
+    level: 4,
+    set: "flametal",
+    stats: {
+      protection: 44,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "charred bone": 5,
+      "asksvin hide": 6,
+      "morgen heart": 1,
+      flametal: 50,
+    },
+  },
+  {
+    name: "Breastplate of Ask",
+    level: 1,
+    set: "ash",
+    stats: {
+      protection: 28,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "asksvin hide": 10,
+      "lox pelt": 4,
+      "linen thread": 15,
+    },
+  },
+  {
+    name: "Breastplate of Ask",
+    level: 2,
+    set: "ash",
+    stats: {
+      protection: 30,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "asksvin hide": 15,
+      "lox pelt": 6,
+      "linen thread": 25,
+    },
+  },
+  {
+    name: "Breastplate of Ask",
+    level: 3,
+    set: "ash",
+    stats: {
+      protection: 32,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 20,
+      "lox pelt": 8,
+      "linen thread": 35,
+    },
+  },
+  {
+    name: "Breastplate of Ask",
+    level: 4,
+    set: "ash",
+    stats: {
+      protection: 34,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 25,
+      "lox pelt": 10,
+      "linen thread": 45,
+    },
+  },
+  {
+    name: "Robes of Embla",
+    level: 1,
+    set: "mage",
+    stats: {
+      protection: 19,
+      durability: 1000,
+      weight: 1,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 2,
+    },
+    materials: {
+      "refined eitr": 20,
+      "asksvin hide": 10,
+      "linen thread": 20,
+      flametal: 5,
+    },
+  },
+  {
+    name: "Robes of Embla",
+    level: 2,
+    set: "mage",
+    stats: {
+      protection: 21,
+      durability: 1200,
+      weight: 1,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "refined eitr": 25,
+      "asksvin hide": 10,
+      "linen thread": 30,
+      flametal: 7,
+    },
+  },
+  {
+    name: "Robes of Embla",
+    level: 3,
+    set: "mage",
+    stats: {
+      protection: 23,
+      durability: 1400,
+      weight: 1,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 30,
+      "asksvin hide": 10,
+      "linen thread": 40,
+      flametal: 9,
+    },
+  },
+  {
+    name: "Robes of Embla",
+    level: 4,
+    set: "mage",
+    stats: {
+      protection: 25,
+      durability: 1600,
+      weight: 1,
+      "eitr regen": 0.5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "refined eitr": 35,
+      "asksvin hide": 10,
+      "linen thread": 50,
+      flametal: 11,
+    },
+  },
+  {
+    name: "Vilebone Cage",
+    level: 1,
+    set: "bear",
+    stats: {
+      protection: 18,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 2,
+    },
+    materials: {
+      "vile ribcage": 3,
+      "bear hide": 4,
+      "linen thread": 4,
+    },
+  },
+  {
+    name: "Vilebone Cage",
+    level: 2,
+    set: "bear",
+    stats: {
+      protection: 20,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 3,
+    },
+    materials: {
+      "vile ribcage": 4,
+      "bear hide": 6,
+      "linen thread": 5,
+    },
+  },
+  {
+    name: "Vilebone Cage",
+    level: 3,
+    set: "bear",
+    stats: {
+      protection: 22,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 4,
+    },
+    materials: {
+      "vile ribcage": 5,
+      "bear hide": 8,
+      "linen thread": 6,
+    },
+  },
+  {
+    name: "Vilebone Cage",
+    level: 4,
+    set: "bear",
+    stats: {
+      protection: 24,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {
+    },
+    station: {
+      forge: 5,
+    },
+    materials: {
+      "vile ribcage": 6,
+      "bear hide": 10,
+      "linen thread": 7,
     },
   },
 ];

@@ -98,6 +98,65 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "deer hide": 1,
     },
   },
+  {
+    name: "Black Marble Bench",
+    set: "black marble",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "black marble": 6,
+      copper: 3,
+    },
+  },
+  {
+    name: "Ashwood Bench",
+    set: "ash",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ashwood: 6,
+    },
+  },
+  {
+    name: "Black Marble Throne",
+    set: "black marble",
+    stats: {
+      comfort: 3,
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "black marble": 20,
+      "scale hide": 4,
+      "deer hide": 2,
+      copper: 5,
+    },
+  },
+  {
+    name: "Bone Throne",
+    set: "other",
+    stats: {
+      comfort: 3,
+    },
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "charred bone": 15,
+      flametal: 4,
+      grausten: 20,
+      "charred skull": 3,
+    },
+  },
 ];
 
 export const seating: Array<Omit<Furniture, "id">> = seatingList.map(

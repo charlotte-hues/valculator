@@ -83,6 +83,88 @@ const lightingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       resin: 2,
     },
   },
+  {
+    name: "Wisp Torch",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "yggdrasil wood": 1,
+      wisp: 1,
+    },
+  },
+  {
+    name: "Dvergr Wall Lantern",
+    set: "dvergr",
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      copper: 2,
+      "dvergr lantern": 1,
+      chain: 1,
+    },
+  },
+  {
+    name: "Dvergr Lantern Pole",
+    set: "dvergr",
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      copper: 2,
+      "dvergr lantern": 1,
+      chain: 1,
+    },
+  },
+  {
+    name: "Lava Lantern",
+    set: "other",
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      flametal: 1,
+      "proustite powder": 1,
+      sulfur: 1,
+    },
+  },
+  {
+    name: "Resin Candle",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      resin: 1,
+      "candle wick": 1,
+    },
+  },
+  {
+    name: "Standing Brazier",
+    set: "bronze",
+    station: {
+      forge: 1,
+    },
+    materials: {
+      bronze: 5,
+      coal: 2,
+      "fenris claw": 3,
+    },
+  },
+  {
+    name: "Blue Standing Brazier",
+    set: "bronze",
+    station: {
+      forge: 1,
+    },
+    materials: {
+      bronze: 5,
+      "greydwarf eye": 2,
+      "fenris claw": 3,
+    },
+  },
 ];
 
 export const lighting: Array<Omit<Furniture, "id">> = lightingList.map(

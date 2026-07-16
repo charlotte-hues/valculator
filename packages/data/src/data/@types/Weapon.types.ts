@@ -7,12 +7,15 @@ type WeaponType =
   | "bolts"
   | "bows"
   | "club"
+  | "crossbows"
+  | "fists"
   | "knives"
   | "magic"
   | "missiles"
   | "polearms"
   | "spear"
-  | "sword";
+  | "sword"
+  | "throwables";
 
 type WeaponSets =
   | "flint"
@@ -30,6 +33,9 @@ type WeaponSets =
   | "elemental"
   | "crystal"
   | "wolf"
+  | "bone"
+  | "carapace"
+  | "flametal"
   | "other";
 
 interface WeaponStats

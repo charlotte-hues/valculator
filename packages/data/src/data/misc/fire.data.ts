@@ -38,6 +38,20 @@ const fireList: Array<Omit<Misc, "group" | "id" | "type">> = [
       stone: 15,
     },
   },
+  {
+    name: "Firepit Iron",
+    set: "structures",
+    station: {
+      hammer: 1,
+    },
+    materials: {
+      "iron pit": 1,
+      wood: 1,
+    },
+    stats: {
+      comfort: 1,
+    },
+  },
 ];
 
 export const fire: Array<Omit<Misc, "id">> = fireList.map((building) => ({

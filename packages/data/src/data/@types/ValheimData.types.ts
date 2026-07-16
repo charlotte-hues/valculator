@@ -26,6 +26,12 @@ export interface IStation {
   "Artisan Table"?: number;
   hammer?: number;
   "black forge"?: number;
+  "galdr table"?: number;
+  "mead ketill"?: number;
+  "food preparation table"?: number;
+  "iron cooking station"?: number;
+  "cooking station"?: number;
+  "eitr refinery"?: number;
 }
 export interface IStats {
   protection?: number;
@@ -61,6 +67,9 @@ export interface IStats {
   storage?: number;
   stagger?: number;
   lightning?: number;
+  "max eitr"?: number;
+  "eitr regen"?: number;
+  eitr?: number;
 }
 
 interface IEffects {
@@ -79,7 +88,8 @@ export type GroupType =
   | "tools"
   | "crafting"
   | "furniture"
-  | "misc";
+  | "misc"
+  | "trinkets";
 
 export type StationType = keyof IStation;
 
@@ -89,7 +99,10 @@ export type EffectsType = keyof IEffects;
 
 export type SetType =
   | "abyssal"
+  | "ash"
   | "banners"
+  | "bear"
+  | "black marble"
   | "black metal"
   | "bone"
   | "bronze"
@@ -100,13 +113,17 @@ export type SetType =
   | "crystal"
   | "dark wood"
   | "deer"
+  | "dvergr"
   | "elemental"
   | "fine wood"
+  | "flametal"
   | "flint"
   | "food"
+  | "grausten"
   | "iron"
   | "leather"
   | "lox"
+  | "mage"
   | "mead"
   | "needle"
   | "obsidian"
@@ -145,11 +162,15 @@ export type TypeType =
   | "cooked food"
   | "cooking"
   | "crafting"
+  | "crossbows"
   | "decoration"
   | "decorative"
   | "defense"
   | "doors"
+  | "eitr"
+  | "feasts"
   | "fire"
+  | "fists"
   | "floor"
   | "healing"
   | "helmet"
@@ -164,6 +185,8 @@ export type TypeType =
   | "pillars"
   | "polearms"
   | "poles"
+  | "potions"
+  | "prepared food"
   | "production"
   | "resistance"
   | "road"
@@ -171,6 +194,7 @@ export type TypeType =
   | "round shields"
   | "rugs"
   | "seating"
+  | "siege"
   | "spear"
   | "stairs"
   | "stamina"
@@ -178,8 +202,10 @@ export type TypeType =
   | "sword"
   | "tables"
   | "teleport"
+  | "throwables"
   | "tower shields"
   | "transport"
+  | "trinket"
   | "walls";
 
 type NearbyType = "artisan Table" | "forge" | "workbench";

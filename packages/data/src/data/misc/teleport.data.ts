@@ -13,6 +13,18 @@ const teleportList: Array<Omit<Misc, "group" | "id" | "type">> = [
       "surtling core": 2,
     },
   },
+  {
+    name: "Portal - Stone",
+    set: "stone",
+    station: {
+      stonecutter: 1,
+    },
+    materials: {
+      "greydwarf eye": 10,
+      grausten: 30,
+      "molten core": 2,
+    },
+  },
 ];
 
 export const teleport: Array<Omit<Misc, "id">> = teleportList.map(

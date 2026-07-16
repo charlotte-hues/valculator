@@ -396,6 +396,618 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "leather scraps": 3,
     },
   },
+  {
+    name: "Carapace Spear",
+    level: 1,
+    set: "carapace",
+    stats: {
+      pierce: 115,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "yggdrasil wood": 10,
+      mandible: 2,
+      carapace: 4,
+    },
+  },
+  {
+    name: "Carapace Spear",
+    level: 2,
+    set: "carapace",
+    stats: {
+      pierce: 121,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "yggdrasil wood": 15,
+      mandible: 3,
+      carapace: 8,
+    },
+  },
+  {
+    name: "Carapace Spear",
+    level: 3,
+    set: "carapace",
+    stats: {
+      pierce: 127,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "yggdrasil wood": 20,
+      mandible: 4,
+      carapace: 12,
+    },
+  },
+  {
+    name: "Carapace Spear",
+    level: 4,
+    set: "carapace",
+    stats: {
+      pierce: 133,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "yggdrasil wood": 25,
+      mandible: 5,
+      carapace: 16,
+    },
+  },
+  {
+    name: "Splitnir",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 135,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "asksvin hide": 2,
+      flametal: 6,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 141,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "asksvin hide": 3,
+      flametal: 12,
+      "bonemaw tooth": 6,
+      ashwood: 15,
+    },
+  },
+  {
+    name: "Splitnir",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 147,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 4,
+      flametal: 18,
+      "bonemaw tooth": 9,
+      ashwood: 20,
+    },
+  },
+  {
+    name: "Splitnir",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 153,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      "asksvin hide": 5,
+      flametal: 24,
+      "bonemaw tooth": 12,
+      ashwood: 25,
+    },
+  },
+  {
+    name: "Splitnir the Bleeding",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 135,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodstone: 1,
+      flametal: 12,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Bleeding",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 141,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 2,
+      flametal: 18,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Bleeding",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 147,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 3,
+      flametal: 24,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Bleeding",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 153,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      bloodstone: 4,
+      flametal: 30,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Storming",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 135,
+      lightning: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      iolite: 1,
+      flametal: 12,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Storming",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 141,
+      lightning: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      iolite: 2,
+      flametal: 18,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Storming",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 147,
+      lightning: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      iolite: 3,
+      flametal: 24,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Storming",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 153,
+      lightning: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      iolite: 4,
+      flametal: 30,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Primal",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 135,
+      poison: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      jade: 1,
+      flametal: 12,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Primal",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 141,
+      poison: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 2,
+      flametal: 18,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Primal",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 147,
+      poison: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 3,
+      flametal: 24,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Splitnir the Primal",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 153,
+      poison: 10,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      jade: 4,
+      flametal: 30,
+      "asksvin hide": 2,
+      "bonemaw tooth": 3,
+      ashwood: 10,
+    },
+  },
+  {
+    name: "Wooden Spear",
+    level: 1,
+    set: "wood",
+    stats: {
+      pierce: 1,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 3,
+      "core wood": 2,
+      wood: 5,
+    },
+  },
+  {
+    name: "Wooden Spear",
+    level: 2,
+    set: "wood",
+    stats: {
+      pierce: 2,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 25,
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fine wood": 13,
+      "core wood": 4,
+      wood: 6,
+    },
+  },
+  {
+    name: "Wooden Spear",
+    level: 3,
+    set: "wood",
+    stats: {
+      pierce: 3,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fine wood": 23,
+      "core wood": 6,
+      wood: 7,
+    },
+  },
+  {
+    name: "Wooden Spear",
+    level: 4,
+    set: "wood",
+    stats: {
+      pierce: 4,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 35,
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
+    },
+  },
 ];
 
 export const spears: Array<Omit<Weapon, "id">> = spearsList.map((weapon) => ({

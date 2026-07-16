@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Local reference data and generation scripts
+/.tmp-ref/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

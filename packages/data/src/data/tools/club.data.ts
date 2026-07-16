@@ -22,8 +22,8 @@ const clubList: Array<Omit<Tool, "group" | "id" | "type">> = [
   },
 ];
 
-export const club: Array<Omit<Tool, "id">> = clubList.map((building) => ({
-  ...building,
+export const club: Array<Omit<Tool, "id">> = clubList.map((tool) => ({
+  ...tool,
   group: "tools",
   type: "club",
 }));

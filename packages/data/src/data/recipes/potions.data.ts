@@ -1,60 +1,24 @@
 import { Recipe } from "../@types/Recipes.types";
 
-const staminaList: Array<Omit<Recipe, "group" | "id" | "type">> = [
+const potionsList: Array<Omit<Recipe, "group" | "id" | "type">> = [
   {
-    name: "Medium Stamina Mead",
+    name: "Berserkir Mead",
     set: "mead",
     stacks: 10,
-    crafts: 6,
+    crafts: 3,
     stats: {
-      stamina: 160,
-      duration: "2s",
+      crafts: 3,
       weight: 1,
     },
     station: {
       fermenter: 1,
     },
     materials: {
-      "mead base: medium stamina": 1,
+      "mead base: berserkir": 1,
     },
   },
   {
-    name: "Minor Stamina Mead",
-    set: "mead",
-    stacks: 10,
-    crafts: 6,
-    stats: {
-      stamina: 80,
-      duration: "2s",
-      weight: 1,
-    },
-    station: {
-      fermenter: 1,
-    },
-    materials: {
-      "mead base: minor stamina": 1,
-    },
-  },
-
-  {
-    name: "Tasty Mead",
-    set: "mead",
-    stacks: 10,
-    crafts: 6,
-    stats: {
-      "health regen": "-50%",
-      "stamina regen": "+100%",
-      weight: 1,
-    },
-    station: {
-      fermenter: 1,
-    },
-    materials: {
-      "mead base: tasty": 1,
-    },
-  },
-  {
-    name: "Lingering Stamina Mead",
+    name: "Mead of Troll Endurance",
     set: "mead",
     stacks: 10,
     crafts: 6,
@@ -66,11 +30,11 @@ const staminaList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       fermenter: 1,
     },
     materials: {
-      "mead base: lingering stamina": 1,
+      "mead base: troll endurance": 1,
     },
   },
   {
-    name: "Tonic of Ratatosk",
+    name: "Draught of Vananidir",
     set: "mead",
     stacks: 10,
     crafts: 6,
@@ -82,15 +46,45 @@ const staminaList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       fermenter: 1,
     },
     materials: {
-      "mead base: ratatosk": 1,
+      "mead base: vananidir": 1,
+    },
+  },
+  {
+    name: "Brew of Animal Whispers",
+    set: "mead",
+    stacks: 10,
+    crafts: 6,
+    stats: {
+      crafts: 6,
+      weight: 1,
+    },
+    station: {
+      fermenter: 1,
+    },
+    materials: {
+      "mead base: animal whispers": 1,
+    },
+  },
+  {
+    name: "Lightfoot Mead",
+    set: "mead",
+    stacks: 10,
+    crafts: 6,
+    stats: {
+      crafts: 6,
+      weight: 1,
+    },
+    station: {
+      fermenter: 1,
+    },
+    materials: {
+      "mead base: lightfoot": 1,
     },
   },
 ];
 
-export const stamina: Array<Omit<Recipe, "id">> = staminaList.map(
-  (building) => ({
-    ...building,
-    group: "recipes",
-    type: "stamina",
-  })
-);
+export const potions: Array<Omit<Recipe, "id">> = potionsList.map((recipe) => ({
+  ...recipe,
+  group: "recipes",
+  type: "potions",
+}));

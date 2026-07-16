@@ -109,6 +109,58 @@ const bannersList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       cloudberries: 1,
     },
   },
+  {
+    name: "Yellow Banner",
+    set: "banners",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 6,
+      "fine wood": 2,
+      dandelion: 4,
+      coal: 2,
+    },
+  },
+  {
+    name: "Purple Banner",
+    set: "banners",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 6,
+      "fine wood": 2,
+      blueberries: 2,
+      raspberries: 3,
+    },
+  },
+  {
+    name: "Orange Banner",
+    set: "banners",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 6,
+      "fine wood": 2,
+      carrot: 2,
+      cloudberries: 3,
+    },
+  },
+  {
+    name: "White Banner",
+    set: "banners",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 6,
+      "fine wood": 2,
+      coal: 2,
+      cloudberries: 4,
+    },
+  },
 ];
 
 export const banners: Array<Omit<Furniture, "id">> = bannersList.map(

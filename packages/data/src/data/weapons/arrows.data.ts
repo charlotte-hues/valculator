@@ -208,6 +208,46 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "freeze gland": 1,
     },
   },
+  {
+    name: "Carapace Arrow",
+    set: "carapace",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 72,
+      knockback: 15,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      feathers: 2,
+      carapace: 4,
+      wood: 8,
+    },
+  },
+  {
+    name: "Charred Arrow",
+    set: "flametal",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 82,
+      knockback: 15,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "charred bone": 4,
+      feathers: 2,
+      ashwood: 8,
+    },
+  },
 ];
 
 export const arrows: Array<Omit<Weapon, "id">> = arrowsList.map((weapon) => ({

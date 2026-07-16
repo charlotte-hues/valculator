@@ -1,0 +1,282 @@
+import { Weapon } from "../@types/Weapon.types";
+
+const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
+  {
+    name: "Paws of the Bear",
+    level: 1,
+    set: "other",
+    stats: {
+      slash: 25,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 10,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "leather scraps": 4,
+      "bear paw": 2,
+      "bear hide": 2,
+    },
+  },
+  {
+    name: "Paws of the Bear",
+    level: 2,
+    set: "other",
+    stats: {
+      slash: 29,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 15,
+      durability: 350,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "leather scraps": 6,
+      "bear paw": 2,
+      "bear hide": 4,
+    },
+  },
+  {
+    name: "Paws of the Bear",
+    level: 3,
+    set: "other",
+    stats: {
+      slash: 33,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 20,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "leather scraps": 8,
+      "bear paw": 2,
+      "bear hide": 6,
+    },
+  },
+  {
+    name: "Paws of the Bear",
+    level: 4,
+    set: "other",
+    stats: {
+      slash: 37,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 25,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      workbench: 5,
+    },
+    materials: {
+      "leather scraps": 10,
+      "bear paw": 2,
+      "bear hide": 8,
+    },
+  },
+  {
+    name: "Flesh Rippers",
+    level: 1,
+    set: "wolf",
+    stats: {
+      slash: 60,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 10,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 3,
+    },
+    materials: {
+      "fenris claw": 6,
+      silver: 10,
+      "fenris hair": 10,
+    },
+  },
+  {
+    name: "Flesh Rippers",
+    level: 2,
+    set: "wolf",
+    stats: {
+      slash: 64,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 15,
+      durability: 350,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 4,
+    },
+    materials: {
+      "fenris claw": 7,
+      silver: 11,
+      "fenris hair": 11,
+    },
+  },
+  {
+    name: "Flesh Rippers",
+    level: 3,
+    set: "wolf",
+    stats: {
+      slash: 68,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 20,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 5,
+    },
+    materials: {
+      "fenris claw": 8,
+      silver: 12,
+      "fenris hair": 12,
+    },
+  },
+  {
+    name: "Flesh Rippers",
+    level: 4,
+    set: "wolf",
+    stats: {
+      slash: 72,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 25,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 6,
+    },
+    materials: {
+      "fenris claw": 9,
+      silver: 13,
+      "fenris hair": 13,
+    },
+  },
+  {
+    name: "Vilebone Maulclaws",
+    level: 1,
+    set: "black metal",
+    stats: {
+      pierce: 60,
+      slash: 20,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 10,
+      durability: 300,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 4,
+    },
+    materials: {
+      "vile ribcage": 2,
+      "bear hide": 2,
+      "black metal": 2,
+      "linen thread": 4,
+    },
+  },
+  {
+    name: "Vilebone Maulclaws",
+    level: 2,
+    set: "black metal",
+    stats: {
+      pierce: 60,
+      slash: 24,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 15,
+      durability: 350,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 5,
+    },
+    materials: {
+      "vile ribcage": 2,
+      "bear hide": 3,
+      "black metal": 3,
+      "linen thread": 6,
+    },
+  },
+  {
+    name: "Vilebone Maulclaws",
+    level: 3,
+    set: "black metal",
+    stats: {
+      pierce: 60,
+      slash: 28,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 20,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 6,
+    },
+    materials: {
+      "vile ribcage": 2,
+      "bear hide": 4,
+      "black metal": 4,
+      "linen thread": 8,
+    },
+  },
+  {
+    name: "Vilebone Maulclaws",
+    level: 4,
+    set: "black metal",
+    stats: {
+      pierce: 60,
+      slash: 32,
+      knockback: 20,
+      backstab: "6x",
+      "parry force": 25,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {},
+    station: {
+      forge: 7,
+    },
+    materials: {
+      "vile ribcage": 2,
+      "bear hide": 5,
+      "black metal": 5,
+      "linen thread": 10,
+    },
+  },
+];
+
+export const fists: Array<Omit<Weapon, "id">> = fistsList.map((weapon) => ({
+  ...weapon,
+  group: "weapons",
+  type: "fists",
+}));

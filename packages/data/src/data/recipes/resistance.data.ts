@@ -52,6 +52,22 @@ const resistanceList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       "mead base: poison resistance": 1,
     },
   },
+  {
+    name: "Anti-Sting Concoction",
+    set: "mead",
+    stacks: 10,
+    crafts: 6,
+    stats: {
+      crafts: 6,
+      weight: 1,
+    },
+    station: {
+      fermenter: 1,
+    },
+    materials: {
+      "mead base: anti-sting": 1,
+    },
+  },
 ];
 
 export const resistance: Array<Omit<Recipe, "id">> = resistanceList.map(

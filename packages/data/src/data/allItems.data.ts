@@ -14,6 +14,7 @@ import { recipesData } from "./recipes";
 import { shieldsData } from "./shields";
 import { stationsData } from "./stations";
 import { toolsData } from "./tools";
+import { trinketsData } from "./trinkets";
 import { weaponsData } from "./weapons";
 
 export const allItemsData: Array<IItem> = [
@@ -26,6 +27,7 @@ export const allItemsData: Array<IItem> = [
   ...(stationsData as Array<IItem>),
   ...(furnitureData as Array<IItem>),
   ...(miscData as Array<IItem>),
+  ...(trinketsData as Array<IItem>),
 ].map((item) => ({ ...item, id: getItemId(item.name, "item", item?.level) }));
 
 function getAllOptions(path: string[]) {

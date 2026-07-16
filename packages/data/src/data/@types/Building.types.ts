@@ -2,10 +2,15 @@ import { MaterialsType } from "./Materials.types";
 import { IStation, IStats } from "./ValheimData.types";
 
 type BuildingSets =
+  | "ash"
+  | "black marble"
   | "bronze"
   | "core wood"
   | "crystal"
   | "dark wood"
+  | "dvergr"
+  | "flametal"
+  | "grausten"
   | "iron"
   | "stone"
   | "wood";
