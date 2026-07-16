@@ -43,7 +43,7 @@ const storageList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Chest",
+    name: "Black Metal Chest",
     set: "black metal",
     stats: {
       storage: 32,

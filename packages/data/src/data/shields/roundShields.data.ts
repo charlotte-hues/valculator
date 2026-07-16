@@ -194,7 +194,7 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Shield",
+    name: "Black Metal Shield",
     level: 1,
     set: "black metal",
     stats: {
@@ -216,7 +216,7 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Shield",
+    name: "Black Metal Shield",
     level: 2,
     set: "black metal",
     stats: {
@@ -238,7 +238,7 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Shield",
+    name: "Black Metal Shield",
     level: 3,
     set: "black metal",
     stats: {

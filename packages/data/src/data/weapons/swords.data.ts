@@ -298,7 +298,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 1,
     set: "black metal",
     stats: {
@@ -322,7 +322,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 2,
     set: "black metal",
     stats: {
@@ -346,7 +346,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 3,
     set: "black metal",
     stats: {
@@ -370,7 +370,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Sword",
+    name: "Black Metal Sword",
     level: 4,
     set: "black metal",
     stats: {

@@ -194,7 +194,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 1,
     set: "black metal",
     stats: {
@@ -218,7 +218,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 2,
     set: "black metal",
     stats: {
@@ -242,7 +242,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 3,
     set: "black metal",
     stats: {
@@ -266,7 +266,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Atgeir",
+    name: "Black Metal Atgeir",
     level: 4,
     set: "black metal",
     stats: {
@@ -310,9 +310,59 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 10,
-      "refined eitr": 1,
+      "refined eitr": 15,
       silver: 5,
       mandible: 2,
+    },
+  },
+  {
+    name: "Himminafl",
+    level: 2,
+    set: "silver",
+    stats: {
+      pierce: 85,
+      lightning: 46,
+      knockback: 30,
+      backstab: "3x",
+      stagger: 131,
+      durability: 225,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      "refined eitr": 15,
+      silver: 5,
+      mandible: 2,
+    },
+  },
+  {
+    name: "Himminafl",
+    level: 3,
+    set: "silver",
+    stats: {
+      pierce: 85,
+      lightning: 52,
+      knockback: 30,
+      backstab: "3x",
+      stagger: 137,
+      durability: 275,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "refined eitr": 30,
+      silver: 10,
+      mandible: 4,
     },
   },
   {

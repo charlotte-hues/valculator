@@ -373,7 +373,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 1,
     set: "black metal",
     stats: {
@@ -396,7 +396,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 2,
     set: "black metal",
     stats: {
@@ -419,7 +419,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 3,
     set: "black metal",
     stats: {
@@ -442,7 +442,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Blackmetal Knife",
+    name: "Black Metal Knife",
     level: 4,
     set: "black metal",
     stats: {

@@ -617,7 +617,7 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ancient bark": 10,
       iron: 30,
       "ymir flesh": 4,
-      "draugr trophy": 1,
+      "draugr elite trophy": 1,
     },
   },
   {

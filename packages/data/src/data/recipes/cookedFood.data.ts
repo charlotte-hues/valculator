@@ -40,7 +40,6 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     materials: {
       "boar meat": 1,
       honey: 1,
-      turnip: 1,
     },
   },
   {
