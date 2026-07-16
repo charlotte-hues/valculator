@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2026-07-16)
+
+
+### Bug Fixes
+
+* interfacce build ([#22](https://github.com/charlotte-hues/valculator/issues/22)) ([595c068](https://github.com/charlotte-hues/valculator/commit/595c068813fe1340f298bb25bfcc475cf5e2c64d))
+* interface package to use latest context package ([#31](https://github.com/charlotte-hues/valculator/issues/31)) ([99f6845](https://github.com/charlotte-hues/valculator/commit/99f684547e250f099c3dc1f9f680bf572e0f02fb))
+* publish [@valculator](https://github.com/valculator) packages to npmjs.org ([110daa1](https://github.com/charlotte-hues/valculator/commit/110daa180ac329aa6ab37c571314a72d55748135))
+* remove key from Autocomplete ([#29](https://github.com/charlotte-hues/valculator/issues/29)) ([fcc67a3](https://github.com/charlotte-hues/valculator/commit/fcc67a313417d9bf0a61a8231f43dcb21c320467))
+* remove linked dependencies from bundleDependencies ([#19](https://github.com/charlotte-hues/valculator/issues/19)) ([6e2fd11](https://github.com/charlotte-hues/valculator/commit/6e2fd11d2cbf0336c4d72f45767b072c3125424c))
+* remove linked dependencies from interface ([e4aa5c5](https://github.com/charlotte-hues/valculator/commit/e4aa5c5a5b98d42a532cb44444bea2dcbd1e8fa8))
+* selection groups sometimes not visible [HEL-124] ([#24](https://github.com/charlotte-hues/valculator/issues/24)) ([5d22517](https://github.com/charlotte-hues/valculator/commit/5d22517cbdbccdf10782c39145576a2512f6aaa9))
+* update data -  furniture 2024-04-01 ([#32](https://github.com/charlotte-hues/valculator/issues/32)) ([8fc608a](https://github.com/charlotte-hues/valculator/commit/8fc608addcccd97990c938f18d85814e45821b0b))
+
+
+### Features
+
+* bundler chunking ([#28](https://github.com/charlotte-hues/valculator/issues/28)) ([35c419f](https://github.com/charlotte-hues/valculator/commit/35c419f0e8a15c5c2deae5e95665ee1371056be2))
+* export typography from theme ([#23](https://github.com/charlotte-hues/valculator/issues/23)) ([7d06482](https://github.com/charlotte-hues/valculator/commit/7d06482b49bfba53e0aaec7b04000879e56cd64f))
+* placeholder copy button ([#18](https://github.com/charlotte-hues/valculator/issues/18)) ([90f0ea9](https://github.com/charlotte-hues/valculator/commit/90f0ea9e842ac165a521c72445adaf802b3d8650))
+* share list button [HEL-123] ([#25](https://github.com/charlotte-hues/valculator/issues/25)) ([322cfa9](https://github.com/charlotte-hues/valculator/commit/322cfa92bec355d5fd75a66b669794b52185a191))
+* shared styling of list card ([#27](https://github.com/charlotte-hues/valculator/issues/27)) ([be099ca](https://github.com/charlotte-hues/valculator/commit/be099caa13be0bdc35144e1a1862474f00f976a0))
+
+
+
+
+
 ## [0.5.4](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.3...@valculator/interface@0.5.4) (2026-07-16)
 
 **Note:** Version bump only for package @valculator/interface

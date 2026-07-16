@@ -1818,7 +1818,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
     "@valculator/context": "npm:^0.1.2"
-    "@valculator/theme": "npm:^0.3.1"
+    "@valculator/theme": "npm:^0.3.2"
     "@vitejs/plugin-react": "npm:^4.2.1"
     eslint: "npm:^8.56.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -2387,7 +2387,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@valculator/theme@npm:^0.3.1, @valculator/theme@workspace:packages/theme":
+"@valculator/theme@npm:^0.3.2, @valculator/theme@workspace:packages/theme":
   version: 0.0.0-use.local
   resolution: "@valculator/theme@workspace:packages/theme"
   dependencies:
