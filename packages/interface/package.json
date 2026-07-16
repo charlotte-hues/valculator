@@ -1,13 +1,19 @@
 {
   "name": "@valculator/interface",
-  "version": "0.1.1",
+  "version": "0.5.3",
   "type": "module",
   "main": "src/main.ts",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/valculator",
     "access": "public"
   },
+  "module": "dist/entry-interface.js",
+  "typings": "./dist/interface.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "dev": "vite",
     "build": "tsc && vite build",
     "test:circular": "madge --extensions ts,tsx ./src/ -c",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
@@ -37,12 +43,15 @@
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
+    "@valculator/context": "^0.1.1",
+    "@valculator/theme": "^0.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "madge": "6.0.0",
     "typescript": "^5.2.2",
-    "vite": "^5.1.0"
+    "vite": "^5.1.0",
+    "vite-plugin-dts": "^3.7.3"
   }
 }

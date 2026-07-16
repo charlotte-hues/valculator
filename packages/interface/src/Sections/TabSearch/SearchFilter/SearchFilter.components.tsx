@@ -54,7 +54,7 @@ export const SelectField = ({
       multiple
       options={options}
       renderInput={(params) => {
-        return <TextField key={params.id} {...params} label={label} />;
+        return <TextField {...params} label={label} />;
       }}
       onChange={handleChange}
     />

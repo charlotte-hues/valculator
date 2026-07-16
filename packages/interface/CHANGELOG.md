@@ -3,6 +3,132 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.3](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.2...@valculator/interface@0.5.3) (2024-04-01)
+
+
+### Bug Fixes
+
+* update data -  furniture 2024-04-01 ([#32](https://github.com/charlotte-hues/valculator/issues/32)) ([8fc608a](https://github.com/charlotte-hues/valculator/commit/8fc608addcccd97990c938f18d85814e45821b0b))
+
+
+
+
+
+## [0.5.2](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.1...@valculator/interface@0.5.2) (2024-04-01)
+
+
+### Bug Fixes
+
+* interface package to use latest context package ([#31](https://github.com/charlotte-hues/valculator/issues/31)) ([99f6845](https://github.com/charlotte-hues/valculator/commit/99f684547e250f099c3dc1f9f680bf572e0f02fb))
+
+
+
+
+
+## [0.5.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.5.0...@valculator/interface@0.5.1) (2024-03-31)
+
+
+### Bug Fixes
+
+* remove key from Autocomplete ([#29](https://github.com/charlotte-hues/valculator/issues/29)) ([fcc67a3](https://github.com/charlotte-hues/valculator/commit/fcc67a313417d9bf0a61a8231f43dcb21c320467))
+
+
+
+
+
+# [0.5.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.4.0...@valculator/interface@0.5.0) (2024-03-31)
+
+
+### Features
+
+* bundler chunking ([#28](https://github.com/charlotte-hues/valculator/issues/28)) ([35c419f](https://github.com/charlotte-hues/valculator/commit/35c419f0e8a15c5c2deae5e95665ee1371056be2))
+
+
+
+
+
+# [0.4.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.3.9095...@valculator/interface@0.4.0) (2024-03-12)
+
+
+### Features
+
+* shared styling of list card ([#27](https://github.com/charlotte-hues/valculator/issues/27)) ([be099ca](https://github.com/charlotte-hues/valculator/commit/be099caa13be0bdc35144e1a1862474f00f976a0))
+
+
+
+
+
+## [0.3.9095](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.3.0...@valculator/interface@0.3.9095) (2024-03-07)
+
+**Note:** Version bump only for package @valculator/interface
+
+
+
+
+
+# [0.3.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.2.1...@valculator/interface@0.3.0) (2024-03-07)
+
+
+### Features
+
+* share list button [HEL-123] ([#25](https://github.com/charlotte-hues/valculator/issues/25)) ([322cfa9](https://github.com/charlotte-hues/valculator/commit/322cfa92bec355d5fd75a66b669794b52185a191))
+
+
+
+
+
+## [0.2.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.2.0...@valculator/interface@0.2.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* selection groups sometimes not visible [HEL-124] ([#24](https://github.com/charlotte-hues/valculator/issues/24)) ([5d22517](https://github.com/charlotte-hues/valculator/commit/5d22517cbdbccdf10782c39145576a2512f6aaa9))
+
+
+
+
+
+# [0.2.0](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.4...@valculator/interface@0.2.0) (2024-02-29)
+
+
+### Features
+
+* export typography from theme ([#23](https://github.com/charlotte-hues/valculator/issues/23)) ([7d06482](https://github.com/charlotte-hues/valculator/commit/7d06482b49bfba53e0aaec7b04000879e56cd64f))
+
+
+
+
+
+## [0.1.4](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.3...@valculator/interface@0.1.4) (2024-02-29)
+
+
+### Bug Fixes
+
+* interfacce build ([#22](https://github.com/charlotte-hues/valculator/issues/22)) ([595c068](https://github.com/charlotte-hues/valculator/commit/595c068813fe1340f298bb25bfcc475cf5e2c64d))
+
+
+
+
+
+## [0.1.3](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.2...@valculator/interface@0.1.3) (2024-02-29)
+
+**Note:** Version bump only for package @valculator/interface
+
+
+
+
+
+## [0.1.2](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.1...@valculator/interface@0.1.2) (2024-02-28)
+
+
+### Bug Fixes
+
+* remove linked dependencies from interface ([e4aa5c5](https://github.com/charlotte-hues/valculator/commit/e4aa5c5a5b98d42a532cb44444bea2dcbd1e8fa8))
+
+
+
+
+
 ## [0.1.1](https://github.com/charlotte-hues/valculator/compare/@valculator/interface@0.1.0...@valculator/interface@0.1.1) (2024-02-27)
 
 

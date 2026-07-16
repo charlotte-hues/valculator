@@ -4,6 +4,7 @@ import { allItemsData, maxItemLevels } from "@valculator/data";
 import { ItemImage } from "../ItemImage.tsx";
 import { IItem } from "@valculator/data/types";
 import { getMissingItems } from "./helpers/getMissingItems.ts";
+import { getItemImageSrc } from "../helpers/getItemImageSrc.ts";
 
 const missingItems = getMissingItems();
 
@@ -12,9 +13,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <>
       <h1>Missing: {missingItems.length}</h1>
       {missingItems.map((item: IItem) => {
+        const src = getItemImageSrc(item);
         return (
           <p>
-            {item.name} / {item.group}
+            {item.name} / {item.group} / {src}
           </p>
         );
       })}

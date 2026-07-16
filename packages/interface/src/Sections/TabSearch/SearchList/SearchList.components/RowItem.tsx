@@ -13,7 +13,7 @@ import { ItemImage } from "@valculator/images";
 
 const RowItemBase = ({ item }: { item: IItem }) => {
   return (
-    <ItemCard id={item.id}>
+    <ItemCard>
       <Grid container alignItems={"center"} padding={1}>
         <Grid item xs={6}>
           <Stack direction={"row"} gap={1} alignItems={"center"}>

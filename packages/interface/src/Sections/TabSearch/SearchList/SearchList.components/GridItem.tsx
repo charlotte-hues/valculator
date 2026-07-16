@@ -101,7 +101,6 @@ export const GridItem = ({ item }: { item: IItem }) => {
 
   return (
     <ItemCard
-      id={item.id}
       sx={{
         minHeight: "280px",
         display: "flex",

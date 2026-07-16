@@ -158,6 +158,22 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
   },
   {
+    name: "Dvergr Lantern",
+    set: "bronze",
+    stats: {
+      durability: 0,
+      weight: 2,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bronze: 5,
+      "surtling core": 1,
+      crystal: 1,
+    },
+  },
+  {
     name: "Scythe",
     level: 1,
     set: "other",

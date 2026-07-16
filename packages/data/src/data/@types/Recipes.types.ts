@@ -25,6 +25,7 @@ interface RecipeStats
     | "max eitr"
     | "max health"
     | "max stamina"
+    | "max eitr"
     | "resistance"
     | "stamina"
     | "stamina regen"

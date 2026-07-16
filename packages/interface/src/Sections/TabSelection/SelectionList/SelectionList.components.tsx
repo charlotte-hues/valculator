@@ -1,11 +1,4 @@
-import {
-  Box,
-  Card,
-  CardActionArea,
-  Collapse,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Collapse, Stack, Typography } from "@mui/material";
 import Rating from "@mui/material/Rating";
 import { useState } from "react";
 
@@ -16,6 +9,7 @@ import { GroupHeader } from "../../../components/shared/GroupHeader";
 import { QuantityButton } from "../../../components/shared/QuantityButton";
 import { SelectedItem } from "@valculator/context/types";
 import { getSelectedCount } from "../../../helpers/getSelectedCount";
+import { ListCard } from "../../../components/shared/ListCard";
 
 export const SelectionGroup = ({
   groupItems,
@@ -86,35 +80,33 @@ export const OwnedLevelSelector = ({ item }: { item: SelectedItem }) => {
 export const SelectionRowItem = ({ item }: { item: SelectedItem }) => {
   const [expanded, setExpanded] = useState<boolean>(false);
   return (
-    <Card>
-      <CardActionArea>
+    <ListCard>
+      <Box
+        display={"flex"}
+        justifyContent={"space-between"}
+        flexDirection={"row"}
+        alignItems={"center"}
+        padding={1}
+      >
         <Box
           display={"flex"}
-          justifyContent={"space-between"}
+          justifyContent={"flex-start"}
           flexDirection={"row"}
-          alignItems={"center"}
-          padding={1}
         >
-          <Box
-            display={"flex"}
-            justifyContent={"flex-start"}
-            flexDirection={"row"}
-          >
-            <QuantityButton id={item.id} variant="selected" />
-            <Typography>{item.name}</Typography>
-          </Box>
-
-          <Stack direction={"row"} alignItems={"center"}>
-            {item.level && <LevelsIndicator item={item} />}
-            {(item.level ?? 0) > 1 && (
-              <ExpandButton expanded={expanded} setExpanded={setExpanded} />
-            )}
-          </Stack>
+          <QuantityButton id={item.id} variant="selected" />
+          <Typography>{item.name}</Typography>
         </Box>
-        <Collapse in={expanded}>
-          <OwnedLevelSelector item={item} />
-        </Collapse>
-      </CardActionArea>
-    </Card>
+
+        <Stack direction={"row"} alignItems={"center"}>
+          {item.level && <LevelsIndicator item={item} />}
+          {(item.level ?? 0) > 1 && (
+            <ExpandButton expanded={expanded} setExpanded={setExpanded} />
+          )}
+        </Stack>
+      </Box>
+      <Collapse in={expanded}>
+        <OwnedLevelSelector item={item} />
+      </Collapse>
+    </ListCard>
   );
 };

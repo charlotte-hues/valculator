@@ -126,6 +126,39 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
+    name: "Blue Jute Curtain",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "blue jute": 4,
+      "fine wood": 1,
+    },
+  },
+  {
+    name: "Blue Jute Drapes",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "blue jute": 4,
+      "fine wood": 1,
+    },
+  },
+  {
+    name: "Red Jute Curtain",
+    set: "other",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "red jute": 4,
+      "fine wood": 1,
+    },
+  },
+  {
     name: "Yule Tree (Craftable)",
     set: "seasonal",
     station: {
