@@ -14,9 +14,9 @@
   },
   "scripts": {
     "dev": "yarn workspace @studio-helga/valculator-app dev",
-    "lint": "lerna run lint && yarn workspace @studio-helga/valculator-app lint",
+    "lint": "lerna run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
-    "build": "lerna run build && yarn workspace @studio-helga/valculator-app build",
+    "build": "lerna run build",
     "deploy:images": "yarn workspace cdk run cdk deploy"
   },
   "packageManager": "yarn@4.1.0",
