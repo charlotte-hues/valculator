@@ -1,13 +1,18 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/cdk",
+    "packages/context",
+    "packages/data",
+    "packages/images",
+    "packages/theme"
+  ],
   "npmClient": "yarn",
   "command": {
     "version": {
       "allowBranch": ["main"],
-      "conventionalCommits": true,
-      "ignoreChanges": ["packages/interface/**"]
+      "conventionalCommits": true
     }
   }
 }
