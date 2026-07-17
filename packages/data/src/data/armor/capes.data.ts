@@ -449,9 +449,9 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "refined eitr": 26,
-      "scale hide": 15,
-      feathers: 14,
+      "refined eitr": 29,
+      "scale hide": 20,
+      feathers: 16,
     },
   },
   {
@@ -470,9 +470,9 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 29,
-      "scale hide": 20,
-      feathers: 16,
+      "refined eitr": 38,
+      "scale hide": 35,
+      feathers: 22,
     },
   },
   {
@@ -532,7 +532,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "morgen sinew": 2,
-      "asksvin hide": 10,
+      "asksvin hide": 12,
     },
   },
   {
@@ -552,7 +552,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "morgen sinew": 2,
-      "asksvin hide": 12,
+      "asksvin hide": 18,
     },
   },
   {
@@ -613,7 +613,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 10,
+      "asksvin hide": 12,
       "morgen sinew": 2,
       flametal: 5,
     },
@@ -634,7 +634,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 12,
+      "asksvin hide": 18,
       "morgen sinew": 2,
       flametal: 5,
     },

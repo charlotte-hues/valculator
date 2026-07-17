@@ -71,9 +71,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "yggdrasil wood": 40,
-      "refined eitr": 32,
-      "surtling core": 8,
+      "yggdrasil wood": 50,
+      "refined eitr": 40,
+      "surtling core": 10,
     },
   },
   {
@@ -96,9 +96,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "yggdrasil wood": 50,
-      "refined eitr": 40,
-      "surtling core": 10,
+      "yggdrasil wood": 80,
+      "refined eitr": 64,
+      "surtling core": 16,
     },
   },
   {
@@ -168,9 +168,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "yggdrasil wood": 40,
-      "freeze gland": 8,
-      "refined eitr": 32,
+      "yggdrasil wood": 50,
+      "freeze gland": 10,
+      "refined eitr": 40,
     },
   },
   {
@@ -192,9 +192,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "yggdrasil wood": 50,
-      "freeze gland": 10,
-      "refined eitr": 40,
+      "yggdrasil wood": 80,
+      "freeze gland": 16,
+      "refined eitr": 64,
     },
   },
   {
@@ -261,9 +261,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "bone fragments": 20,
-      "refined eitr": 32,
-      "skeleton trophy": 8,
+      "bone fragments": 25,
+      "refined eitr": 40,
+      "skeleton trophy": 10,
     },
   },
   {
@@ -284,9 +284,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "bone fragments": 25,
-      "refined eitr": 40,
-      "skeleton trophy": 10,
+      "bone fragments": 40,
+      "refined eitr": 64,
+      "skeleton trophy": 16,
     },
   },
   {
@@ -353,9 +353,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "yggdrasil wood": 40,
-      "blood clot": 8,
-      "refined eitr": 32,
+      "yggdrasil wood": 50,
+      "blood clot": 10,
+      "refined eitr": 40,
     },
   },
   {
@@ -376,9 +376,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "yggdrasil wood": 50,
-      "blood clot": 10,
-      "refined eitr": 40,
+      "yggdrasil wood": 80,
+      "blood clot": 16,
+      "refined eitr": 64,
     },
   },
   {
@@ -447,10 +447,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "celestial feather": 9,
-      bloodstone: 3,
-      flametal: 8,
-      ashwood: 20,
+      "celestial feather": 12,
+      bloodstone: 4,
+      flametal: 10,
+      ashwood: 25,
     },
   },
   {
@@ -471,10 +471,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "celestial feather": 12,
-      bloodstone: 4,
-      flametal: 10,
-      ashwood: 25,
+      "celestial feather": 21,
+      bloodstone: 7,
+      flametal: 16,
+      ashwood: 40,
     },
   },
   {
@@ -544,9 +544,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "proustite powder": 10,
-      "charred bone": 25,
-      ashwood: 11,
+      "proustite powder": 11,
+      "charred bone": 30,
+      ashwood: 14,
     },
   },
   {
@@ -568,9 +568,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "proustite powder": 11,
-      "charred bone": 30,
-      ashwood: 14,
+      "proustite powder": 14,
+      "charred bone": 45,
+      ashwood: 23,
     },
   },
   {
@@ -639,10 +639,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      bloodstone: 3,
-      "troll trophy": 3,
-      flametal: 9,
-      "charred bone": 25,
+      bloodstone: 4,
+      "troll trophy": 4,
+      flametal: 12,
+      "charred bone": 30,
     },
   },
   {
@@ -663,10 +663,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      bloodstone: 4,
-      "troll trophy": 4,
-      flametal: 12,
-      "charred bone": 30,
+      bloodstone: 7,
+      "troll trophy": 7,
+      flametal: 21,
+      "charred bone": 45,
     },
   },
   {
@@ -741,10 +741,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "celestial feather": 9,
-      fiddlehead: 14,
-      jade: 3,
-      ashwood: 25,
+      "celestial feather": 12,
+      fiddlehead: 16,
+      jade: 4,
+      ashwood: 30,
     },
   },
   {
@@ -767,10 +767,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "celestial feather": 12,
-      fiddlehead: 16,
-      jade: 4,
-      ashwood: 30,
+      "celestial feather": 21,
+      fiddlehead: 22,
+      jade: 7,
+      ashwood: 45,
     },
   },
 ];

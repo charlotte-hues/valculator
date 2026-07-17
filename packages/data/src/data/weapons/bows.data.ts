@@ -540,10 +540,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 15,
-      "charred bone": 36,
-      "bonemaw tooth": 15,
-      ashwood: 20,
+      flametal: 20,
+      "charred bone": 46,
+      "bonemaw tooth": 20,
+      ashwood: 25,
     },
   },
   {
@@ -565,10 +565,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 20,
-      "charred bone": 46,
-      "bonemaw tooth": 20,
-      ashwood: 25,
+      flametal: 35,
+      "charred bone": 76,
+      "bonemaw tooth": 35,
+      ashwood: 40,
     },
   },
   {
@@ -641,8 +641,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 3,
-      flametal: 20,
+      bloodstone: 4,
+      flametal: 25,
       "charred bone": 16,
       "bonemaw tooth": 5,
       ashwood: 10,
@@ -667,8 +667,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 4,
-      flametal: 25,
+      bloodstone: 7,
+      flametal: 40,
       "charred bone": 16,
       "bonemaw tooth": 5,
       ashwood: 10,
@@ -697,7 +697,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "charred bone": 16,
       "bonemaw tooth": 5,
       ashwood: 10,
-      iolite: 1,
+      jade: 1,
     },
   },
   {
@@ -707,6 +707,113 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     stats: {
       pierce: 86,
       lightning: 10,
+      spirit: 5,
+      knockback: 25,
+      backstab: "3x",
+      durability: 150,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 15,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      jade: 2,
+    },
+  },
+  {
+    name: "Root Fang",
+    level: 3,
+    set: "flametal",
+    stats: {
+      pierce: 90,
+      lightning: 10,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 200,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 25,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      jade: 4,
+    },
+  },
+  {
+    name: "Root Fang",
+    level: 4,
+    set: "flametal",
+    stats: {
+      pierce: 94,
+      lightning: 10,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 250,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 5,
+    },
+    materials: {
+      flametal: 40,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      jade: 7,
+    },
+  },
+  {
+    name: "Storm Fang",
+    level: 1,
+    set: "flametal",
+    stats: {
+      pierce: 82,
+      poison: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 100,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      flametal: 10,
+      "charred bone": 16,
+      "bonemaw tooth": 5,
+      ashwood: 10,
+      iolite: 1,
+    },
+  },
+  {
+    name: "Storm Fang",
+    level: 2,
+    set: "flametal",
+    stats: {
+      pierce: 86,
+      poison: 10,
       spirit: 5,
       knockback: 25,
       backstab: "3x",
@@ -728,43 +835,16 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Root Fang",
+    name: "Storm Fang",
     level: 3,
     set: "flametal",
     stats: {
       pierce: 90,
-      lightning: 10,
+      poison: 10,
       spirit: 10,
       knockback: 25,
       backstab: "3x",
       durability: 200,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 5,
-    },
-    materials: {
-      flametal: 20,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-      iolite: 3,
-    },
-  },
-  {
-    name: "Root Fang",
-    level: 4,
-    set: "flametal",
-    stats: {
-      pierce: 94,
-      lightning: 10,
-      spirit: 15,
-      knockback: 25,
-      backstab: "3x",
-      durability: 250,
       weight: 1.5,
     },
     effects: {
@@ -783,86 +863,6 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
   },
   {
     name: "Storm Fang",
-    level: 1,
-    set: "flametal",
-    stats: {
-      pierce: 82,
-      poison: 10,
-      knockback: 25,
-      backstab: "3x",
-      durability: 100,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 4,
-    },
-    materials: {
-      jade: 1,
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-    },
-  },
-  {
-    name: "Storm Fang",
-    level: 2,
-    set: "flametal",
-    stats: {
-      pierce: 86,
-      poison: 10,
-      spirit: 5,
-      knockback: 25,
-      backstab: "3x",
-      durability: 150,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 5,
-    },
-    materials: {
-      jade: 2,
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-    },
-  },
-  {
-    name: "Storm Fang",
-    level: 3,
-    set: "flametal",
-    stats: {
-      pierce: 90,
-      poison: 10,
-      spirit: 10,
-      knockback: 25,
-      backstab: "3x",
-      durability: 200,
-      weight: 1.5,
-    },
-    effects: {
-      movementSpeed: "-5%",
-    },
-    station: {
-      "black forge": 5,
-    },
-    materials: {
-      jade: 3,
-      flametal: 20,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-    },
-  },
-  {
-    name: "Storm Fang",
     level: 4,
     set: "flametal",
     stats: {
@@ -881,11 +881,11 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 4,
-      flametal: 25,
+      flametal: 40,
       "charred bone": 16,
       "bonemaw tooth": 5,
       ashwood: 10,
+      iolite: 7,
     },
   },
 ];

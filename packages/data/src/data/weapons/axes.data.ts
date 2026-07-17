@@ -579,9 +579,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 5,
+      "asksvin hide": 6,
       "charred bone": 15,
-      flametal: 54,
+      flametal: 69,
     },
   },
   {
@@ -604,9 +604,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 6,
+      "asksvin hide": 9,
       "charred bone": 15,
-      flametal: 69,
+      flametal: 114,
     },
   },
   {
@@ -681,10 +681,10 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 3,
+      bloodstone: 4,
       "asksvin hide": 3,
       "charred bone": 15,
-      flametal: 39,
+      flametal: 44,
     },
   },
   {
@@ -707,10 +707,10 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 4,
+      bloodstone: 7,
       "asksvin hide": 3,
       "charred bone": 15,
-      flametal: 44,
+      flametal: 59,
     },
   },
   {
@@ -790,8 +790,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "asksvin hide": 3,
       "charred bone": 15,
-      flametal: 39,
-      iolite: 3,
+      flametal: 44,
+      iolite: 4,
     },
   },
   {
@@ -817,8 +817,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "asksvin hide": 3,
       "charred bone": 15,
-      flametal: 44,
-      iolite: 4,
+      flametal: 59,
+      iolite: 7,
     },
   },
   {
@@ -896,10 +896,10 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 3,
+      jade: 4,
       "asksvin hide": 3,
       "charred bone": 15,
-      flametal: 39,
+      flametal: 44,
     },
   },
   {
@@ -923,10 +923,10 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 4,
+      jade: 7,
       "asksvin hide": 3,
       "charred bone": 15,
-      flametal: 44,
+      flametal: 59,
     },
   },
   {
