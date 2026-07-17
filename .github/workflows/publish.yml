@@ -31,7 +31,7 @@ jobs:
       run: |
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
-        npx lerna version --conventional-commits --yes --ignore '@studio-helga/valculator-app'
+        npx lerna version --conventional-commits --yes
         
     - name: Install Dependencies
       run: yarn install
@@ -40,6 +40,6 @@ jobs:
       run: yarn build
 
     - name: Publish
-      run: npx lerna publish from-package --yes --ignore '@studio-helga/valculator-app'
+      run: npx lerna publish from-package --yes
       env: 
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
