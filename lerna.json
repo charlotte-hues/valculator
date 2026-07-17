@@ -6,6 +6,7 @@
     "packages/context",
     "packages/data",
     "packages/images",
+    "packages/interface",
     "packages/theme"
   ],
   "npmClient": "yarn",
