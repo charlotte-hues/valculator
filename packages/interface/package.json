@@ -2,7 +2,7 @@
   "name": "@studio-helga/valculator-app",
   "author": "Charlotte Hughes <hues.charlotte@gmail.com>",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "main": "dist/entry-interface.js",
   "exports": {
