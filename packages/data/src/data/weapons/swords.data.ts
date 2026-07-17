@@ -615,7 +615,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 12,
     },
@@ -639,7 +639,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "asksvin hide": 5,
+      "asksvin hide": 4,
       "charred bone": 3,
       flametal: 22,
     },
@@ -663,9 +663,9 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 7,
+      "asksvin hide": 8,
       "charred bone": 3,
-      flametal: 32,
+      flametal: 42,
     },
   },
   {
@@ -687,9 +687,9 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 9,
+      "asksvin hide": 14,
       "charred bone": 3,
-      flametal: 42,
+      flametal: 72,
     },
   },
   {
@@ -712,7 +712,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 18,
     },
@@ -737,7 +737,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 24,
     },
@@ -761,10 +761,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 3,
-      "asksvin hide": 3,
+      bloodstone: 4,
+      "asksvin hide": 2,
       "charred bone": 3,
-      flametal: 30,
+      flametal: 36,
     },
   },
   {
@@ -786,10 +786,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 4,
-      "asksvin hide": 3,
+      bloodstone: 7,
+      "asksvin hide": 2,
       "charred bone": 3,
-      flametal: 36,
+      flametal: 54,
     },
   },
   {
@@ -812,7 +812,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 18,
       iolite: 1,
@@ -838,7 +838,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 24,
       iolite: 2,
@@ -864,10 +864,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
-      flametal: 30,
-      iolite: 3,
+      flametal: 36,
+      iolite: 4,
     },
   },
   {
@@ -890,10 +890,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
-      flametal: 36,
-      iolite: 4,
+      flametal: 54,
+      iolite: 7,
     },
   },
   {
@@ -917,7 +917,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 1,
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 18,
     },
@@ -943,7 +943,7 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 2,
-      "asksvin hide": 3,
+      "asksvin hide": 2,
       "charred bone": 3,
       flametal: 24,
     },
@@ -968,10 +968,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 3,
-      "asksvin hide": 3,
+      jade: 4,
+      "asksvin hide": 2,
       "charred bone": 3,
-      flametal: 30,
+      flametal: 36,
     },
   },
   {
@@ -994,10 +994,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 4,
-      "asksvin hide": 3,
+      jade: 7,
+      "asksvin hide": 2,
       "charred bone": 3,
-      flametal: 36,
+      flametal: 54,
     },
   },
   {
@@ -1067,9 +1067,9 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "morgen sinew": 9,
-      "asksvin hide": 15,
-      flametal: 60,
+      "morgen sinew": 12,
+      "asksvin hide": 20,
+      flametal: 75,
     },
   },
   {
@@ -1091,9 +1091,9 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "morgen sinew": 12,
-      "asksvin hide": 20,
-      flametal: 75,
+      "morgen sinew": 21,
+      "asksvin hide": 35,
+      flametal: 120,
     },
   },
   {
@@ -1167,8 +1167,8 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "morgen sinew": 3,
       "asksvin hide": 5,
-      flametal: 75,
-      bloodstone: 3,
+      flametal: 90,
+      bloodstone: 4,
     },
   },
   {
@@ -1192,8 +1192,8 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "morgen sinew": 3,
       "asksvin hide": 5,
-      flametal: 90,
-      bloodstone: 4,
+      flametal: 135,
+      bloodstone: 7,
     },
   },
   {
@@ -1270,8 +1270,8 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "morgen sinew": 3,
       "asksvin hide": 5,
-      flametal: 75,
-      iolite: 3,
+      flametal: 90,
+      iolite: 4,
     },
   },
   {
@@ -1296,8 +1296,8 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "morgen sinew": 3,
       "asksvin hide": 5,
-      flametal: 90,
-      iolite: 4,
+      flametal: 135,
+      iolite: 7,
     },
   },
   {
@@ -1374,8 +1374,8 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "morgen sinew": 3,
       "asksvin hide": 5,
-      flametal: 75,
-      jade: 3,
+      flametal: 90,
+      jade: 4,
     },
   },
   {
@@ -1400,8 +1400,8 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "morgen sinew": 3,
       "asksvin hide": 5,
-      flametal: 90,
-      jade: 4,
+      flametal: 135,
+      jade: 7,
     },
   },
   {
@@ -1478,10 +1478,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 3,
+      bloodstone: 4,
       "dyrnwyn tip fragment": 1,
       "dyrnwyn blade fragment": 1,
-      flametal: 40,
+      flametal: 50,
       "dyrnwyn hilt fragment": 1,
     },
   },
@@ -1505,10 +1505,10 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 4,
+      bloodstone: 7,
       "dyrnwyn tip fragment": 1,
       "dyrnwyn blade fragment": 1,
-      flametal: 50,
+      flametal: 80,
       "dyrnwyn hilt fragment": 1,
     },
   },

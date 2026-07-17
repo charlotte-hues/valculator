@@ -463,9 +463,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "yggdrasil wood": 20,
-      mandible: 4,
-      carapace: 12,
+      "yggdrasil wood": 25,
+      mandible: 5,
+      carapace: 16,
     },
   },
   {
@@ -487,9 +487,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "yggdrasil wood": 25,
-      mandible: 5,
-      carapace: 16,
+      "yggdrasil wood": 40,
+      mandible: 8,
+      carapace: 28,
     },
   },
   {
@@ -561,10 +561,10 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 4,
-      flametal: 18,
-      "bonemaw tooth": 9,
-      ashwood: 20,
+      "asksvin hide": 5,
+      flametal: 24,
+      "bonemaw tooth": 12,
+      ashwood: 25,
     },
   },
   {
@@ -586,10 +586,10 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 5,
-      flametal: 24,
-      "bonemaw tooth": 12,
-      ashwood: 25,
+      "asksvin hide": 8,
+      flametal: 42,
+      "bonemaw tooth": 21,
+      ashwood: 40,
     },
   },
   {
@@ -663,8 +663,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 3,
-      flametal: 24,
+      bloodstone: 4,
+      flametal: 30,
       "asksvin hide": 2,
       "bonemaw tooth": 3,
       ashwood: 10,
@@ -689,8 +689,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 4,
-      flametal: 30,
+      bloodstone: 7,
+      flametal: 48,
       "asksvin hide": 2,
       "bonemaw tooth": 3,
       ashwood: 10,
@@ -770,8 +770,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      iolite: 3,
-      flametal: 24,
+      iolite: 4,
+      flametal: 30,
       "asksvin hide": 2,
       "bonemaw tooth": 3,
       ashwood: 10,
@@ -797,8 +797,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      iolite: 4,
-      flametal: 30,
+      iolite: 7,
+      flametal: 48,
       "asksvin hide": 2,
       "bonemaw tooth": 3,
       ashwood: 10,
@@ -878,8 +878,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 3,
-      flametal: 24,
+      jade: 4,
+      flametal: 30,
       "asksvin hide": 2,
       "bonemaw tooth": 3,
       ashwood: 10,
@@ -905,8 +905,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 4,
-      flametal: 30,
+      jade: 7,
+      flametal: 48,
       "asksvin hide": 2,
       "bonemaw tooth": 3,
       ashwood: 10,

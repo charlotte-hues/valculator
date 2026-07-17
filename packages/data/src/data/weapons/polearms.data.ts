@@ -335,9 +335,10 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 2,
     },
     materials: {
-      "refined eitr": 15,
-      silver: 5,
-      mandible: 2,
+      "yggdrasil wood": 10,
+      "refined eitr": 30,
+      silver: 10,
+      mandible: 4,
     },
   },
   {
@@ -360,9 +361,36 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "refined eitr": 30,
-      silver: 10,
-      mandible: 4,
+      "yggdrasil wood": 10,
+      "refined eitr": 60,
+      silver: 20,
+      mandible: 8,
+    },
+  },
+  {
+    name: "Himminafl",
+    level: 4,
+    set: "silver",
+    stats: {
+      pierce: 85,
+      lightning: 58,
+      knockback: 30,
+      backstab: "3x",
+      stagger: 143,
+      durability: 325,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "yggdrasil wood": 10,
+      "refined eitr": 105,
+      silver: 35,
+      mandible: 14,
     },
   },
   {

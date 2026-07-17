@@ -642,7 +642,7 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ancient bark": 12,
       iron: 45,
       "ymir flesh": 6,
-      "draugr trophy": 1,
+      "draugr elite trophy": 1,
     },
   },
   {
@@ -667,7 +667,7 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ancient bark": 16,
       iron: 75,
       "ymir flesh": 10,
-      "draugr trophy": 1,
+      "draugr elite trophy": 1,
     },
   },
   {
@@ -692,7 +692,7 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ancient bark": 22,
       iron: 120,
       "ymir flesh": 16,
-      "draugr trophy": 1,
+      "draugr elite trophy": 1,
     },
   },
   {
@@ -860,10 +860,10 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      sulfur: 11,
-      "asksvin hide": 7,
-      flametal: 31,
-      "charred bone": 20,
+      sulfur: 14,
+      "asksvin hide": 9,
+      flametal: 39,
+      "charred bone": 25,
     },
   },
   {
@@ -885,10 +885,10 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      sulfur: 14,
-      "asksvin hide": 9,
-      flametal: 39,
-      "charred bone": 25,
+      sulfur: 23,
+      "asksvin hide": 15,
+      flametal: 63,
+      "charred bone": 40,
     },
   },
   {
@@ -962,10 +962,10 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 3,
+      bloodstone: 4,
       sulfur: 5,
       "asksvin hide": 3,
-      flametal: 39,
+      flametal: 47,
       "charred bone": 10,
     },
   },
@@ -988,10 +988,10 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 4,
+      bloodstone: 7,
       sulfur: 5,
       "asksvin hide": 3,
-      flametal: 47,
+      flametal: 71,
       "charred bone": 10,
     },
   },
@@ -1071,9 +1071,9 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       sulfur: 5,
       "asksvin hide": 3,
-      flametal: 39,
+      flametal: 47,
       "charred bone": 10,
-      iolite: 3,
+      iolite: 4,
     },
   },
   {
@@ -1098,9 +1098,9 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       sulfur: 5,
       "asksvin hide": 3,
-      flametal: 47,
+      flametal: 71,
       "charred bone": 10,
-      iolite: 4,
+      iolite: 7,
     },
   },
   {

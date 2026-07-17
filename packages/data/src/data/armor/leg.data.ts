@@ -985,8 +985,8 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "charred bone": 5,
-      "asksvin hide": 5,
-      flametal: 40,
+      "asksvin hide": 6,
+      flametal: 50,
     },
   },
   {
@@ -1006,8 +1006,8 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "charred bone": 5,
-      "asksvin hide": 6,
-      flametal: 50,
+      "asksvin hide": 9,
+      flametal: 80,
     },
   },
   {
@@ -1065,9 +1065,9 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 20,
-      "lox pelt": 8,
-      "linen thread": 35,
+      "asksvin hide": 25,
+      "lox pelt": 10,
+      "linen thread": 45,
     },
   },
   {
@@ -1085,9 +1085,9 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 25,
-      "lox pelt": 10,
-      "linen thread": 45,
+      "asksvin hide": 40,
+      "lox pelt": 16,
+      "linen thread": 75,
     },
   },
   {
@@ -1151,9 +1151,9 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 30,
+      "refined eitr": 35,
       "asksvin hide": 10,
-      "linen thread": 40,
+      "linen thread": 50,
     },
   },
   {
@@ -1173,9 +1173,9 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 35,
+      "refined eitr": 50,
       "asksvin hide": 10,
-      "linen thread": 50,
+      "linen thread": 80,
     },
   },
   {
