@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: 18.x
         registry-url: 'https://registry.npmjs.org'
-        scope: '@studio-helga'
+        scope: '@valculator'
         always-auth: true
 
     - name: Install Dependencies
