@@ -1,6 +1,5 @@
 {
-  "name": "@studio-helga/valculator-app",
-  "author": "Charlotte Hughes <hues.charlotte@gmail.com>",
+  "name": "@valculator/interface",
   "version": "1.1.0",
   "type": "module",
   "main": "dist/entry-interface.js",
