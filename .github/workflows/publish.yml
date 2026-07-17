@@ -6,40 +6,46 @@ on:
       - main
 
 concurrency: main
-permissions: write-all
+permissions:
+  contents: write
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    steps: 
-    - uses: actions/checkout@v2
+    steps:
+    - uses: actions/checkout@v4
       with:
         ref: ${{ github.ref }}
         fetch-depth: 0
+        persist-credentials: true
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Use Node.js 18.x
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
         registry-url: 'https://registry.npmjs.org'
-        scope: "@studio-helga"
+        scope: '@valculator'
         always-auth: true
+
+    - name: Install Dependencies
+      run: yarn install
 
     - name: Version
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config user.name "${{ github.actor }}"
-        git config user.email "${{ github.actor}}@users.noreply.github.com"
-        npx lerna version --conventional-commits --yes
-        
-    - name: Install Dependencies
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        yarn lerna version --conventional-commits --yes
+
+    - name: Install after version bump
       run: yarn install
-    
+
     - name: Build
       run: yarn build
 
     - name: Publish
-      run: npx lerna publish from-package --yes
-      env: 
+      run: yarn lerna publish from-package --yes
+      env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

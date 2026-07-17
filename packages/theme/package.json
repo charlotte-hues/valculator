@@ -1,9 +1,11 @@
 {
   "name": "@valculator/theme",
-  "private": true,
   "version": "0.3.2",
   "type": "module",
   "main": "src/main.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./src/main.ts"
