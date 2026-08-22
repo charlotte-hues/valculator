@@ -672,8 +672,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "wolf pelt": 10,
-      "fenris hair": 30,
+      "wolf pelt": 14,
+      "fenris hair": 35,
       "cultist trophy": 1,
     },
   },
@@ -693,8 +693,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "wolf pelt": 14,
-      "fenris hair": 35,
+      "wolf pelt": 26,
+      "fenris hair": 50,
       "cultist trophy": 1,
     },
   },

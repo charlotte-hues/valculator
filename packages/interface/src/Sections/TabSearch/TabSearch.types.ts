@@ -12,7 +12,7 @@ export interface SearchFiltersConfig {
 
 export const initialSearchFilters: SearchFiltersConfig = {
   name: [],
-  level: ["max"],
+  level: [],
   group: [],
   set: [],
   type: [],

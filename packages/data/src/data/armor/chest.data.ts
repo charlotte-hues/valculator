@@ -736,9 +736,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "leather scraps": 18,
-      "wolf pelt": 11,
-      "fenris hair": 30,
+      "leather scraps": 22,
+      "wolf pelt": 14,
+      "fenris hair": 35,
     },
   },
   {
@@ -758,9 +758,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "leather scraps": 22,
-      "wolf pelt": 14,
-      "fenris hair": 35,
+      "leather scraps": 50,
+      "wolf pelt": 23,
+      "fenris hair": 34,
     },
   },
   {

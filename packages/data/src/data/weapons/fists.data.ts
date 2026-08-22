@@ -150,9 +150,9 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "fenris claw": 8,
-      silver: 12,
-      "fenris hair": 12,
+      "fenris claw": 9,
+      silver: 13,
+      "fenris hair": 13,
     },
   },
   {
@@ -172,9 +172,9 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 6,
     },
     materials: {
-      "fenris claw": 9,
-      silver: 13,
-      "fenris hair": 13,
+      "fenris claw": 12,
+      silver: 16,
+      "fenris hair": 16,
     },
   },
   {
