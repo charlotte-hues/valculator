@@ -9,11 +9,5 @@
     "packages/interface",
     "packages/theme"
   ],
-  "npmClient": "yarn",
-  "command": {
-    "version": {
-      "allowBranch": ["main"],
-      "conventionalCommits": true
-    }
-  }
+  "npmClient": "yarn"
 }
