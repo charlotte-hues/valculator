@@ -23,7 +23,6 @@ export const SearchFilter = () => {
   const {
     totalResults,
     filterCount,
-    filters: { level: levelFilters },
     handleToggleShowAdditionalFilters,
     showAdditonalFilters,
     handleClearFilters,
@@ -84,7 +83,7 @@ export const SearchFilter = () => {
         } found`}</Typography>
         <Box display="flex" gap={1}>
           <Button
-            disabled={filterCount === 1 && levelFilters[0] === "max"}
+            disabled={filterCount === 0}
             onClick={handleClearFilters}
           >
             Reset Filters
