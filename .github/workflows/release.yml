@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency: release
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          registry-url: "https://registry.npmjs.org"
+          scope: "@valculator"
+          always-auth: true
+
+      - name: Enable Corepack
+        run: |
+          corepack enable
+          corepack prepare --activate
+
+      - name: Install Dependencies
+        run: yarn install --immutable
+
+      - name: Create Release Pull Request or Publish
+        uses: changesets/action@8488615a623b1b9c987934bb89eae8af6a946ac1 # v2.1.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-title: "chore: version packages"
+          commit-message: "chore: version packages"
+          version-script: yarn changeset:version
+          publish-script: yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

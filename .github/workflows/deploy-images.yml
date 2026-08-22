@@ -22,7 +22,12 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version-file: .nvmrc
+
+      - name: Enable Corepack
+        run: |
+          corepack enable
+          corepack prepare --activate
 
       - name: Setup OIDC Credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -31,7 +36,7 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
       
       - name: Install dependencies and CDK
-        run: yarn install
+        run: yarn install --immutable
       
       - name: Deploy to AWS
         run: yarn deploy:images

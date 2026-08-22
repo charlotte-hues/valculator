@@ -12,19 +12,29 @@
       "./packages/cdk"
     ]
   },
+  "engines": {
+    "node": ">=22.11"
+  },
   "scripts": {
     "dev": "yarn workspace @valculator/interface dev",
     "lint": "lerna run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
     "build": "lerna run build",
+    "clean:dist": "node -e \"const { rmSync, readdirSync } = require('node:fs'); for (const dir of readdirSync('packages')) rmSync('packages/' + dir + '/dist', { recursive: true, force: true });\"",
+    "build:publishable": "yarn clean:dist && lerna run build --scope @valculator/interface --scope @valculator/theme --scope @valculator/data --scope @valculator/context --scope @valculator/images",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "check:changeset": "node scripts/check-changeset.mjs",
+    "release": "yarn build:publishable && changeset publish",
     "deploy:images": "yarn workspace cdk run cdk deploy"
   },
-  "packageManager": "yarn@4.1.0",
+  "packageManager": "yarn@4.9.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/charlotte-hues/valculator.git"
   },
   "devDependencies": {
+    "@changesets/cli": "^3.0.0",
     "lerna": "^8.1.2"
   }
 }

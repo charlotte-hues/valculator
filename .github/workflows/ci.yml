@@ -1,18 +1,13 @@
 name: Continuous Integration
 
-'on':
-    pull_request:
-      branches: 
-        - main
+on:
+  pull_request:
+    branches:
+      - main
 
 jobs:
   quality:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: 
-          - 18.x
-
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
@@ -20,21 +15,43 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Use Node.js 18.x
+
+      - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18.x 
+          node-version-file: .nvmrc
+
+      - name: Enable Corepack
+        run: |
+          corepack enable
+          corepack prepare --activate
 
       - name: Install Dependencies
-        run: yarn install
-      
+        run: yarn install --immutable
+
       - name: Lint
         run: yarn lint
-      
+
       - name: Circular Dependencies Check
         run: yarn test:circular
 
       - name: Build
         run: yarn build
-  
+
+  changeset:
+    runs-on: ubuntu-latest
+    if: github.head_ref != 'changeset-release/main'
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }} --depth=1
+
+      - name: Check changeset
+        run: node scripts/check-changeset.mjs --self-test && node scripts/check-changeset.mjs
+        env:
+          CI: true
+          CHANGESET_CHECK_BASE: origin/${{ github.base_ref }}
