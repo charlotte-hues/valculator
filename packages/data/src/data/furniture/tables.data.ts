@@ -39,7 +39,7 @@ const tablesList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      "fine wood": 20,
+      "fine wood": 10,
       tar: 2,
       "iron nails": 20,
     },

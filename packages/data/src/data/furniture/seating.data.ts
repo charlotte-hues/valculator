@@ -94,7 +94,7 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     materials: {
       "fine wood": 4,
       tar: 1,
-      "iron nails": 1,
+      "iron nails": 5,
       "deer hide": 1,
     },
   },

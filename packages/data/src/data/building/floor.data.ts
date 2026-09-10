@@ -50,7 +50,7 @@ const floorList: Array<Omit<Building, "group" | "id" | "type">> = [
       forge: 1,
     },
     materials: {
-      iron: 2,
+      iron: 1,
     },
   },
   {
