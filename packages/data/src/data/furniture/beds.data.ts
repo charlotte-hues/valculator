@@ -24,7 +24,7 @@ const bedsList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      "fine wood": 8,
+      "fine wood": 40,
       "deer hide": 7,
       "wolf pelt": 4,
       feathers: 10,

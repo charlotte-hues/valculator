@@ -726,7 +726,7 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       "leather scraps": 22,
       "wolf pelt": 14,
-      "fenris hair": 30,
+      "fenris hair": 35,
     },
   },
   {
