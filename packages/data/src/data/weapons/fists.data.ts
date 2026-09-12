@@ -62,9 +62,9 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "leather scraps": 8,
+      "leather scraps": 10,
       "bear paw": 2,
-      "bear hide": 6,
+      "bear hide": 8,
     },
   },
   {
@@ -84,9 +84,9 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "leather scraps": 10,
+      "leather scraps": 18,
       "bear paw": 2,
-      "bear hide": 8,
+      "bear hide": 16,
     },
   },
   {
@@ -172,9 +172,9 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 6,
     },
     materials: {
-      "fenris claw": 12,
-      silver: 16,
-      "fenris hair": 16,
+      "fenris claw": 13,
+      silver: 17,
+      "fenris hair": 17,
     },
   },
   {
@@ -219,7 +219,7 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "vile ribcage": 2,
+      "vile ribcage": 3,
       "bear hide": 3,
       "black metal": 3,
       "linen thread": 6,
@@ -243,10 +243,10 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 6,
     },
     materials: {
-      "vile ribcage": 2,
-      "bear hide": 4,
-      "black metal": 4,
-      "linen thread": 8,
+      "vile ribcage": 5,
+      "bear hide": 5,
+      "black metal": 5,
+      "linen thread": 10,
     },
   },
   {
@@ -267,10 +267,10 @@ const fistsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 7,
     },
     materials: {
-      "vile ribcage": 2,
-      "bear hide": 5,
-      "black metal": 5,
-      "linen thread": 10,
+      "vile ribcage": 9,
+      "bear hide": 9,
+      "black metal": 9,
+      "linen thread": 18,
     },
   },
 ];

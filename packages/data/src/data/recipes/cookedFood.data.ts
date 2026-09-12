@@ -539,8 +539,8 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
     materials: {
       "asksvin tail": 1,
-      vineberry: 2,
       "smoke puff": 1,
+      "vineberry cluster": 2,
     },
   },
   {

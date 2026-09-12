@@ -89,7 +89,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 2,
-      flint: 16,
+      flint: 18,
       "leather scraps": 2,
     },
   },
@@ -158,7 +158,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       wood: 2,
       copper: 20,
-      "greydwarf eye": 34,
+      "greydwarf eye": 24,
     },
   },
   {
@@ -180,8 +180,8 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 2,
-      copper: 32,
-      "greydwarf eye": 58,
+      copper: 36,
+      "greydwarf eye": 56,
     },
   },
   {
@@ -272,7 +272,7 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 4,
-      chitin: 80,
+      chitin: 90,
       "leather scraps": 2,
     },
   },
@@ -366,10 +366,10 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 6,
     },
     materials: {
-      wood: 8,
-      silver: 40,
-      "leather scraps": 9,
-      iron: 8,
+      wood: 9,
+      silver: 45,
+      "leather scraps": 10,
+      iron: 9,
     },
   },
   {
@@ -460,8 +460,8 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 4,
-      "black metal": 34,
-      "linen thread": 35,
+      "black metal": 38,
+      "linen thread": 40,
     },
   },
   {
@@ -529,8 +529,8 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 4,
-      "black metal": 18,
-      iron: 18,
+      "black metal": 22,
+      iron: 22,
     },
   },
   {
@@ -552,8 +552,8 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 4,
-      "black metal": 22,
-      iron: 22,
+      "black metal": 38,
+      iron: 38,
     },
   },
   {
@@ -620,9 +620,9 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "fine wood": 23,
-      "core wood": 6,
-      wood: 7,
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
     },
   },
   {
@@ -643,9 +643,9 @@ const knivesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 33,
-      "core wood": 8,
-      wood: 8,
+      "fine wood": 73,
+      "core wood": 16,
+      wood: 12,
     },
   },
 ];

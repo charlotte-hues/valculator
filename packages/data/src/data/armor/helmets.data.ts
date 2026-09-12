@@ -68,8 +68,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "deer hide": 42,
-      "bone fragments": 30,
+      "deer hide": 48,
+      "bone fragments": 35,
     },
   },
   {
@@ -88,8 +88,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "troll leather": 5,
       "bone fragments": 3,
+      "troll hide": 5,
     },
   },
   {
@@ -108,8 +108,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "troll leather": 7,
       "bone fragments": 4,
+      "troll hide": 7,
     },
   },
   {
@@ -128,8 +128,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "troll leather": 11,
       "bone fragments": 6,
+      "troll hide": 11,
     },
   },
   {
@@ -148,8 +148,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 6,
     },
     materials: {
-      "troll leather": 17,
-      "bone fragments": 9,
+      "bone fragments": 10,
+      "troll hide": 19,
     },
   },
   {
@@ -220,7 +220,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      bronze: 23,
+      bronze: 26,
       "deer hide": 2,
     },
   },
@@ -301,7 +301,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      iron: 50,
+      iron: 55,
       "deer hide": 2,
     },
   },
@@ -377,7 +377,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      silver: 50,
+      silver: 55,
       "wolf pelt": 2,
       "drake trophy": 2,
     },
@@ -415,7 +415,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 15,
-      "linen thread": 15,
+      "linen thread": 25,
     },
   },
   {
@@ -433,7 +433,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 25,
-      "linen thread": 15,
+      "linen thread": 45,
     },
   },
   {
@@ -450,8 +450,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      iron: 40,
-      "linen thread": 15,
+      iron: 45,
+      "linen thread": 85,
     },
   },
   {
@@ -472,7 +472,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       root: 10,
       "ancient bark": 10,
-      "leather scraps": 2,
+      "leather scraps": 4,
     },
   },
   {
@@ -493,7 +493,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       root: 12,
       "ancient bark": 15,
-      "leather scraps": 2,
+      "leather scraps": 4,
     },
   },
   {
@@ -514,7 +514,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       root: 16,
       "ancient bark": 25,
-      "leather scraps": 2,
+      "leather scraps": 4,
     },
   },
   {
@@ -533,9 +533,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      root: 22,
-      "ancient bark": 40,
-      "leather scraps": 2,
+      root: 24,
+      "ancient bark": 45,
+      "leather scraps": 4,
     },
   },
   {
@@ -592,7 +592,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "bear trophy": 1,
-      "bear hide": 9,
+      "bear hide": 11,
     },
   },
   {
@@ -611,7 +611,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "bear trophy": 1,
-      "bear hide": 11,
+      "bear hide": 19,
     },
   },
   {
@@ -693,8 +693,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "wolf pelt": 26,
-      "fenris hair": 50,
+      "wolf pelt": 30,
+      "fenris hair": 55,
       "cultist trophy": 1,
     },
   },
@@ -755,9 +755,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "refined eitr": 8,
-      carapace: 32,
-      "scale hide": 5,
+      "refined eitr": 10,
+      carapace: 40,
+      "scale hide": 6,
       mandible: 2,
     },
   },
@@ -776,9 +776,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "refined eitr": 10,
-      carapace: 40,
-      "scale hide": 6,
+      "refined eitr": 18,
+      carapace: 72,
+      "scale hide": 10,
       mandible: 2,
     },
   },
@@ -800,7 +800,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       "refined eitr": 15,
       iron: 2,
-      "linen thread": 15,
+      "linen thread": 16,
     },
   },
   {
@@ -819,9 +819,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 2,
     },
     materials: {
-      "refined eitr": 16,
-      iron: 3,
-      "linen thread": 17,
+      "refined eitr": 20,
+      iron: 2,
+      "linen thread": 24,
     },
   },
   {
@@ -840,9 +840,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "refined eitr": 17,
-      iron: 4,
-      "linen thread": 19,
+      "refined eitr": 30,
+      iron: 2,
+      "linen thread": 40,
     },
   },
   {
@@ -861,9 +861,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 18,
-      iron: 5,
-      "linen thread": 21,
+      "refined eitr": 50,
+      iron: 2,
+      "linen thread": 72,
     },
   },
   {
@@ -944,10 +944,10 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "refined eitr": 16,
+      "refined eitr": 18,
       "charred bone": 2,
-      "asksvin hide": 9,
-      flametal: 64,
+      "asksvin hide": 10,
+      flametal: 72,
     },
   },
   {
@@ -1025,9 +1025,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 40,
-      "lox pelt": 16,
-      "linen thread": 75,
+      "asksvin hide": 45,
+      "lox pelt": 18,
+      "linen thread": 85,
     },
   },
   {
@@ -1109,9 +1109,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 45,
+      "refined eitr": 50,
       "asksvin hide": 2,
-      "linen thread": 64,
+      "linen thread": 72,
     },
   },
   {
@@ -1167,7 +1167,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "bear hide": 9,
+      "bear hide": 11,
       "vile trophy": 1,
     },
   },
@@ -1186,7 +1186,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "bear hide": 11,
+      "bear hide": 19,
       "vile trophy": 1,
     },
   },
@@ -1265,9 +1265,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "deer hide": 4,
+      "deer hide": 5,
       "bear hide": 1,
-      bronze: 3,
+      bronze: 4,
       "amber pearl": 1,
     },
   },
@@ -1286,9 +1286,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "deer hide": 5,
+      "deer hide": 9,
       "bear hide": 1,
-      bronze: 4,
+      bronze: 8,
       "amber pearl": 1,
     },
   },

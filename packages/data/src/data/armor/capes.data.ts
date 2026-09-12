@@ -69,8 +69,8 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "deer hide": 28,
-      "bone fragments": 35,
+      "deer hide": 32,
+      "bone fragments": 40,
     },
   },
   {
@@ -89,8 +89,8 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "troll leather": 10,
       "bone fragments": 10,
+      "troll hide": 10,
     },
   },
   {
@@ -109,8 +109,8 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "troll leather": 15,
       "bone fragments": 15,
+      "troll hide": 15,
     },
   },
   {
@@ -129,8 +129,8 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "troll leather": 25,
       "bone fragments": 25,
+      "troll hide": 25,
     },
   },
   {
@@ -149,8 +149,8 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 6,
     },
     materials: {
-      "troll leather": 40,
-      "bone fragments": 40,
+      "bone fragments": 45,
+      "troll hide": 45,
     },
   },
 
@@ -233,8 +233,8 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      silver: 16,
-      "wolf pelt": 30,
+      silver: 18,
+      "wolf pelt": 34,
       "wolf trophy": 1,
     },
   },
@@ -308,7 +308,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       silver: 1,
-      "linen thread": 44,
+      "linen thread": 48,
     },
   },
   {
@@ -388,7 +388,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       silver: 2,
-      "lox pelt": 18,
+      "lox pelt": 20,
     },
   },
   {
@@ -470,9 +470,9 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 38,
-      "scale hide": 35,
-      feathers: 22,
+      "refined eitr": 41,
+      "scale hide": 40,
+      feathers: 24,
     },
   },
   {
@@ -552,7 +552,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "morgen sinew": 2,
-      "asksvin hide": 18,
+      "asksvin hide": 20,
     },
   },
   {
@@ -634,7 +634,7 @@ const capeList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 18,
+      "asksvin hide": 20,
       "morgen sinew": 2,
       flametal: 5,
     },

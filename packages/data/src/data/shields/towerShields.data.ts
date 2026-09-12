@@ -158,8 +158,8 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "fine wood": 30,
-      "black metal": 16,
+      "fine wood": 25,
+      "black metal": 14,
       chain: 9,
     },
   },
@@ -179,8 +179,8 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "fine wood": 50,
-      "black metal": 24,
+      "fine wood": 45,
+      "black metal": 22,
       chain: 13,
     },
   },
@@ -327,9 +327,9 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      ashwood: 15,
       "asksvin hide": 5,
       flametal: 10,
+      "ash wood": 15,
     },
   },
   {
@@ -349,9 +349,9 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      ashwood: 25,
       "asksvin hide": 7,
       flametal: 14,
+      "ash wood": 25,
     },
   },
   {
@@ -371,9 +371,9 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      ashwood: 35,
-      "asksvin hide": 9,
-      flametal: 18,
+      "asksvin hide": 11,
+      flametal: 22,
+      "ash wood": 45,
     },
   },
 ];

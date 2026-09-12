@@ -93,7 +93,7 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 10,
-      bronze: 32,
+      bronze: 36,
       "leather scraps": 2,
     },
   },
@@ -189,8 +189,8 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 10,
-      iron: 120,
-      "leather scraps": 8,
+      iron: 135,
+      "leather scraps": 9,
     },
   },
   {
@@ -285,8 +285,8 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 10,
-      "black metal": 120,
-      "linen thread": 35,
+      "black metal": 135,
+      "linen thread": 40,
     },
   },
   {
@@ -388,9 +388,9 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 10,
-      "refined eitr": 105,
-      silver: 35,
-      mandible: 14,
+      "refined eitr": 120,
+      silver: 40,
+      mandible: 16,
     },
   },
   {
@@ -460,9 +460,9 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "fine wood": 23,
-      "core wood": 6,
-      wood: 7,
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
     },
   },
   {
@@ -484,9 +484,9 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 33,
-      "core wood": 8,
-      wood: 8,
+      "fine wood": 73,
+      "core wood": 16,
+      wood: 12,
     },
   },
 ];

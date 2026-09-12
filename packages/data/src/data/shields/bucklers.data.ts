@@ -124,7 +124,7 @@ const bucklersShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 25,
-      "ancient bark": 9,
+      "ancient bark": 7,
     },
   },
   {

@@ -92,8 +92,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "ancient bark": 60,
-      iron: 125,
+      "ancient bark": 65,
+      iron: 140,
       "leather scraps": 4,
     },
   },
@@ -196,8 +196,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "ancient bark": 70,
-      silver: 120,
+      "ancient bark": 75,
+      silver: 135,
       crystal: 10,
     },
   },
@@ -272,8 +272,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 10,
-      "black metal": 60,
-      "linen thread": 15,
+      "black metal": 75,
+      "linen thread": 20,
     },
   },
   {
@@ -297,8 +297,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 10,
-      "black metal": 75,
-      "linen thread": 20,
+      "black metal": 135,
+      "linen thread": 40,
     },
   },
   {
@@ -377,9 +377,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 5,
-      iron: 35,
-      bilebag: 5,
-      "refined eitr": 12,
+      iron: 45,
+      bilebag: 6,
+      "refined eitr": 13,
     },
   },
   {
@@ -404,9 +404,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 5,
-      iron: 45,
-      bilebag: 6,
-      "refined eitr": 13,
+      iron: 85,
+      bilebag: 10,
+      "refined eitr": 17,
     },
   },
   {
@@ -429,9 +429,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 30,
-      "linen thread": 5,
+      iron: 30,
+      "yggdrasil wood": 15,
+      "refined eitr": 10,
     },
   },
   {
@@ -454,9 +454,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 2,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 45,
-      "linen thread": 10,
+      iron: 45,
+      "yggdrasil wood": 20,
+      "refined eitr": 10,
     },
   },
   {
@@ -479,9 +479,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 60,
-      "linen thread": 15,
+      iron: 75,
+      "yggdrasil wood": 30,
+      "refined eitr": 10,
     },
   },
   {
@@ -504,9 +504,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 75,
-      "linen thread": 20,
+      iron: 135,
+      "yggdrasil wood": 50,
+      "refined eitr": 10,
     },
   },
   {
@@ -604,9 +604,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 9,
+      "asksvin hide": 10,
       "charred bone": 15,
-      flametal: 114,
+      flametal: 129,
     },
   },
   {
@@ -630,9 +630,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 29,
+      flametal: 5,
+      "berserkir axes": 1,
     },
   },
   {
@@ -656,9 +655,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 34,
+      flametal: 10,
+      "berserkir axes": 1,
     },
   },
   {
@@ -682,9 +680,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 4,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 44,
+      flametal: 20,
+      "berserkir axes": 1,
     },
   },
   {
@@ -707,10 +704,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 7,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 59,
+      bloodstone: 8,
+      flametal: 40,
+      "berserkir axes": 1,
     },
   },
   {
@@ -734,10 +730,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 29,
+      flametal: 5,
       iolite: 1,
+      "berserkir axes": 1,
     },
   },
   {
@@ -761,10 +756,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 34,
+      flametal: 10,
       iolite: 2,
+      "berserkir axes": 1,
     },
   },
   {
@@ -788,10 +782,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 44,
+      flametal: 20,
       iolite: 4,
+      "berserkir axes": 1,
     },
   },
   {
@@ -815,10 +808,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 59,
-      iolite: 7,
+      flametal: 40,
+      iolite: 8,
+      "berserkir axes": 1,
     },
   },
   {
@@ -843,9 +835,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 1,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 29,
+      flametal: 5,
+      "berserkir axes": 1,
     },
   },
   {
@@ -870,9 +861,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 2,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 34,
+      flametal: 10,
+      "berserkir axes": 1,
     },
   },
   {
@@ -897,9 +887,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 4,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 44,
+      flametal: 20,
+      "berserkir axes": 1,
     },
   },
   {
@@ -923,10 +912,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 7,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 59,
+      jade: 8,
+      flametal: 40,
+      "berserkir axes": 1,
     },
   },
   {
@@ -999,9 +987,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "fine wood": 23,
-      "core wood": 6,
-      wood: 7,
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
     },
   },
   {
@@ -1024,9 +1012,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 33,
-      "core wood": 8,
-      wood: 8,
+      "fine wood": 73,
+      "core wood": 16,
+      wood: 12,
     },
   },
 ];

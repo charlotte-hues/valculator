@@ -137,7 +137,7 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       wood: 8,
       feathers: 2,
-      resin: 1,
+      resin: 8,
     },
   },
   {
@@ -245,7 +245,7 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "charred bone": 4,
       feathers: 2,
-      ashwood: 8,
+      "ash wood": 8,
     },
   },
 ];

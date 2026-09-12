@@ -217,7 +217,7 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      silver: 16,
+      silver: 21,
       "scythe handle": 1,
     },
   },

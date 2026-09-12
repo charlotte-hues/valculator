@@ -223,7 +223,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      copper: 8,
+      copper: 2,
     },
   },
   {
@@ -236,7 +236,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {
@@ -249,7 +249,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 1,
     },
   },
   {
@@ -262,7 +262,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 1,
     },
   },
   {
@@ -275,7 +275,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 4,
     },
   },
   {
@@ -288,7 +288,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {
@@ -301,7 +301,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {

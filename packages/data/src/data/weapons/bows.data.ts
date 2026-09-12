@@ -83,9 +83,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      wood: 40,
-      "leather scraps": 32,
-      "deer hide": 6,
+      wood: 45,
+      "leather scraps": 36,
+      "deer hide": 7,
     },
   },
   {
@@ -175,9 +175,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 40,
-      "core wood": 40,
-      "deer hide": 14,
+      "fine wood": 45,
+      "core wood": 45,
+      "deer hide": 16,
     },
   },
   {
@@ -270,10 +270,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "fine wood": 40,
-      iron: 80,
-      feathers: 40,
-      "deer hide": 14,
+      "fine wood": 45,
+      iron: 90,
+      feathers: 45,
+      "deer hide": 16,
     },
   },
   {
@@ -370,10 +370,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "ancient bark": 40,
-      silver: 80,
-      "deer hide": 14,
-      guck: 20,
+      "ancient bark": 45,
+      silver: 90,
+      "deer hide": 16,
+      guck: 24,
     },
   },
   {
@@ -443,8 +443,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "bone fragments": 80,
-      "fine wood": 20,
+      "bone fragments": 100,
+      "fine wood": 25,
       "refined eitr": 10,
     },
   },
@@ -467,8 +467,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "bone fragments": 100,
-      "fine wood": 25,
+      "bone fragments": 180,
+      "fine wood": 45,
       "refined eitr": 10,
     },
   },
@@ -493,7 +493,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 5,
       "charred bone": 16,
       "bonemaw tooth": 5,
-      ashwood: 10,
+      "ash wood": 10,
     },
   },
   {
@@ -518,7 +518,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 10,
       "charred bone": 26,
       "bonemaw tooth": 10,
-      ashwood: 15,
+      "ash wood": 15,
     },
   },
   {
@@ -543,7 +543,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 20,
       "charred bone": 46,
       "bonemaw tooth": 20,
-      ashwood: 25,
+      "ash wood": 25,
     },
   },
   {
@@ -565,10 +565,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 35,
-      "charred bone": 76,
-      "bonemaw tooth": 35,
-      ashwood: 40,
+      flametal: 40,
+      "charred bone": 86,
+      "bonemaw tooth": 40,
+      "ash wood": 45,
     },
   },
   {
@@ -590,10 +590,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 5,
+      "ash fang": 1,
     },
   },
   {
@@ -616,10 +614,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 10,
+      "ash fang": 1,
     },
   },
   {
@@ -642,10 +638,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 4,
-      flametal: 25,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 20,
+      "ash fang": 1,
     },
   },
   {
@@ -667,11 +661,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 7,
+      bloodstone: 8,
       flametal: 40,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      "ash fang": 1,
     },
   },
   {
@@ -693,11 +685,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 5,
       jade: 1,
+      "ash fang": 1,
     },
   },
   {
@@ -720,11 +710,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 10,
       jade: 2,
+      "ash fang": 1,
     },
   },
   {
@@ -747,11 +735,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 25,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 20,
       jade: 4,
+      "ash fang": 1,
     },
   },
   {
@@ -775,10 +761,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 40,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-      jade: 7,
+      jade: 8,
+      "ash fang": 1,
     },
   },
   {
@@ -800,11 +784,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 5,
       iolite: 1,
+      "ash fang": 1,
     },
   },
   {
@@ -827,11 +809,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 10,
       iolite: 2,
+      "ash fang": 1,
     },
   },
   {
@@ -854,11 +834,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 25,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 20,
       iolite: 4,
+      "ash fang": 1,
     },
   },
   {
@@ -882,10 +860,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 40,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-      iolite: 7,
+      iolite: 8,
+      "ash fang": 1,
     },
   },
 ];

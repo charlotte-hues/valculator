@@ -252,7 +252,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 1,
     },
   },
   {
@@ -265,7 +265,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 4,
+      "ash wood": 2,
     },
   },
   {
@@ -278,7 +278,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 2,
     },
   },
   {
@@ -291,7 +291,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 2,
     },
   },
   {

@@ -132,8 +132,8 @@ const trinketsList: Array<Omit<Trinket, "group" | "id" | "type">> = [
     },
     materials: {
       "black metal": 5,
-      "fulling berserker trophy": 1,
       "linen thread": 10,
+      "fuling berserker trophy": 1,
     },
   },
   {

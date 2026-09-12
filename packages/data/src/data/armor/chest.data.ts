@@ -103,8 +103,8 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "deer hide": 42,
-      "bone fragments": 30,
+      "deer hide": 48,
+      "bone fragments": 35,
     },
   },
   {
@@ -123,7 +123,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "troll leather": 6,
+      "troll hide": 5,
     },
   },
   {
@@ -142,7 +142,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "troll leather": 7,
+      "troll hide": 7,
     },
   },
   {
@@ -161,7 +161,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "troll leather": 11,
+      "troll hide": 11,
     },
   },
   {
@@ -180,7 +180,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 6,
     },
     materials: {
-      "troll leather": 17,
+      "troll hide": 19,
     },
   },
   {
@@ -259,7 +259,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      bronze: 23,
+      bronze: 26,
       "deer hide": 2,
     },
   },
@@ -339,7 +339,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      iron: 50,
+      iron: 55,
       "deer hide": 2,
     },
   },
@@ -426,8 +426,8 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      silver: 50,
-      "wolf pelt": 17,
+      silver: 55,
+      "wolf pelt": 19,
       chain: 1,
     },
   },
@@ -468,7 +468,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 13,
-      "linen thread": 20,
+      "linen thread": 30,
     },
   },
   {
@@ -488,7 +488,7 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 19,
-      "linen thread": 20,
+      "linen thread": 50,
     },
   },
   {
@@ -507,8 +507,8 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      iron: 28,
-      "linen thread": 20,
+      iron: 31,
+      "linen thread": 90,
     },
   },
   {
@@ -590,8 +590,8 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      root: 22,
-      "ancient bark": 40,
+      root: 24,
+      "ancient bark": 45,
       "deer hide": 2,
     },
   },
@@ -651,8 +651,8 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "bear paw": 2,
-      "bear hide": 9,
-      blueberries: 6,
+      "bear hide": 11,
+      blueberries: 7,
     },
   },
   {
@@ -671,8 +671,8 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "bear paw": 2,
-      "bear hide": 11,
-      blueberries: 7,
+      "bear hide": 19,
+      blueberries: 11,
     },
   },
   {
@@ -758,9 +758,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "leather scraps": 34,
-      "wolf pelt": 23,
-      "fenris hair": 50,
+      "leather scraps": 38,
+      "wolf pelt": 26,
+      "fenris hair": 55,
     },
   },
   {
@@ -823,10 +823,10 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "refined eitr": 8,
+      "refined eitr": 10,
       iron: 5,
-      carapace: 40,
-      "scale hide": 5,
+      carapace: 50,
+      "scale hide": 6,
     },
   },
   {
@@ -845,10 +845,10 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "refined eitr": 10,
+      "refined eitr": 18,
       iron: 5,
-      carapace: 50,
-      "scale hide": 6,
+      carapace: 90,
+      "scale hide": 10,
     },
   },
   {
@@ -891,10 +891,10 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 2,
     },
     materials: {
-      "scale hide": 7,
-      feathers: 12,
-      "linen thread": 22,
-      "refined eitr": 22,
+      "scale hide": 5,
+      feathers: 10,
+      "linen thread": 30,
+      "refined eitr": 25,
     },
   },
   {
@@ -914,10 +914,10 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "scale hide": 9,
-      feathers: 14,
-      "linen thread": 24,
-      "refined eitr": 24,
+      "scale hide": 5,
+      feathers: 10,
+      "linen thread": 50,
+      "refined eitr": 35,
     },
   },
   {
@@ -937,10 +937,10 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "scale hide": 11,
-      feathers: 16,
-      "linen thread": 26,
-      "refined eitr": 26,
+      "scale hide": 5,
+      feathers: 10,
+      "linen thread": 90,
+      "refined eitr": 55,
     },
   },
   {
@@ -1026,9 +1026,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "charred bone": 5,
-      "asksvin hide": 9,
+      "asksvin hide": 10,
       "morgen heart": 1,
-      flametal: 80,
+      flametal: 90,
     },
   },
   {
@@ -1106,9 +1106,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 40,
-      "lox pelt": 16,
-      "linen thread": 75,
+      "asksvin hide": 45,
+      "lox pelt": 18,
+      "linen thread": 85,
     },
   },
   {
@@ -1197,10 +1197,10 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 50,
+      "refined eitr": 55,
       "asksvin hide": 10,
-      "linen thread": 80,
-      flametal: 17,
+      "linen thread": 90,
+      flametal: 19,
     },
   },
   {
@@ -1258,9 +1258,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "vile ribcage": 5,
-      "bear hide": 8,
-      "linen thread": 6,
+      "vile ribcage": 6,
+      "bear hide": 10,
+      "linen thread": 7,
     },
   },
   {
@@ -1278,9 +1278,9 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "vile ribcage": 6,
-      "bear hide": 10,
-      "linen thread": 7,
+      "vile ribcage": 10,
+      "bear hide": 18,
+      "linen thread": 11,
     },
   },
 ];

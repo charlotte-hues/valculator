@@ -305,7 +305,7 @@ const roofList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 2,
     },
   },
   {
@@ -318,7 +318,7 @@ const roofList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 2,
     },
   },
   {

@@ -80,7 +80,7 @@ const doorsList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 1,
-      ashwood: 3,
+      "ash wood": 5,
     },
   },
   {

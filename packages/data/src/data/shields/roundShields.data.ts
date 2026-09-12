@@ -342,9 +342,9 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      ashwood: 10,
       "asksvin hide": 2,
       flametal: 8,
+      "ash wood": 10,
     },
   },
   {
@@ -364,9 +364,9 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      ashwood: 20,
       "asksvin hide": 4,
       flametal: 12,
+      "ash wood": 20,
     },
   },
   {
@@ -386,9 +386,9 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      ashwood: 30,
-      "asksvin hide": 6,
-      flametal: 16,
+      "asksvin hide": 8,
+      flametal: 20,
+      "ash wood": 40,
     },
   },
 ];

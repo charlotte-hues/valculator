@@ -52,7 +52,7 @@ const defenseList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 5,
-      copper: 5,
+      iron: 2,
     },
   },
   {
@@ -65,7 +65,7 @@ const defenseList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 6,
+      "ash wood": 6,
     },
   },
 ];

@@ -161,7 +161,7 @@ const lightingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
     materials: {
       bronze: 5,
-      "greydwarf eye": 2,
+      "greydwarf eye": 5,
       "fenris claw": 3,
     },
   },

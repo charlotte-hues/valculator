@@ -122,7 +122,7 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 6,
+      "ash wood": 6,
     },
   },
   {

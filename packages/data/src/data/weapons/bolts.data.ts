@@ -101,7 +101,7 @@ const boltsList: Array<Omit<Weapon, "group" | "id">> = [
     materials: {
       "charred bone": 2,
       feathers: 2,
-      ashwood: 8,
+      "ash wood": 8,
     },
   },
   {
@@ -161,7 +161,7 @@ const boltsList: Array<Omit<Weapon, "group" | "id">> = [
     },
     materials: {
       flametal: 1,
-      ashwood: 10,
+      "ash wood": 10,
     },
   },
 ];
