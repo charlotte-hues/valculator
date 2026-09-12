@@ -1680,6 +1680,606 @@ const swordsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       wood: 12,
     },
   },
+  {
+    name: "Frostfire Greatsword",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 186,
+      fire: 12,
+      frost: 88,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Greatsword",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 196,
+      fire: 15,
+      frost: 91,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Greatsword",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 206,
+      fire: 18,
+      frost: 94,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Greatsword",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 216,
+      fire: 21,
+      frost: 97,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 550,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Frostfire Sword",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 138,
+      fire: 12,
+      frost: 88,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Sword",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 148,
+      fire: 15,
+      frost: 91,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Sword",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 158,
+      fire: 18,
+      frost: 94,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Sword",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 168,
+      fire: 21,
+      frost: 97,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Nord Greatsword",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 210,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord greatsword": 1,
+      "frozen branch": 2,
+    },
+  },
+  {
+    name: "Nord Greatsword",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 220,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord greatsword": 1,
+      "frozen branch": 3,
+    },
+  },
+  {
+    name: "Nord Greatsword",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 230,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord greatsword": 1,
+      "frozen branch": 5,
+    },
+  },
+  {
+    name: "Nord Greatsword",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 240,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 550,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord greatsword": 1,
+      "frozen branch": 9,
+    },
+  },
+  {
+    name: "Nord Sword",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 170,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord sword": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Sword",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 180,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord sword": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Sword",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 190,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord sword": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Sword",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 200,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord sword": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Thunderblood Greatsword",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 220,
+      lightning: 45,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Greatsword",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 230,
+      lightning: 50,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Greatsword",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 240,
+      lightning: 55,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Greatsword",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 250,
+      lightning: 60,
+      knockback: 55,
+      backstab: "3x",
+      "parry force": 50,
+      durability: 550,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greatsword": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
+  {
+    name: "Thunderblood Sword",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 180,
+      lightning: 45,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Sword",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 190,
+      lightning: 50,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Sword",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 200,
+      lightning: 55,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Sword",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 210,
+      lightning: 60,
+      knockback: 40,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.8,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sword": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
 ];
 
 export const swords: Array<Omit<Weapon, "id">> = swordsList.map((weapon) => ({

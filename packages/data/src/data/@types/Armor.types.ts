@@ -20,7 +20,11 @@ type ArmorSets =
   | "mage"
   | "flametal"
   | "ash"
-  | "other";
+  | "other"
+  | "protector"
+  | "caller"
+  | "vanguard"
+  | "moose";
 
 type ArmorTypes = "cape" | "chest" | "helmet" | "legs";
 

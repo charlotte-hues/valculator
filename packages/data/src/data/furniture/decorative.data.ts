@@ -273,6 +273,206 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       iron: 2,
     },
   },
+  {
+    name: "Armour Stand",
+    set: "fine wood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 8,
+      "iron nails": 4,
+      "leather scraps": 2,
+    },
+  },
+  {
+    name: "Asksvin Skeleton",
+    set: "wood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "bone fragments": 50,
+      "asksvin neck": 1,
+      "asksvin pelvis": 1,
+      "asksvin ribcage": 1,
+      "asksvin skull": 1,
+    },
+  },
+  {
+    name: "Birds' Nest",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "writhan roots": 2,
+      acorns: 3,
+      thistle: 5,
+    },
+  },
+  {
+    name: "Black Metal Stack",
+    set: "black metal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "black metal": 30,
+    },
+  },
+  {
+    name: "Bloodgold Stack",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      bloodgold: 30,
+    },
+  },
+  {
+    name: "Bronze Stack",
+    set: "bronze",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      bronze: 30,
+    },
+  },
+  {
+    name: "Copper Stack",
+    set: "copper",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      copper: 30,
+    },
+  },
+  {
+    name: "Flametal Stack",
+    set: "flametal",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      flametal: 30,
+    },
+  },
+  {
+    name: "Flint Pile",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      flint: 50,
+    },
+  },
+  {
+    name: "Iron Stack",
+    set: "iron",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      iron: 30,
+    },
+  },
+  {
+    name: "Large Green Pot",
+    set: "wood",
+    stats: {
+      comfort: 1,
+      storage: 3,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "pot shard": 5,
+      "charcoal resin": 1,
+    },
+  },
+  {
+    name: "Medium Green Pot",
+    set: "wood",
+    stats: {
+      comfort: 1,
+      storage: 2,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "pot shard": 4,
+      "charcoal resin": 1,
+    },
+  },
+  {
+    name: "Mysterious Rock",
+    set: "wood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      rock: 1,
+      coal: 1,
+    },
+  },
+  {
+    name: "Silver Stack",
+    set: "silver",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      silver: 30,
+    },
+  },
+  {
+    name: "Small Green Pot",
+    set: "wood",
+    stats: {
+      comfort: 1,
+      storage: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "pot shard": 3,
+      "charcoal resin": 1,
+    },
+  },
+  {
+    name: "Timberwood Stack",
+    set: "timberwood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 50,
+    },
+  },
+  {
+    name: "Tin Stack",
+    set: "tin",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      tin: 30,
+    },
+  },
 ];
 
 export const decorative: Array<Omit<Furniture, "id">> = decorativeList.map(

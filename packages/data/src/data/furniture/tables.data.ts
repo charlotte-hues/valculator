@@ -58,6 +58,36 @@ const tablesList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       copper: 3,
     },
   },
+  {
+    name: "Long Carved Table",
+    set: "timberwood",
+    stats: {
+      comfort: 2,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 20,
+      tar: 2,
+      "iron nails": 20,
+    },
+  },
+  {
+    name: "Square Carved Table",
+    set: "timberwood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 6,
+      tar: 1,
+      "iron nails": 6,
+    },
+  },
 ];
 
 export const tables: Array<Omit<Furniture, "id">> = tablesList.map(

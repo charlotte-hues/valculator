@@ -1258,6 +1258,330 @@ const legsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "linen thread": 11,
     },
   },
+  {
+    name: "Lox Fur Trousers",
+    level: 1,
+    set: "lox",
+    stats: {
+      protection: 16,
+      durability: 500,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "lox pelt": 5,
+      "bone fragments": 8,
+      root: 2,
+    },
+  },
+  {
+    name: "Lox Fur Trousers",
+    level: 2,
+    set: "lox",
+    stats: {
+      protection: 18,
+      durability: 700,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "lox pelt": 8,
+      "bone fragments": 12,
+      root: 3,
+    },
+  },
+  {
+    name: "Lox Fur Trousers",
+    level: 3,
+    set: "lox",
+    stats: {
+      protection: 20,
+      durability: 900,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "lox pelt": 14,
+      "bone fragments": 20,
+      root: 5,
+    },
+  },
+  {
+    name: "Lox Fur Trousers",
+    level: 4,
+    set: "lox",
+    stats: {
+      protection: 22,
+      durability: 1100,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "lox pelt": 26,
+      "bone fragments": 36,
+      root: 9,
+    },
+  },
+  {
+    name: "Trousers of the Caller",
+    level: 1,
+    set: "caller",
+    stats: {
+      protection: 22,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 6,
+      "mould: trousers of the caller": 1,
+      "moose hide": 6,
+      nornathread: 5,
+    },
+  },
+  {
+    name: "Trousers of the Caller",
+    level: 2,
+    set: "caller",
+    stats: {
+      protection: 24,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 9,
+      "mould: trousers of the caller": 1,
+      "moose hide": 9,
+      nornathread: 8,
+    },
+  },
+  {
+    name: "Trousers of the Caller",
+    level: 3,
+    set: "caller",
+    stats: {
+      protection: 26,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 15,
+      "mould: trousers of the caller": 1,
+      "moose hide": 15,
+      nornathread: 14,
+    },
+  },
+  {
+    name: "Trousers of the Caller",
+    level: 4,
+    set: "caller",
+    stats: {
+      protection: 28,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      bloodgold: 27,
+      "mould: trousers of the caller": 1,
+      "moose hide": 27,
+      nornathread: 26,
+    },
+  },
+  {
+    name: "Trousers of the Protector",
+    level: 1,
+    set: "protector",
+    stats: {
+      protection: 44,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: trousers of the protector": 1,
+      "moose hide": 8,
+      "leather straps": 4,
+    },
+  },
+  {
+    name: "Trousers of the Protector",
+    level: 2,
+    set: "protector",
+    stats: {
+      protection: 46,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 35,
+      "mould: trousers of the protector": 1,
+      "moose hide": 11,
+      "leather straps": 7,
+    },
+  },
+  {
+    name: "Trousers of the Protector",
+    level: 3,
+    set: "protector",
+    stats: {
+      protection: 48,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 65,
+      "mould: trousers of the protector": 1,
+      "moose hide": 17,
+      "leather straps": 13,
+    },
+  },
+  {
+    name: "Trousers of the Protector",
+    level: 4,
+    set: "protector",
+    stats: {
+      protection: 50,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 125,
+      "mould: trousers of the protector": 1,
+      "moose hide": 29,
+      "leather straps": 25,
+    },
+  },
+  {
+    name: "Trousers of the Vanguard",
+    level: 1,
+    set: "vanguard",
+    stats: {
+      protection: 34,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 12,
+      "mould: trousers of the vanguard": 1,
+      "elaking hair bundle": 8,
+      "seal pelt": 4,
+    },
+  },
+  {
+    name: "Trousers of the Vanguard",
+    level: 2,
+    set: "vanguard",
+    stats: {
+      protection: 36,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 18,
+      "mould: trousers of the vanguard": 1,
+      "elaking hair bundle": 12,
+      "seal pelt": 6,
+    },
+  },
+  {
+    name: "Trousers of the Vanguard",
+    level: 3,
+    set: "vanguard",
+    stats: {
+      protection: 38,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: trousers of the vanguard": 1,
+      "elaking hair bundle": 20,
+      "seal pelt": 10,
+    },
+  },
+  {
+    name: "Trousers of the Vanguard",
+    level: 4,
+    set: "vanguard",
+    stats: {
+      protection: 40,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 54,
+      "mould: trousers of the vanguard": 1,
+      "elaking hair bundle": 36,
+      "seal pelt": 18,
+    },
+  },
 ];
 
 export const legs: Array<Omit<Armor, "id">> = legsList.map((armor) => ({

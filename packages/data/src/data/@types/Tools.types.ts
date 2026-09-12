@@ -10,7 +10,8 @@ type ToolSets =
   | "iron"
   | "other"
   | "stone"
-  | "wood";
+  | "wood"
+  | "bloodgold";
 
 interface ToolStats
   extends Pick<

@@ -165,6 +165,30 @@ const lightingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "fenris claw": 3,
     },
   },
+  {
+    name: "Hooded Lantern",
+    set: "timberwood",
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 3,
+      "luminous larva": 1,
+    },
+  },
+  {
+    name: "Snow Lantern",
+    set: "wood",
+    stats: {
+      comfort: 2,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      snowball: 8,
+    },
+  },
 ];
 
 export const lighting: Array<Omit<Furniture, "id">> = lightingList.map(

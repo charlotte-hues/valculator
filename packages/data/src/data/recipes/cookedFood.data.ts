@@ -563,6 +563,362 @@ const cookedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       fiddlehead: 1,
     },
   },
+  {
+    name: "Cooked Egg",
+    set: "food",
+    stacks: 20,
+    stats: {
+      "max health": 35,
+      "max stamina": 12,
+      healing: 2,
+      duration: "1200s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      egg: 1,
+    },
+  },
+  {
+    name: "Fish Soup",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 37,
+      "max stamina": 18,
+      "max eitr": 105,
+      healing: 5,
+      duration: "1800s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "raw fish": 3,
+      kale: 2,
+      ice: 2,
+    },
+  },
+  {
+    name: "Lingonberry Juice",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 35,
+      "max stamina": 105,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      lingonberries: 5,
+      ice: 5,
+    },
+  },
+  {
+    name: "Meat In Bread",
+    set: "food",
+    stacks: 10,
+    crafts: 2,
+    stats: {
+      "max health": 110,
+      "max stamina": 37,
+      healing: 7,
+      duration: "1800s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "moose meat": 1,
+      kale: 2,
+      "oat flour": 1,
+      lingonberries: 2,
+    },
+  },
+  {
+    name: "Meatballs and Poteitr",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 35,
+      "max stamina": 18,
+      "max eitr": 105,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "moose meat": 1,
+      lingonberries: 2,
+      poteitr: 2,
+    },
+  },
+  {
+    name: "Northern Morning Fare",
+    set: "food",
+    stacks: 5,
+    stats: {
+      "max health": 85,
+      "max stamina": 85,
+      "max eitr": 43,
+      healing: 7,
+      duration: "3000s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "cooked moose meat": 3,
+      poteitr: 5,
+      "oat flour": 2,
+      "seasoning of the gourd": 1,
+    },
+  },
+  {
+    name: "Oat Milk",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 37,
+      "max stamina": 110,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      oats: 5,
+      ice: 5,
+    },
+  },
+  {
+    name: "Oatmeal",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 39,
+      "max stamina": 115,
+      "max eitr": 85,
+      healing: 5,
+      duration: "1800s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      oats: 2,
+      lingonberries: 2,
+      "oat milk": 1,
+    },
+  },
+  {
+    name: "Oven Pancake Batter",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 39,
+      "max stamina": 115,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "moose meat": 1,
+      poteitr: 2,
+      lingonberries: 2,
+      "oat flour": 2,
+    },
+  },
+  {
+    name: "Pancakes",
+    set: "food",
+    stacks: 10,
+    crafts: 3,
+    stats: {
+      "max health": 39,
+      "max stamina": 115,
+      healing: 5,
+      duration: "1800s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "oat milk": 1,
+      "oat flour": 2,
+      egg: 2,
+      blueberries: 2,
+    },
+  },
+  {
+    name: "Pulled Bear",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 37,
+      "max stamina": 16,
+      healing: 3,
+      duration: "1800s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "cooked bear meat": 1,
+      carrot: 2,
+      blueberries: 1,
+    },
+  },
+  {
+    name: "Raw Fish",
+    set: "food",
+    stacks: 20,
+    stats: {
+      "max health": 20,
+      "max stamina": 20,
+      healing: 1,
+      duration: "600s",
+      weight: 0.5,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      perch: 1,
+      pike: 1,
+      tuna: 1,
+      tetra: 1,
+      trollfish: 1,
+      "giant herring": 1,
+      grouper: 1,
+      "coral cod": 1,
+      anglerfish: 1,
+      "northern salmon": 1,
+      magmafish: 1,
+      pufferfish: 1,
+    },
+  },
+  {
+    name: "Raw Kale Chips",
+    set: "food",
+    stacks: 10,
+    crafts: 4,
+    stats: {
+      "max health": 39,
+      "max stamina": 115,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      kale: 12,
+    },
+  },
+  {
+    name: "Seal Meat Soup",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 110,
+      "max stamina": 37,
+      healing: 7,
+      duration: "1800s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "seal blubber": 2,
+      kale: 2,
+      ice: 2,
+    },
+  },
+  {
+    name: "Smoked Fish",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 30,
+      "max stamina": 16,
+      "max eitr": 95,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "raw fish": 1,
+      kale: 1,
+      poteitr: 1,
+    },
+  },
+  {
+    name: "Smoked Moose Meat",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 105,
+      "max stamina": 35,
+      healing: 7,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "moose meat": 1,
+      kale: 2,
+    },
+  },
+  {
+    name: "Unbaked Poteitr",
+    set: "food",
+    stacks: 10,
+    stats: {
+      "max health": 37,
+      "max stamina": 19,
+      "max eitr": 110,
+      healing: 5,
+      duration: "1500s",
+      weight: 1,
+    },
+    station: {
+      cauldron: 1,
+    },
+    materials: {
+      "seal blubber": 1,
+      kale: 2,
+      poteitr: 1,
+      "oat flour": 2,
+    },
+  },
 ];
 
 export const cookedFood: Array<Omit<Recipe, "id">> = cookedFoodList.map(

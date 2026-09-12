@@ -103,6 +103,46 @@ const rugsList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "bear trophy": 1,
     },
   },
+  {
+    name: "Moose Hide Carpet",
+    set: "wood",
+    stats: {
+      comfort: 2,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "moose hide": 4,
+    },
+  },
+  {
+    name: "Sealskin Rug",
+    set: "wood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "seal pelt": 4,
+    },
+  },
+  {
+    name: "Straw",
+    set: "wood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      barley: 1,
+      flax: 1,
+    },
+  },
 ];
 
 export const rugs: Array<Omit<Furniture, "id">> = rugsList.map((building) => ({

@@ -1382,6 +1382,606 @@ const clubsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       wood: 12,
     },
   },
+  {
+    name: "Frostfire Mace",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      blunt: 142,
+      fire: 12,
+      frost: 88,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Mace",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      blunt: 152,
+      fire: 15,
+      frost: 91,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Mace",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      blunt: 162,
+      fire: 18,
+      frost: 94,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 500,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Mace",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      blunt: 172,
+      fire: 21,
+      frost: 97,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 550,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Frostfire Sledge",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      blunt: 200,
+      fire: 12,
+      frost: 88,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Sledge",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      blunt: 210,
+      fire: 15,
+      frost: 91,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Sledge",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      blunt: 220,
+      fire: 18,
+      frost: 94,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Sledge",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      blunt: 230,
+      fire: 21,
+      frost: 97,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 550,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Nord Mace",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      blunt: 170,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord mace": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Mace",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      blunt: 180,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord mace": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Mace",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      blunt: 190,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 500,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord mace": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Mace",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      blunt: 200,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 550,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord mace": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Nord Sledge",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      blunt: 225,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord sledge": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Sledge",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      blunt: 235,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord sledge": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Sledge",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      blunt: 245,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord sledge": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Sledge",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      blunt: 255,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 550,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord sledge": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Thunderblood Mace",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      blunt: 180,
+      lightning: 45,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Mace",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      blunt: 190,
+      lightning: 50,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Mace",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      blunt: 200,
+      lightning: 55,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 500,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Mace",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      blunt: 210,
+      lightning: 60,
+      knockback: 90,
+      backstab: "3x",
+      "parry force": 30,
+      durability: 550,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord mace": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
+  {
+    name: "Thunderblood Sledge",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      blunt: 235,
+      lightning: 45,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Sledge",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      blunt: 245,
+      lightning: 50,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Sledge",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      blunt: 255,
+      lightning: 55,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Sledge",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      blunt: 265,
+      lightning: 60,
+      knockback: 210,
+      backstab: "2x",
+      "parry force": 50,
+      durability: 550,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord sledge": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
 ];
 
 export const clubs: Array<Omit<Weapon, "id">> = clubsList.map((weapon) => ({

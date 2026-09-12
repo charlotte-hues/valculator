@@ -2,4 +2,4 @@
 "@valculator/interface": patch
 ---
 
-Update crafting material costs to Valheim 1.0.12, sourced from the game's own recipe data.
+Valheim 1.0.12: update crafting material costs from the game's recipe data, and add the items the catalog lacked — Deep North gear, Ashlands and Bog Witch items, new build pieces, foods, stations and trinkets — with their icons.

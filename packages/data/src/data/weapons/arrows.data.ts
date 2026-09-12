@@ -248,6 +248,28 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ash wood": 8,
     },
   },
+  {
+    name: "Bloodgold Arrow",
+    set: "bloodgold",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 100,
+      knockback: 15,
+      backstab: "3x",
+      durability: 100,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 1,
+      feathers: 2,
+      timberwood: 8,
+    },
+  },
 ];
 
 export const arrows: Array<Omit<Weapon, "id">> = arrowsList.map((weapon) => ({

@@ -121,6 +121,45 @@ const polesList: Array<Omit<Building, "group" | "id" | "type">> = [
       "ash wood": 2,
     },
   },
+  {
+    name: "Decorated Timber Pole 2m",
+    set: "timberwood",
+    stats: {
+      size: "2m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Pole 2m",
+    set: "timberwood",
+    stats: {
+      size: "2m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Pole 4m",
+    set: "timberwood",
+    stats: {
+      size: "4m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 4,
+    },
+  },
 ];
 
 export const poles: Array<Omit<Building, "id">> = polesList.map((building) => ({

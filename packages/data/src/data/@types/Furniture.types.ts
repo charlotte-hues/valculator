@@ -27,7 +27,12 @@ type FurnitureSets =
   | "stone"
   | "treasure"
   | "wolf"
-  | "wood";
+  | "wood"
+  | "timberwood"
+  | "flametal"
+  | "grausten"
+  | "silver"
+  | "tin";
 
 type FurnitureTypes =
   | "beds"

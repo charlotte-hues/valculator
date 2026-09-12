@@ -236,6 +236,77 @@ const miscList: Array<Omit<Tool, "group" | "id" | "type">> = [
       silver: 1,
     },
   },
+  {
+    name: "Grappling Hook",
+    set: "other",
+    stats: {
+      pierce: 10,
+      knockback: 20,
+      "parry force": 20,
+      durability: 300,
+      weight: 1.5,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      "yggdrasil wood": 10,
+      "refined eitr": 10,
+      mandible: 4,
+      hook: 1,
+    },
+  },
+  {
+    name: "Snow Shovel",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      durability: 200,
+      weight: 2,
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "fine wood": 5,
+      flametal: 4,
+      embers: 2,
+    },
+  },
+  {
+    name: "Snow Shovel",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      durability: 400,
+      weight: 2,
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "fine wood": 6,
+      flametal: 14,
+      embers: 2,
+    },
+  },
+  {
+    name: "Snow Shovel",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      durability: 600,
+      weight: 2,
+    },
+    station: {
+      "black forge": 3,
+    },
+    materials: {
+      "fine wood": 8,
+      flametal: 34,
+      embers: 2,
+    },
+  },
 ];
 
 export const misc: Array<Omit<Tool, "id">> = miscList.map((building) => ({

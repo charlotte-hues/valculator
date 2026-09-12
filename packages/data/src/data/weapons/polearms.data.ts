@@ -489,6 +489,306 @@ const polearmsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       wood: 12,
     },
   },
+  {
+    name: "Frostfire Atgeir",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 148,
+      fire: 12,
+      frost: 88,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 400,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Atgeir",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 158,
+      fire: 15,
+      frost: 91,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 450,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Atgeir",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 168,
+      fire: 18,
+      frost: 94,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 500,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Atgeir",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 178,
+      fire: 21,
+      frost: 97,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 550,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Nord Atgeir",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 182,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 400,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord atgeir": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Atgeir",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 192,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 450,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord atgeir": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Atgeir",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 202,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 500,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord atgeir": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Atgeir",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 212,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 550,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord atgeir": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Thunderblood Atgeir",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 192,
+      lightning: 45,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 400,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Atgeir",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 202,
+      lightning: 50,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 450,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Atgeir",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 212,
+      lightning: 55,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 500,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Atgeir",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 222,
+      lightning: 60,
+      knockback: 30,
+      backstab: "3x",
+      "parry force": 40,
+      durability: 550,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord atgeir": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
 ];
 
 export const polearms: Array<Omit<Weapon, "id">> = polearmsList.map(

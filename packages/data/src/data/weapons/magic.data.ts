@@ -773,6 +773,366 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ash wood": 50,
     },
   },
+  {
+    name: "Echo Spike",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 10,
+      nornathread: 4,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 15,
+      nornathread: 6,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 25,
+      nornathread: 10,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      bloodgold: 45,
+      nornathread: 18,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      lightning: 300,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 10,
+      nornathread: 5,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      lightning: 320,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 15,
+      nornathread: 7,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      lightning: 340,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 25,
+      nornathread: 11,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      lightning: 360,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      bloodgold: 45,
+      nornathread: 19,
+      "thunderblood essence": 8,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      ice: 10,
+      nornathread: 5,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      ice: 15,
+      nornathread: 7,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      ice: 25,
+      nornathread: 11,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      ice: 45,
+      nornathread: 19,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "frozen branch": 8,
+      nornathread: 5,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "frozen branch": 12,
+      nornathread: 7,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "frozen branch": 20,
+      nornathread: 11,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "frozen branch": 36,
+      nornathread: 19,
+      "moose trophy": 1,
+    },
+  },
 ];
 
 export const magic: Array<Omit<Weapon, "id">> = magicList.map((weapon) => ({

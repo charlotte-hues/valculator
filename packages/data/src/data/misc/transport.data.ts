@@ -87,6 +87,19 @@ const transportList: Array<Omit<Misc, "group" | "id" | "type">> = [
       "morgen sinew": 4,
     },
   },
+  {
+    name: "Moose Saddle",
+    set: "other",
+    station: {
+      "black forge": 2,
+    },
+    materials: {
+      bloodgold: 4,
+      "seal pelt": 5,
+      timberwood: 5,
+      "linen thread": 15,
+    },
+  },
 ];
 
 export const transport: Array<Omit<Misc, "id">> = transportList.map(

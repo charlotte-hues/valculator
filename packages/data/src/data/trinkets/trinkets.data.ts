@@ -199,6 +199,36 @@ const trinketsList: Array<Omit<Trinket, "group" | "id" | "type">> = [
       flametal: 5,
     },
   },
+  {
+    name: "Neckstabber",
+    set: "bloodgold",
+    stats: {
+      weight: 2,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 5,
+      "long claws": 5,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Witch Crown",
+    set: "bloodgold",
+    stats: {
+      weight: 2,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 5,
+      nornathread: 5,
+      "hexen trophy": 1,
+    },
+  },
 ];
 
 export const trinkets: Array<Omit<Trinket, "id">> = trinketsList.map(

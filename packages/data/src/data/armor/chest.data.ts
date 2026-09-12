@@ -1283,6 +1283,330 @@ const chestList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "linen thread": 11,
     },
   },
+  {
+    name: "Breastplate of the Protector",
+    level: 1,
+    set: "protector",
+    stats: {
+      protection: 44,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: breastplate of the protector": 1,
+      "moose hide": 8,
+      "leather straps": 4,
+    },
+  },
+  {
+    name: "Breastplate of the Protector",
+    level: 2,
+    set: "protector",
+    stats: {
+      protection: 46,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 35,
+      "mould: breastplate of the protector": 1,
+      "moose hide": 11,
+      "leather straps": 7,
+    },
+  },
+  {
+    name: "Breastplate of the Protector",
+    level: 3,
+    set: "protector",
+    stats: {
+      protection: 48,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 65,
+      "mould: breastplate of the protector": 1,
+      "moose hide": 17,
+      "leather straps": 13,
+    },
+  },
+  {
+    name: "Breastplate of the Protector",
+    level: 4,
+    set: "protector",
+    stats: {
+      protection: 50,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 125,
+      "mould: breastplate of the protector": 1,
+      "moose hide": 29,
+      "leather straps": 25,
+    },
+  },
+  {
+    name: "Chestpiece of the Vanguard",
+    level: 1,
+    set: "vanguard",
+    stats: {
+      protection: 34,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 12,
+      "mould: chestpiece of the vanguard": 1,
+      "elaking hair bundle": 8,
+      "leather straps": 4,
+    },
+  },
+  {
+    name: "Chestpiece of the Vanguard",
+    level: 2,
+    set: "vanguard",
+    stats: {
+      protection: 36,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 18,
+      "mould: chestpiece of the vanguard": 1,
+      "elaking hair bundle": 12,
+      "leather straps": 6,
+    },
+  },
+  {
+    name: "Chestpiece of the Vanguard",
+    level: 3,
+    set: "vanguard",
+    stats: {
+      protection: 38,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: chestpiece of the vanguard": 1,
+      "elaking hair bundle": 20,
+      "leather straps": 10,
+    },
+  },
+  {
+    name: "Chestpiece of the Vanguard",
+    level: 4,
+    set: "vanguard",
+    stats: {
+      protection: 40,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 54,
+      "mould: chestpiece of the vanguard": 1,
+      "elaking hair bundle": 36,
+      "leather straps": 18,
+    },
+  },
+  {
+    name: "Lox Fur Jacket",
+    level: 1,
+    set: "lox",
+    stats: {
+      protection: 16,
+      durability: 500,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "lox pelt": 5,
+      "bone fragments": 8,
+      root: 2,
+    },
+  },
+  {
+    name: "Lox Fur Jacket",
+    level: 2,
+    set: "lox",
+    stats: {
+      protection: 18,
+      durability: 700,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "lox pelt": 11,
+      "bone fragments": 12,
+      root: 3,
+    },
+  },
+  {
+    name: "Lox Fur Jacket",
+    level: 3,
+    set: "lox",
+    stats: {
+      protection: 20,
+      durability: 900,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "lox pelt": 23,
+      "bone fragments": 20,
+      root: 5,
+    },
+  },
+  {
+    name: "Lox Fur Jacket",
+    level: 4,
+    set: "lox",
+    stats: {
+      protection: 22,
+      durability: 1100,
+      weight: 5,
+    },
+    effects: {},
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "lox pelt": 47,
+      "bone fragments": 36,
+      root: 9,
+    },
+  },
+  {
+    name: "Robes of the Caller",
+    level: 1,
+    set: "caller",
+    stats: {
+      protection: 22,
+      durability: 1000,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 6,
+      "mould: robes of the caller": 1,
+      "moose hide": 6,
+      nornathread: 5,
+    },
+  },
+  {
+    name: "Robes of the Caller",
+    level: 2,
+    set: "caller",
+    stats: {
+      protection: 24,
+      durability: 1200,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 9,
+      "mould: robes of the caller": 1,
+      "moose hide": 9,
+      nornathread: 8,
+    },
+  },
+  {
+    name: "Robes of the Caller",
+    level: 3,
+    set: "caller",
+    stats: {
+      protection: 26,
+      durability: 1400,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 15,
+      "mould: robes of the caller": 1,
+      "moose hide": 15,
+      nornathread: 14,
+    },
+  },
+  {
+    name: "Robes of the Caller",
+    level: 4,
+    set: "caller",
+    stats: {
+      protection: 28,
+      durability: 1600,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-2%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      bloodgold: 27,
+      "mould: robes of the caller": 1,
+      "moose hide": 27,
+      nornathread: 26,
+    },
+  },
 ];
 
 export const chest: Array<Omit<Armor, "id">> = chestList.map((armor) => ({

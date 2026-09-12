@@ -376,6 +376,72 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "ash wood": 45,
     },
   },
+  {
+    name: "Nord Greatshield",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      "block power": 158,
+      "parry force": 150,
+      durability: 400,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord greatshield": 1,
+      timberwood: 20,
+    },
+  },
+  {
+    name: "Nord Greatshield",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      "block power": 164,
+      "parry force": 150,
+      durability: 450,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord greatshield": 1,
+      timberwood: 30,
+    },
+  },
+  {
+    name: "Nord Greatshield",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      "block power": 170,
+      "parry force": 150,
+      durability: 500,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord greatshield": 1,
+      timberwood: 50,
+    },
+  },
 ];
 
 export const towerShield: Array<Omit<Shield, "id">> = towerShieldList.map(

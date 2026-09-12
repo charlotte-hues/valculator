@@ -164,6 +164,144 @@ const boltsList: Array<Omit<Weapon, "group" | "id">> = [
       "ash wood": 10,
     },
   },
+  {
+    name: "Blob Bomb: Pulp",
+    set: "other",
+    type: "missiles",
+    stacks: 50,
+    stats: {
+      blunt: 5,
+      knockback: 40,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "corked vial": 1,
+      "pulp trophy": 1,
+      "dead pulp": 3,
+    },
+  },
+  {
+    name: "Bloodgold Bolt",
+    set: "bloodgold",
+    type: "bolts",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 92,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 1,
+      timberwood: 8,
+      feathers: 2,
+    },
+  },
+  {
+    name: "Bloodgold Missile",
+    set: "bloodgold",
+    type: "missiles",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 200,
+      knockback: 60,
+      weight: 0.5,
+    },
+    effects: {},
+    station: {
+      "Artisan Table": 1,
+    },
+    materials: {
+      timberwood: 10,
+      bloodgold: 1,
+    },
+  },
+  {
+    name: "Bloodgold Payload",
+    set: "bloodgold",
+    type: "missiles",
+    crafts: 5,
+    stacks: 50,
+    stats: {
+      blunt: 20,
+      knockback: 40,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      ice: 2,
+      bloodgold: 2,
+      "proustite powder": 3,
+    },
+  },
+  {
+    name: "Ember Charge",
+    set: "other",
+    type: "missiles",
+    crafts: 10,
+    stacks: 50,
+    stats: {
+      knockback: 40,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "seal pelt": 2,
+      embers: 1,
+    },
+  },
+  {
+    name: "Explosive Payload",
+    set: "other",
+    type: "missiles",
+    crafts: 5,
+    stacks: 50,
+    stats: {
+      knockback: 40,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "asksvin hide": 2,
+      sulfur: 2,
+      "proustite powder": 3,
+    },
+  },
+  {
+    name: "Snowball",
+    set: "other",
+    type: "missiles",
+    crafts: 10,
+    stacks: 50,
+    stats: {
+      blunt: 5,
+      frost: 10,
+      knockback: 40,
+      weight: 0.3,
+    },
+    effects: {},
+    station: {},
+    materials: {
+      ice: 5,
+    },
+  },
 ];
 
 export const bolts: Array<Omit<Weapon, "id">> = boltsList.map((weapon) => ({

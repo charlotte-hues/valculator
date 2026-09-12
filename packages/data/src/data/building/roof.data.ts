@@ -347,6 +347,205 @@ const roofList: Array<Omit<Building, "group" | "id" | "type">> = [
       ashwood: 1,
     },
   },
+  {
+    name: "Ashwood Roof Cross 67°",
+    set: "ash",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "ash wood": 2,
+    },
+  },
+  {
+    name: "Grausten Arched Roof Corner",
+    set: "grausten",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 0,
+    },
+    materials: {
+      grausten: 5,
+    },
+  },
+  {
+    name: "Grausten Roof Corner",
+    set: "grausten",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 0,
+    },
+    materials: {
+      grausten: 5,
+    },
+  },
+  {
+    name: "Shingle Roof 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+      tar: 1,
+    },
+  },
+  {
+    name: "Shingle Roof Inner Corner 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+      tar: 1,
+    },
+  },
+  {
+    name: "Shingle Roof Outer Corner 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+      tar: 1,
+    },
+  },
+  {
+    name: "Shingle Roof Ridge 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+      tar: 1,
+    },
+  },
+  {
+    name: "Thatch Roof 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
+  {
+    name: "Thatch Roof Inner Corner 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
+  {
+    name: "Thatch Roof Outer Corner 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
+  {
+    name: "Thatch Roof Ridge 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
+  {
+    name: "Timber Roof Cross 26°",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Roof Cross 45°",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Roof Cross 67°",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Wood Roof Cross 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
 ];
 
 export const roof: Array<Omit<Building, "id">> = roofList.map((building) => ({
