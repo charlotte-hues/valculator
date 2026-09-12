@@ -52,7 +52,7 @@ const defenseList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 5,
-      copper: 5,
+      iron: 2,
     },
   },
   {
@@ -65,7 +65,36 @@ const defenseList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 6,
+      "ash wood": 6,
+    },
+  },
+  {
+    name: "Dvergr Stakewall",
+    set: "yggdrasil wood",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "yggdrasil wood": 8,
+      iron: 8,
+    },
+  },
+  {
+    name: "Shield Generator",
+    set: "iron",
+    stats: {
+      size: "",
+    },
+    station: {
+      stonecutter: 0,
+    },
+    materials: {
+      iron: 5,
+      copper: 5,
+      "shield core": 1,
     },
   },
 ];

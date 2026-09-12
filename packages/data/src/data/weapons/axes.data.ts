@@ -92,8 +92,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "ancient bark": 60,
-      iron: 125,
+      "ancient bark": 65,
+      iron: 140,
       "leather scraps": 4,
     },
   },
@@ -196,8 +196,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "ancient bark": 70,
-      silver: 120,
+      "ancient bark": 75,
+      silver: 135,
       crystal: 10,
     },
   },
@@ -272,8 +272,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 10,
-      "black metal": 60,
-      "linen thread": 15,
+      "black metal": 75,
+      "linen thread": 20,
     },
   },
   {
@@ -297,8 +297,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 10,
-      "black metal": 75,
-      "linen thread": 20,
+      "black metal": 135,
+      "linen thread": 40,
     },
   },
   {
@@ -377,9 +377,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 5,
-      iron: 35,
-      bilebag: 5,
-      "refined eitr": 12,
+      iron: 45,
+      bilebag: 6,
+      "refined eitr": 13,
     },
   },
   {
@@ -404,9 +404,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       "yggdrasil wood": 5,
-      iron: 45,
-      bilebag: 6,
-      "refined eitr": 13,
+      iron: 85,
+      bilebag: 10,
+      "refined eitr": 17,
     },
   },
   {
@@ -429,9 +429,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 30,
-      "linen thread": 5,
+      iron: 30,
+      "yggdrasil wood": 15,
+      "refined eitr": 10,
     },
   },
   {
@@ -454,9 +454,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 2,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 45,
-      "linen thread": 10,
+      iron: 45,
+      "yggdrasil wood": 20,
+      "refined eitr": 10,
     },
   },
   {
@@ -479,9 +479,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 60,
-      "linen thread": 15,
+      iron: 75,
+      "yggdrasil wood": 30,
+      "refined eitr": 10,
     },
   },
   {
@@ -504,9 +504,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "fine wood": 10,
-      "black metal": 75,
-      "linen thread": 20,
+      iron: 135,
+      "yggdrasil wood": 50,
+      "refined eitr": 10,
     },
   },
   {
@@ -604,9 +604,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 9,
+      "asksvin hide": 10,
       "charred bone": 15,
-      flametal: 114,
+      flametal: 129,
     },
   },
   {
@@ -630,9 +630,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 29,
+      flametal: 5,
+      "berserkir axes": 1,
     },
   },
   {
@@ -656,9 +655,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 34,
+      flametal: 10,
+      "berserkir axes": 1,
     },
   },
   {
@@ -682,9 +680,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 4,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 44,
+      flametal: 20,
+      "berserkir axes": 1,
     },
   },
   {
@@ -707,10 +704,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 7,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 59,
+      bloodstone: 8,
+      flametal: 40,
+      "berserkir axes": 1,
     },
   },
   {
@@ -734,10 +730,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 29,
+      flametal: 5,
       iolite: 1,
+      "berserkir axes": 1,
     },
   },
   {
@@ -761,10 +756,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 34,
+      flametal: 10,
       iolite: 2,
+      "berserkir axes": 1,
     },
   },
   {
@@ -788,10 +782,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 44,
+      flametal: 20,
       iolite: 4,
+      "berserkir axes": 1,
     },
   },
   {
@@ -815,10 +808,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 59,
-      iolite: 7,
+      flametal: 40,
+      iolite: 8,
+      "berserkir axes": 1,
     },
   },
   {
@@ -843,9 +835,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 1,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 29,
+      flametal: 5,
+      "berserkir axes": 1,
     },
   },
   {
@@ -870,9 +861,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 2,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 34,
+      flametal: 10,
+      "berserkir axes": 1,
     },
   },
   {
@@ -897,9 +887,8 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 4,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 44,
+      flametal: 20,
+      "berserkir axes": 1,
     },
   },
   {
@@ -923,10 +912,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 7,
-      "asksvin hide": 3,
-      "charred bone": 15,
-      flametal: 59,
+      jade: 8,
+      flametal: 40,
+      "berserkir axes": 1,
     },
   },
   {
@@ -999,9 +987,9 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "fine wood": 23,
-      "core wood": 6,
-      wood: 7,
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
     },
   },
   {
@@ -1024,9 +1012,633 @@ const axesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 33,
-      "core wood": 8,
-      wood: 8,
+      "fine wood": 73,
+      "core wood": 16,
+      wood: 12,
+    },
+  },
+  {
+    name: "Frostfire Axe",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 144,
+      chop: 90,
+      fire: 12,
+      frost: 88,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Axe",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 154,
+      chop: 93,
+      fire: 15,
+      frost: 91,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Axe",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 164,
+      chop: 96,
+      fire: 18,
+      frost: 94,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Axe",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 174,
+      chop: 99,
+      fire: 21,
+      frost: 97,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Frostfire Greataxe",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 154,
+      chop: 40,
+      fire: 12,
+      frost: 88,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 400,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Greataxe",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 164,
+      chop: 42.5,
+      fire: 15,
+      frost: 91,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 450,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Greataxe",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 174,
+      chop: 45,
+      fire: 18,
+      frost: 94,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 500,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Greataxe",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 184,
+      chop: 47.5,
+      fire: 21,
+      frost: 97,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 550,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Nord Axe",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 176,
+      chop: 90,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord axe": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Axe",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 186,
+      chop: 93,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord axe": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Axe",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 196,
+      chop: 96,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord axe": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Axe",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 206,
+      chop: 99,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord axe": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Nord Greataxe",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 188,
+      chop: 40,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 400,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord greataxe": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Greataxe",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 198,
+      chop: 42.5,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 450,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord greataxe": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Greataxe",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 208,
+      chop: 45,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 500,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord greataxe": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Greataxe",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 218,
+      chop: 47.5,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 550,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord greataxe": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Thunderblood Axe",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 186,
+      chop: 90,
+      lightning: 45,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Axe",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 196,
+      chop: 93,
+      lightning: 50,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Axe",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 206,
+      chop: 96,
+      lightning: 55,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Axe",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 216,
+      chop: 99,
+      lightning: 60,
+      knockback: 60,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 2,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord axe": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
+  {
+    name: "Thunderblood Greataxe",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      slash: 198,
+      chop: 40,
+      lightning: 45,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 400,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Greataxe",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      slash: 208,
+      chop: 42.5,
+      lightning: 50,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 450,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Greataxe",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      slash: 218,
+      chop: 45,
+      lightning: 55,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 500,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Greataxe",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      slash: 228,
+      chop: 47.5,
+      lightning: 60,
+      knockback: 70,
+      backstab: "3x",
+      "parry force": 70,
+      durability: 550,
+      weight: 2.5,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord greataxe": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
     },
   },
 ];

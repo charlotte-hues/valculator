@@ -32,7 +32,9 @@ const healingList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       fermenter: 1,
     },
     materials: {
-      "mead base: minor healing": 1,
+      mushroom: 1,
+      blueberries: 1,
+      dandelion: 1,
     },
   },
   {

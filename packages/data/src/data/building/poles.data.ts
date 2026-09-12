@@ -105,7 +105,7 @@ const polesList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 1,
     },
   },
   {
@@ -118,7 +118,46 @@ const polesList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 4,
+      "ash wood": 2,
+    },
+  },
+  {
+    name: "Decorated Timber Pole 2m",
+    set: "timberwood",
+    stats: {
+      size: "2m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Pole 2m",
+    set: "timberwood",
+    stats: {
+      size: "2m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Pole 4m",
+    set: "timberwood",
+    stats: {
+      size: "4m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 4,
     },
   },
 ];

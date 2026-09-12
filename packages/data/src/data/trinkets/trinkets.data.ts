@@ -132,8 +132,8 @@ const trinketsList: Array<Omit<Trinket, "group" | "id" | "type">> = [
     },
     materials: {
       "black metal": 5,
-      "fulling berserker trophy": 1,
       "linen thread": 10,
+      "fuling berserker trophy": 1,
     },
   },
   {
@@ -197,6 +197,36 @@ const trinketsList: Array<Omit<Trinket, "group" | "id" | "type">> = [
       sulfur: 5,
       "molten core": 1,
       flametal: 5,
+    },
+  },
+  {
+    name: "Neckstabber",
+    set: "bloodgold",
+    stats: {
+      weight: 2,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 5,
+      "long claws": 5,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Witch Crown",
+    set: "bloodgold",
+    stats: {
+      weight: 2,
+    },
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 5,
+      nornathread: 5,
+      "hexen trophy": 1,
     },
   },
 ];

@@ -68,6 +68,36 @@ const storageList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       "barrel hoops": 1,
     },
   },
+  {
+    name: "Grausten Chest",
+    set: "grausten",
+    stats: {
+      storage: 40,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      grausten: 10,
+      "warrior trophy": 5,
+      flametal: 2,
+    },
+  },
+  {
+    name: "Wardrobe",
+    set: "timberwood",
+    stats: {
+      storage: 50,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 10,
+      tar: 2,
+      "black metal": 6,
+    },
+  },
 ];
 
 export const storage: Array<Omit<Furniture, "id">> = storageList.map(

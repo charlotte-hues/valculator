@@ -32,7 +32,9 @@ const staminaList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       fermenter: 1,
     },
     materials: {
-      "mead base: minor stamina": 1,
+      "yellow mushroom": 1,
+      raspberries: 1,
+      honey: 1,
     },
   },
 

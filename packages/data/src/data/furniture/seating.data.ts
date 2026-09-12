@@ -122,7 +122,7 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 6,
+      "ash wood": 6,
     },
   },
   {
@@ -155,6 +155,75 @@ const seatingList: Array<Omit<Furniture, "group" | "id" | "type">> = [
       flametal: 4,
       grausten: 20,
       "charred skull": 3,
+    },
+  },
+  {
+    name: "Antler Throne",
+    set: "timberwood",
+    stats: {
+      comfort: 3,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 15,
+      "moose trophy": 1,
+      "moose hide": 5,
+    },
+  },
+  {
+    name: "Carved Bench",
+    set: "timberwood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 6,
+      "moose hide": 1,
+    },
+  },
+  {
+    name: "Carved Chair",
+    set: "timberwood",
+    stats: {
+      comfort: 2,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 4,
+      "moose sinew": 1,
+    },
+  },
+  {
+    name: "Wood Bench",
+    set: "fine wood",
+    stats: {
+      comfort: 1,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 6,
+    },
+  },
+  {
+    name: "Wood Chair",
+    set: "fine wood",
+    stats: {
+      comfort: 2,
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "fine wood": 4,
     },
   },
 ];

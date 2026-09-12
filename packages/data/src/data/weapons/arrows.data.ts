@@ -137,7 +137,7 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       wood: 8,
       feathers: 2,
-      resin: 1,
+      resin: 8,
     },
   },
   {
@@ -245,7 +245,29 @@ const arrowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "charred bone": 4,
       feathers: 2,
-      ashwood: 8,
+      "ash wood": 8,
+    },
+  },
+  {
+    name: "Bloodgold Arrow",
+    set: "bloodgold",
+    crafts: 20,
+    stacks: 100,
+    stats: {
+      pierce: 100,
+      knockback: 15,
+      backstab: "3x",
+      durability: 100,
+      weight: 0.1,
+    },
+    effects: {},
+    station: {
+      "black forge": 1,
+    },
+    materials: {
+      bloodgold: 1,
+      feathers: 2,
+      timberwood: 8,
     },
   },
 ];

@@ -96,9 +96,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "yggdrasil wood": 80,
-      "refined eitr": 64,
-      "surtling core": 16,
+      "yggdrasil wood": 90,
+      "refined eitr": 72,
+      "surtling core": 18,
     },
   },
   {
@@ -192,9 +192,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "yggdrasil wood": 80,
-      "freeze gland": 16,
-      "refined eitr": 64,
+      "yggdrasil wood": 90,
+      "freeze gland": 18,
+      "refined eitr": 72,
     },
   },
   {
@@ -284,9 +284,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "bone fragments": 40,
-      "refined eitr": 64,
-      "skeleton trophy": 16,
+      "bone fragments": 45,
+      "refined eitr": 72,
+      "skeleton trophy": 18,
     },
   },
   {
@@ -376,9 +376,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "yggdrasil wood": 80,
-      "blood clot": 16,
-      "refined eitr": 64,
+      "yggdrasil wood": 90,
+      "blood clot": 18,
+      "refined eitr": 72,
     },
   },
   {
@@ -402,7 +402,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "celestial feather": 3,
       bloodstone: 1,
       flametal: 4,
-      ashwood: 10,
+      "ash wood": 10,
     },
   },
   {
@@ -426,7 +426,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "celestial feather": 6,
       bloodstone: 2,
       flametal: 6,
-      ashwood: 15,
+      "ash wood": 15,
     },
   },
   {
@@ -450,7 +450,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "celestial feather": 12,
       bloodstone: 4,
       flametal: 10,
-      ashwood: 25,
+      "ash wood": 25,
     },
   },
   {
@@ -471,10 +471,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "celestial feather": 21,
-      bloodstone: 7,
-      flametal: 16,
-      ashwood: 40,
+      "celestial feather": 24,
+      bloodstone: 8,
+      flametal: 18,
+      "ash wood": 45,
     },
   },
   {
@@ -498,7 +498,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "proustite powder": 8,
       "charred bone": 15,
-      ashwood: 5,
+      "ash wood": 5,
     },
   },
   {
@@ -522,7 +522,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "proustite powder": 9,
       "charred bone": 20,
-      ashwood: 8,
+      "ash wood": 8,
     },
   },
   {
@@ -546,7 +546,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     materials: {
       "proustite powder": 11,
       "charred bone": 30,
-      ashwood: 14,
+      "ash wood": 14,
     },
   },
   {
@@ -568,9 +568,9 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "proustite powder": 14,
-      "charred bone": 45,
-      ashwood: 23,
+      "proustite powder": 15,
+      "charred bone": 50,
+      "ash wood": 26,
     },
   },
   {
@@ -663,10 +663,10 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      bloodstone: 7,
-      "troll trophy": 7,
-      flametal: 21,
-      "charred bone": 45,
+      bloodstone: 8,
+      "troll trophy": 8,
+      flametal: 24,
+      "charred bone": 50,
     },
   },
   {
@@ -692,7 +692,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "celestial feather": 3,
       fiddlehead: 10,
       jade: 1,
-      ashwood: 15,
+      "ash wood": 15,
     },
   },
   {
@@ -718,7 +718,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "celestial feather": 6,
       fiddlehead: 12,
       jade: 2,
-      ashwood: 20,
+      "ash wood": 20,
     },
   },
   {
@@ -744,7 +744,7 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "celestial feather": 12,
       fiddlehead: 16,
       jade: 4,
-      ashwood: 30,
+      "ash wood": 30,
     },
   },
   {
@@ -767,10 +767,370 @@ const magicList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "celestial feather": 21,
-      fiddlehead: 22,
-      jade: 7,
-      ashwood: 45,
+      "celestial feather": 24,
+      fiddlehead: 24,
+      jade: 8,
+      "ash wood": 50,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 10,
+      nornathread: 4,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 15,
+      nornathread: 6,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 25,
+      nornathread: 10,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Echo Spike",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      bloodgold: 45,
+      nornathread: 18,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      lightning: 300,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 10,
+      nornathread: 5,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      lightning: 320,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 15,
+      nornathread: 7,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      lightning: 340,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      bloodgold: 25,
+      nornathread: 11,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Lightning Strike",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      lightning: 360,
+      knockback: 10,
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      bloodgold: 45,
+      nornathread: 19,
+      "thunderblood essence": 8,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      ice: 10,
+      nornathread: 5,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      ice: 15,
+      nornathread: 7,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      ice: 25,
+      nornathread: 11,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Northern Vengeance",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      ice: 45,
+      nornathread: 19,
+      "hexen trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 400,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "frozen branch": 8,
+      nornathread: 5,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 450,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "frozen branch": 12,
+      nornathread: 7,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 500,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "frozen branch": 20,
+      nornathread: 11,
+      "moose trophy": 1,
+    },
+  },
+  {
+    name: "Spirit Caller",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      backstab: "1x",
+      "parry force": 20,
+      durability: 550,
+      weight: 0.3,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "frozen branch": 36,
+      nornathread: 19,
+      "moose trophy": 1,
     },
   },
 ];

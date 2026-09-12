@@ -80,7 +80,7 @@ const doorsList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 1,
-      ashwood: 3,
+      "ash wood": 5,
     },
   },
   {
@@ -94,6 +94,63 @@ const doorsList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 16,
+    },
+  },
+  {
+    name: "Roundpole Gate",
+    set: "wood",
+    stats: {
+      size: "2x0",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 4,
+    },
+  },
+  {
+    name: "Rustic Drawbridge",
+    set: "core wood",
+    stats: {
+      size: "",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      silver: 2,
+      "wolf trophy": 2,
+      "core wood": 10,
+    },
+  },
+  {
+    name: "Timberwood Drawbridge",
+    set: "timberwood",
+    stats: {
+      size: "",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      flametal: 2,
+      bloodgold: 2,
+      timberwood: 24,
+    },
+  },
+  {
+    name: "Timberwood Gate",
+    set: "timberwood",
+    stats: {
+      size: "2x0",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 24,
+      bloodgold: 4,
     },
   },
 ];

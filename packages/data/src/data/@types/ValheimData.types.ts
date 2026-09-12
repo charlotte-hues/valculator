@@ -140,7 +140,16 @@ export type SetType =
   | "treasure"
   | "troll"
   | "wolf"
-  | "wood";
+  | "wood"
+  | "protector"
+  | "caller"
+  | "vanguard"
+  | "moose"
+  | "timberwood"
+  | "yggdrasil wood"
+  | "ice"
+  | "tin"
+  | "bloodgold";
 
 export type TypeType =
   | "adornments"
@@ -208,7 +217,8 @@ export type TypeType =
   | "tower shields"
   | "transport"
   | "trinket"
-  | "walls";
+  | "walls"
+  | "consumables";
 
 type NearbyType = "artisan Table" | "forge" | "workbench";
 

@@ -13,7 +13,8 @@ type MiscSets =
   | "stone"
   | "structures"
   | "treasure"
-  | "wood";
+  | "wood"
+  | "other";
 
 type MiscTypes =
   | "co-op"
@@ -23,7 +24,8 @@ type MiscTypes =
   | "road"
   | "siege"
   | "teleport"
-  | "transport";
+  | "transport"
+  | "consumables";
 
 export interface Misc {
   id: string;

@@ -158,8 +158,8 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "fine wood": 30,
-      "black metal": 16,
+      "fine wood": 25,
+      "black metal": 14,
       chain: 9,
     },
   },
@@ -179,8 +179,8 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "fine wood": 50,
-      "black metal": 24,
+      "fine wood": 45,
+      "black metal": 22,
       chain: 13,
     },
   },
@@ -327,9 +327,9 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      ashwood: 15,
       "asksvin hide": 5,
       flametal: 10,
+      "ash wood": 15,
     },
   },
   {
@@ -349,9 +349,9 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      ashwood: 25,
       "asksvin hide": 7,
       flametal: 14,
+      "ash wood": 25,
     },
   },
   {
@@ -371,9 +371,75 @@ const towerShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      ashwood: 35,
-      "asksvin hide": 9,
-      flametal: 18,
+      "asksvin hide": 11,
+      flametal: 22,
+      "ash wood": 45,
+    },
+  },
+  {
+    name: "Nord Greatshield",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      "block power": 158,
+      "parry force": 150,
+      durability: 400,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord greatshield": 1,
+      timberwood: 20,
+    },
+  },
+  {
+    name: "Nord Greatshield",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      "block power": 164,
+      "parry force": 150,
+      durability: 450,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord greatshield": 1,
+      timberwood: 30,
+    },
+  },
+  {
+    name: "Nord Greatshield",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      "block power": 170,
+      "parry force": 150,
+      durability: 500,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-10%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord greatshield": 1,
+      timberwood: 50,
     },
   },
 ];

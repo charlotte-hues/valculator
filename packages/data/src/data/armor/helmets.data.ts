@@ -68,8 +68,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "deer hide": 42,
-      "bone fragments": 30,
+      "deer hide": 48,
+      "bone fragments": 35,
     },
   },
   {
@@ -88,8 +88,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "troll leather": 5,
       "bone fragments": 3,
+      "troll hide": 5,
     },
   },
   {
@@ -108,8 +108,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "troll leather": 7,
       "bone fragments": 4,
+      "troll hide": 7,
     },
   },
   {
@@ -128,8 +128,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "troll leather": 11,
       "bone fragments": 6,
+      "troll hide": 11,
     },
   },
   {
@@ -148,8 +148,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 6,
     },
     materials: {
-      "troll leather": 17,
-      "bone fragments": 9,
+      "bone fragments": 10,
+      "troll hide": 19,
     },
   },
   {
@@ -220,7 +220,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      bronze: 23,
+      bronze: 26,
       "deer hide": 2,
     },
   },
@@ -301,7 +301,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      iron: 50,
+      iron: 55,
       "deer hide": 2,
     },
   },
@@ -377,7 +377,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      silver: 50,
+      silver: 55,
       "wolf pelt": 2,
       "drake trophy": 2,
     },
@@ -415,7 +415,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 15,
-      "linen thread": 15,
+      "linen thread": 25,
     },
   },
   {
@@ -433,7 +433,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 25,
-      "linen thread": 15,
+      "linen thread": 45,
     },
   },
   {
@@ -450,8 +450,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      iron: 40,
-      "linen thread": 15,
+      iron: 45,
+      "linen thread": 85,
     },
   },
   {
@@ -472,7 +472,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       root: 10,
       "ancient bark": 10,
-      "leather scraps": 2,
+      "leather scraps": 4,
     },
   },
   {
@@ -493,7 +493,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       root: 12,
       "ancient bark": 15,
-      "leather scraps": 2,
+      "leather scraps": 4,
     },
   },
   {
@@ -514,7 +514,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       root: 16,
       "ancient bark": 25,
-      "leather scraps": 2,
+      "leather scraps": 4,
     },
   },
   {
@@ -533,9 +533,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      root: 22,
-      "ancient bark": 40,
-      "leather scraps": 2,
+      root: 24,
+      "ancient bark": 45,
+      "leather scraps": 4,
     },
   },
   {
@@ -592,7 +592,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "bear trophy": 1,
-      "bear hide": 9,
+      "bear hide": 11,
     },
   },
   {
@@ -611,7 +611,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     },
     materials: {
       "bear trophy": 1,
-      "bear hide": 11,
+      "bear hide": 19,
     },
   },
   {
@@ -693,8 +693,8 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "wolf pelt": 26,
-      "fenris hair": 50,
+      "wolf pelt": 30,
+      "fenris hair": 55,
       "cultist trophy": 1,
     },
   },
@@ -755,9 +755,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "refined eitr": 8,
-      carapace: 32,
-      "scale hide": 5,
+      "refined eitr": 10,
+      carapace: 40,
+      "scale hide": 6,
       mandible: 2,
     },
   },
@@ -776,9 +776,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "refined eitr": 10,
-      carapace: 40,
-      "scale hide": 6,
+      "refined eitr": 18,
+      carapace: 72,
+      "scale hide": 10,
       mandible: 2,
     },
   },
@@ -800,7 +800,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
     materials: {
       "refined eitr": 15,
       iron: 2,
-      "linen thread": 15,
+      "linen thread": 16,
     },
   },
   {
@@ -819,9 +819,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 2,
     },
     materials: {
-      "refined eitr": 16,
-      iron: 3,
-      "linen thread": 17,
+      "refined eitr": 20,
+      iron: 2,
+      "linen thread": 24,
     },
   },
   {
@@ -840,9 +840,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 3,
     },
     materials: {
-      "refined eitr": 17,
-      iron: 4,
-      "linen thread": 19,
+      "refined eitr": 30,
+      iron: 2,
+      "linen thread": 40,
     },
   },
   {
@@ -861,9 +861,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 18,
-      iron: 5,
-      "linen thread": 21,
+      "refined eitr": 50,
+      iron: 2,
+      "linen thread": 72,
     },
   },
   {
@@ -944,10 +944,10 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "refined eitr": 16,
+      "refined eitr": 18,
       "charred bone": 2,
-      "asksvin hide": 9,
-      flametal: 64,
+      "asksvin hide": 10,
+      flametal: 72,
     },
   },
   {
@@ -1025,9 +1025,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 40,
-      "lox pelt": 16,
-      "linen thread": 75,
+      "asksvin hide": 45,
+      "lox pelt": 18,
+      "linen thread": 85,
     },
   },
   {
@@ -1109,9 +1109,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       "galdr table": 4,
     },
     materials: {
-      "refined eitr": 45,
+      "refined eitr": 50,
       "asksvin hide": 2,
-      "linen thread": 64,
+      "linen thread": 72,
     },
   },
   {
@@ -1167,7 +1167,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "bear hide": 9,
+      "bear hide": 11,
       "vile trophy": 1,
     },
   },
@@ -1186,7 +1186,7 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "bear hide": 11,
+      "bear hide": 19,
       "vile trophy": 1,
     },
   },
@@ -1265,9 +1265,9 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "deer hide": 4,
+      "deer hide": 5,
       "bear hide": 1,
-      bronze: 3,
+      bronze: 4,
       "amber pearl": 1,
     },
   },
@@ -1286,10 +1286,602 @@ const helmetsList: Array<Omit<Armor, "group" | "id" | "type">> = [
       workbench: 5,
     },
     materials: {
-      "deer hide": 5,
+      "deer hide": 9,
       "bear hide": 1,
-      bronze: 4,
+      bronze: 8,
       "amber pearl": 1,
+    },
+  },
+  {
+    name: "Crown of Valheim",
+    level: 1,
+    set: "other",
+    stats: {
+      protection: 50,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {
+      movementSpeed: "5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 5,
+      "crown jewel": 1,
+    },
+  },
+  {
+    name: "Fishing Hat",
+    level: 1,
+    set: "other",
+    stats: {
+      protection: 8,
+      durability: 1000,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      perch: 1,
+      pike: 1,
+      tuna: 1,
+      tetra: 1,
+      trollfish: 1,
+      "giant herring": 1,
+      grouper: 1,
+      "coral cod": 1,
+      anglerfish: 1,
+      "northern salmon": 1,
+      magmafish: 1,
+      pufferfish: 1,
+    },
+  },
+  {
+    name: "Fishing Hat",
+    level: 2,
+    set: "other",
+    stats: {
+      protection: 12,
+      durability: 1200,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      perch: 2,
+      pike: 2,
+      tuna: 2,
+      tetra: 2,
+      trollfish: 2,
+      "giant herring": 2,
+      grouper: 2,
+      "coral cod": 2,
+      anglerfish: 2,
+      "northern salmon": 2,
+      magmafish: 2,
+      pufferfish: 2,
+    },
+  },
+  {
+    name: "Fishing Hat",
+    level: 3,
+    set: "other",
+    stats: {
+      protection: 16,
+      durability: 1400,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      perch: 4,
+      pike: 4,
+      tuna: 4,
+      tetra: 4,
+      trollfish: 4,
+      "giant herring": 4,
+      grouper: 4,
+      "coral cod": 4,
+      anglerfish: 4,
+      "northern salmon": 4,
+      magmafish: 4,
+      pufferfish: 4,
+    },
+  },
+  {
+    name: "Fishing Hat",
+    level: 4,
+    set: "other",
+    stats: {
+      protection: 20,
+      durability: 1600,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      perch: 8,
+      pike: 8,
+      tuna: 8,
+      tetra: 8,
+      trollfish: 8,
+      "giant herring": 8,
+      grouper: 8,
+      "coral cod": 8,
+      anglerfish: 8,
+      "northern salmon": 8,
+      magmafish: 8,
+      pufferfish: 8,
+    },
+  },
+  {
+    name: "Headdress of the Caller",
+    level: 1,
+    set: "caller",
+    stats: {
+      protection: 22,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "moose sinew": 2,
+      "mould: headdress of the caller": 1,
+      "moose trophy": 1,
+      nornathread: 3,
+    },
+  },
+  {
+    name: "Headdress of the Caller",
+    level: 2,
+    set: "caller",
+    stats: {
+      protection: 24,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "moose sinew": 3,
+      "mould: headdress of the caller": 1,
+      "moose trophy": 2,
+      nornathread: 5,
+    },
+  },
+  {
+    name: "Headdress of the Caller",
+    level: 3,
+    set: "caller",
+    stats: {
+      protection: 26,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "galdr table": 3,
+    },
+    materials: {
+      "moose sinew": 5,
+      "mould: headdress of the caller": 1,
+      "moose trophy": 4,
+      nornathread: 9,
+    },
+  },
+  {
+    name: "Headdress of the Caller",
+    level: 4,
+    set: "caller",
+    stats: {
+      protection: 28,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "galdr table": 4,
+    },
+    materials: {
+      "moose sinew": 9,
+      "mould: headdress of the caller": 1,
+      "moose trophy": 8,
+      nornathread: 17,
+    },
+  },
+  {
+    name: "Helmet of the Protector",
+    level: 1,
+    set: "protector",
+    stats: {
+      protection: 44,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: helmet of the protector": 1,
+      "moose hide": 4,
+    },
+  },
+  {
+    name: "Helmet of the Protector",
+    level: 2,
+    set: "protector",
+    stats: {
+      protection: 46,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 35,
+      "mould: helmet of the protector": 1,
+      "moose hide": 7,
+    },
+  },
+  {
+    name: "Helmet of the Protector",
+    level: 3,
+    set: "protector",
+    stats: {
+      protection: 48,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 65,
+      "mould: helmet of the protector": 1,
+      "moose hide": 13,
+    },
+  },
+  {
+    name: "Helmet of the Protector",
+    level: 4,
+    set: "protector",
+    stats: {
+      protection: 50,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 125,
+      "mould: helmet of the protector": 1,
+      "moose hide": 25,
+    },
+  },
+  {
+    name: "Hood of Odin",
+    level: 1,
+    set: "leather",
+    stats: {
+      protection: 1,
+      durability: 300,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 10,
+      coal: 4,
+    },
+  },
+  {
+    name: "Hood of Odin",
+    level: 2,
+    set: "leather",
+    stats: {
+      protection: 2,
+      durability: 400,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 15,
+      coal: 6,
+    },
+  },
+  {
+    name: "Hood of Odin",
+    level: 3,
+    set: "leather",
+    stats: {
+      protection: 3,
+      durability: 500,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 25,
+      coal: 10,
+    },
+  },
+  {
+    name: "Hood of Odin",
+    level: 4,
+    set: "leather",
+    stats: {
+      protection: 4,
+      durability: 600,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "leather scraps": 45,
+      coal: 18,
+    },
+  },
+  {
+    name: "Hood of the Vanguard",
+    level: 1,
+    set: "vanguard",
+    stats: {
+      protection: 34,
+      durability: 1000,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "seal pelt": 5,
+      "mould: hood of the vanguard": 1,
+      "moose hide": 5,
+      "moose sinew": 1,
+    },
+  },
+  {
+    name: "Hood of the Vanguard",
+    level: 2,
+    set: "vanguard",
+    stats: {
+      protection: 36,
+      durability: 1200,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "seal pelt": 8,
+      "mould: hood of the vanguard": 1,
+      "moose hide": 8,
+      "moose sinew": 2,
+    },
+  },
+  {
+    name: "Hood of the Vanguard",
+    level: 3,
+    set: "vanguard",
+    stats: {
+      protection: 38,
+      durability: 1400,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "seal pelt": 14,
+      "mould: hood of the vanguard": 1,
+      "moose hide": 14,
+      "moose sinew": 4,
+    },
+  },
+  {
+    name: "Hood of the Vanguard",
+    level: 4,
+    set: "vanguard",
+    stats: {
+      protection: 40,
+      durability: 1600,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "seal pelt": 26,
+      "mould: hood of the vanguard": 1,
+      "moose hide": 26,
+      "moose sinew": 8,
+    },
+  },
+  {
+    name: "Lox Fur Hood",
+    level: 1,
+    set: "lox",
+    stats: {
+      protection: 16,
+      durability: 500,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "lox pelt": 4,
+      "bone fragments": 4,
+      "writhan roots": 2,
+    },
+  },
+  {
+    name: "Lox Fur Hood",
+    level: 2,
+    set: "lox",
+    stats: {
+      protection: 18,
+      durability: 700,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "lox pelt": 6,
+      "bone fragments": 6,
+      "writhan roots": 3,
+    },
+  },
+  {
+    name: "Lox Fur Hood",
+    level: 3,
+    set: "lox",
+    stats: {
+      protection: 20,
+      durability: 900,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "lox pelt": 10,
+      "bone fragments": 10,
+      "writhan roots": 5,
+    },
+  },
+  {
+    name: "Lox Fur Hood",
+    level: 4,
+    set: "lox",
+    stats: {
+      protection: 22,
+      durability: 1100,
+      weight: 1,
+    },
+    effects: {},
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "lox pelt": 18,
+      "bone fragments": 18,
+      "writhan roots": 9,
+    },
+  },
+  {
+    name: "Pointy Hat",
+    level: 1,
+    set: "leather",
+    stats: {
+      protection: 1,
+      durability: 800,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "deer hide": 3,
+      coal: 5,
+      bronze: 1,
+    },
+  },
+  {
+    name: "Pointy Hat",
+    level: 2,
+    set: "leather",
+    stats: {
+      protection: 3,
+      durability: 900,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "deer hide": 8,
+      coal: 5,
+      bronze: 1,
+    },
+  },
+  {
+    name: "Pointy Hat",
+    level: 3,
+    set: "leather",
+    stats: {
+      protection: 5,
+      durability: 1000,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "deer hide": 18,
+      coal: 5,
+      bronze: 1,
+    },
+  },
+  {
+    name: "Pointy Hat",
+    level: 4,
+    set: "leather",
+    stats: {
+      protection: 7,
+      durability: 1100,
+      weight: 3,
+    },
+    effects: {},
+    station: {
+      workbench: 4,
+    },
+    materials: {
+      "deer hide": 38,
+      coal: 5,
+      bronze: 1,
     },
   },
 ];

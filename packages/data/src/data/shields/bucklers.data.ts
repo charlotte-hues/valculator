@@ -124,7 +124,7 @@ const bucklersShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
     },
     materials: {
       iron: 25,
-      "ancient bark": 9,
+      "ancient bark": 7,
     },
   },
   {
@@ -191,6 +191,72 @@ const bucklersShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       carapace: 40,
       "scale hide": 12,
       "refined eitr": 19,
+    },
+  },
+  {
+    name: "Nord Buckler",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      "block power": 88,
+      "parry force": 30,
+      durability: 400,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 10,
+      "mould: nord buckler": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Buckler",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      "block power": 94,
+      "parry force": 30,
+      durability: 450,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 15,
+      "mould: nord buckler": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Buckler",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      "block power": 100,
+      "parry force": 30,
+      durability: 500,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 25,
+      "mould: nord buckler": 1,
+      timberwood: 25,
     },
   },
 ];

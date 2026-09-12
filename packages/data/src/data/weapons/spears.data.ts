@@ -88,9 +88,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      wood: 23,
-      flint: 40,
-      "leather scraps": 8,
+      wood: 26,
+      flint: 45,
+      "leather scraps": 9,
     },
   },
   {
@@ -180,9 +180,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      wood: 23,
-      bronze: 30,
-      "deer hide": 8,
+      wood: 26,
+      bronze: 34,
+      "deer hide": 9,
     },
   },
   {
@@ -272,9 +272,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 6,
     },
     materials: {
-      "troll hide": 10,
-      iron: 40,
-      "ancient bark": 40,
+      "troll hide": 11,
+      iron: 45,
+      "ancient bark": 45,
     },
   },
   {
@@ -346,7 +346,7 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "ancient bark": 25,
       "wolf fang": 10,
       "leather scraps": 5,
-      silver: 4,
+      silver: 5,
     },
   },
   {
@@ -367,10 +367,10 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 6,
     },
     materials: {
-      "ancient bark": 40,
-      "wolf fang": 16,
-      "leather scraps": 8,
-      silver: 7,
+      "ancient bark": 45,
+      "wolf fang": 18,
+      "leather scraps": 9,
+      silver: 9,
     },
   },
   {
@@ -487,9 +487,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "yggdrasil wood": 40,
-      mandible: 8,
-      carapace: 28,
+      "yggdrasil wood": 45,
+      mandible: 9,
+      carapace: 32,
     },
   },
   {
@@ -514,7 +514,7 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "asksvin hide": 2,
       flametal: 6,
       "bonemaw tooth": 3,
-      ashwood: 10,
+      "ash wood": 10,
     },
   },
   {
@@ -539,7 +539,7 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "asksvin hide": 3,
       flametal: 12,
       "bonemaw tooth": 6,
-      ashwood: 15,
+      "ash wood": 15,
     },
   },
   {
@@ -564,7 +564,7 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "asksvin hide": 5,
       flametal: 24,
       "bonemaw tooth": 12,
-      ashwood: 25,
+      "ash wood": 25,
     },
   },
   {
@@ -586,10 +586,10 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      "asksvin hide": 8,
-      flametal: 42,
-      "bonemaw tooth": 21,
-      ashwood: 40,
+      "asksvin hide": 9,
+      flametal: 48,
+      "bonemaw tooth": 24,
+      "ash wood": 45,
     },
   },
   {
@@ -612,10 +612,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      flametal: 12,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 6,
+      splitnir: 1,
     },
   },
   {
@@ -638,10 +636,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      flametal: 18,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 12,
+      splitnir: 1,
     },
   },
   {
@@ -664,10 +660,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 4,
-      flametal: 30,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 24,
+      splitnir: 1,
     },
   },
   {
@@ -689,11 +683,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 7,
+      bloodstone: 8,
       flametal: 48,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      splitnir: 1,
     },
   },
   {
@@ -717,10 +709,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       iolite: 1,
-      flametal: 12,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 6,
+      splitnir: 1,
     },
   },
   {
@@ -744,10 +734,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       iolite: 2,
-      flametal: 18,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 12,
+      splitnir: 1,
     },
   },
   {
@@ -771,10 +759,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       iolite: 4,
-      flametal: 30,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 24,
+      splitnir: 1,
     },
   },
   {
@@ -797,11 +783,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      iolite: 7,
+      iolite: 8,
       flametal: 48,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      splitnir: 1,
     },
   },
   {
@@ -825,10 +809,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 1,
-      flametal: 12,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 6,
+      splitnir: 1,
     },
   },
   {
@@ -852,10 +834,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 2,
-      flametal: 18,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 12,
+      splitnir: 1,
     },
   },
   {
@@ -879,10 +859,8 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 4,
-      flametal: 30,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      flametal: 24,
+      splitnir: 1,
     },
   },
   {
@@ -905,11 +883,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 7,
+      jade: 8,
       flametal: 48,
-      "asksvin hide": 2,
-      "bonemaw tooth": 3,
-      ashwood: 10,
+      splitnir: 1,
     },
   },
   {
@@ -979,9 +955,9 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      "fine wood": 23,
-      "core wood": 6,
-      wood: 7,
+      "fine wood": 33,
+      "core wood": 8,
+      wood: 8,
     },
   },
   {
@@ -1003,9 +979,309 @@ const spearsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 33,
-      "core wood": 8,
-      wood: 8,
+      "fine wood": 73,
+      "core wood": 16,
+      wood: 12,
+    },
+  },
+  {
+    name: "Frostfire Spear",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 148,
+      fire: 12,
+      frost: 88,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Spear",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 158,
+      fire: 15,
+      frost: 91,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Spear",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 168,
+      fire: 18,
+      frost: 94,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Spear",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 178,
+      fire: 21,
+      frost: 97,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Nord Spear",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 170,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord spear": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Spear",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 180,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord spear": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Spear",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 190,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord spear": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Spear",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 200,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord spear": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Thunderblood Spear",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 180,
+      lightning: 45,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Spear",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 190,
+      lightning: 50,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Spear",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 200,
+      lightning: 55,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 500,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Spear",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 210,
+      lightning: 60,
+      knockback: 20,
+      backstab: "3x",
+      "parry force": 20,
+      durability: 550,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord spear": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
     },
   },
 ];
