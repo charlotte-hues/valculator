@@ -1,6 +1,13 @@
 {
   "name": "@valculator/interface",
   "version": "1.1.3",
+  "description": "React UI for the Valculator Valheim resource calculator.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlotte-hues/valculator.git",
+    "directory": "packages/interface"
+  },
   "type": "module",
   "main": "dist/entry-interface.js",
   "publishConfig": {

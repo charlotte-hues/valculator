@@ -47,7 +47,7 @@
 
 ## :dart: About ##
 
-Valculator is a free resource calculator for the game Valheim.
+Valculator is an unofficial fan project: a free resource calculator for Valheim, the game by Iron Gate and Coffee Stain. It is not affiliated with Iron Gate or Coffee Stain.
 
 ## :sparkles: Features ##
 
@@ -92,6 +92,8 @@ $ yarn dev
 ## :memo: License ##
 
 This project is under license from Apache 2.0. For more details, see the [LICENSE](LICENSE.md) file.
+
+Item images are Coffee Stain / Iron Gate material and are not covered by that license. See the [NOTICE](NOTICE) file.
 
 
 Made with :heart: by <a href="https://github.com/charlotte-hues" target="_blank">Studio Helga</a>

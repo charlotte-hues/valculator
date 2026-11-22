@@ -1,0 +1,5 @@
+Item images
+
+The item images in this repository are Coffee Stain / Iron Gate material. They are not covered by the repository license.
+
+The files are under packages/images/src/assets/item-images/. The host at valculator.io loads them from https://images.valculator.io.

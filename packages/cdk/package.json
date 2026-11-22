@@ -2,7 +2,6 @@
   "name": "cdk",
   "version": "0.0.3",
   "private": true,
-  "license": "MIT",
   "bin": "bin/cdk.js",
   "scripts": {
     "build": "tsc",
