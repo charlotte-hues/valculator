@@ -252,7 +252,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 1,
     },
   },
   {
@@ -265,7 +265,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 4,
+      "ash wood": 2,
     },
   },
   {
@@ -278,7 +278,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 2,
     },
   },
   {
@@ -291,7 +291,7 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 2,
     },
   },
   {
@@ -331,6 +331,176 @@ const beamsList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 2,
+    },
+  },
+  {
+    name: "Ashwood Beam 67°",
+    set: "ash",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "ash wood": 2,
+    },
+  },
+  {
+    name: "Decorated Timber Beam 26°",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Decorated Timber Beam 2m",
+    set: "timberwood",
+    stats: {
+      size: "2m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Decorated Timber Beam 45°",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Decorated Timber Beam 67°",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Log Beam 67°",
+    set: "core wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "core wood": 2,
+    },
+  },
+  {
+    name: "Timber Beam 26°",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Beam 2m",
+    set: "timberwood",
+    stats: {
+      size: "2m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Beam 45°",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Timber Beam 4m",
+    set: "timberwood",
+    stats: {
+      size: "4m",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 4,
+    },
+  },
+  {
+    name: "Timber Beam 67°",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Wood Beam 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
+  {
+    name: "Wood Iron Beam 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+      iron: 1,
     },
   },
 ];

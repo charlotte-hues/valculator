@@ -8,9 +8,9 @@ const siegeList: Array<Omit<Misc, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 20,
       flametal: 10,
       "surtling core": 2,
+      "ash wood": 20,
     },
   },
   {
@@ -20,9 +20,9 @@ const siegeList: Array<Omit<Misc, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 20,
       flametal: 10,
       "charred cogwheel": 1,
+      "ash wood": 20,
     },
   },
   {

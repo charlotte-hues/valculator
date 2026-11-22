@@ -80,9 +80,9 @@ const eitrList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       cauldron: 5,
     },
     materials: {
-      vineberry: 3,
       honey: 1,
       fiddlehead: 1,
+      "vineberry cluster": 3,
     },
   },
   {
@@ -126,7 +126,7 @@ const eitrList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     materials: {
       sap: 3,
       fiddlehead: 2,
-      vineberry: 2,
+      "vineberry cluster": 2,
     },
   },
   {
@@ -146,9 +146,9 @@ const eitrList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
     materials: {
       sap: 4,
-      vineberry: 2,
       "smoke puff": 2,
       magecap: 2,
+      "vineberry cluster": 2,
     },
   },
   {

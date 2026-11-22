@@ -7,7 +7,8 @@ type TrinketSets =
   | "silver"
   | "black metal"
   | "carapace"
-  | "flametal";
+  | "flametal"
+  | "bloodgold";
 
 interface TrinketStats extends Pick<IStats, "weight"> {
   weight: NonNullable<IStats["weight"]>;

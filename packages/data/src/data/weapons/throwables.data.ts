@@ -14,7 +14,7 @@ const throwablesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ooze: 10,
+      ooze: 5,
       resin: 3,
       "leather scraps": 5,
     },
@@ -135,9 +135,9 @@ const throwablesList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      resin: 3,
       "growth trophy": 1,
       "corked vial": 1,
+      tar: 3,
     },
   },
   {

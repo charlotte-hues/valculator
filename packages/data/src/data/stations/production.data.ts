@@ -110,6 +110,44 @@ const productionList: Array<Omit<WorkStation, "group" | "id" | "type">> = [
       "torn spirit": 1,
     },
   },
+  {
+    name: "Eternal Pyre",
+    set: "structures",
+    nearby: "stonecutter",
+    materials: {
+      stone: 10,
+      "kindled ribs": 1,
+    },
+  },
+  {
+    name: "Frigid Kiln",
+    set: "structures",
+    nearby: "stonecutter",
+    materials: {
+      stone: 20,
+      frostcore: 10,
+      ice: 5,
+    },
+  },
+  {
+    name: "Frost Foundry",
+    set: "structures",
+    nearby: "stonecutter",
+    materials: {
+      iron: 15,
+      stone: 20,
+      frostcore: 10,
+    },
+  },
+  {
+    name: "Iron Fire Pit",
+    set: "structures",
+    nearby: "workbench",
+    materials: {
+      "iron pit": 1,
+      wood: 1,
+    },
+  },
 ];
 
 export const production: Array<Omit<WorkStation, "id">> = productionList.map(

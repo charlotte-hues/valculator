@@ -342,9 +342,9 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      ashwood: 10,
       "asksvin hide": 2,
       flametal: 8,
+      "ash wood": 10,
     },
   },
   {
@@ -364,9 +364,9 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      ashwood: 20,
       "asksvin hide": 4,
       flametal: 12,
+      "ash wood": 20,
     },
   },
   {
@@ -386,9 +386,201 @@ const roundShieldList: Array<Omit<Shield, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      ashwood: 30,
-      "asksvin hide": 6,
-      flametal: 16,
+      "asksvin hide": 8,
+      flametal: 20,
+      "ash wood": 40,
+    },
+  },
+  {
+    name: "Iron Shield",
+    level: 1,
+    set: "iron",
+    stats: {
+      "block power": 35,
+      "parry force": 30,
+      durability: 200,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      forge: 2,
+    },
+    materials: {
+      "fine wood": 10,
+      iron: 6,
+    },
+  },
+  {
+    name: "Iron Shield",
+    level: 2,
+    set: "iron",
+    stats: {
+      "block power": 41,
+      "parry force": 30,
+      durability: 250,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      forge: 2,
+    },
+    materials: {
+      "fine wood": 20,
+      iron: 9,
+    },
+  },
+  {
+    name: "Iron Shield",
+    level: 3,
+    set: "iron",
+    stats: {
+      "block power": 47,
+      "parry force": 30,
+      durability: 300,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "-20%",
+    },
+    station: {
+      forge: 3,
+    },
+    materials: {
+      "fine wood": 40,
+      iron: 15,
+    },
+  },
+  {
+    name: "Nord Shield",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      "block power": 132,
+      "parry force": 50,
+      durability: 400,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 15,
+      "mould: nord shield": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Shield",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      "block power": 138,
+      "parry force": 50,
+      durability: 450,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 23,
+      "mould: nord shield": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Shield",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      "block power": 144,
+      "parry force": 50,
+      durability: 500,
+      weight: 5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 39,
+      "mould: nord shield": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Shield of Roots",
+    level: 1,
+    set: "other",
+    stats: {
+      "block power": 48,
+      "parry force": 40,
+      durability: 200,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "0%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fine wood": 10,
+      "writhan roots": 1,
+    },
+  },
+  {
+    name: "Shield of Roots",
+    level: 2,
+    set: "other",
+    stats: {
+      "block power": 54,
+      "parry force": 40,
+      durability: 250,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "0%",
+    },
+    station: {
+      workbench: 2,
+    },
+    materials: {
+      "fine wood": 15,
+      "writhan roots": 3,
+    },
+  },
+  {
+    name: "Shield of Roots",
+    level: 3,
+    set: "other",
+    stats: {
+      "block power": 60,
+      "parry force": 40,
+      durability: 300,
+      weight: 4,
+    },
+    effects: {
+      movementSpeed: "0%",
+    },
+    station: {
+      workbench: 3,
+    },
+    materials: {
+      "fine wood": 25,
+      "writhan roots": 7,
     },
   },
 ];

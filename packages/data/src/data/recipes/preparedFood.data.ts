@@ -62,7 +62,7 @@ const preparedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     materials: {
       "seeker meat": 1,
       "lox meat": 1,
-      "hare meat": 2,
+      "hare meat": 1,
     },
   },
   {
@@ -125,8 +125,8 @@ const preparedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
     materials: {
       "asksvin tail": 2,
-      vineberry: 2,
       "barley flour": 4,
+      "vineberry cluster": 2,
     },
   },
   {
@@ -140,9 +140,9 @@ const preparedFoodList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       "food preparation table": 1,
     },
     materials: {
-      vineberry: 2,
       "volture egg": 1,
       "barley flour": 4,
+      "vineberry cluster": 2,
     },
   },
 ];

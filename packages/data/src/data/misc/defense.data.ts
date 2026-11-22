@@ -20,8 +20,9 @@ const defenseList: Array<Omit<Misc, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      "black metal": 20,
+      "black metal": 10,
       "mechanical spring": 3,
+      "yggdrasil wood": 10,
     },
   },
   {
@@ -55,8 +56,8 @@ const defenseList: Array<Omit<Misc, "group" | "id" | "type">> = [
     },
     materials: {
       ectoplasm: 5,
-      wood: 5,
       "bronze nails": 10,
+      "fine wood": 5,
     },
   },
 ];

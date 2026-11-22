@@ -90,7 +90,7 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 5,
-      stone: 16,
+      stone: 18,
     },
   },
   {
@@ -184,8 +184,8 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 4,
-      flint: 24,
-      "leather scraps": 12,
+      flint: 27,
+      "leather scraps": 14,
     },
   },
   {
@@ -280,8 +280,8 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 4,
-      bronze: 32,
-      "leather scraps": 8,
+      bronze: 36,
+      "leather scraps": 9,
     },
   },
   {
@@ -376,8 +376,8 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
     materials: {
       wood: 4,
-      iron: 80,
-      "leather scraps": 8,
+      iron: 90,
+      "leather scraps": 9,
     },
   },
   {
@@ -468,8 +468,8 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
     },
     materials: {
       "fine wood": 6,
-      "black metal": 80,
-      "linen thread": 35,
+      "black metal": 90,
+      "linen thread": 40,
     },
   },
   {
@@ -539,9 +539,9 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       workbench: 3,
     },
     materials: {
-      wood: 7,
-      "core wood": 6,
-      "fine wood": 23,
+      wood: 8,
+      "core wood": 8,
+      "fine wood": 33,
     },
   },
   {
@@ -563,9 +563,9 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      wood: 8,
-      "core wood": 8,
-      "fine wood": 33,
+      wood: 12,
+      "core wood": 16,
+      "fine wood": 73,
     },
   },
   {
@@ -661,10 +661,10 @@ const axeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      wood: 16,
+      wood: 18,
       "curious axe head": 1,
       "mysterious axe head": 1,
-      "leather scraps": 12,
+      "leather scraps": 14,
     },
   },
 ];

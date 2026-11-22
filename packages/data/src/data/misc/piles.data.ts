@@ -128,7 +128,7 @@ const pilesList: Array<Omit<Misc, "group" | "id" | "type">> = [
       hammer: 1,
     },
     materials: {
-      ashwood: 50,
+      "ash wood": 50,
     },
   },
 ];

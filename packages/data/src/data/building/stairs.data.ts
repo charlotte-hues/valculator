@@ -91,7 +91,7 @@ const stairsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {

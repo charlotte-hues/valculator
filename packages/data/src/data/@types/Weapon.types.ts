@@ -38,7 +38,8 @@ type WeaponSets =
   | "bone"
   | "carapace"
   | "flametal"
-  | "other";
+  | "other"
+  | "bloodgold";
 
 interface WeaponStats
   extends Pick<

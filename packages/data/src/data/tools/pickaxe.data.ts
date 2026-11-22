@@ -111,8 +111,8 @@ const pickaxeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "core wood": 9,
-      bronze: 40,
+      "core wood": 10,
+      bronze: 45,
     },
   },
   {
@@ -203,8 +203,8 @@ const pickaxeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "core wood": 9,
-      iron: 80,
+      "core wood": 10,
+      iron: 90,
     },
   },
   {
@@ -272,8 +272,8 @@ const pickaxeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "black metal": 55,
-      "yggdrasil wood": 5,
+      "black metal": 70,
+      "yggdrasil wood": 6,
     },
   },
   {
@@ -295,8 +295,8 @@ const pickaxeList: Array<Omit<Tool, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "black metal": 70,
-      "yggdrasil wood": 6,
+      "black metal": 130,
+      "yggdrasil wood": 10,
     },
   },
 ];

@@ -223,9 +223,9 @@ const baseList: Array<Omit<Recipe, "group" | "id" | "type">> = [
       "mead ketill": 1,
     },
     materials: {
-      "hare trophy": 1,
-      feathers: 10,
+      feathers: 5,
       magecap: 5,
+      "scale hide": 2,
     },
   },
   {
@@ -337,8 +337,8 @@ const baseList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
     materials: {
       sap: 10,
-      vineberry: 10,
       magecap: 10,
+      "vineberry cluster": 10,
     },
   },
   {
@@ -353,8 +353,8 @@ const baseList: Array<Omit<Recipe, "group" | "id" | "type">> = [
     },
     materials: {
       sap: 10,
-      vineberry: 10,
       "smoke puff": 10,
+      "vineberry cluster": 10,
     },
   },
 ];

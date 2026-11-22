@@ -12,7 +12,8 @@ type ShieldSets =
   | "iron"
   | "other"
   | "silver"
-  | "wood";
+  | "wood"
+  | "bloodgold";
 
 interface ShieldEffects {
   movementSpeed: string;

@@ -108,6 +108,7 @@ const feastsList: Array<Omit<Feast, "group" | "id" | "type">> = [
       "wolf skewer": 2,
       carrot: 4,
       "mountain peak pepper powder": 1,
+      "onion soup": 3,
     },
   },
   {
@@ -173,9 +174,9 @@ const feastsList: Array<Omit<Feast, "group" | "id" | "type">> = [
     },
     materials: {
       "cooked asksvin tail": 3,
-      vineberry: 5,
       "scorching medley": 2,
       "fiery spice powder": 1,
+      "vineberry cluster": 5,
     },
   },
 ];

@@ -13,7 +13,10 @@ type BuildingSets =
   | "grausten"
   | "iron"
   | "stone"
-  | "wood";
+  | "wood"
+  | "timberwood"
+  | "yggdrasil wood"
+  | "ice";
 
 type BuildingTypes =
   | "adornments"

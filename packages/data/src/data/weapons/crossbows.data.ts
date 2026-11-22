@@ -88,9 +88,9 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      root: 10,
-      iron: 32,
-      wood: 40,
+      root: 11,
+      iron: 36,
+      wood: 45,
     },
   },
   {
@@ -114,7 +114,7 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 8,
       "morgen sinew": 2,
       "bonemaw tooth": 4,
-      ashwood: 10,
+      "ash wood": 10,
     },
   },
   {
@@ -138,7 +138,7 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 12,
       "morgen sinew": 3,
       "bonemaw tooth": 8,
-      ashwood: 15,
+      "ash wood": 15,
     },
   },
   {
@@ -162,7 +162,7 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 20,
       "morgen sinew": 5,
       "bonemaw tooth": 16,
-      ashwood: 25,
+      "ash wood": 25,
     },
   },
   {
@@ -183,10 +183,10 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 32,
-      "morgen sinew": 8,
-      "bonemaw tooth": 28,
-      ashwood: 40,
+      flametal: 36,
+      "morgen sinew": 9,
+      "bonemaw tooth": 32,
+      "ash wood": 45,
     },
   },
   {
@@ -208,10 +208,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      flametal: 16,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 8,
+      ripper: 1,
     },
   },
   {
@@ -233,10 +231,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      flametal: 24,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 16,
+      ripper: 1,
     },
   },
   {
@@ -258,10 +254,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 4,
-      flametal: 40,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 32,
+      ripper: 1,
     },
   },
   {
@@ -282,11 +276,9 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 7,
+      bloodstone: 8,
       flametal: 64,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      ripper: 1,
     },
   },
   {
@@ -309,10 +301,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       iolite: 1,
-      flametal: 16,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 8,
+      ripper: 1,
     },
   },
   {
@@ -335,10 +325,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       iolite: 2,
-      flametal: 24,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 16,
+      ripper: 1,
     },
   },
   {
@@ -361,10 +349,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       iolite: 4,
-      flametal: 40,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 32,
+      ripper: 1,
     },
   },
   {
@@ -386,11 +372,9 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      iolite: 7,
+      iolite: 8,
       flametal: 64,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      ripper: 1,
     },
   },
   {
@@ -413,10 +397,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 1,
-      flametal: 16,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 8,
+      ripper: 1,
     },
   },
   {
@@ -439,10 +421,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 2,
-      flametal: 24,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 16,
+      ripper: 1,
     },
   },
   {
@@ -465,10 +445,8 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       jade: 4,
-      flametal: 40,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      flametal: 32,
+      ripper: 1,
     },
   },
   {
@@ -490,11 +468,9 @@ const crossbowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      jade: 7,
+      jade: 8,
       flametal: 64,
-      "morgen sinew": 2,
-      "bonemaw tooth": 4,
-      ashwood: 10,
+      ripper: 1,
     },
   },
 ];

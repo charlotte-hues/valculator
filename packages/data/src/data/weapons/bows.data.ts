@@ -83,9 +83,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      wood: 40,
-      "leather scraps": 32,
-      "deer hide": 6,
+      wood: 45,
+      "leather scraps": 36,
+      "deer hide": 7,
     },
   },
   {
@@ -175,9 +175,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       workbench: 4,
     },
     materials: {
-      "fine wood": 40,
-      "core wood": 40,
-      "deer hide": 14,
+      "fine wood": 45,
+      "core wood": 45,
+      "deer hide": 16,
     },
   },
   {
@@ -270,10 +270,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 4,
     },
     materials: {
-      "fine wood": 40,
-      iron: 80,
-      feathers: 40,
-      "deer hide": 14,
+      "fine wood": 45,
+      iron: 90,
+      feathers: 45,
+      "deer hide": 16,
     },
   },
   {
@@ -370,10 +370,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       forge: 5,
     },
     materials: {
-      "ancient bark": 40,
-      silver: 80,
-      "deer hide": 14,
-      guck: 20,
+      "ancient bark": 45,
+      silver: 90,
+      "deer hide": 16,
+      guck: 24,
     },
   },
   {
@@ -443,8 +443,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 3,
     },
     materials: {
-      "bone fragments": 80,
-      "fine wood": 20,
+      "bone fragments": 100,
+      "fine wood": 25,
       "refined eitr": 10,
     },
   },
@@ -467,8 +467,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      "bone fragments": 100,
-      "fine wood": 25,
+      "bone fragments": 180,
+      "fine wood": 45,
       "refined eitr": 10,
     },
   },
@@ -493,7 +493,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 5,
       "charred bone": 16,
       "bonemaw tooth": 5,
-      ashwood: 10,
+      "ash wood": 10,
     },
   },
   {
@@ -518,7 +518,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 10,
       "charred bone": 26,
       "bonemaw tooth": 10,
-      ashwood: 15,
+      "ash wood": 15,
     },
   },
   {
@@ -543,7 +543,7 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       flametal: 20,
       "charred bone": 46,
       "bonemaw tooth": 20,
-      ashwood: 25,
+      "ash wood": 25,
     },
   },
   {
@@ -565,10 +565,10 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 35,
-      "charred bone": 76,
-      "bonemaw tooth": 35,
-      ashwood: 40,
+      flametal: 40,
+      "charred bone": 86,
+      "bonemaw tooth": 40,
+      "ash wood": 45,
     },
   },
   {
@@ -590,10 +590,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 1,
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 5,
+      "ash fang": 1,
     },
   },
   {
@@ -616,10 +614,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 2,
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 10,
+      "ash fang": 1,
     },
   },
   {
@@ -642,10 +638,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       bloodstone: 4,
-      flametal: 25,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 20,
+      "ash fang": 1,
     },
   },
   {
@@ -667,11 +661,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      bloodstone: 7,
+      bloodstone: 8,
       flametal: 40,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      "ash fang": 1,
     },
   },
   {
@@ -693,11 +685,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 5,
       jade: 1,
+      "ash fang": 1,
     },
   },
   {
@@ -720,11 +710,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 10,
       jade: 2,
+      "ash fang": 1,
     },
   },
   {
@@ -747,11 +735,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 25,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 20,
       jade: 4,
+      "ash fang": 1,
     },
   },
   {
@@ -775,10 +761,8 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 40,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-      jade: 7,
+      jade: 8,
+      "ash fang": 1,
     },
   },
   {
@@ -800,11 +784,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 4,
     },
     materials: {
-      flametal: 10,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 5,
       iolite: 1,
+      "ash fang": 1,
     },
   },
   {
@@ -827,11 +809,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 15,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 10,
       iolite: 2,
+      "ash fang": 1,
     },
   },
   {
@@ -854,11 +834,9 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
       "black forge": 5,
     },
     materials: {
-      flametal: 25,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
+      flametal: 20,
       iolite: 4,
+      "ash fang": 1,
     },
   },
   {
@@ -882,10 +860,608 @@ const bowsList: Array<Omit<Weapon, "group" | "id" | "type">> = [
     },
     materials: {
       flametal: 40,
-      "charred bone": 16,
-      "bonemaw tooth": 5,
-      ashwood: 10,
-      iolite: 7,
+      iolite: 8,
+      "ash fang": 1,
+    },
+  },
+  {
+    name: "Frostfire Bow",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 68,
+      fire: 12,
+      frost: 88,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Bow",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 76,
+      fire: 15,
+      frost: 91,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Bow",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 84,
+      fire: 18,
+      frost: 94,
+      spirit: 20,
+      knockback: 25,
+      backstab: "3x",
+      durability: 500,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Bow",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 92,
+      fire: 21,
+      frost: 97,
+      spirit: 25,
+      knockback: 25,
+      backstab: "3x",
+      durability: 550,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Frostfire Crossbow",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 232,
+      chop: 180,
+      fire: 12,
+      frost: 88,
+      knockback: 210,
+      backstab: "3x",
+      durability: 300,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 20,
+      "frostfire essence": 1,
+    },
+  },
+  {
+    name: "Frostfire Crossbow",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 240,
+      chop: 185,
+      fire: 15,
+      frost: 91,
+      knockback: 210,
+      backstab: "3x",
+      durability: 350,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 30,
+      "frostfire essence": 2,
+    },
+  },
+  {
+    name: "Frostfire Crossbow",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 248,
+      chop: 190,
+      fire: 18,
+      frost: 94,
+      knockback: 210,
+      backstab: "3x",
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 50,
+      "frostfire essence": 4,
+    },
+  },
+  {
+    name: "Frostfire Crossbow",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 256,
+      chop: 195,
+      fire: 21,
+      frost: 97,
+      knockback: 210,
+      backstab: "3x",
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 90,
+      "frostfire essence": 8,
+    },
+  },
+  {
+    name: "Nord Bow",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 100,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord bow": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Bow",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 108,
+      spirit: 22,
+      knockback: 25,
+      backstab: "3x",
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord bow": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Bow",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 116,
+      spirit: 34,
+      knockback: 25,
+      backstab: "3x",
+      durability: 500,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord bow": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Bow",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 124,
+      spirit: 46,
+      knockback: 25,
+      backstab: "3x",
+      durability: 550,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord bow": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Nord Crossbow",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 264,
+      chop: 180,
+      knockback: 210,
+      backstab: "3x",
+      durability: 300,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 20,
+      "mould: nord crossbow": 1,
+      timberwood: 10,
+    },
+  },
+  {
+    name: "Nord Crossbow",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 272,
+      chop: 185,
+      knockback: 210,
+      backstab: "3x",
+      durability: 350,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 30,
+      "mould: nord crossbow": 1,
+      timberwood: 15,
+    },
+  },
+  {
+    name: "Nord Crossbow",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 280,
+      chop: 190,
+      knockback: 210,
+      backstab: "3x",
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 50,
+      "mould: nord crossbow": 1,
+      timberwood: 25,
+    },
+  },
+  {
+    name: "Nord Crossbow",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 288,
+      chop: 195,
+      knockback: 210,
+      backstab: "3x",
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      bloodgold: 90,
+      "mould: nord crossbow": 1,
+      timberwood: 45,
+    },
+  },
+  {
+    name: "Thunderblood Bow",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 110,
+      lightning: 45,
+      spirit: 10,
+      knockback: 25,
+      backstab: "3x",
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Bow",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 118,
+      lightning: 50,
+      spirit: 15,
+      knockback: 25,
+      backstab: "3x",
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Bow",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 126,
+      lightning: 55,
+      spirit: 20,
+      knockback: 25,
+      backstab: "3x",
+      durability: 500,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Bow",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 134,
+      lightning: 60,
+      spirit: 25,
+      knockback: 25,
+      backstab: "3x",
+      durability: 550,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord bow": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
+    },
+  },
+  {
+    name: "Thunderblood Crossbow",
+    level: 1,
+    set: "bloodgold",
+    stats: {
+      pierce: 274,
+      chop: 180,
+      lightning: 45,
+      knockback: 210,
+      backstab: "3x",
+      durability: 300,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 20,
+      "thunderblood essence": 1,
+    },
+  },
+  {
+    name: "Thunderblood Crossbow",
+    level: 2,
+    set: "bloodgold",
+    stats: {
+      pierce: 282,
+      chop: 185,
+      lightning: 50,
+      knockback: 210,
+      backstab: "3x",
+      durability: 350,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 30,
+      "thunderblood essence": 2,
+    },
+  },
+  {
+    name: "Thunderblood Crossbow",
+    level: 3,
+    set: "bloodgold",
+    stats: {
+      pierce: 290,
+      chop: 190,
+      lightning: 55,
+      knockback: 210,
+      backstab: "3x",
+      durability: 400,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 50,
+      "thunderblood essence": 4,
+    },
+  },
+  {
+    name: "Thunderblood Crossbow",
+    level: 4,
+    set: "bloodgold",
+    stats: {
+      pierce: 298,
+      chop: 195,
+      lightning: 60,
+      knockback: 210,
+      backstab: "3x",
+      durability: 450,
+      weight: 1.5,
+    },
+    effects: {
+      movementSpeed: "-5%",
+    },
+    station: {
+      "black forge": 4,
+    },
+    materials: {
+      "nord crossbow": 1,
+      bloodgold: 90,
+      "thunderblood essence": 8,
     },
   },
 ];

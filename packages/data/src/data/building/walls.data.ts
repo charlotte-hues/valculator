@@ -223,7 +223,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       "black forge": 1,
     },
     materials: {
-      copper: 8,
+      copper: 2,
     },
   },
   {
@@ -236,7 +236,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {
@@ -249,7 +249,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 1,
     },
   },
   {
@@ -262,7 +262,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 1,
+      "ash wood": 1,
     },
   },
   {
@@ -275,7 +275,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 4,
     },
   },
   {
@@ -288,7 +288,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {
@@ -301,7 +301,7 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
       workbench: 1,
     },
     materials: {
-      ashwood: 2,
+      "ash wood": 2,
     },
   },
   {
@@ -367,6 +367,331 @@ const wallsList: Array<Omit<Building, "group" | "id" | "type">> = [
     },
     materials: {
       grausten: 10,
+    },
+  },
+  {
+    name: "Ashwood Arched Wall",
+    set: "ash",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "ash wood": 2,
+    },
+  },
+  {
+    name: "Ashwood Wall 67° (Inverted)",
+    set: "ash",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "ash wood": 2,
+    },
+  },
+  {
+    name: "Ashwood Wall 67°",
+    set: "ash",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      "ash wood": 2,
+    },
+  },
+  {
+    name: "Ice Block",
+    set: "ice",
+    stats: {
+      size: "",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      ice: 2,
+    },
+  },
+  {
+    name: "Lathed Timber Wall",
+    set: "timberwood",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 4,
+    },
+  },
+  {
+    name: "Scalewood Half Wall",
+    set: "timberwood",
+    stats: {
+      size: "1x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 1,
+    },
+  },
+  {
+    name: "Scalewood Quarter Wall",
+    set: "timberwood",
+    stats: {
+      size: "1x1",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 1,
+    },
+  },
+  {
+    name: "Scalewood Wall 26° Left (Inverted)",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 26° Left",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 26° Right (Inverted)",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 26° Right",
+    set: "timberwood",
+    stats: {
+      size: "26°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 45° Left (Inverted)",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 45° Left",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 45° Right (Inverted)",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 45° Right",
+    set: "timberwood",
+    stats: {
+      size: "45°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 67° Left (Inverted)",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 67° Left",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 67° Right (Inverted)",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall 67° Right",
+    set: "timberwood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Scalewood Wall",
+    set: "timberwood",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 2,
+    },
+  },
+  {
+    name: "Stone Fence",
+    set: "stone",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      stonecutter: 0,
+    },
+    materials: {
+      stone: 4,
+    },
+  },
+  {
+    name: "Timber Wall",
+    set: "timberwood",
+    stats: {
+      size: "2x2",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      timberwood: 4,
+    },
+  },
+  {
+    name: "Wood Wall 1x1",
+    set: "wood",
+    stats: {
+      size: "1x1",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 1,
+    },
+  },
+  {
+    name: "Wood Wall 67° (Inverted)",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
+    },
+  },
+  {
+    name: "Wood Wall 67°",
+    set: "wood",
+    stats: {
+      size: "67°",
+    },
+    station: {
+      workbench: 1,
+    },
+    materials: {
+      wood: 2,
     },
   },
 ];
