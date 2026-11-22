@@ -274,21 +274,6 @@ const decorativeList: Array<Omit<Furniture, "group" | "id" | "type">> = [
     },
   },
   {
-    name: "Armour Stand",
-    set: "fine wood",
-    stats: {
-      comfort: 1,
-    },
-    station: {
-      workbench: 1,
-    },
-    materials: {
-      "fine wood": 8,
-      "iron nails": 4,
-      "leather scraps": 2,
-    },
-  },
-  {
     name: "Asksvin Skeleton",
     set: "wood",
     stats: {
