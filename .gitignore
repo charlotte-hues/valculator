@@ -33,3 +33,10 @@ dist-ssr
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+AGENTS.md
+.agents
+docs
+GLOSSARY.md
+skills-lock.json
+.scratch

@@ -17,24 +17,16 @@
   },
   "scripts": {
     "dev": "yarn workspace @valculator/interface dev",
-    "lint": "lerna run lint",
+    "lint": "yarn workspaces foreach --all --parallel --exclude valculator run lint",
     "test:circular": "yarn workspaces foreach --all -p run test:circular",
-    "build": "lerna run build",
+    "build": "yarn workspaces foreach --all --parallel --exclude valculator run build",
     "clean:dist": "node -e \"const { rmSync, readdirSync } = require('node:fs'); for (const dir of readdirSync('packages')) rmSync('packages/' + dir + '/dist', { recursive: true, force: true });\"",
-    "build:publishable": "yarn clean:dist && lerna run build --scope @valculator/interface --scope @valculator/theme --scope @valculator/data --scope @valculator/context --scope @valculator/images",
-    "changeset": "changeset",
-    "changeset:version": "changeset version",
-    "check:changeset": "node scripts/check-changeset.mjs",
-    "release": "yarn build:publishable && changeset publish",
-    "deploy:images": "yarn workspace cdk run cdk deploy"
+    "release": "node scripts/check-npm-version.mjs && yarn workspace @valculator/interface build && yarn workspace @valculator/interface npm publish",
+    "deploy:images": "yarn workspace cdk exec cdk deploy --require-approval never"
   },
   "packageManager": "yarn@4.18.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/charlotte-hues/valculator.git"
-  },
-  "devDependencies": {
-    "@changesets/cli": "^3.0.0",
-    "lerna": "^8.1.2"
   }
 }
