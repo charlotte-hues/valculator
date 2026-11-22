@@ -9,7 +9,10 @@ const env = {
   region: "eu-west-1",
 };
 
+const certificateArn = process.env.IMAGE_CERTIFICATE_ARN;
+
 new ValculatorStack(app, "ValculatorStack", {
   env,
   bucketName: "valculator-image-hosting-bucket",
+  certificateArn: certificateArn || undefined,
 });
