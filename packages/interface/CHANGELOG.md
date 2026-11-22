@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.3
+
+### Patch Changes
+
+- 15e7472: Valheim 1.0.12: update crafting material costs from the game's recipe data, and add the items the catalog lacked — Deep North gear, Ashlands and Bog Witch items, new build pieces, foods, stations and trinkets — with their icons.
+
 ## 1.1.2
 
 ### Patch Changes
